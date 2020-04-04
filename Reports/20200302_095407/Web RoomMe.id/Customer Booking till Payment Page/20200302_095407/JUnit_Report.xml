@@ -1,0 +1,1481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Customer Booking till Payment Page" time="250.209" tests="7" failures="0" errors="0">
+   <testsuite name="Customer Booking till Payment Page" tests="7" failures="0" errors="0" time="250.209" timestamp="2020-03-02 09:54:09" hostname="Win 10 - LENNONOVO" id="Test Suites/Web RoomMe.id/Customer Booking till Payment Page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Faldi\\Katalon Studio\\RoomMe\\Reports\\20200302_095407\\Web RoomMe.id\\Customer Booking till Payment Page\\20200302_095407"/>
+         <property name="logFiles" value="C:\\Users\\Faldi\\Katalon Studio\\RoomMe\\Reports\\20200302_095407\\Web RoomMe.id\\Customer Booking till Payment Page\\20200302_095407\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Win 10 - LENNONOVO"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 80.0.3987.122"/>
+         <property name="hostAddress" value="10.241.84.162"/>
+         <property name="sessionId" value="825269f05e8e07c4984b5541ad93cdd9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Web RoomMe.id/Customer Login" time="24.352" classname="Test Cases/Web RoomMe.id/Customer Login" status="PASSED">
+         <system-out><![CDATA[2020-03-02 09:54:09 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Customer Login: Test Cases/Web RoomMe.id/Customer Login
+
+2020-03-02 09:54:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-03-02 09:54:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-02 09:54:10 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-03-02 09:54:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-02 09:54:16 - [TEST_STEP][PASSED] - navigateToUrl("https://web.roomme.id/"): Navigate to 'https://web.roomme.id/' successfully
+
+2020-03-02 09:54:20 - [MESSAGE][PASSED] - Navigate to 'https://web.roomme.id/' successfully
+
+2020-03-02 09:54:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-03-02 09:54:24 - [MESSAGE][PASSED] - Current window maximized
+
+2020-03-02 09:54:24 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In (Homepage)")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In (Homepage)' is clicked on
+
+2020-03-02 09:54:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In (Homepage)' is clicked on
+
+2020-03-02 09:54:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is visible
+
+2020-03-02 09:54:26 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is visible
+
+2020-03-02 09:54:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is visible
+
+2020-03-02 09:54:26 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is visible
+
+2020-03-02 09:54:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is visible
+
+2020-03-02 09:54:26 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is visible
+
+2020-03-02 09:54:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button Forgot Password")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Forgot Password' is visible
+
+2020-03-02 09:54:27 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Forgot Password' is visible
+
+2020-03-02 09:54:27 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), "hurujy@getnada.com"): Text 'hurujy@getnada.com' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-03-02 09:54:27 - [MESSAGE][PASSED] - Text 'hurujy@getnada.com' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-03-02 09:54:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-03-02 09:54:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-03-02 09:54:28 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is clicked on
+
+2020-03-02 09:54:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is clicked on
+
+2020-03-02 09:54:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Pop Up You have successfully signed in")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Pop Up You have successfully signed in' is visible
+
+2020-03-02 09:54:33 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Pop Up You have successfully signed in' is visible
+
+2020-03-02 09:54:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button User Menu")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button User Menu' is visible
+
+2020-03-02 09:54:33 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button User Menu' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/Customer Search For Kost" time="37.426" classname="Test Cases/Web RoomMe.id/Customer Search For Kost" status="PASSED">
+         <system-out><![CDATA[2020-03-02 09:54:33 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Customer Search For Kost: Test Cases/Web RoomMe.id/Customer Search For Kost
+
+2020-03-02 09:54:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/Customer Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/Customer Login' successfully
+
+2020-03-02 09:54:34 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Customer Login: Test Cases/Web RoomMe.id/Customer Login
+
+2020-03-02 09:54:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-03-02 09:54:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-03-02 09:54:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-02 09:54:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-02 09:54:40 - [TEST_STEP][PASSED] - navigateToUrl("https://web.roomme.id/"): Navigate to 'https://web.roomme.id/' successfully
+
+2020-03-02 09:54:53 - [MESSAGE][PASSED] - Navigate to 'https://web.roomme.id/' successfully
+
+2020-03-02 09:54:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-03-02 09:54:57 - [MESSAGE][PASSED] - Current window maximized
+
+2020-03-02 09:54:57 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In (Homepage)")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In (Homepage)' is clicked on
+
+2020-03-02 09:54:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In (Homepage)' is clicked on
+
+2020-03-02 09:54:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is visible
+
+2020-03-02 09:54:58 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is visible
+
+2020-03-02 09:54:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is visible
+
+2020-03-02 09:54:58 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is visible
+
+2020-03-02 09:54:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is visible
+
+2020-03-02 09:54:59 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is visible
+
+2020-03-02 09:54:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button Forgot Password")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Forgot Password' is visible
+
+2020-03-02 09:54:59 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Forgot Password' is visible
+
+2020-03-02 09:54:59 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), "hurujy@getnada.com"): Text 'hurujy@getnada.com' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-03-02 09:54:59 - [MESSAGE][PASSED] - Text 'hurujy@getnada.com' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-03-02 09:54:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-03-02 09:55:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-03-02 09:55:00 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is clicked on
+
+2020-03-02 09:55:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is clicked on
+
+2020-03-02 09:55:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Pop Up You have successfully signed in")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Pop Up You have successfully signed in' is visible
+
+2020-03-02 09:55:04 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Pop Up You have successfully signed in' is visible
+
+2020-03-02 09:55:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button User Menu")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button User Menu' is visible
+
+2020-03-02 09:55:04 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button User Menu' is visible
+
+2020-03-02 09:55:04 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2020-03-02 09:55:04 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2020-03-02 09:55:04 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2020-03-02 09:55:04 - [MESSAGE][INFO] - ===============================================================
+
+2020-03-02 09:55:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/Customer Login' successfully
+
+2020-03-02 09:55:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/input"), "tebet"): Text 'tebet' is set on object 'Object Repository/Web RoomMe.id/Search Kost Menu/input'
+
+2020-03-02 09:55:04 - [MESSAGE][PASSED] - Text 'tebet' is set on object 'Object Repository/Web RoomMe.id/Search Kost Menu/input'
+
+2020-03-02 09:55:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker' is clicked on
+
+2020-03-02 09:55:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker' is clicked on
+
+2020-03-02 09:55:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-03-02 09:55:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-03-02 09:55:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-03-02 09:55:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-03-02 09:55:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month' is clicked on
+
+2020-03-02 09:55:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month' is clicked on
+
+2020-03-02 09:55:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional' is clicked on
+
+2020-03-02 09:55:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional' is clicked on
+
+2020-03-02 09:55:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day' is clicked on
+
+2020-03-02 09:55:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day' is clicked on
+
+2020-03-02 09:55:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Search")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Search' is clicked on
+
+2020-03-02 09:55:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Search' is clicked on
+
+2020-03-02 09:55:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Field Facilities")): Object 'Object Repository/Web RoomMe.id/Search Result Menu/Field Facilities' is visible
+
+2020-03-02 09:55:09 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Search Result Menu/Field Facilities' is visible
+
+2020-03-02 09:55:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Nama Kost")): Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Nama Kost' is visible
+
+2020-03-02 09:55:10 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Nama Kost' is visible
+
+2020-03-02 09:55:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Alamat Kost")): Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Alamat Kost' is visible
+
+2020-03-02 09:55:10 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Alamat Kost' is visible
+
+2020-03-02 09:55:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Price")): Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Price' is visible
+
+2020-03-02 09:55:11 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Price' is visible
+
+2020-03-02 09:55:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost")): Object 'Object Repository/Web RoomMe.id/Search Result Menu/Image Kost' is visible
+
+2020-03-02 09:55:11 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Search Result Menu/Image Kost' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/Customer Select Kost" time="39.624" classname="Test Cases/Web RoomMe.id/Customer Select Kost" status="PASSED">
+         <system-out><![CDATA[2020-03-02 09:55:11 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Customer Select Kost: Test Cases/Web RoomMe.id/Customer Select Kost
+
+2020-03-02 09:55:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/Customer Search For Kost"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/Customer Search For Kost' successfully
+
+2020-03-02 09:55:11 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Customer Search For Kost: Test Cases/Web RoomMe.id/Customer Search For Kost
+
+2020-03-02 09:55:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/Customer Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/Customer Login' successfully
+
+2020-03-02 09:55:11 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Customer Login: Test Cases/Web RoomMe.id/Customer Login
+
+2020-03-02 09:55:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-03-02 09:55:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-03-02 09:55:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-02 09:55:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-02 09:55:17 - [TEST_STEP][PASSED] - navigateToUrl("https://web.roomme.id/"): Navigate to 'https://web.roomme.id/' successfully
+
+2020-03-02 09:55:26 - [MESSAGE][PASSED] - Navigate to 'https://web.roomme.id/' successfully
+
+2020-03-02 09:55:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-03-02 09:55:31 - [MESSAGE][PASSED] - Current window maximized
+
+2020-03-02 09:55:31 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In (Homepage)")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In (Homepage)' is clicked on
+
+2020-03-02 09:55:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In (Homepage)' is clicked on
+
+2020-03-02 09:55:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is visible
+
+2020-03-02 09:55:31 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is visible
+
+2020-03-02 09:55:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is visible
+
+2020-03-02 09:55:32 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is visible
+
+2020-03-02 09:55:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is visible
+
+2020-03-02 09:55:32 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is visible
+
+2020-03-02 09:55:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button Forgot Password")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Forgot Password' is visible
+
+2020-03-02 09:55:32 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Forgot Password' is visible
+
+2020-03-02 09:55:32 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), "hurujy@getnada.com"): Text 'hurujy@getnada.com' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-03-02 09:55:33 - [MESSAGE][PASSED] - Text 'hurujy@getnada.com' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-03-02 09:55:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-03-02 09:55:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-03-02 09:55:34 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is clicked on
+
+2020-03-02 09:55:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is clicked on
+
+2020-03-02 09:55:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Pop Up You have successfully signed in")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Pop Up You have successfully signed in' is visible
+
+2020-03-02 09:55:37 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Pop Up You have successfully signed in' is visible
+
+2020-03-02 09:55:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button User Menu")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button User Menu' is visible
+
+2020-03-02 09:55:37 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button User Menu' is visible
+
+2020-03-02 09:55:37 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2020-03-02 09:55:37 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2020-03-02 09:55:37 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2020-03-02 09:55:37 - [MESSAGE][INFO] - ===============================================================
+
+2020-03-02 09:55:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/Customer Login' successfully
+
+2020-03-02 09:55:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/input"), "tebet"): Text 'tebet' is set on object 'Object Repository/Web RoomMe.id/Search Kost Menu/input'
+
+2020-03-02 09:55:38 - [MESSAGE][PASSED] - Text 'tebet' is set on object 'Object Repository/Web RoomMe.id/Search Kost Menu/input'
+
+2020-03-02 09:55:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker' is clicked on
+
+2020-03-02 09:55:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker' is clicked on
+
+2020-03-02 09:55:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-03-02 09:55:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-03-02 09:55:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-03-02 09:55:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-03-02 09:55:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month' is clicked on
+
+2020-03-02 09:55:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month' is clicked on
+
+2020-03-02 09:55:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional' is clicked on
+
+2020-03-02 09:55:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional' is clicked on
+
+2020-03-02 09:55:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day' is clicked on
+
+2020-03-02 09:55:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day' is clicked on
+
+2020-03-02 09:55:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Search")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Search' is clicked on
+
+2020-03-02 09:55:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Search' is clicked on
+
+2020-03-02 09:55:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Field Facilities")): Object 'Object Repository/Web RoomMe.id/Search Result Menu/Field Facilities' is visible
+
+2020-03-02 09:55:43 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Search Result Menu/Field Facilities' is visible
+
+2020-03-02 09:55:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Nama Kost")): Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Nama Kost' is visible
+
+2020-03-02 09:55:43 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Nama Kost' is visible
+
+2020-03-02 09:55:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Alamat Kost")): Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Alamat Kost' is visible
+
+2020-03-02 09:55:44 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Alamat Kost' is visible
+
+2020-03-02 09:55:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Price")): Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Price' is visible
+
+2020-03-02 09:55:44 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Price' is visible
+
+2020-03-02 09:55:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost")): Object 'Object Repository/Web RoomMe.id/Search Result Menu/Image Kost' is visible
+
+2020-03-02 09:55:44 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Search Result Menu/Image Kost' is visible
+
+2020-03-02 09:55:44 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2020-03-02 09:55:44 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2020-03-02 09:55:44 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2020-03-02 09:55:44 - [MESSAGE][INFO] - ===============================================================
+
+2020-03-02 09:55:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/Customer Search For Kost' successfully
+
+2020-03-02 09:55:44 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost")): Object: 'Object Repository/Web RoomMe.id/Search Result Menu/Image Kost' is clicked on
+
+2020-03-02 09:55:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Result Menu/Image Kost' is clicked on
+
+2020-03-02 09:55:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Image Primary Photo")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Image Primary Photo' is visible
+
+2020-03-02 09:55:47 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Image Primary Photo' is visible
+
+2020-03-02 09:55:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Image Second Photo")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Image Second Photo' is visible
+
+2020-03-02 09:55:47 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Image Second Photo' is visible
+
+2020-03-02 09:55:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Text Nama Kost")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Text Nama Kost' is visible
+
+2020-03-02 09:55:47 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Text Nama Kost' is visible
+
+2020-03-02 09:55:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Read More")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Read More' is visible
+
+2020-03-02 09:55:48 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Read More' is visible
+
+2020-03-02 09:55:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button See Map")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button See Map' is visible
+
+2020-03-02 09:55:48 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button See Map' is visible
+
+2020-03-02 09:55:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Map")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Map' is visible
+
+2020-03-02 09:55:48 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Map' is visible
+
+2020-03-02 09:55:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Field Building Facilities")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Building Facilities' is visible
+
+2020-03-02 09:55:49 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Building Facilities' is visible
+
+2020-03-02 09:55:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Field Room Details")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Room Details' is visible
+
+2020-03-02 09:55:49 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Room Details' is visible
+
+2020-03-02 09:55:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Field Booking Summary")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Booking Summary' is visible
+
+2020-03-02 09:55:49 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Booking Summary' is visible
+
+2020-03-02 09:55:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Field Reccomend Kost Nearby")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Reccomend Kost Nearby' is visible
+
+2020-03-02 09:55:50 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Reccomend Kost Nearby' is visible
+
+2020-03-02 09:55:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Select")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Select' is visible
+
+2020-03-02 09:55:50 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Select' is visible
+
+2020-03-02 09:55:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Booking Summary")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Booking Summary' is visible
+
+2020-03-02 09:55:50 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Booking Summary' is visible
+
+2020-03-02 09:55:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Schedule Free Visit")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Schedule Free Visit' is visible
+
+2020-03-02 09:55:50 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Schedule Free Visit' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/Customer Select Kamar" time="32.678" classname="Test Cases/Web RoomMe.id/Customer Select Kamar" status="PASSED">
+         <system-out><![CDATA[2020-03-02 09:55:50 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Customer Select Kamar: Test Cases/Web RoomMe.id/Customer Select Kamar
+
+2020-03-02 09:55:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/Customer Select Kost"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/Customer Select Kost' successfully
+
+2020-03-02 09:55:51 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Customer Select Kost: Test Cases/Web RoomMe.id/Customer Select Kost
+
+2020-03-02 09:55:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/Customer Search For Kost"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/Customer Search For Kost' successfully
+
+2020-03-02 09:55:51 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Customer Search For Kost: Test Cases/Web RoomMe.id/Customer Search For Kost
+
+2020-03-02 09:55:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/Customer Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/Customer Login' successfully
+
+2020-03-02 09:55:51 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Customer Login: Test Cases/Web RoomMe.id/Customer Login
+
+2020-03-02 09:55:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-03-02 09:55:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-03-02 09:55:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-02 09:55:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-02 09:55:57 - [TEST_STEP][PASSED] - navigateToUrl("https://web.roomme.id/"): Navigate to 'https://web.roomme.id/' successfully
+
+2020-03-02 09:55:59 - [MESSAGE][PASSED] - Navigate to 'https://web.roomme.id/' successfully
+
+2020-03-02 09:55:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-03-02 09:56:03 - [MESSAGE][PASSED] - Current window maximized
+
+2020-03-02 09:56:03 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In (Homepage)")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In (Homepage)' is clicked on
+
+2020-03-02 09:56:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In (Homepage)' is clicked on
+
+2020-03-02 09:56:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is visible
+
+2020-03-02 09:56:04 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is visible
+
+2020-03-02 09:56:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is visible
+
+2020-03-02 09:56:04 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is visible
+
+2020-03-02 09:56:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is visible
+
+2020-03-02 09:56:05 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is visible
+
+2020-03-02 09:56:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button Forgot Password")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Forgot Password' is visible
+
+2020-03-02 09:56:05 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Forgot Password' is visible
+
+2020-03-02 09:56:05 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), "hurujy@getnada.com"): Text 'hurujy@getnada.com' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-03-02 09:56:05 - [MESSAGE][PASSED] - Text 'hurujy@getnada.com' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-03-02 09:56:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-03-02 09:56:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-03-02 09:56:06 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is clicked on
+
+2020-03-02 09:56:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is clicked on
+
+2020-03-02 09:56:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Pop Up You have successfully signed in")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Pop Up You have successfully signed in' is visible
+
+2020-03-02 09:56:09 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Pop Up You have successfully signed in' is visible
+
+2020-03-02 09:56:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button User Menu")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button User Menu' is visible
+
+2020-03-02 09:56:10 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button User Menu' is visible
+
+2020-03-02 09:56:10 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2020-03-02 09:56:10 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2020-03-02 09:56:10 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2020-03-02 09:56:10 - [MESSAGE][INFO] - ===============================================================
+
+2020-03-02 09:56:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/Customer Login' successfully
+
+2020-03-02 09:56:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/input"), "tebet"): Text 'tebet' is set on object 'Object Repository/Web RoomMe.id/Search Kost Menu/input'
+
+2020-03-02 09:56:10 - [MESSAGE][PASSED] - Text 'tebet' is set on object 'Object Repository/Web RoomMe.id/Search Kost Menu/input'
+
+2020-03-02 09:56:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker' is clicked on
+
+2020-03-02 09:56:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker' is clicked on
+
+2020-03-02 09:56:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-03-02 09:56:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-03-02 09:56:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-03-02 09:56:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-03-02 09:56:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month' is clicked on
+
+2020-03-02 09:56:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month' is clicked on
+
+2020-03-02 09:56:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional' is clicked on
+
+2020-03-02 09:56:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional' is clicked on
+
+2020-03-02 09:56:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day' is clicked on
+
+2020-03-02 09:56:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day' is clicked on
+
+2020-03-02 09:56:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Search")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Search' is clicked on
+
+2020-03-02 09:56:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Search' is clicked on
+
+2020-03-02 09:56:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Field Facilities")): Object 'Object Repository/Web RoomMe.id/Search Result Menu/Field Facilities' is visible
+
+2020-03-02 09:56:15 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Search Result Menu/Field Facilities' is visible
+
+2020-03-02 09:56:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Nama Kost")): Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Nama Kost' is visible
+
+2020-03-02 09:56:15 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Nama Kost' is visible
+
+2020-03-02 09:56:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Alamat Kost")): Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Alamat Kost' is visible
+
+2020-03-02 09:56:15 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Alamat Kost' is visible
+
+2020-03-02 09:56:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Price")): Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Price' is visible
+
+2020-03-02 09:56:16 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Price' is visible
+
+2020-03-02 09:56:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost")): Object 'Object Repository/Web RoomMe.id/Search Result Menu/Image Kost' is visible
+
+2020-03-02 09:56:16 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Search Result Menu/Image Kost' is visible
+
+2020-03-02 09:56:16 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2020-03-02 09:56:16 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2020-03-02 09:56:16 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2020-03-02 09:56:16 - [MESSAGE][INFO] - ===============================================================
+
+2020-03-02 09:56:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/Customer Search For Kost' successfully
+
+2020-03-02 09:56:16 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost")): Object: 'Object Repository/Web RoomMe.id/Search Result Menu/Image Kost' is clicked on
+
+2020-03-02 09:56:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Result Menu/Image Kost' is clicked on
+
+2020-03-02 09:56:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Image Primary Photo")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Image Primary Photo' is visible
+
+2020-03-02 09:56:19 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Image Primary Photo' is visible
+
+2020-03-02 09:56:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Image Second Photo")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Image Second Photo' is visible
+
+2020-03-02 09:56:19 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Image Second Photo' is visible
+
+2020-03-02 09:56:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Text Nama Kost")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Text Nama Kost' is visible
+
+2020-03-02 09:56:19 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Text Nama Kost' is visible
+
+2020-03-02 09:56:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Read More")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Read More' is visible
+
+2020-03-02 09:56:20 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Read More' is visible
+
+2020-03-02 09:56:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button See Map")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button See Map' is visible
+
+2020-03-02 09:56:20 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button See Map' is visible
+
+2020-03-02 09:56:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Map")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Map' is visible
+
+2020-03-02 09:56:20 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Map' is visible
+
+2020-03-02 09:56:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Field Building Facilities")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Building Facilities' is visible
+
+2020-03-02 09:56:21 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Building Facilities' is visible
+
+2020-03-02 09:56:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Field Room Details")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Room Details' is visible
+
+2020-03-02 09:56:21 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Room Details' is visible
+
+2020-03-02 09:56:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Field Booking Summary")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Booking Summary' is visible
+
+2020-03-02 09:56:21 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Booking Summary' is visible
+
+2020-03-02 09:56:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Field Reccomend Kost Nearby")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Reccomend Kost Nearby' is visible
+
+2020-03-02 09:56:22 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Reccomend Kost Nearby' is visible
+
+2020-03-02 09:56:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Select")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Select' is visible
+
+2020-03-02 09:56:22 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Select' is visible
+
+2020-03-02 09:56:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Booking Summary")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Booking Summary' is visible
+
+2020-03-02 09:56:22 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Booking Summary' is visible
+
+2020-03-02 09:56:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Schedule Free Visit")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Schedule Free Visit' is visible
+
+2020-03-02 09:56:22 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Schedule Free Visit' is visible
+
+2020-03-02 09:56:22 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2020-03-02 09:56:22 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2020-03-02 09:56:22 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2020-03-02 09:56:22 - [MESSAGE][INFO] - ===============================================================
+
+2020-03-02 09:56:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/Customer Select Kost' successfully
+
+2020-03-02 09:56:22 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Select")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Select' is clicked on
+
+2020-03-02 09:56:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Select' is clicked on
+
+2020-03-02 09:56:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Continue to Book")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Continue to Book' is visible
+
+2020-03-02 09:56:23 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Continue to Book' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/Customer Continue To Book" time="38.02" classname="Test Cases/Web RoomMe.id/Customer Continue To Book" status="PASSED">
+         <system-out><![CDATA[2020-03-02 09:56:23 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Customer Continue To Book: Test Cases/Web RoomMe.id/Customer Continue To Book
+
+2020-03-02 09:56:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/Customer Select Kamar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/Customer Select Kamar' successfully
+
+2020-03-02 09:56:23 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Customer Select Kamar: Test Cases/Web RoomMe.id/Customer Select Kamar
+
+2020-03-02 09:56:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/Customer Select Kost"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/Customer Select Kost' successfully
+
+2020-03-02 09:56:23 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Customer Select Kost: Test Cases/Web RoomMe.id/Customer Select Kost
+
+2020-03-02 09:56:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/Customer Search For Kost"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/Customer Search For Kost' successfully
+
+2020-03-02 09:56:23 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Customer Search For Kost: Test Cases/Web RoomMe.id/Customer Search For Kost
+
+2020-03-02 09:56:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/Customer Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/Customer Login' successfully
+
+2020-03-02 09:56:24 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Customer Login: Test Cases/Web RoomMe.id/Customer Login
+
+2020-03-02 09:56:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-03-02 09:56:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-03-02 09:56:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-02 09:56:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-02 09:56:30 - [TEST_STEP][PASSED] - navigateToUrl("https://web.roomme.id/"): Navigate to 'https://web.roomme.id/' successfully
+
+2020-03-02 09:56:35 - [MESSAGE][PASSED] - Navigate to 'https://web.roomme.id/' successfully
+
+2020-03-02 09:56:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-03-02 09:56:39 - [MESSAGE][PASSED] - Current window maximized
+
+2020-03-02 09:56:39 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In (Homepage)")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In (Homepage)' is clicked on
+
+2020-03-02 09:56:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In (Homepage)' is clicked on
+
+2020-03-02 09:56:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is visible
+
+2020-03-02 09:56:39 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is visible
+
+2020-03-02 09:56:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is visible
+
+2020-03-02 09:56:40 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is visible
+
+2020-03-02 09:56:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is visible
+
+2020-03-02 09:56:40 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is visible
+
+2020-03-02 09:56:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button Forgot Password")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Forgot Password' is visible
+
+2020-03-02 09:56:41 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Forgot Password' is visible
+
+2020-03-02 09:56:41 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), "hurujy@getnada.com"): Text 'hurujy@getnada.com' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-03-02 09:56:41 - [MESSAGE][PASSED] - Text 'hurujy@getnada.com' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-03-02 09:56:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-03-02 09:56:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-03-02 09:56:42 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is clicked on
+
+2020-03-02 09:56:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is clicked on
+
+2020-03-02 09:56:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Pop Up You have successfully signed in")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Pop Up You have successfully signed in' is visible
+
+2020-03-02 09:56:47 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Pop Up You have successfully signed in' is visible
+
+2020-03-02 09:56:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button User Menu")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button User Menu' is visible
+
+2020-03-02 09:56:47 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button User Menu' is visible
+
+2020-03-02 09:56:47 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2020-03-02 09:56:47 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2020-03-02 09:56:47 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2020-03-02 09:56:47 - [MESSAGE][INFO] - ===============================================================
+
+2020-03-02 09:56:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/Customer Login' successfully
+
+2020-03-02 09:56:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/input"), "tebet"): Text 'tebet' is set on object 'Object Repository/Web RoomMe.id/Search Kost Menu/input'
+
+2020-03-02 09:56:48 - [MESSAGE][PASSED] - Text 'tebet' is set on object 'Object Repository/Web RoomMe.id/Search Kost Menu/input'
+
+2020-03-02 09:56:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker' is clicked on
+
+2020-03-02 09:56:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker' is clicked on
+
+2020-03-02 09:56:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-03-02 09:56:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-03-02 09:56:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-03-02 09:56:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-03-02 09:56:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month' is clicked on
+
+2020-03-02 09:56:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month' is clicked on
+
+2020-03-02 09:56:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional' is clicked on
+
+2020-03-02 09:56:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional' is clicked on
+
+2020-03-02 09:56:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day' is clicked on
+
+2020-03-02 09:56:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day' is clicked on
+
+2020-03-02 09:56:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Search")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Search' is clicked on
+
+2020-03-02 09:56:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Search' is clicked on
+
+2020-03-02 09:56:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Field Facilities")): Object 'Object Repository/Web RoomMe.id/Search Result Menu/Field Facilities' is visible
+
+2020-03-02 09:56:52 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Search Result Menu/Field Facilities' is visible
+
+2020-03-02 09:56:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Nama Kost")): Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Nama Kost' is visible
+
+2020-03-02 09:56:53 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Nama Kost' is visible
+
+2020-03-02 09:56:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Alamat Kost")): Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Alamat Kost' is visible
+
+2020-03-02 09:56:53 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Alamat Kost' is visible
+
+2020-03-02 09:56:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Price")): Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Price' is visible
+
+2020-03-02 09:56:54 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Price' is visible
+
+2020-03-02 09:56:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost")): Object 'Object Repository/Web RoomMe.id/Search Result Menu/Image Kost' is visible
+
+2020-03-02 09:56:54 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Search Result Menu/Image Kost' is visible
+
+2020-03-02 09:56:54 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2020-03-02 09:56:54 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2020-03-02 09:56:54 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2020-03-02 09:56:54 - [MESSAGE][INFO] - ===============================================================
+
+2020-03-02 09:56:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/Customer Search For Kost' successfully
+
+2020-03-02 09:56:54 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost")): Object: 'Object Repository/Web RoomMe.id/Search Result Menu/Image Kost' is clicked on
+
+2020-03-02 09:56:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Result Menu/Image Kost' is clicked on
+
+2020-03-02 09:56:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Image Primary Photo")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Image Primary Photo' is visible
+
+2020-03-02 09:56:57 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Image Primary Photo' is visible
+
+2020-03-02 09:56:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Image Second Photo")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Image Second Photo' is visible
+
+2020-03-02 09:56:57 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Image Second Photo' is visible
+
+2020-03-02 09:56:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Text Nama Kost")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Text Nama Kost' is visible
+
+2020-03-02 09:56:57 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Text Nama Kost' is visible
+
+2020-03-02 09:56:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Read More")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Read More' is visible
+
+2020-03-02 09:56:57 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Read More' is visible
+
+2020-03-02 09:56:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button See Map")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button See Map' is visible
+
+2020-03-02 09:56:58 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button See Map' is visible
+
+2020-03-02 09:56:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Map")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Map' is visible
+
+2020-03-02 09:56:58 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Map' is visible
+
+2020-03-02 09:56:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Field Building Facilities")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Building Facilities' is visible
+
+2020-03-02 09:56:58 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Building Facilities' is visible
+
+2020-03-02 09:56:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Field Room Details")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Room Details' is visible
+
+2020-03-02 09:56:59 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Room Details' is visible
+
+2020-03-02 09:56:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Field Booking Summary")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Booking Summary' is visible
+
+2020-03-02 09:56:59 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Booking Summary' is visible
+
+2020-03-02 09:56:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Field Reccomend Kost Nearby")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Reccomend Kost Nearby' is visible
+
+2020-03-02 09:56:59 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Reccomend Kost Nearby' is visible
+
+2020-03-02 09:56:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Select")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Select' is visible
+
+2020-03-02 09:56:59 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Select' is visible
+
+2020-03-02 09:56:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Booking Summary")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Booking Summary' is visible
+
+2020-03-02 09:57:00 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Booking Summary' is visible
+
+2020-03-02 09:57:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Schedule Free Visit")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Schedule Free Visit' is visible
+
+2020-03-02 09:57:00 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Schedule Free Visit' is visible
+
+2020-03-02 09:57:00 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2020-03-02 09:57:00 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2020-03-02 09:57:00 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2020-03-02 09:57:00 - [MESSAGE][INFO] - ===============================================================
+
+2020-03-02 09:57:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/Customer Select Kost' successfully
+
+2020-03-02 09:57:00 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Select")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Select' is clicked on
+
+2020-03-02 09:57:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Select' is clicked on
+
+2020-03-02 09:57:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Continue to Book")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Continue to Book' is visible
+
+2020-03-02 09:57:01 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Continue to Book' is visible
+
+2020-03-02 09:57:01 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2020-03-02 09:57:01 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2020-03-02 09:57:01 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2020-03-02 09:57:01 - [MESSAGE][INFO] - ===============================================================
+
+2020-03-02 09:57:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/Customer Select Kamar' successfully
+
+2020-03-02 09:57:01 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Continue to Book")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Continue to Book' is clicked on
+
+2020-03-02 09:57:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Continue to Book' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/Customer Fill Data to Payment" time="39.123" classname="Test Cases/Web RoomMe.id/Customer Fill Data to Payment" status="PASSED">
+         <system-out><![CDATA[2020-03-02 09:57:01 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Customer Fill Data to Payment: Test Cases/Web RoomMe.id/Customer Fill Data to Payment
+
+2020-03-02 09:57:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/Customer Continue To Book"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/Customer Continue To Book' successfully
+
+2020-03-02 09:57:01 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Customer Continue To Book: Test Cases/Web RoomMe.id/Customer Continue To Book
+
+2020-03-02 09:57:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/Customer Select Kamar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/Customer Select Kamar' successfully
+
+2020-03-02 09:57:01 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Customer Select Kamar: Test Cases/Web RoomMe.id/Customer Select Kamar
+
+2020-03-02 09:57:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/Customer Select Kost"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/Customer Select Kost' successfully
+
+2020-03-02 09:57:02 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Customer Select Kost: Test Cases/Web RoomMe.id/Customer Select Kost
+
+2020-03-02 09:57:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/Customer Search For Kost"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/Customer Search For Kost' successfully
+
+2020-03-02 09:57:02 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Customer Search For Kost: Test Cases/Web RoomMe.id/Customer Search For Kost
+
+2020-03-02 09:57:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/Customer Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/Customer Login' successfully
+
+2020-03-02 09:57:02 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Customer Login: Test Cases/Web RoomMe.id/Customer Login
+
+2020-03-02 09:57:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-03-02 09:57:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-03-02 09:57:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-02 09:57:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-02 09:57:08 - [TEST_STEP][PASSED] - navigateToUrl("https://web.roomme.id/"): Navigate to 'https://web.roomme.id/' successfully
+
+2020-03-02 09:57:11 - [MESSAGE][PASSED] - Navigate to 'https://web.roomme.id/' successfully
+
+2020-03-02 09:57:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-03-02 09:57:15 - [MESSAGE][PASSED] - Current window maximized
+
+2020-03-02 09:57:15 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In (Homepage)")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In (Homepage)' is clicked on
+
+2020-03-02 09:57:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In (Homepage)' is clicked on
+
+2020-03-02 09:57:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is visible
+
+2020-03-02 09:57:16 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is visible
+
+2020-03-02 09:57:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is visible
+
+2020-03-02 09:57:16 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is visible
+
+2020-03-02 09:57:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is visible
+
+2020-03-02 09:57:17 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is visible
+
+2020-03-02 09:57:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button Forgot Password")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Forgot Password' is visible
+
+2020-03-02 09:57:17 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Forgot Password' is visible
+
+2020-03-02 09:57:17 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), "hurujy@getnada.com"): Text 'hurujy@getnada.com' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-03-02 09:57:18 - [MESSAGE][PASSED] - Text 'hurujy@getnada.com' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-03-02 09:57:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-03-02 09:57:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-03-02 09:57:18 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is clicked on
+
+2020-03-02 09:57:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is clicked on
+
+2020-03-02 09:57:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Pop Up You have successfully signed in")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Pop Up You have successfully signed in' is visible
+
+2020-03-02 09:57:22 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Pop Up You have successfully signed in' is visible
+
+2020-03-02 09:57:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button User Menu")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button User Menu' is visible
+
+2020-03-02 09:57:22 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button User Menu' is visible
+
+2020-03-02 09:57:22 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2020-03-02 09:57:22 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2020-03-02 09:57:22 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2020-03-02 09:57:22 - [MESSAGE][INFO] - ===============================================================
+
+2020-03-02 09:57:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/Customer Login' successfully
+
+2020-03-02 09:57:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/input"), "tebet"): Text 'tebet' is set on object 'Object Repository/Web RoomMe.id/Search Kost Menu/input'
+
+2020-03-02 09:57:22 - [MESSAGE][PASSED] - Text 'tebet' is set on object 'Object Repository/Web RoomMe.id/Search Kost Menu/input'
+
+2020-03-02 09:57:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker' is clicked on
+
+2020-03-02 09:57:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker' is clicked on
+
+2020-03-02 09:57:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-03-02 09:57:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-03-02 09:57:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-03-02 09:57:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-03-02 09:57:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month' is clicked on
+
+2020-03-02 09:57:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month' is clicked on
+
+2020-03-02 09:57:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional' is clicked on
+
+2020-03-02 09:57:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional' is clicked on
+
+2020-03-02 09:57:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day' is clicked on
+
+2020-03-02 09:57:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day' is clicked on
+
+2020-03-02 09:57:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Search")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Search' is clicked on
+
+2020-03-02 09:57:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Search' is clicked on
+
+2020-03-02 09:57:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Field Facilities")): Object 'Object Repository/Web RoomMe.id/Search Result Menu/Field Facilities' is visible
+
+2020-03-02 09:57:27 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Search Result Menu/Field Facilities' is visible
+
+2020-03-02 09:57:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Nama Kost")): Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Nama Kost' is visible
+
+2020-03-02 09:57:28 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Nama Kost' is visible
+
+2020-03-02 09:57:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Alamat Kost")): Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Alamat Kost' is visible
+
+2020-03-02 09:57:28 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Alamat Kost' is visible
+
+2020-03-02 09:57:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Price")): Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Price' is visible
+
+2020-03-02 09:57:28 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Price' is visible
+
+2020-03-02 09:57:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost")): Object 'Object Repository/Web RoomMe.id/Search Result Menu/Image Kost' is visible
+
+2020-03-02 09:57:29 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Search Result Menu/Image Kost' is visible
+
+2020-03-02 09:57:29 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2020-03-02 09:57:29 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2020-03-02 09:57:29 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2020-03-02 09:57:29 - [MESSAGE][INFO] - ===============================================================
+
+2020-03-02 09:57:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/Customer Search For Kost' successfully
+
+2020-03-02 09:57:29 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost")): Object: 'Object Repository/Web RoomMe.id/Search Result Menu/Image Kost' is clicked on
+
+2020-03-02 09:57:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Result Menu/Image Kost' is clicked on
+
+2020-03-02 09:57:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Image Primary Photo")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Image Primary Photo' is visible
+
+2020-03-02 09:57:31 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Image Primary Photo' is visible
+
+2020-03-02 09:57:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Image Second Photo")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Image Second Photo' is visible
+
+2020-03-02 09:57:32 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Image Second Photo' is visible
+
+2020-03-02 09:57:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Text Nama Kost")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Text Nama Kost' is visible
+
+2020-03-02 09:57:32 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Text Nama Kost' is visible
+
+2020-03-02 09:57:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Read More")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Read More' is visible
+
+2020-03-02 09:57:32 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Read More' is visible
+
+2020-03-02 09:57:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button See Map")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button See Map' is visible
+
+2020-03-02 09:57:33 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button See Map' is visible
+
+2020-03-02 09:57:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Map")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Map' is visible
+
+2020-03-02 09:57:33 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Map' is visible
+
+2020-03-02 09:57:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Field Building Facilities")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Building Facilities' is visible
+
+2020-03-02 09:57:33 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Building Facilities' is visible
+
+2020-03-02 09:57:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Field Room Details")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Room Details' is visible
+
+2020-03-02 09:57:33 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Room Details' is visible
+
+2020-03-02 09:57:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Field Booking Summary")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Booking Summary' is visible
+
+2020-03-02 09:57:34 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Booking Summary' is visible
+
+2020-03-02 09:57:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Field Reccomend Kost Nearby")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Reccomend Kost Nearby' is visible
+
+2020-03-02 09:57:34 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Reccomend Kost Nearby' is visible
+
+2020-03-02 09:57:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Select")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Select' is visible
+
+2020-03-02 09:57:34 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Select' is visible
+
+2020-03-02 09:57:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Booking Summary")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Booking Summary' is visible
+
+2020-03-02 09:57:35 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Booking Summary' is visible
+
+2020-03-02 09:57:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Schedule Free Visit")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Schedule Free Visit' is visible
+
+2020-03-02 09:57:35 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Schedule Free Visit' is visible
+
+2020-03-02 09:57:35 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2020-03-02 09:57:35 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2020-03-02 09:57:35 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2020-03-02 09:57:35 - [MESSAGE][INFO] - ===============================================================
+
+2020-03-02 09:57:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/Customer Select Kost' successfully
+
+2020-03-02 09:57:35 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Select")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Select' is clicked on
+
+2020-03-02 09:57:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Select' is clicked on
+
+2020-03-02 09:57:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Continue to Book")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Continue to Book' is visible
+
+2020-03-02 09:57:36 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Continue to Book' is visible
+
+2020-03-02 09:57:36 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2020-03-02 09:57:36 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2020-03-02 09:57:36 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2020-03-02 09:57:36 - [MESSAGE][INFO] - ===============================================================
+
+2020-03-02 09:57:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/Customer Select Kamar' successfully
+
+2020-03-02 09:57:36 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Continue to Book")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Continue to Book' is clicked on
+
+2020-03-02 09:57:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Continue to Book' is clicked on
+
+2020-03-02 09:57:36 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2020-03-02 09:57:36 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2020-03-02 09:57:36 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2020-03-02 09:57:36 - [MESSAGE][INFO] - ===============================================================
+
+2020-03-02 09:57:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/Customer Continue To Book' successfully
+
+2020-03-02 09:57:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Roomme.id Fill In Data/Text 1 Fill in data")): Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Text 1 Fill in data' is visible
+
+2020-03-02 09:57:37 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Text 1 Fill in data' is visible
+
+2020-03-02 09:57:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Roomme.id Fill In Data/Text 2 Payment")): Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Text 2 Payment' is visible
+
+2020-03-02 09:57:37 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Text 2 Payment' is visible
+
+2020-03-02 09:57:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Roomme.id Fill In Data/Text 3 Done Confirmation Booking")): Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Text 3 Done Confirmation Booking' is visible
+
+2020-03-02 09:57:37 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Text 3 Done Confirmation Booking' is visible
+
+2020-03-02 09:57:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Roomme.id Fill In Data/Field Customer Information")): Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Field Customer Information' is visible
+
+2020-03-02 09:57:38 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Field Customer Information' is visible
+
+2020-03-02 09:57:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Roomme.id Fill In Data/Text Customer Contact Name")): Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Text Customer Contact Name' is visible
+
+2020-03-02 09:57:38 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Text Customer Contact Name' is visible
+
+2020-03-02 09:57:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Roomme.id Fill In Data/Text Customer Email Address")): Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Text Customer Email Address' is visible
+
+2020-03-02 09:57:38 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Text Customer Email Address' is visible
+
+2020-03-02 09:57:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Roomme.id Fill In Data/Text Customer Phone Number")): Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Text Customer Phone Number' is visible
+
+2020-03-02 09:57:39 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Text Customer Phone Number' is visible
+
+2020-03-02 09:57:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Roomme.id Fill In Data/Text Noted If the data doesnt match please edit in profile")): Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Text Noted If the data doesnt match please edit in profile' is visible
+
+2020-03-02 09:57:39 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Text Noted If the data doesnt match please edit in profile' is visible
+
+2020-03-02 09:57:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Roomme.id Fill In Data/Button Edit Profile")): Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Button Edit Profile' is visible
+
+2020-03-02 09:57:39 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Button Edit Profile' is visible
+
+2020-03-02 09:57:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Roomme.id Fill In Data/Checkbox Please tick if youre making booking for someone else")): Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Checkbox Please tick if youre making booking for someone else' is visible
+
+2020-03-02 09:57:39 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Checkbox Please tick if youre making booking for someone else' is visible
+
+2020-03-02 09:57:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Roomme.id Fill In Data/Field Cancellation Policy")): Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Field Cancellation Policy' is visible
+
+2020-03-02 09:57:40 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Field Cancellation Policy' is visible
+
+2020-03-02 09:57:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Roomme.id Fill In Data/Field Booking Details")): Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Field Booking Details' is visible
+
+2020-03-02 09:57:40 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Field Booking Details' is visible
+
+2020-03-02 09:57:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Roomme.id Fill In Data/Button Continue to Payment")): Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Button Continue to Payment' is visible
+
+2020-03-02 09:57:40 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Button Continue to Payment' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/Customer Continue to Payment" time="37.436" classname="Test Cases/Web RoomMe.id/Customer Continue to Payment" status="PASSED">
+         <system-out><![CDATA[2020-03-02 09:57:40 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Customer Continue to Payment: Test Cases/Web RoomMe.id/Customer Continue to Payment
+
+2020-03-02 09:57:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/Customer Fill Data to Payment"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/Customer Fill Data to Payment' successfully
+
+2020-03-02 09:57:41 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Customer Fill Data to Payment: Test Cases/Web RoomMe.id/Customer Fill Data to Payment
+
+2020-03-02 09:57:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/Customer Continue To Book"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/Customer Continue To Book' successfully
+
+2020-03-02 09:57:41 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Customer Continue To Book: Test Cases/Web RoomMe.id/Customer Continue To Book
+
+2020-03-02 09:57:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/Customer Select Kamar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/Customer Select Kamar' successfully
+
+2020-03-02 09:57:41 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Customer Select Kamar: Test Cases/Web RoomMe.id/Customer Select Kamar
+
+2020-03-02 09:57:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/Customer Select Kost"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/Customer Select Kost' successfully
+
+2020-03-02 09:57:41 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Customer Select Kost: Test Cases/Web RoomMe.id/Customer Select Kost
+
+2020-03-02 09:57:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/Customer Search For Kost"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/Customer Search For Kost' successfully
+
+2020-03-02 09:57:41 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Customer Search For Kost: Test Cases/Web RoomMe.id/Customer Search For Kost
+
+2020-03-02 09:57:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/Customer Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/Customer Login' successfully
+
+2020-03-02 09:57:41 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Customer Login: Test Cases/Web RoomMe.id/Customer Login
+
+2020-03-02 09:57:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-03-02 09:57:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-03-02 09:57:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-02 09:57:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-02 09:57:47 - [TEST_STEP][PASSED] - navigateToUrl("https://web.roomme.id/"): Navigate to 'https://web.roomme.id/' successfully
+
+2020-03-02 09:57:48 - [MESSAGE][PASSED] - Navigate to 'https://web.roomme.id/' successfully
+
+2020-03-02 09:57:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-03-02 09:57:52 - [MESSAGE][PASSED] - Current window maximized
+
+2020-03-02 09:57:52 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In (Homepage)")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In (Homepage)' is clicked on
+
+2020-03-02 09:57:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In (Homepage)' is clicked on
+
+2020-03-02 09:57:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is visible
+
+2020-03-02 09:57:54 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is visible
+
+2020-03-02 09:57:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is visible
+
+2020-03-02 09:57:54 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is visible
+
+2020-03-02 09:57:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is visible
+
+2020-03-02 09:57:54 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is visible
+
+2020-03-02 09:57:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button Forgot Password")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Forgot Password' is visible
+
+2020-03-02 09:57:54 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Forgot Password' is visible
+
+2020-03-02 09:57:54 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), "hurujy@getnada.com"): Text 'hurujy@getnada.com' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-03-02 09:57:55 - [MESSAGE][PASSED] - Text 'hurujy@getnada.com' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-03-02 09:57:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-03-02 09:57:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-03-02 09:57:56 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is clicked on
+
+2020-03-02 09:57:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is clicked on
+
+2020-03-02 09:57:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Pop Up You have successfully signed in")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Pop Up You have successfully signed in' is visible
+
+2020-03-02 09:57:59 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Pop Up You have successfully signed in' is visible
+
+2020-03-02 09:57:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button User Menu")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button User Menu' is visible
+
+2020-03-02 09:58:00 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button User Menu' is visible
+
+2020-03-02 09:58:00 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2020-03-02 09:58:00 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2020-03-02 09:58:00 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2020-03-02 09:58:00 - [MESSAGE][INFO] - ===============================================================
+
+2020-03-02 09:58:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/Customer Login' successfully
+
+2020-03-02 09:58:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/input"), "tebet"): Text 'tebet' is set on object 'Object Repository/Web RoomMe.id/Search Kost Menu/input'
+
+2020-03-02 09:58:00 - [MESSAGE][PASSED] - Text 'tebet' is set on object 'Object Repository/Web RoomMe.id/Search Kost Menu/input'
+
+2020-03-02 09:58:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker' is clicked on
+
+2020-03-02 09:58:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker' is clicked on
+
+2020-03-02 09:58:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-03-02 09:58:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-03-02 09:58:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-03-02 09:58:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-03-02 09:58:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month' is clicked on
+
+2020-03-02 09:58:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month' is clicked on
+
+2020-03-02 09:58:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional' is clicked on
+
+2020-03-02 09:58:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional' is clicked on
+
+2020-03-02 09:58:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day' is clicked on
+
+2020-03-02 09:58:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day' is clicked on
+
+2020-03-02 09:58:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Search")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Search' is clicked on
+
+2020-03-02 09:58:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Search' is clicked on
+
+2020-03-02 09:58:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Field Facilities")): Object 'Object Repository/Web RoomMe.id/Search Result Menu/Field Facilities' is visible
+
+2020-03-02 09:58:05 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Search Result Menu/Field Facilities' is visible
+
+2020-03-02 09:58:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Nama Kost")): Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Nama Kost' is visible
+
+2020-03-02 09:58:05 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Nama Kost' is visible
+
+2020-03-02 09:58:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Alamat Kost")): Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Alamat Kost' is visible
+
+2020-03-02 09:58:05 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Alamat Kost' is visible
+
+2020-03-02 09:58:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Price")): Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Price' is visible
+
+2020-03-02 09:58:06 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Search Result Menu/Text Price' is visible
+
+2020-03-02 09:58:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost")): Object 'Object Repository/Web RoomMe.id/Search Result Menu/Image Kost' is visible
+
+2020-03-02 09:58:06 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Search Result Menu/Image Kost' is visible
+
+2020-03-02 09:58:06 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2020-03-02 09:58:06 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2020-03-02 09:58:06 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2020-03-02 09:58:06 - [MESSAGE][INFO] - ===============================================================
+
+2020-03-02 09:58:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/Customer Search For Kost' successfully
+
+2020-03-02 09:58:06 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost")): Object: 'Object Repository/Web RoomMe.id/Search Result Menu/Image Kost' is clicked on
+
+2020-03-02 09:58:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Result Menu/Image Kost' is clicked on
+
+2020-03-02 09:58:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Image Primary Photo")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Image Primary Photo' is visible
+
+2020-03-02 09:58:09 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Image Primary Photo' is visible
+
+2020-03-02 09:58:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Image Second Photo")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Image Second Photo' is visible
+
+2020-03-02 09:58:09 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Image Second Photo' is visible
+
+2020-03-02 09:58:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Text Nama Kost")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Text Nama Kost' is visible
+
+2020-03-02 09:58:09 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Text Nama Kost' is visible
+
+2020-03-02 09:58:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Read More")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Read More' is visible
+
+2020-03-02 09:58:10 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Read More' is visible
+
+2020-03-02 09:58:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button See Map")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button See Map' is visible
+
+2020-03-02 09:58:10 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button See Map' is visible
+
+2020-03-02 09:58:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Map")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Map' is visible
+
+2020-03-02 09:58:10 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Map' is visible
+
+2020-03-02 09:58:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Field Building Facilities")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Building Facilities' is visible
+
+2020-03-02 09:58:11 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Building Facilities' is visible
+
+2020-03-02 09:58:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Field Room Details")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Room Details' is visible
+
+2020-03-02 09:58:11 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Room Details' is visible
+
+2020-03-02 09:58:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Field Booking Summary")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Booking Summary' is visible
+
+2020-03-02 09:58:11 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Booking Summary' is visible
+
+2020-03-02 09:58:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Field Reccomend Kost Nearby")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Reccomend Kost Nearby' is visible
+
+2020-03-02 09:58:11 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Field Reccomend Kost Nearby' is visible
+
+2020-03-02 09:58:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Select")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Select' is visible
+
+2020-03-02 09:58:12 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Select' is visible
+
+2020-03-02 09:58:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Booking Summary")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Booking Summary' is visible
+
+2020-03-02 09:58:12 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Booking Summary' is visible
+
+2020-03-02 09:58:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Schedule Free Visit")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Schedule Free Visit' is visible
+
+2020-03-02 09:58:12 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Schedule Free Visit' is visible
+
+2020-03-02 09:58:12 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2020-03-02 09:58:12 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2020-03-02 09:58:12 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2020-03-02 09:58:12 - [MESSAGE][INFO] - ===============================================================
+
+2020-03-02 09:58:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/Customer Select Kost' successfully
+
+2020-03-02 09:58:12 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Select")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Select' is clicked on
+
+2020-03-02 09:58:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Select' is clicked on
+
+2020-03-02 09:58:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Continue to Book")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Continue to Book' is visible
+
+2020-03-02 09:58:13 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Continue to Book' is visible
+
+2020-03-02 09:58:13 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2020-03-02 09:58:13 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2020-03-02 09:58:13 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2020-03-02 09:58:13 - [MESSAGE][INFO] - ===============================================================
+
+2020-03-02 09:58:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/Customer Select Kamar' successfully
+
+2020-03-02 09:58:13 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Kost Detail/Button Continue to Book")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Continue to Book' is clicked on
+
+2020-03-02 09:58:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Kost Detail/Button Continue to Book' is clicked on
+
+2020-03-02 09:58:13 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2020-03-02 09:58:13 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2020-03-02 09:58:13 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2020-03-02 09:58:13 - [MESSAGE][INFO] - ===============================================================
+
+2020-03-02 09:58:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/Customer Continue To Book' successfully
+
+2020-03-02 09:58:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Roomme.id Fill In Data/Text 1 Fill in data")): Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Text 1 Fill in data' is visible
+
+2020-03-02 09:58:14 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Text 1 Fill in data' is visible
+
+2020-03-02 09:58:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Roomme.id Fill In Data/Text 2 Payment")): Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Text 2 Payment' is visible
+
+2020-03-02 09:58:14 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Text 2 Payment' is visible
+
+2020-03-02 09:58:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Roomme.id Fill In Data/Text 3 Done Confirmation Booking")): Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Text 3 Done Confirmation Booking' is visible
+
+2020-03-02 09:58:15 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Text 3 Done Confirmation Booking' is visible
+
+2020-03-02 09:58:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Roomme.id Fill In Data/Field Customer Information")): Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Field Customer Information' is visible
+
+2020-03-02 09:58:15 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Field Customer Information' is visible
+
+2020-03-02 09:58:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Roomme.id Fill In Data/Text Customer Contact Name")): Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Text Customer Contact Name' is visible
+
+2020-03-02 09:58:15 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Text Customer Contact Name' is visible
+
+2020-03-02 09:58:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Roomme.id Fill In Data/Text Customer Email Address")): Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Text Customer Email Address' is visible
+
+2020-03-02 09:58:15 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Text Customer Email Address' is visible
+
+2020-03-02 09:58:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Roomme.id Fill In Data/Text Customer Phone Number")): Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Text Customer Phone Number' is visible
+
+2020-03-02 09:58:16 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Text Customer Phone Number' is visible
+
+2020-03-02 09:58:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Roomme.id Fill In Data/Text Noted If the data doesnt match please edit in profile")): Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Text Noted If the data doesnt match please edit in profile' is visible
+
+2020-03-02 09:58:16 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Text Noted If the data doesnt match please edit in profile' is visible
+
+2020-03-02 09:58:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Roomme.id Fill In Data/Button Edit Profile")): Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Button Edit Profile' is visible
+
+2020-03-02 09:58:16 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Button Edit Profile' is visible
+
+2020-03-02 09:58:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Roomme.id Fill In Data/Checkbox Please tick if youre making booking for someone else")): Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Checkbox Please tick if youre making booking for someone else' is visible
+
+2020-03-02 09:58:17 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Checkbox Please tick if youre making booking for someone else' is visible
+
+2020-03-02 09:58:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Roomme.id Fill In Data/Field Cancellation Policy")): Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Field Cancellation Policy' is visible
+
+2020-03-02 09:58:17 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Field Cancellation Policy' is visible
+
+2020-03-02 09:58:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Roomme.id Fill In Data/Field Booking Details")): Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Field Booking Details' is visible
+
+2020-03-02 09:58:17 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Field Booking Details' is visible
+
+2020-03-02 09:58:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Roomme.id Fill In Data/Button Continue to Payment")): Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Button Continue to Payment' is visible
+
+2020-03-02 09:58:17 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Button Continue to Payment' is visible
+
+2020-03-02 09:58:17 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2020-03-02 09:58:17 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2020-03-02 09:58:17 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2020-03-02 09:58:17 - [MESSAGE][INFO] - ===============================================================
+
+2020-03-02 09:58:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/Customer Fill Data to Payment' successfully
+
+2020-03-02 09:58:17 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Roomme.id Fill In Data/Button Continue to Payment")): Object: 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Button Continue to Payment' is clicked on
+
+2020-03-02 09:58:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Roomme.id Fill In Data/Button Continue to Payment' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-02 09:54:09 - [TEST_SUITE][PASSED] - Customer Booking till Payment Page: Test Cases/Web RoomMe.id/Customer Continue to Payment]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

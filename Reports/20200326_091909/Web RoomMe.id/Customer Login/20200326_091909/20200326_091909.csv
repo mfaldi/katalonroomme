@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Customer Login,Chrome 80.0.3987.149,,,2020-03-26 09:19:11,2020-03-26 09:19:29,17.896s,INCOMPLETE
+,,,,,,,
+Test Cases/Web RoomMe.id/Customer Login,Chrome 80.0.3987.149,Customer login to RoomMe.id,login,2020-03-26 09:19:11,2020-03-26 09:19:29,17.679s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-26 09:19:12,2020-03-26 09:19:27,15.369s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Button Sign In""))",Chrome 80.0.3987.149,,,2020-03-26 09:19:27,2020-03-26 09:19:27,0.153s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Email""))",Chrome 80.0.3987.149,,,2020-03-26 09:19:27,2020-03-26 09:19:27,0.094s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Password""))",Chrome 80.0.3987.149,,,2020-03-26 09:19:27,2020-03-26 09:19:27,0.108s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Button Sign In""))",Chrome 80.0.3987.149,,,2020-03-26 09:19:27,2020-03-26 09:19:27,0.098s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Button Forgot Password""))",Chrome 80.0.3987.149,,,2020-03-26 09:19:27,2020-03-26 09:19:27,0.086s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Email""), ""hurujy@getnada.com"")",Chrome 80.0.3987.149,,,2020-03-26 09:19:27,2020-03-26 09:19:28,0.284s,PASSED
+"setEncryptedText(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Password""), ""aeHFOx8jV/A="")",Chrome 80.0.3987.149,,,2020-03-26 09:19:28,2020-03-26 09:19:28,0.203s,PASSED
+"click(findTestObject(""Web RoomMe.id/Sign In Menu/Button Sign In""))",Chrome 80.0.3987.149,,,2020-03-26 09:19:28,2020-03-26 09:19:28,0.113s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Button User Menu""))",Chrome 80.0.3987.149,,,2020-03-26 09:19:28,2020-03-26 09:19:29,0.898s,PASSED
+"takeScreenshot(""Evidence/Login.png"")",Chrome 80.0.3987.149,,,2020-03-26 09:19:29,2020-03-26 09:19:29,0.002s,NOT_RUN

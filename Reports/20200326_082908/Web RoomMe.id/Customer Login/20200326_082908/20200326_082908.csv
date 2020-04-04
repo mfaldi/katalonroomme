@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Customer Login,Chrome 80.0.3987.149,,,2020-03-26 08:29:10,2020-03-26 08:29:42,32.666s,INCOMPLETE
+,,,,,,,
+Test Cases/Web RoomMe.id/Customer Login,Chrome 80.0.3987.149,Customer login to RoomMe.id,login,2020-03-26 08:29:10,2020-03-26 08:29:42,32.406s,FAILED
+"callTestCase(findTestCase(""Web RoomMe.id/Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-26 08:29:10,2020-03-26 08:29:28,17.903s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Button Sign In""))",Chrome 80.0.3987.149,,,2020-03-26 08:29:28,2020-03-26 08:29:37,8.458s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Email""))",Chrome 80.0.3987.149,,,2020-03-26 08:29:37,2020-03-26 08:29:42,5.749s,FAILED

@@ -1,0 +1,93 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Customer Booking Kost Using Virtual Account,Chrome 80.0.3987.132,Customer book 1 kost for 1 month and additional 1 day with payment using Virtual Account (not paid),,2020-03-13 21:14:55,2020-03-13 21:22:32,7m - 37.050s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/Customer Login,Chrome 80.0.3987.132,Customer login to RoomMe.id,login,2020-03-13 21:14:55,2020-03-13 21:15:28,32.886s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.132,,,2020-03-13 21:14:55,2020-03-13 21:15:18,22.855s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Button Sign In""))",Chrome 80.0.3987.132,,,2020-03-13 21:15:18,2020-03-13 21:15:19,0.384s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Email""))",Chrome 80.0.3987.132,,,2020-03-13 21:15:19,2020-03-13 21:15:19,0.536s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Password""))",Chrome 80.0.3987.132,,,2020-03-13 21:15:19,2020-03-13 21:15:19,0.291s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Button Sign In""))",Chrome 80.0.3987.132,,,2020-03-13 21:15:19,2020-03-13 21:15:20,0.286s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Button Forgot Password""))",Chrome 80.0.3987.132,,,2020-03-13 21:15:20,2020-03-13 21:15:20,0.284s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Email""), ""faldinv68@gmail.com"")",Chrome 80.0.3987.132,,,2020-03-13 21:15:20,2020-03-13 21:15:21,0.519s,PASSED
+"setEncryptedText(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Password""), ""aeHFOx8jV/A="")",Chrome 80.0.3987.132,,,2020-03-13 21:15:21,2020-03-13 21:15:21,0.556s,PASSED
+"click(findTestObject(""Web RoomMe.id/Sign In Menu/Button Sign In""))",Chrome 80.0.3987.132,,,2020-03-13 21:15:21,2020-03-13 21:15:22,0.773s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Button User Menu""))",Chrome 80.0.3987.132,,,2020-03-13 21:15:22,2020-03-13 21:15:27,5.150s,PASSED
+"takeScreenshot(""Evidence/Login.png"")",Chrome 80.0.3987.132,,,2020-03-13 21:15:27,2020-03-13 21:15:28,0.995s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/Customer Search For Kost,Chrome 80.0.3987.132,customer search for kost from homepage by filtering in search box,search,2020-03-13 21:15:28,2020-03-13 21:16:04,35.513s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/Customer Login""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.132,,,2020-03-13 21:15:28,2020-03-13 21:15:56,27.397s,PASSED
+"setText(findTestObject(""Object Repository/Web RoomMe.id/Search Kost Menu/input""), ""tebet"")",Chrome 80.0.3987.132,,,2020-03-13 21:15:56,2020-03-13 21:15:56,0.370s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Text Suggestion Location (Tebet)""))",Chrome 80.0.3987.132,,,2020-03-13 21:15:56,2020-03-13 21:15:57,0.740s,PASSED
+"click(findTestObject(""Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker""))",Chrome 80.0.3987.132,,,2020-03-13 21:15:57,2020-03-13 21:15:57,0.561s,PASSED
+"click(findTestObject(""Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick""))",Chrome 80.0.3987.132,,,2020-03-13 21:15:57,2020-03-13 21:15:58,0.563s,PASSED
+"click(findTestObject(""Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration""))",Chrome 80.0.3987.132,,,2020-03-13 21:15:58,2020-03-13 21:15:59,0.832s,PASSED
+"click(findTestObject(""Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month""))",Chrome 80.0.3987.132,,,2020-03-13 21:15:59,2020-03-13 21:15:59,0.555s,PASSED
+"click(findTestObject(""Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional""))",Chrome 80.0.3987.132,,,2020-03-13 21:15:59,2020-03-13 21:16:00,0.524s,PASSED
+"click(findTestObject(""Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day""))",Chrome 80.0.3987.132,,,2020-03-13 21:16:00,2020-03-13 21:16:00,0.552s,PASSED
+"click(findTestObject(""Object Repository/Web RoomMe.id/Search Kost Menu/Button Search""))",Chrome 80.0.3987.132,,,2020-03-13 21:16:00,2020-03-13 21:16:02,1.619s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Search Result Menu/Field Facilities""))",Chrome 80.0.3987.132,,,2020-03-13 21:16:02,2020-03-13 21:16:02,0.002s,NOT_RUN
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Search Result Menu/Text Nama Kost""))",Chrome 80.0.3987.132,,,2020-03-13 21:16:02,2020-03-13 21:16:03,1.249s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Search Result Menu/div_Submit_col-md-4 img-s""))",Chrome 80.0.3987.132,,,2020-03-13 21:16:03,2020-03-13 21:16:03,0.001s,NOT_RUN
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Search Result Menu/div_Rp1400000""))",Chrome 80.0.3987.132,,,2020-03-13 21:16:03,2020-03-13 21:16:03,0.000s,NOT_RUN
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Search Result Menu/Image Kost""))",Chrome 80.0.3987.132,,,2020-03-13 21:16:03,2020-03-13 21:16:04,0.293s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/Customer Select Kost,Chrome 80.0.3987.132,customer select kost from search list by click the image,search,2020-03-13 21:16:04,2020-03-13 21:17:06,1m - 2.051s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/Customer Search For Kost""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.132,,,2020-03-13 21:16:04,2020-03-13 21:16:59,55.543s,PASSED
+"click(findTestObject(""Web RoomMe.id/Search Result Menu/Image Kost""))",Chrome 80.0.3987.132,,,2020-03-13 21:16:59,2020-03-13 21:17:00,0.314s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Kost Detail/Image Primary Photo""))",Chrome 80.0.3987.132,,,2020-03-13 21:17:00,2020-03-13 21:17:00,0.000s,NOT_RUN
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Kost Detail/Image Second Photo""))",Chrome 80.0.3987.132,,,2020-03-13 21:17:00,2020-03-13 21:17:03,3.025s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Kost Detail/Text Nama Kost""))",Chrome 80.0.3987.132,,,2020-03-13 21:17:03,2020-03-13 21:17:03,0.290s,PASSED
+"kostname = getText(findTestObject(""Web RoomMe.id/Search Result Menu/Text Nama Kost""))",Chrome 80.0.3987.132,,,2020-03-13 21:17:03,2020-03-13 21:17:03,0.486s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id Kost Detail/Text Nama Kost""), kostname, STOP_ON_FAILURE)",Chrome 80.0.3987.132,,,2020-03-13 21:17:03,2020-03-13 21:17:03,0.000s,NOT_RUN
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Kost Detail/Button Read More""))",Chrome 80.0.3987.132,,,2020-03-13 21:17:03,2020-03-13 21:17:04,0.303s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Kost Detail/Button See Map""))",Chrome 80.0.3987.132,,,2020-03-13 21:17:04,2020-03-13 21:17:04,0.290s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Kost Detail/Button Map""))",Chrome 80.0.3987.132,,,2020-03-13 21:17:04,2020-03-13 21:17:05,0.705s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Kost Detail/Field Building Facilities""))",Chrome 80.0.3987.132,,,2020-03-13 21:17:05,2020-03-13 21:17:05,0.001s,NOT_RUN
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Kost Detail/Field Room Details""))",Chrome 80.0.3987.132,,,2020-03-13 21:17:05,2020-03-13 21:17:05,0.291s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Kost Detail/Field Booking Summary""))",Chrome 80.0.3987.132,,,2020-03-13 21:17:05,2020-03-13 21:17:05,0.001s,NOT_RUN
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Kost Detail/Field Reccomend Kost Nearby""))",Chrome 80.0.3987.132,,,2020-03-13 21:17:05,2020-03-13 21:17:05,0.000s,NOT_RUN
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Kost Detail/Button Select""))",Chrome 80.0.3987.132,,,2020-03-13 21:17:05,2020-03-13 21:17:05,0.000s,NOT_RUN
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Kost Detail/Button Booking Summary""))",Chrome 80.0.3987.132,,,2020-03-13 21:17:05,2020-03-13 21:17:05,0.307s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Kost Detail/Button Schedule Free Visit""))",Chrome 80.0.3987.132,,,2020-03-13 21:17:05,2020-03-13 21:17:06,0.305s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/Customer Select Kamar,Chrome 80.0.3987.132,customer select kamar from kost detail page,kamar,2020-03-13 21:17:06,2020-03-13 21:17:53,47.022s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/Customer Select Kost""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.132,,,2020-03-13 21:17:06,2020-03-13 21:17:52,46.471s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Kost Detail/Button Continue to Book""))",Chrome 80.0.3987.132,,,2020-03-13 21:17:52,2020-03-13 21:17:53,0.417s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Kost Detail/Button Continue to Book""))",Chrome 80.0.3987.132,,,2020-03-13 21:17:53,2020-03-13 21:17:53,0.000s,NOT_RUN
+"if (verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Kost Detail/Button Selected Room""), STOP_ON_FAILURE))",Chrome 80.0.3987.132,,,2020-03-13 21:17:53,2020-03-13 21:17:53,0.000s,NOT_RUN
+,,,,,,,
+Test Cases/Web RoomMe.id/Customer Continue To Book,Chrome 80.0.3987.132,customer continue to book kost after select room,book,2020-03-13 21:17:53,2020-03-13 21:18:43,50.441s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/Customer Select Kamar""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.132,,,2020-03-13 21:17:53,2020-03-13 21:18:42,49.027s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Kost Detail/Button Continue to Book""))",Chrome 80.0.3987.132,,,2020-03-13 21:18:42,2020-03-13 21:18:42,0.626s,PASSED
+"scrollToElement(findTestObject(""Web RoomMe.id/RoomMe.id Kost Detail/Button Continue to Book""), 2)",Chrome 80.0.3987.132,,,2020-03-13 21:18:42,2020-03-13 21:18:43,0.282s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Kost Detail/Button Continue to Book""))",Chrome 80.0.3987.132,,,2020-03-13 21:18:43,2020-03-13 21:18:43,0.315s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/Customer Fill Data to Payment,Chrome 80.0.3987.132,customer fill data to continue to payment after select room,payment,2020-03-13 21:18:43,2020-03-13 21:19:37,54.004s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/Customer Continue To Book""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.132,,,2020-03-13 21:18:43,2020-03-13 21:19:34,50.622s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Roomme.id Fill In Data/Text 1 Fill in data""))",Chrome 80.0.3987.132,,,2020-03-13 21:19:34,2020-03-13 21:19:34,0.706s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Roomme.id Fill In Data/Text 2 Payment""))",Chrome 80.0.3987.132,,,2020-03-13 21:19:34,2020-03-13 21:19:35,0.294s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Roomme.id Fill In Data/Text 3 Done Confirmation Booking""))",Chrome 80.0.3987.132,,,2020-03-13 21:19:35,2020-03-13 21:19:35,0.282s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Roomme.id Fill In Data/Field Customer Information""))",Chrome 80.0.3987.132,,,2020-03-13 21:19:35,2020-03-13 21:19:35,0.001s,NOT_RUN
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Roomme.id Fill In Data/Text Customer Contact Name""))",Chrome 80.0.3987.132,,,2020-03-13 21:19:35,2020-03-13 21:19:35,0.290s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Roomme.id Fill In Data/Text Customer Email Address""))",Chrome 80.0.3987.132,,,2020-03-13 21:19:35,2020-03-13 21:19:36,0.289s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Roomme.id Fill In Data/Text Customer Phone Number""))",Chrome 80.0.3987.132,,,2020-03-13 21:19:36,2020-03-13 21:19:36,0.276s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Roomme.id Fill In Data/Text Noted If the data doesnt match please edit in profile""))",Chrome 80.0.3987.132,,,2020-03-13 21:19:36,2020-03-13 21:19:36,0.275s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Roomme.id Fill In Data/Button Edit Profile""))",Chrome 80.0.3987.132,,,2020-03-13 21:19:36,2020-03-13 21:19:36,0.286s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Roomme.id Fill In Data/Checkbox Please tick if youre making booking for someone else""))",Chrome 80.0.3987.132,,,2020-03-13 21:19:36,2020-03-13 21:19:37,0.279s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Roomme.id Fill In Data/Field Cancellation Policy""))",Chrome 80.0.3987.132,,,2020-03-13 21:19:37,2020-03-13 21:19:37,0.000s,NOT_RUN
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Roomme.id Fill In Data/Field Booking Details""))",Chrome 80.0.3987.132,,,2020-03-13 21:19:37,2020-03-13 21:19:37,0.000s,NOT_RUN
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Roomme.id Fill In Data/Button Continue to Payment""))",Chrome 80.0.3987.132,,,2020-03-13 21:19:37,2020-03-13 21:19:37,0.280s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/Customer Continue to Payment,Chrome 80.0.3987.132,customer continue to payment after fill in data,payment,2020-03-13 21:19:37,2020-03-13 21:20:30,53.245s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/Customer Fill Data to Payment""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.132,,,2020-03-13 21:19:37,2020-03-13 21:20:30,52.827s,PASSED
+"click(findTestObject(""Web RoomMe.id/Roomme.id Fill In Data/Button Continue to Payment""))",Chrome 80.0.3987.132,,,2020-03-13 21:20:30,2020-03-13 21:20:30,0.300s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/Customer Access Payment Option Page,Chrome 80.0.3987.132,,,2020-03-13 21:20:30,2020-03-13 21:21:28,57.600s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/Customer Continue to Payment""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.132,,,2020-03-13 21:20:30,2020-03-13 21:21:27,56.045s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Payment Option Page/Radio Button Virtual Account""))",Chrome 80.0.3987.132,,,2020-03-13 21:21:27,2020-03-13 21:21:27,0.897s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Payment Option Page/Button Continue to Payment""))",Chrome 80.0.3987.132,,,2020-03-13 21:21:27,2020-03-13 21:21:28,0.487s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/Customer Pay Using Virtual Account,Chrome 80.0.3987.132,,,2020-03-13 21:21:28,2020-03-13 21:22:32,1m - 4.088s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/Customer Access Payment Option Page""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.132,,,2020-03-13 21:21:28,2020-03-13 21:22:31,1m - 3.156s,PASSED
+"click(findTestObject(""Web RoomMe.id/Payment Option Page/Radio Button Virtual Account""))",Chrome 80.0.3987.132,,,2020-03-13 21:22:31,2020-03-13 21:22:31,0.308s,PASSED
+"click(findTestObject(""Web RoomMe.id/Payment Option Page/Button Continue to Payment""))",Chrome 80.0.3987.132,,,2020-03-13 21:22:31,2020-03-13 21:22:32,0.509s,PASSED

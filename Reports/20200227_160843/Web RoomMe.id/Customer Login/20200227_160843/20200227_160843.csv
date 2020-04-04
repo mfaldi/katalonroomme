@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Customer Login,Chrome 80.0.3987.100,,,2020-02-27 16:08:45,2020-02-27 16:09:26,41.228s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/Verify Homepage,Chrome 80.0.3987.100,Verify all element on RoomMe.id Homepage,homepage,2020-02-27 16:08:45,2020-02-27 16:09:05,20.727s,PASSED
+"openBrowser("""")",Chrome 80.0.3987.100,,,2020-02-27 16:08:45,2020-02-27 16:08:51,6.223s,PASSED
+"navigateToUrl(""https://web.roomme.id/"")",Chrome 80.0.3987.100,,,2020-02-27 16:08:51,2020-02-27 16:08:57,5.823s,PASSED
+maximizeWindow(),Chrome 80.0.3987.100,,,2020-02-27 16:08:57,2020-02-27 16:09:01,4.152s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Image Logo Header""))",Chrome 80.0.3987.100,,,2020-02-27 16:09:01,2020-02-27 16:09:02,0.387s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Button  Community""))",Chrome 80.0.3987.100,,,2020-02-27 16:09:02,2020-02-27 16:09:02,0.305s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Button Promo""))",Chrome 80.0.3987.100,,,2020-02-27 16:09:02,2020-02-27 16:09:02,0.602s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Button List Your Unit Here""))",Chrome 80.0.3987.100,,,2020-02-27 16:09:02,2020-02-27 16:09:03,0.299s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Button Sign In""))",Chrome 80.0.3987.100,,,2020-02-27 16:09:03,2020-02-27 16:09:03,0.289s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Button Sign Up""))",Chrome 80.0.3987.100,,,2020-02-27 16:09:03,2020-02-27 16:09:03,0.290s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Image Thumbnail Promo""))",Chrome 80.0.3987.100,,,2020-02-27 16:09:03,2020-02-27 16:09:04,0.283s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Field Search Box""))",Chrome 80.0.3987.100,,,2020-02-27 16:09:04,2020-02-27 16:09:04,0.292s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Field Amenities""))",Chrome 80.0.3987.100,,,2020-02-27 16:09:04,2020-02-27 16:09:04,0.308s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Field Connect to Instagram""))",Chrome 80.0.3987.100,,,2020-02-27 16:09:04,2020-02-27 16:09:05,0.306s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Field Reccomended Kost""))",Chrome 80.0.3987.100,,,2020-02-27 16:09:05,2020-02-27 16:09:05,0.288s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Field Footer""))",Chrome 80.0.3987.100,,,2020-02-27 16:09:05,2020-02-27 16:09:05,0.297s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Image Logo Footer""))",Chrome 80.0.3987.100,,,2020-02-27 16:09:05,2020-02-27 16:09:05,0.297s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/Customer Login,Chrome 80.0.3987.100,Customer login to RoomMe.id,login,2020-02-27 16:09:05,2020-02-27 16:09:26,20.318s,PASSED
+"openBrowser("""")",Chrome 80.0.3987.100,,,2020-02-27 16:09:06,2020-02-27 16:09:11,5.781s,PASSED
+"navigateToUrl(""https://web.roomme.id/"")",Chrome 80.0.3987.100,,,2020-02-27 16:09:11,2020-02-27 16:09:16,5.060s,PASSED
+maximizeWindow(),Chrome 80.0.3987.100,,,2020-02-27 16:09:16,2020-02-27 16:09:21,4.139s,PASSED
+"click(findTestObject(""Web RoomMe.id/Sign In Menu/Button Sign In (Homepage)""))",Chrome 80.0.3987.100,,,2020-02-27 16:09:21,2020-02-27 16:09:21,0.375s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Email""))",Chrome 80.0.3987.100,,,2020-02-27 16:09:21,2020-02-27 16:09:21,0.516s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Password""))",Chrome 80.0.3987.100,,,2020-02-27 16:09:21,2020-02-27 16:09:22,0.290s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Button Sign In""))",Chrome 80.0.3987.100,,,2020-02-27 16:09:22,2020-02-27 16:09:22,0.303s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Button Forgot Password""))",Chrome 80.0.3987.100,,,2020-02-27 16:09:22,2020-02-27 16:09:22,0.296s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Email""), ""hurujy@getnada.com"")",Chrome 80.0.3987.100,,,2020-02-27 16:09:22,2020-02-27 16:09:23,0.628s,PASSED
+"setEncryptedText(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Password""), ""aeHFOx8jV/A="")",Chrome 80.0.3987.100,,,2020-02-27 16:09:23,2020-02-27 16:09:24,0.554s,PASSED
+"click(findTestObject(""Web RoomMe.id/Sign In Menu/Button Sign In""))",Chrome 80.0.3987.100,,,2020-02-27 16:09:24,2020-02-27 16:09:24,0.514s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Pop Up You have successfully signed in""))",Chrome 80.0.3987.100,,,2020-02-27 16:09:24,2020-02-27 16:09:25,0.699s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Button User Menu""))",Chrome 80.0.3987.100,,,2020-02-27 16:09:25,2020-02-27 16:09:25,0.285s,PASSED
+closeBrowser(),Chrome 80.0.3987.100,,,2020-02-27 16:09:25,2020-02-27 16:09:26,0.703s,PASSED

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button Payment</name>
+   <tag></tag>
+   <elementGuidId>27064278-5223-4566-8d28-68c04f344866</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__layout']/div/div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/ul/li[2]/a/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/_nuxt/img/1a27b31.svg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__layout&quot;)/div[1]/div[@class=&quot;page-content&quot;]/div[@class=&quot;styling mb-3 mins&quot;]/div[@class=&quot;contain-faq m-20 m-t-0&quot;]/div[@class=&quot;row m-0&quot;]/div[@class=&quot;card m-0 pb-5 col-12 border-0&quot;]/div[@class=&quot;card-content mx-lg-3 px-xl-3 mx-xl-3 px-xl-3&quot;]/div[@class=&quot;card-body pb-0&quot;]/div[@class=&quot;row mt-3 m-t-0&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 padding-0&quot;]/div[@class=&quot;vertical-tabs row padding-0&quot;]/ul[@class=&quot;nav nav-tabs col-md-3 box-con ititle setheightresponsive tab-center padding-r-0&quot;]/li[@class=&quot;nav-item py-5 padding-t-b-0 width-50 bookingbg-mobile&quot;]/a[@class=&quot;nav-link nav-link-mobile bookingbg&quot;]/img[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__layout']/div/div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/ul/li[2]/a/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/a/img</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,89 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Customer Login,Chrome 80.0.3987.149,,,2020-04-04 15:41:11,2020-04-04 15:43:52,2m - 40.948s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/3. Sign In/1. Login With Valid Credential,Chrome 80.0.3987.149,Customer login to RoomMe.id,login,2020-04-04 15:41:11,2020-04-04 15:41:41,29.331s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-04-04 15:41:12,2020-04-04 15:41:31,19.086s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-04-04 15:41:31,2020-04-04 15:41:32,1.560s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-04-04 15:41:32,2020-04-04 15:41:32,0.002s,NOT_RUN
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Button Sign In""))",Chrome 80.0.3987.149,,,2020-04-04 15:41:32,2020-04-04 15:41:33,0.338s,PASSED
+"delay(2, STOP_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-04-04 15:41:33,2020-04-04 15:41:35,2.011s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/3. Sign In/Verify Sign In Menu""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-04-04 15:41:35,2020-04-04 15:41:35,0.002s,NOT_RUN
+"setText(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Email""), ""faldinv68@gmail.com"")",Chrome 80.0.3987.149,,,2020-04-04 15:41:35,2020-04-04 15:41:35,0.640s,PASSED
+"setEncryptedText(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Password""), ""aeHFOx8jV/A="")",Chrome 80.0.3987.149,,,2020-04-04 15:41:35,2020-04-04 15:41:36,0.584s,PASSED
+"click(findTestObject(""Web RoomMe.id/Sign In Menu/Button Sign In""))",Chrome 80.0.3987.149,,,2020-04-04 15:41:36,2020-04-04 15:41:36,0.603s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Header/User Menu/User Menu""), 10)",Chrome 80.0.3987.149,,,2020-04-04 15:41:36,2020-04-04 15:41:40,3.948s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Header/User Menu/User Profile Image""), 10)",Chrome 80.0.3987.149,,,2020-04-04 15:41:40,2020-04-04 15:41:41,0.298s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/3. Sign In/2. Login With Not Registered Email,Chrome 80.0.3987.149,,,2020-04-04 15:41:41,2020-04-04 15:42:07,26.695s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-04-04 15:41:41,2020-04-04 15:42:03,21.883s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-04-04 15:42:03,2020-04-04 15:42:03,0.001s,NOT_RUN
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-04-04 15:42:03,2020-04-04 15:42:03,0.000s,NOT_RUN
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Button Sign In""))",Chrome 80.0.3987.149,,,2020-04-04 15:42:03,2020-04-04 15:42:03,0.738s,PASSED
+"delay(1, STOP_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-04-04 15:42:03,2020-04-04 15:42:04,1.005s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/3. Sign In/Verify Sign In Menu""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-04-04 15:42:04,2020-04-04 15:42:04,0.002s,NOT_RUN
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Email""), 0)",Chrome 80.0.3987.149,,,2020-04-04 15:42:04,2020-04-04 15:42:05,0.310s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Email""), ""burujy@getnada.com"")",Chrome 80.0.3987.149,,,2020-04-04 15:42:05,2020-04-04 15:42:05,0.539s,PASSED
+"setEncryptedText(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Password""), ""aeHFOx8jV/A="")",Chrome 80.0.3987.149,,,2020-04-04 15:42:05,2020-04-04 15:42:06,0.610s,PASSED
+"click(findTestObject(""Web RoomMe.id/Sign In Menu/Button Sign In""))",Chrome 80.0.3987.149,,,2020-04-04 15:42:06,2020-04-04 15:42:06,0.608s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Error Message/Text Email Not Found""), 10)",Chrome 80.0.3987.149,,,2020-04-04 15:42:06,2020-04-04 15:42:07,0.877s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/3. Sign In/3. Input Email With Incorrect Email Format,Chrome 80.0.3987.149,,,2020-04-04 15:42:07,2020-04-04 15:42:33,25.721s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-04-04 15:42:07,2020-04-04 15:42:26,18.619s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-04-04 15:42:26,2020-04-04 15:42:26,0.001s,NOT_RUN
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-04-04 15:42:26,2020-04-04 15:42:26,0.001s,NOT_RUN
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Button Sign In""))",Chrome 80.0.3987.149,,,2020-04-04 15:42:26,2020-04-04 15:42:26,0.385s,PASSED
+"delay(1, STOP_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-04-04 15:42:26,2020-04-04 15:42:27,1.004s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/3. Sign In/Verify Sign In Menu""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-04-04 15:42:27,2020-04-04 15:42:27,0.002s,NOT_RUN
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Email""), 0)",Chrome 80.0.3987.149,,,2020-04-04 15:42:27,2020-04-04 15:42:28,0.371s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Email""), ""hurujy"")",Chrome 80.0.3987.149,,,2020-04-04 15:42:28,2020-04-04 15:42:28,0.457s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid""), 10)",Chrome 80.0.3987.149,,,2020-04-04 15:42:28,2020-04-04 15:42:29,0.443s,PASSED
+"clearText(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Email""))",Chrome 80.0.3987.149,,,2020-04-04 15:42:29,2020-04-04 15:42:29,0.311s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Email""), ""12345"")",Chrome 80.0.3987.149,,,2020-04-04 15:42:29,2020-04-04 15:42:30,0.614s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid""), 10)",Chrome 80.0.3987.149,,,2020-04-04 15:42:30,2020-04-04 15:42:30,0.437s,PASSED
+"clearText(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Email""))",Chrome 80.0.3987.149,,,2020-04-04 15:42:30,2020-04-04 15:42:30,0.379s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Email""), ""!@#$%^"")",Chrome 80.0.3987.149,,,2020-04-04 15:42:30,2020-04-04 15:42:31,0.680s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid""), 10)",Chrome 80.0.3987.149,,,2020-04-04 15:42:31,2020-04-04 15:42:32,0.438s,PASSED
+"clearText(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Email""))",Chrome 80.0.3987.149,,,2020-04-04 15:42:32,2020-04-04 15:42:32,0.350s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Email""), ""                  "")",Chrome 80.0.3987.149,,,2020-04-04 15:42:32,2020-04-04 15:42:33,0.770s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid""), 10)",Chrome 80.0.3987.149,,,2020-04-04 15:42:33,2020-04-04 15:42:33,0.308s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/3. Sign In/4. Login With Wrong Password,Chrome 80.0.3987.149,,,2020-04-04 15:42:33,2020-04-04 15:43:00,27.057s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-04-04 15:42:33,2020-04-04 15:42:54,21.274s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-04-04 15:42:54,2020-04-04 15:42:54,0.001s,NOT_RUN
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-04-04 15:42:54,2020-04-04 15:42:54,0.001s,NOT_RUN
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Button Sign In""))",Chrome 80.0.3987.149,,,2020-04-04 15:42:54,2020-04-04 15:42:55,0.893s,PASSED
+"delay(2, STOP_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-04-04 15:42:55,2020-04-04 15:42:57,2.003s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/3. Sign In/Verify Sign In Menu""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-04-04 15:42:57,2020-04-04 15:42:57,0.003s,NOT_RUN
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Email""), 0)",Chrome 80.0.3987.149,,,2020-04-04 15:42:57,2020-04-04 15:42:58,0.341s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Email""), ""hurujy@getnada.com"")",Chrome 80.0.3987.149,,,2020-04-04 15:42:58,2020-04-04 15:42:58,0.559s,PASSED
+"setEncryptedText(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Password""), ""BHvA5AcphSgkyy/qmGt4NA=="")",Chrome 80.0.3987.149,,,2020-04-04 15:42:58,2020-04-04 15:42:59,0.660s,PASSED
+"click(findTestObject(""Web RoomMe.id/Sign In Menu/Button Sign In""))",Chrome 80.0.3987.149,,,2020-04-04 15:42:59,2020-04-04 15:42:59,0.466s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Error Message/Text Email  Password Not Match""), 10)",Chrome 80.0.3987.149,,,2020-04-04 15:42:59,2020-04-04 15:43:00,0.717s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/3. Sign In/5. Input Password With Less Than 6 Character,Chrome 80.0.3987.149,,,2020-04-04 15:43:00,2020-04-04 15:43:30,29.561s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-04-04 15:43:00,2020-04-04 15:43:23,22.967s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-04-04 15:43:23,2020-04-04 15:43:23,0.001s,NOT_RUN
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-04-04 15:43:23,2020-04-04 15:43:23,0.000s,NOT_RUN
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Button Sign In""))",Chrome 80.0.3987.149,,,2020-04-04 15:43:23,2020-04-04 15:43:24,0.354s,PASSED
+"delay(2, STOP_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-04-04 15:43:24,2020-04-04 15:43:26,2.002s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/3. Sign In/Verify Sign In Menu""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-04-04 15:43:26,2020-04-04 15:43:26,0.002s,NOT_RUN
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Email""), 0)",Chrome 80.0.3987.149,,,2020-04-04 15:43:26,2020-04-04 15:43:26,0.356s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Password""), ""abc"")",Chrome 80.0.3987.149,,,2020-04-04 15:43:26,2020-04-04 15:43:26,0.418s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Error Message/Text Minimum Password Required is 6 Character""), 10)",Chrome 80.0.3987.149,,,2020-04-04 15:43:26,2020-04-04 15:43:27,0.494s,PASSED
+"clearText(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Password""))",Chrome 80.0.3987.149,,,2020-04-04 15:43:27,2020-04-04 15:43:27,0.341s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Password""), ""12345"")",Chrome 80.0.3987.149,,,2020-04-04 15:43:27,2020-04-04 15:43:28,0.613s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Error Message/Text Minimum Password Required is 6 Character""), 10)",Chrome 80.0.3987.149,,,2020-04-04 15:43:28,2020-04-04 15:43:28,0.439s,PASSED
+"clearText(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Password""))",Chrome 80.0.3987.149,,,2020-04-04 15:43:28,2020-04-04 15:43:29,0.338s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Password""), ""!@#$%"")",Chrome 80.0.3987.149,,,2020-04-04 15:43:29,2020-04-04 15:43:29,0.680s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Error Message/Text Minimum Password Required is 6 Character""), 10)",Chrome 80.0.3987.149,,,2020-04-04 15:43:29,2020-04-04 15:43:30,0.418s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/3. Sign In/6. Input Password With Space Character,Chrome 80.0.3987.149,,,2020-04-04 15:43:30,2020-04-04 15:43:52,22.325s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-04-04 15:43:30,2020-04-04 15:43:48,18.323s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-04-04 15:43:48,2020-04-04 15:43:48,0.000s,NOT_RUN
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-04-04 15:43:48,2020-04-04 15:43:48,0.000s,NOT_RUN
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Button Sign In""))",Chrome 80.0.3987.149,,,2020-04-04 15:43:48,2020-04-04 15:43:49,0.602s,PASSED
+"delay(2, STOP_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-04-04 15:43:49,2020-04-04 15:43:51,2.002s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/3. Sign In/Verify Sign In Menu""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-04-04 15:43:51,2020-04-04 15:43:51,0.001s,NOT_RUN
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Email""), 0)",Chrome 80.0.3987.149,,,2020-04-04 15:43:51,2020-04-04 15:43:51,0.356s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Password""), ""      "")",Chrome 80.0.3987.149,,,2020-04-04 15:43:51,2020-04-04 15:43:51,0.400s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Error Message/Text Cant Use Space for Password""), 10)",Chrome 80.0.3987.149,,,2020-04-04 15:43:51,2020-04-04 15:43:52,0.513s,PASSED

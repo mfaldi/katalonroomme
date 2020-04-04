@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Customer Login,Chrome 80.0.3987.132,,,2020-03-13 21:07:12,2020-03-13 21:07:58,46.316s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/Customer Login,Chrome 80.0.3987.132,Customer login to RoomMe.id,login,2020-03-13 21:07:12,2020-03-13 21:07:58,46.141s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.132,,,2020-03-13 21:07:12,2020-03-13 21:07:45,32.537s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Button Sign In""))",Chrome 80.0.3987.132,,,2020-03-13 21:07:45,2020-03-13 21:07:47,1.836s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Email""))",Chrome 80.0.3987.132,,,2020-03-13 21:07:47,2020-03-13 21:07:47,0.531s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Password""))",Chrome 80.0.3987.132,,,2020-03-13 21:07:47,2020-03-13 21:07:48,0.289s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Button Sign In""))",Chrome 80.0.3987.132,,,2020-03-13 21:07:48,2020-03-13 21:07:48,0.287s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Button Forgot Password""))",Chrome 80.0.3987.132,,,2020-03-13 21:07:48,2020-03-13 21:07:48,0.282s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Email""), ""faldinv68@gmail.com"")",Chrome 80.0.3987.132,,,2020-03-13 21:07:48,2020-03-13 21:07:49,0.530s,PASSED
+"setEncryptedText(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Password""), ""aeHFOx8jV/A="")",Chrome 80.0.3987.132,,,2020-03-13 21:07:49,2020-03-13 21:07:49,0.556s,PASSED
+"click(findTestObject(""Web RoomMe.id/Sign In Menu/Button Sign In""))",Chrome 80.0.3987.132,,,2020-03-13 21:07:49,2020-03-13 21:07:50,0.536s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Button User Menu""))",Chrome 80.0.3987.132,,,2020-03-13 21:07:50,2020-03-13 21:07:58,7.766s,PASSED
+"takeScreenshot(""Evidence/Login.png"")",Chrome 80.0.3987.132,,,2020-03-13 21:07:58,2020-03-13 21:07:58,0.714s,PASSED

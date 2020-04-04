@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Customer Login,Chrome 80.0.3987.122,,,2020-02-28 10:47:10,2020-02-28 10:49:12,2m - 1.693s,FAILED
+,,,,,,,
+Test Cases/Web RoomMe.id/Verify Homepage,Chrome 80.0.3987.122,Verify all element on RoomMe.id Homepage,homepage,2020-02-28 10:47:10,2020-02-28 10:49:07,1m - 56.297s,FAILED
+"openBrowser("""")",Chrome 80.0.3987.122,,,2020-02-28 10:47:11,2020-02-28 10:47:17,6.628s,PASSED
+"navigateToUrl(""https://web.roomme.id/"")",Chrome 80.0.3987.122,,,2020-02-28 10:47:17,2020-02-28 10:47:24,6.548s,PASSED
+maximizeWindow(),Chrome 80.0.3987.122,,,2020-02-28 10:47:24,2020-02-28 10:47:28,4.145s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Image Logo Header""))",Chrome 80.0.3987.122,,,2020-02-28 10:47:28,2020-02-28 10:48:15,47.088s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Button  Community""))",Chrome 80.0.3987.122,,,2020-02-28 10:48:15,2020-02-28 10:48:15,0.309s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Button Promo""))",Chrome 80.0.3987.122,,,2020-02-28 10:48:15,2020-02-28 10:48:16,0.297s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Button List Your Unit Here""))",Chrome 80.0.3987.122,,,2020-02-28 10:48:16,2020-02-28 10:48:16,0.310s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Button Sign In""))",Chrome 80.0.3987.122,,,2020-02-28 10:48:16,2020-02-28 10:48:16,0.315s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Button Sign Up""))",Chrome 80.0.3987.122,,,2020-02-28 10:48:16,2020-02-28 10:48:16,0.283s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Image Thumbnail Promo""))",Chrome 80.0.3987.122,,,2020-02-28 10:48:16,2020-02-28 10:49:07,50.135s,FAILED
+,,,,,,,
+Test Cases/Web RoomMe.id/Customer Login,Chrome 80.0.3987.122,Customer login to RoomMe.id,login,2020-02-28 10:49:07,2020-02-28 10:49:12,5.168s,PASSED
+"openBrowser("""")",Chrome 80.0.3987.122,,,2020-02-28 10:49:07,2020-02-28 10:49:07,0.002s,NOT_RUN
+"navigateToUrl(""https://web.roomme.id/"")",Chrome 80.0.3987.122,,,2020-02-28 10:49:07,2020-02-28 10:49:07,0.000s,NOT_RUN
+maximizeWindow(),Chrome 80.0.3987.122,,,2020-02-28 10:49:07,2020-02-28 10:49:07,0.000s,NOT_RUN
+"click(findTestObject(""Web RoomMe.id/Sign In Menu/Button Sign In (Homepage)""))",Chrome 80.0.3987.122,,,2020-02-28 10:49:07,2020-02-28 10:49:07,0.367s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Email""))",Chrome 80.0.3987.122,,,2020-02-28 10:49:07,2020-02-28 10:49:08,0.512s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Password""))",Chrome 80.0.3987.122,,,2020-02-28 10:49:08,2020-02-28 10:49:08,0.295s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Button Sign In""))",Chrome 80.0.3987.122,,,2020-02-28 10:49:08,2020-02-28 10:49:08,0.292s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Button Forgot Password""))",Chrome 80.0.3987.122,,,2020-02-28 10:49:08,2020-02-28 10:49:08,0.283s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Email""), ""hurujy@getnada.com"")",Chrome 80.0.3987.122,,,2020-02-28 10:49:08,2020-02-28 10:49:09,0.641s,PASSED
+"setEncryptedText(findTestObject(""Web RoomMe.id/Sign In Menu/Textfield Password""), ""aeHFOx8jV/A="")",Chrome 80.0.3987.122,,,2020-02-28 10:49:09,2020-02-28 10:49:10,0.559s,PASSED
+"click(findTestObject(""Web RoomMe.id/Sign In Menu/Button Sign In""))",Chrome 80.0.3987.122,,,2020-02-28 10:49:10,2020-02-28 10:49:10,0.524s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Pop Up You have successfully signed in""))",Chrome 80.0.3987.122,,,2020-02-28 10:49:10,2020-02-28 10:49:11,0.593s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Button User Menu""))",Chrome 80.0.3987.122,,,2020-02-28 10:49:11,2020-02-28 10:49:11,0.279s,PASSED
+closeBrowser(),Chrome 80.0.3987.122,,,2020-02-28 10:49:11,2020-02-28 10:49:12,0.651s,PASSED

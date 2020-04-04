@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Customer Login" time="27" tests="1" failures="0" errors="0">
+    <testsuite name="Customer Login" tests="1" failures="0" errors="0" time="27" timestamp="2020-03-26 07:49:10" hostname="LENNONOVO$ - LENNONOVO" id="Test Suites/Web RoomMe.id/Customer Login">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\Faldi\\Katalon Studio\\RoomMe\\Reports\\20200326_074908\\Web RoomMe.id\\Customer Login\\20200326_074908"/>
+            <property name="logFiles" value="C:\\Users\\Faldi\\Katalon Studio\\RoomMe\\Reports\\20200326_074908\\Web RoomMe.id\\Customer Login\\20200326_074908\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="LENNONOVO$ - LENNONOVO"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="Chrome 80.0.3987.149"/>
+            <property name="hostAddress" value="192.168.1.15"/>
+            <property name="sessionId" value="ab13d56b7e9bb5c3de015bade1e19020"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/Web RoomMe.id/Customer Login" classname="Test Cases/Web RoomMe.id/Customer Login" status="PASSED">
+            <system-out>2020-03-26 07:49:10 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Customer Login: Test Cases/Web RoomMe.id/Customer Login&#xD;
+&#xD;
+2020-03-26 07:49:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/Customer Access RoomMe Page' successfully&#xD;
+&#xD;
+2020-03-26 07:49:11 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Customer Access RoomMe Page: Test Cases/Web RoomMe.id/Customer Access RoomMe Page&#xD;
+&#xD;
+2020-03-26 07:49:11 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'&#xD;
+&#xD;
+2020-03-26 07:49:11 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2020-03-26 07:49:11 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2020-03-26 07:49:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'&#xD;
+&#xD;
+2020-03-26 07:49:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized&#xD;
+&#xD;
+2020-03-26 07:49:34 - [MESSAGE][PASSED] - Current window maximized&#xD;
+&#xD;
+2020-03-26 07:49:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/Customer Access RoomMe Page' successfully&#xD;
+&#xD;
+2020-03-26 07:49:34 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In' is clicked on&#xD;
+&#xD;
+2020-03-26 07:49:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In' is clicked on&#xD;
+&#xD;
+2020-03-26 07:49:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is visible&#xD;
+&#xD;
+2020-03-26 07:49:34 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is visible&#xD;
+&#xD;
+2020-03-26 07:49:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is visible&#xD;
+&#xD;
+2020-03-26 07:49:34 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is visible&#xD;
+&#xD;
+2020-03-26 07:49:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Sign In")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In' is visible&#xD;
+&#xD;
+2020-03-26 07:49:34 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In' is visible&#xD;
+&#xD;
+2020-03-26 07:49:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button Forgot Password")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Forgot Password' is visible&#xD;
+&#xD;
+2020-03-26 07:49:34 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Forgot Password' is visible&#xD;
+&#xD;
+2020-03-26 07:49:34 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), "hurujy@getnada.com"): Text 'hurujy@getnada.com' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'&#xD;
+&#xD;
+2020-03-26 07:49:34 - [MESSAGE][PASSED] - Text 'hurujy@getnada.com' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'&#xD;
+&#xD;
+2020-03-26 07:49:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'&#xD;
+&#xD;
+2020-03-26 07:49:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'&#xD;
+&#xD;
+2020-03-26 07:49:35 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is clicked on&#xD;
+&#xD;
+2020-03-26 07:49:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is clicked on&#xD;
+&#xD;
+2020-03-26 07:49:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button User Menu")): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button User Menu' is visible&#xD;
+&#xD;
+2020-03-26 07:49:37 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button User Menu' is visible&#xD;
+&#xD;
+2020-03-26 07:49:37 - [TEST_STEP][NOT_RUN] - takeScreenshot("Evidence/Login.png"): NOT_RUN: takeScreenshot("Evidence/Login.png")&#xD;
+&#xD;
+2020-03-26 07:49:37 - [MESSAGE][NOT_RUN] - NOT_RUN: takeScreenshot("Evidence/Login.png")</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2020-03-26 07:49:10 - [TEST_SUITE][INCOMPLETE] - Customer Login: null</system-out>
+        <system-err>2020-03-26 07:49:10 - [TEST_SUITE][INCOMPLETE] - Customer Login: null</system-err>
+    </testsuite>
+</testsuites>

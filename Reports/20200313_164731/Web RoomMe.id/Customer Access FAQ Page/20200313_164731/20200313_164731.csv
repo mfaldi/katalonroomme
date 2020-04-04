@@ -1,0 +1,96 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Customer Access FAQ Page,Chrome 80.0.3987.132,,,2020-03-13 16:47:34,2020-03-13 16:48:52,1m - 17.648s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/Customer Access FAQ (Booking) Page,Chrome 80.0.3987.132,,faq,2020-03-13 16:47:34,2020-03-13 16:48:15,40.784s,PASSED
+"openBrowser("""")",Chrome 80.0.3987.132,,,2020-03-13 16:47:35,2020-03-13 16:47:42,7.126s,PASSED
+"navigateToUrl(""https://web.roomme.id/"")",Chrome 80.0.3987.132,,,2020-03-13 16:47:42,2020-03-13 16:47:47,4.743s,PASSED
+maximizeWindow(),Chrome 80.0.3987.132,,,2020-03-13 16:47:47,2020-03-13 16:47:51,4.389s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Footer/Button FAQ""))",Chrome 80.0.3987.132,,,2020-03-13 16:47:51,2020-03-13 16:47:52,0.685s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Footer/Button FAQ""))",Chrome 80.0.3987.132,,,2020-03-13 16:47:52,2020-03-13 16:47:54,2.023s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/Verify Header RoomMe.id""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.132,,,2020-03-13 16:47:54,2020-03-13 16:47:56,2.529s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs""))",Chrome 80.0.3987.132,,,2020-03-13 16:47:56,2020-03-13 16:47:57,0.403s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions""))",Chrome 80.0.3987.132,,,2020-03-13 16:47:57,2020-03-13 16:47:57,0.369s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use""))",Chrome 80.0.3987.132,,,2020-03-13 16:47:57,2020-03-13 16:47:57,0.344s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer""))",Chrome 80.0.3987.132,,,2020-03-13 16:47:57,2020-03-13 16:47:58,0.310s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy""))",Chrome 80.0.3987.132,,,2020-03-13 16:47:58,2020-03-13 16:47:58,0.609s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Booking""))",Chrome 80.0.3987.132,,,2020-03-13 16:47:58,2020-03-13 16:47:59,0.516s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Payment""))",Chrome 80.0.3987.132,,,2020-03-13 16:47:59,2020-03-13 16:47:59,0.312s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q1""))",Chrome 80.0.3987.132,,,2020-03-13 16:47:59,2020-03-13 16:48:00,0.305s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q1""), ""Can I make a room booking at kost RoomMe ?"")",Chrome 80.0.3987.132,,,2020-03-13 16:48:00,2020-03-13 16:48:00,0.314s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Text A1""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:00,2020-03-13 16:48:00,0.352s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Text A1""), ""Yes, you can browse through ourlisting for available rooms."")",Chrome 80.0.3987.132,,,2020-03-13 16:48:00,2020-03-13 16:48:00,0.309s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q2""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:00,2020-03-13 16:48:01,0.301s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q2""), ""Can I survey the place prior to making payments ?"")",Chrome 80.0.3987.132,,,2020-03-13 16:48:01,2020-03-13 16:48:01,0.290s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q2""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:01,2020-03-13 16:48:01,0.393s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Text A2""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:01,2020-03-13 16:48:02,0.890s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Text A2""), ""Yes you may and we encourage you to do so! Our survey sessions are held every Monday-Sunday, from 8AM-10PM"")",Chrome 80.0.3987.132,,,2020-03-13 16:48:02,2020-03-13 16:48:03,0.291s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q3""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:03,2020-03-13 16:48:03,0.295s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q3""), ""What consist of the standard facilities provided by RoomMe ?"")",Chrome 80.0.3987.132,,,2020-03-13 16:48:03,2020-03-13 16:48:03,0.302s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q3""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:03,2020-03-13 16:48:04,0.354s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Text A3""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:04,2020-03-13 16:48:04,0.385s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Text A3""), id FAQ Text Data"").getValue(1, 1))",Chrome 80.0.3987.132,,,2020-03-13 16:48:04,2020-03-13 16:48:05,1.204s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q4""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:05,2020-03-13 16:48:05,0.301s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q4""), ""What if I want to move out of my kost before my stay period is over ?"")",Chrome 80.0.3987.132,,,2020-03-13 16:48:05,2020-03-13 16:48:06,0.319s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q4""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:06,2020-03-13 16:48:06,0.355s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Text A4""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:06,2020-03-13 16:48:07,0.369s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Text A4""), ""We have a “No Cancellation Policy” where customers cannot cancel bookings that they have made."")",Chrome 80.0.3987.132,,,2020-03-13 16:48:07,2020-03-13 16:48:07,0.417s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q5""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:07,2020-03-13 16:48:07,0.292s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q5""), ""Can I invite relative/friends to occasionally stay at the kost ?"")",Chrome 80.0.3987.132,,,2020-03-13 16:48:07,2020-03-13 16:48:08,0.288s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q5""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:08,2020-03-13 16:48:08,0.348s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Text A5""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:08,2020-03-13 16:48:08,0.350s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Text A5""), ""Our kost facilities are intended only forregistered and registered tenants. If the tenant wishes to host guests, then a rate of Rp. 250,000 per person per night is required. There is a maximum of 2 people perroom, and if the guest(s) stays for more than 1 day, he/she must provide government-approved identification (PERSONAL IDENTIFICATION CARD [KTP] / DRIVER’S LICENSE [SIM] / PASSPORT)."")",Chrome 80.0.3987.132,,,2020-03-13 16:48:08,2020-03-13 16:48:08,0.002s,NOT_RUN
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q6""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:08,2020-03-13 16:48:09,0.510s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q6""), ""To whom and where do I report to if there is damage in my room ?"")",Chrome 80.0.3987.132,,,2020-03-13 16:48:09,2020-03-13 16:48:09,0.299s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q6""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:09,2020-03-13 16:48:09,0.349s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Text A6""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:09,2020-03-13 16:48:10,0.338s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Text A6""), ""For reports, please call or WhatsApp our customer service at 0821-7666-6300"")",Chrome 80.0.3987.132,,,2020-03-13 16:48:10,2020-03-13 16:48:10,0.512s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/Verify Footer RoomMe.id""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.132,,,2020-03-13 16:48:10,2020-03-13 16:48:15,4.954s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/Customer Access FAQ (Payment) Page,Chrome 80.0.3987.132,,,2020-03-13 16:48:15,2020-03-13 16:48:52,36.484s,PASSED
+"openBrowser("""")",Chrome 80.0.3987.132,,,2020-03-13 16:48:16,2020-03-13 16:48:23,7.293s,PASSED
+"navigateToUrl(""https://web.roomme.id/"")",Chrome 80.0.3987.132,,,2020-03-13 16:48:23,2020-03-13 16:48:24,1.534s,PASSED
+maximizeWindow(),Chrome 80.0.3987.132,,,2020-03-13 16:48:24,2020-03-13 16:48:29,4.196s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/Verify Header RoomMe.id""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.132,,,2020-03-13 16:48:29,2020-03-13 16:48:29,0.001s,NOT_RUN
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Footer/Button FAQ""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:29,2020-03-13 16:48:29,0.365s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Footer/Button FAQ""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:29,2020-03-13 16:48:30,1.583s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/Verify Header RoomMe.id""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.132,,,2020-03-13 16:48:30,2020-03-13 16:48:32,1.952s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:32,2020-03-13 16:48:33,0.343s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:33,2020-03-13 16:48:33,0.333s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:33,2020-03-13 16:48:33,0.323s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:33,2020-03-13 16:48:34,0.633s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:34,2020-03-13 16:48:34,0.314s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Booking""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:34,2020-03-13 16:48:35,0.314s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Payment""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:35,2020-03-13 16:48:35,0.444s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Payment""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:35,2020-03-13 16:48:36,0.403s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q1""), ""What method of payments does RoomMe offer ?"")",Chrome 80.0.3987.132,,,2020-03-13 16:48:36,2020-03-13 16:48:36,0.554s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A1""), id FAQ Text Data"").getValue(1, 2))",Chrome 80.0.3987.132,,,2020-03-13 16:48:36,2020-03-13 16:48:36,0.355s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q2""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:36,2020-03-13 16:48:37,0.297s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q2""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:37,2020-03-13 16:48:37,0.362s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q2""), ""Can I survey the place prior to making payments ?"")",Chrome 80.0.3987.132,,,2020-03-13 16:48:37,2020-03-13 16:48:38,0.869s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A2""), ""No, we provide rental and payment terms in a 1-month, 3-months, 6-months or 12-months contract."")",Chrome 80.0.3987.132,,,2020-03-13 16:48:38,2020-03-13 16:48:38,0.293s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q3""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:38,2020-03-13 16:48:39,0.294s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q3""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:39,2020-03-13 16:48:39,0.331s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q3""), ""Do I have to pay a deposit upfront ?"")",Chrome 80.0.3987.132,,,2020-03-13 16:48:39,2020-03-13 16:48:39,0.341s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A3""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:39,2020-03-13 16:48:40,0.523s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A3""), id FAQ Text Data"").getValue(1, 3))",Chrome 80.0.3987.132,,,2020-03-13 16:48:40,2020-03-13 16:48:40,0.343s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q4""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:40,2020-03-13 16:48:40,0.321s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q4""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:40,2020-03-13 16:48:41,0.346s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q4""), ""Will the payments be addressed to RoomMe or kost owners ?"")",Chrome 80.0.3987.132,,,2020-03-13 16:48:41,2020-03-13 16:48:41,0.319s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A4""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:41,2020-03-13 16:48:42,0.512s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A4""), id FAQ Text Data"").getValue(1, 5))",Chrome 80.0.3987.132,,,2020-03-13 16:48:42,2020-03-13 16:48:42,0.324s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q5""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:42,2020-03-13 16:48:42,0.291s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q5""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:42,2020-03-13 16:48:43,0.336s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q5""), ""Do you have installment programs ?"")",Chrome 80.0.3987.132,,,2020-03-13 16:48:43,2020-03-13 16:48:43,0.344s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A5""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:43,2020-03-13 16:48:43,0.523s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A5""), ""Unfortunately, we do not have any installment programs at the moment"")",Chrome 80.0.3987.132,,,2020-03-13 16:48:43,2020-03-13 16:48:44,0.287s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q6""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:44,2020-03-13 16:48:44,0.289s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q6""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:44,2020-03-13 16:48:44,0.349s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q6""), ""How do I make payments for my kost ?"")",Chrome 80.0.3987.132,,,2020-03-13 16:48:44,2020-03-13 16:48:45,0.344s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A6""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:45,2020-03-13 16:48:45,0.519s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A6""), id FAQ Text Data"").getValue(1, 5))",Chrome 80.0.3987.132,,,2020-03-13 16:48:45,2020-03-13 16:48:46,0.318s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q7""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:46,2020-03-13 16:48:46,0.295s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q7""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:46,2020-03-13 16:48:46,0.347s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q7""), ""Are there any fines imposed on me while staying with RoomMe ?"")",Chrome 80.0.3987.132,,,2020-03-13 16:48:46,2020-03-13 16:48:47,0.340s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A7""))",Chrome 80.0.3987.132,,,2020-03-13 16:48:47,2020-03-13 16:48:47,0.518s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A7""), id FAQ Text Data"").getValue(1, 4))",Chrome 80.0.3987.132,,,2020-03-13 16:48:47,2020-03-13 16:48:47,0.323s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/Verify Footer RoomMe.id""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.132,,,2020-03-13 16:48:47,2020-03-13 16:48:52,4.322s,PASSED

@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Customer Access FAQ Page" time="77.224" tests="2" failures="0" errors="0">
+   <testsuite name="Customer Access FAQ Page" tests="2" failures="0" errors="0" time="77.224" timestamp="2020-03-13 10:15:47" hostname="Win 10 - LENNONOVO" id="Test Suites/Web RoomMe.id/Customer Access FAQ Page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Faldi\\Katalon Studio\\RoomMe\\Reports\\20200313_101544\\Web RoomMe.id\\Customer Access FAQ Page\\20200313_101544"/>
+         <property name="logFiles" value="C:\\Users\\Faldi\\Katalon Studio\\RoomMe\\Reports\\20200313_101544\\Web RoomMe.id\\Customer Access FAQ Page\\20200313_101544\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Win 10 - LENNONOVO"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.6.1"/>
+         <property name="browser" value="Chrome 80.0.3987.132"/>
+         <property name="hostAddress" value="10.241.84.162"/>
+         <property name="sessionId" value="089b1304ad54adfaab1cd019387aec0c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Web RoomMe.id/Customer Access FAQ (Booking) Page" time="38.865" classname="Test Cases/Web RoomMe.id/Customer Access FAQ (Booking) Page" status="PASSED">
+         <system-out><![CDATA[2020-03-13 10:15:47 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Customer Access FAQ (Booking) Page: Test Cases/Web RoomMe.id/Customer Access FAQ (Booking) Page
+
+2020-03-13 10:15:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-03-13 10:15:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-13 10:15:48 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-03-13 10:15:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-13 10:15:54 - [TEST_STEP][PASSED] - navigateToUrl("https://web.roomme.id/"): Navigate to 'https://web.roomme.id/' successfully
+
+2020-03-13 10:15:59 - [MESSAGE][PASSED] - Navigate to 'https://web.roomme.id/' successfully
+
+2020-03-13 10:15:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-03-13 10:16:03 - [MESSAGE][PASSED] - Current window maximized
+
+2020-03-13 10:16:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Footer/Button FAQ")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button FAQ' is visible
+
+2020-03-13 10:16:05 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button FAQ' is visible
+
+2020-03-13 10:16:05 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Footer/Button FAQ")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button FAQ' is clicked on
+
+2020-03-13 10:16:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button FAQ' is clicked on
+
+2020-03-13 10:16:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/Verify Header RoomMe.id' successfully
+
+2020-03-13 10:16:06 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Verify Header RoomMe.id: Test Cases/Web RoomMe.id/Verify Header RoomMe.id
+
+2020-03-13 10:16:06 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\RoomMe.id Header\": null
+
+2020-03-13 10:16:06 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-03-13 10:16:06 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-03-13 10:16:06 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-03-13 10:16:06 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-03-13 10:16:06 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-03-13 10:16:06 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:06 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:06 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:06 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:06 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:06 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:06 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:06 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:06 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:06 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:06 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:06 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:06 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:06 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-03-13 10:16:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Are You Landlord' is visible
+
+2020-03-13 10:16:07 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Are You Landlord' is visible
+
+2020-03-13 10:16:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Community' is visible
+
+2020-03-13 10:16:07 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Community' is visible
+
+2020-03-13 10:16:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Sign In' is visible
+
+2020-03-13 10:16:08 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Sign In' is visible
+
+2020-03-13 10:16:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-03-13 10:16:08 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-03-13 10:16:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/Verify Header RoomMe.id' successfully
+
+2020-03-13 10:16:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs' is visible
+
+2020-03-13 10:16:08 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs' is visible
+
+2020-03-13 10:16:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions' is visible
+
+2020-03-13 10:16:09 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions' is visible
+
+2020-03-13 10:16:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use' is visible
+
+2020-03-13 10:16:09 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use' is visible
+
+2020-03-13 10:16:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer' is visible
+
+2020-03-13 10:16:10 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer' is visible
+
+2020-03-13 10:16:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy' is visible
+
+2020-03-13 10:16:10 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy' is visible
+
+2020-03-13 10:16:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Booking")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Booking' is visible
+
+2020-03-13 10:16:10 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Booking' is visible
+
+2020-03-13 10:16:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Payment")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Payment' is visible
+
+2020-03-13 10:16:10 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Payment' is visible
+
+2020-03-13 10:16:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q1")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q1' is visible
+
+2020-03-13 10:16:11 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q1' is visible
+
+2020-03-13 10:16:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q1"), "Can I make a room booking at kost RoomMe ?"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q1' are matched.
+
+2020-03-13 10:16:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q1' are matched.
+
+2020-03-13 10:16:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Text A1")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A1' is visible
+
+2020-03-13 10:16:12 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A1' is visible
+
+2020-03-13 10:16:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Text A1"), "Yes, you can browse through ourlisting for available rooms."): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A1' are matched.
+
+2020-03-13 10:16:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A1' are matched.
+
+2020-03-13 10:16:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q2")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q2' is visible
+
+2020-03-13 10:16:12 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q2' is visible
+
+2020-03-13 10:16:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q2"), "Can I survey the place prior to making payments ?"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q2' are matched.
+
+2020-03-13 10:16:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q2' are matched.
+
+2020-03-13 10:16:12 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q2")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q2' is clicked on
+
+2020-03-13 10:16:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q2' is clicked on
+
+2020-03-13 10:16:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Text A2")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A2' is visible
+
+2020-03-13 10:16:14 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A2' is visible
+
+2020-03-13 10:16:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Text A2"), "Yes you may and we encourage you to do so! Our survey sessions are held every Monday-Sunday, from 8AM-10PM"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A2' are matched.
+
+2020-03-13 10:16:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A2' are matched.
+
+2020-03-13 10:16:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q3")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q3' is visible
+
+2020-03-13 10:16:14 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q3' is visible
+
+2020-03-13 10:16:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q3"), "What consist of the standard facilities provided by RoomMe ?"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q3' are matched.
+
+2020-03-13 10:16:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q3' are matched.
+
+2020-03-13 10:16:15 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q3")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q3' is clicked on
+
+2020-03-13 10:16:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q3' is clicked on
+
+2020-03-13 10:16:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Text A3")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A3' is visible
+
+2020-03-13 10:16:15 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A3' is visible
+
+2020-03-13 10:16:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Text A3"), id FAQ Text Data").getValue(1, 1)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A3' are matched.
+
+2020-03-13 10:16:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A3' are matched.
+
+2020-03-13 10:16:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q4")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q4' is visible
+
+2020-03-13 10:16:17 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q4' is visible
+
+2020-03-13 10:16:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q4"), "What if I want to move out of my kost before my stay period is over ?"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q4' are matched.
+
+2020-03-13 10:16:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q4' are matched.
+
+2020-03-13 10:16:17 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q4")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q4' is clicked on
+
+2020-03-13 10:16:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q4' is clicked on
+
+2020-03-13 10:16:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Text A4")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A4' is visible
+
+2020-03-13 10:16:18 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A4' is visible
+
+2020-03-13 10:16:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Text A4"), "We have a “No Cancellation Policy” where customers cannot cancel bookings that they have made."): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A4' are matched.
+
+2020-03-13 10:16:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A4' are matched.
+
+2020-03-13 10:16:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q5")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q5' is visible
+
+2020-03-13 10:16:19 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q5' is visible
+
+2020-03-13 10:16:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q5"), "Can I invite relative/friends to occasionally stay at the kost ?"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q5' are matched.
+
+2020-03-13 10:16:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q5' are matched.
+
+2020-03-13 10:16:19 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q5")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q5' is clicked on
+
+2020-03-13 10:16:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q5' is clicked on
+
+2020-03-13 10:16:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Text A5")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A5' is visible
+
+2020-03-13 10:16:19 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A5' is visible
+
+2020-03-13 10:16:19 - [TEST_STEP][NOT_RUN] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Text A5"), "Our kost facilities are intended only forregistered and registered tenants. If the tenant wishes to host guests, then a rate of Rp. 250,000 per person per night is required. There is a maximum of 2 people perroom, and if the guest(s) stays for more than 1 day, he/she must provide government-approved identification (PERSONAL IDENTIFICATION CARD [KTP] / DRIVER’S LICENSE [SIM] / PASSPORT)."): NOT_RUN: verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Text A5"), "Our kost facilities are intended only forregistered and registered tenants. If the tenant wishes to host guests, then a rate of Rp. 250,000 per person per night is required. There is a maximum of 2 people perroom, and if the guest(s) stays for more than 1 day, he/she must provide government-approved identification (PERSONAL IDENTIFICATION CARD [KTP] / DRIVER’S LICENSE [SIM] / PASSPORT).")
+
+2020-03-13 10:16:19 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Text A5"), "Our kost facilities are intended only forregistered and registered tenants. If the tenant wishes to host guests, then a rate of Rp. 250,000 per person per night is required. There is a maximum of 2 people perroom, and if the guest(s) stays for more than 1 day, he/she must provide government-approved identification (PERSONAL IDENTIFICATION CARD [KTP] / DRIVER’S LICENSE [SIM] / PASSPORT).")
+
+2020-03-13 10:16:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q6")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q6' is visible
+
+2020-03-13 10:16:20 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q6' is visible
+
+2020-03-13 10:16:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q6"), "To whom and where do I report to if there is damage in my room ?"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q6' are matched.
+
+2020-03-13 10:16:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q6' are matched.
+
+2020-03-13 10:16:20 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q6")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q6' is clicked on
+
+2020-03-13 10:16:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q6' is clicked on
+
+2020-03-13 10:16:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Text A6")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A6' is visible
+
+2020-03-13 10:16:21 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A6' is visible
+
+2020-03-13 10:16:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Text A6"), "For reports, please call or WhatsApp our customer service at 0821-7666-6300"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A6' are matched.
+
+2020-03-13 10:16:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A6' are matched.
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/Verify Footer RoomMe.id' successfully
+
+2020-03-13 10:16:22 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Verify Footer RoomMe.id: Test Cases/Web RoomMe.id/Verify Footer RoomMe.id
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\RoomMe.id Footer\": null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Text RoomMe' is visible
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Button About Us' is visible
+
+2020-03-13 10:16:22 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Button About Us' is visible
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Button Contact Us' is visible
+
+2020-03-13 10:16:22 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Button Contact Us' is visible
+
+2020-03-13 10:16:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Button Disclaimer' is visible
+
+2020-03-13 10:16:23 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Button Disclaimer' is visible
+
+2020-03-13 10:16:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Button FAQ' is visible
+
+2020-03-13 10:16:23 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Button FAQ' is visible
+
+2020-03-13 10:16:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Button Privacy Policy' is visible
+
+2020-03-13 10:16:23 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Button Privacy Policy' is visible
+
+2020-03-13 10:16:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Button Terms Conditions' is visible
+
+2020-03-13 10:16:24 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Button Terms Conditions' is visible
+
+2020-03-13 10:16:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Button Terms of Use' is visible
+
+2020-03-13 10:16:24 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Button Terms of Use' is visible
+
+2020-03-13 10:16:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Image Logo Footer' is visible
+
+2020-03-13 10:16:24 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Image Logo Footer' is visible
+
+2020-03-13 10:16:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\img_Get Started_m-2' is visible
+
+2020-03-13 10:16:24 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\img_Get Started_m-2' is visible
+
+2020-03-13 10:16:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Text 2020 RoomMe All Right Reserved' is visible
+
+2020-03-13 10:16:25 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Text 2020 RoomMe All Right Reserved' is visible
+
+2020-03-13 10:16:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Text Download RoomMe App' is visible
+
+2020-03-13 10:16:25 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Text Download RoomMe App' is visible
+
+2020-03-13 10:16:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Text Follow Us' is visible
+
+2020-03-13 10:16:25 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Text Follow Us' is visible
+
+2020-03-13 10:16:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Text Our Terms' is visible
+
+2020-03-13 10:16:26 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Text Our Terms' is visible
+
+2020-03-13 10:16:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Text RoomMe' is visible
+
+2020-03-13 10:16:26 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Text RoomMe' is visible
+
+2020-03-13 10:16:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/Verify Footer RoomMe.id' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/Customer Access FAQ (Payment) Page" time="37.092" classname="Test Cases/Web RoomMe.id/Customer Access FAQ (Payment) Page" status="PASSED">
+         <system-out><![CDATA[2020-03-13 10:16:26 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Customer Access FAQ (Payment) Page: Test Cases/Web RoomMe.id/Customer Access FAQ (Payment) Page
+
+2020-03-13 10:16:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-03-13 10:16:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-03-13 10:16:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-13 10:16:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-13 10:16:32 - [TEST_STEP][PASSED] - navigateToUrl("https://web.roomme.id/"): Navigate to 'https://web.roomme.id/' successfully
+
+2020-03-13 10:16:37 - [MESSAGE][PASSED] - Navigate to 'https://web.roomme.id/' successfully
+
+2020-03-13 10:16:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-03-13 10:16:41 - [MESSAGE][PASSED] - Current window maximized
+
+2020-03-13 10:16:41 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-03-13 10:16:41 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-03-13 10:16:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Footer/Button FAQ")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button FAQ' is visible
+
+2020-03-13 10:16:41 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button FAQ' is visible
+
+2020-03-13 10:16:41 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Footer/Button FAQ")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button FAQ' is clicked on
+
+2020-03-13 10:16:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button FAQ' is clicked on
+
+2020-03-13 10:16:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/Verify Header RoomMe.id' successfully
+
+2020-03-13 10:16:43 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Verify Header RoomMe.id: Test Cases/Web RoomMe.id/Verify Header RoomMe.id
+
+2020-03-13 10:16:43 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\RoomMe.id Header\": null
+
+2020-03-13 10:16:43 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-03-13 10:16:43 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-03-13 10:16:43 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-03-13 10:16:43 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-03-13 10:16:43 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-03-13 10:16:43 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:43 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:43 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:43 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:43 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:43 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:43 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:43 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:43 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:43 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:43 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:43 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:43 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:43 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-03-13 10:16:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Are You Landlord' is visible
+
+2020-03-13 10:16:43 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Are You Landlord' is visible
+
+2020-03-13 10:16:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Community' is visible
+
+2020-03-13 10:16:44 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Community' is visible
+
+2020-03-13 10:16:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Sign In' is visible
+
+2020-03-13 10:16:44 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Sign In' is visible
+
+2020-03-13 10:16:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-03-13 10:16:44 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-03-13 10:16:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/Verify Header RoomMe.id' successfully
+
+2020-03-13 10:16:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs' is visible
+
+2020-03-13 10:16:45 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs' is visible
+
+2020-03-13 10:16:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions' is visible
+
+2020-03-13 10:16:45 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions' is visible
+
+2020-03-13 10:16:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use' is visible
+
+2020-03-13 10:16:45 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use' is visible
+
+2020-03-13 10:16:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer' is visible
+
+2020-03-13 10:16:46 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer' is visible
+
+2020-03-13 10:16:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy' is visible
+
+2020-03-13 10:16:46 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy' is visible
+
+2020-03-13 10:16:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Booking")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Booking' is visible
+
+2020-03-13 10:16:47 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Booking' is visible
+
+2020-03-13 10:16:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Payment")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Payment' is visible
+
+2020-03-13 10:16:47 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Payment' is visible
+
+2020-03-13 10:16:47 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Payment")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Payment' is clicked on
+
+2020-03-13 10:16:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Payment' is clicked on
+
+2020-03-13 10:16:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q1"), "What method of payments does RoomMe offer ?"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q1' are matched.
+
+2020-03-13 10:16:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q1' are matched.
+
+2020-03-13 10:16:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A1"), id FAQ Text Data").getValue(1, 2)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A1' are matched.
+
+2020-03-13 10:16:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A1' are matched.
+
+2020-03-13 10:16:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q2")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q2' is visible
+
+2020-03-13 10:16:49 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q2' is visible
+
+2020-03-13 10:16:49 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q2")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q2' is clicked on
+
+2020-03-13 10:16:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q2' is clicked on
+
+2020-03-13 10:16:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q2"), "Can I survey the place prior to making payments ?"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q2' are matched.
+
+2020-03-13 10:16:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q2' are matched.
+
+2020-03-13 10:16:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A2"), "No, we provide rental and payment terms in a 1-month, 3-months, 6-months or 12-months contract."): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A2' are matched.
+
+2020-03-13 10:16:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A2' are matched.
+
+2020-03-13 10:16:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q3")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q3' is visible
+
+2020-03-13 10:16:50 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q3' is visible
+
+2020-03-13 10:16:50 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q3")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q3' is clicked on
+
+2020-03-13 10:16:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q3' is clicked on
+
+2020-03-13 10:16:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q3"), "Do I have to pay a deposit upfront ?"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q3' are matched.
+
+2020-03-13 10:16:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q3' are matched.
+
+2020-03-13 10:16:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A3")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A3' is visible
+
+2020-03-13 10:16:51 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A3' is visible
+
+2020-03-13 10:16:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A3"), id FAQ Text Data").getValue(1, 3)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A3' are matched.
+
+2020-03-13 10:16:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A3' are matched.
+
+2020-03-13 10:16:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q4")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q4' is visible
+
+2020-03-13 10:16:52 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q4' is visible
+
+2020-03-13 10:16:52 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q4")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q4' is clicked on
+
+2020-03-13 10:16:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q4' is clicked on
+
+2020-03-13 10:16:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q4"), "Will the payments be addressed to RoomMe or kost owners ?"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q4' are matched.
+
+2020-03-13 10:16:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q4' are matched.
+
+2020-03-13 10:16:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A4")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A4' is visible
+
+2020-03-13 10:16:53 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A4' is visible
+
+2020-03-13 10:16:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A4"), id FAQ Text Data").getValue(1, 5)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A4' are matched.
+
+2020-03-13 10:16:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A4' are matched.
+
+2020-03-13 10:16:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q5")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q5' is visible
+
+2020-03-13 10:16:54 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q5' is visible
+
+2020-03-13 10:16:54 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q5")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q5' is clicked on
+
+2020-03-13 10:16:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q5' is clicked on
+
+2020-03-13 10:16:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q5"), "Do you have installment programs ?"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q5' are matched.
+
+2020-03-13 10:16:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q5' are matched.
+
+2020-03-13 10:16:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A5")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A5' is visible
+
+2020-03-13 10:16:55 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A5' is visible
+
+2020-03-13 10:16:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A5"), "Unfortunately, we do not have any installment programs at the moment"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A5' are matched.
+
+2020-03-13 10:16:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A5' are matched.
+
+2020-03-13 10:16:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q6")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q6' is visible
+
+2020-03-13 10:16:56 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q6' is visible
+
+2020-03-13 10:16:56 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q6")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q6' is clicked on
+
+2020-03-13 10:16:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q6' is clicked on
+
+2020-03-13 10:16:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q6"), "How do I make payments for my kost ?"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q6' are matched.
+
+2020-03-13 10:16:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q6' are matched.
+
+2020-03-13 10:16:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A6")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A6' is visible
+
+2020-03-13 10:16:57 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A6' is visible
+
+2020-03-13 10:16:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A6"), id FAQ Text Data").getValue(1, 5)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A6' are matched.
+
+2020-03-13 10:16:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A6' are matched.
+
+2020-03-13 10:16:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q7")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q7' is visible
+
+2020-03-13 10:16:57 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q7' is visible
+
+2020-03-13 10:16:57 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q7")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q7' is clicked on
+
+2020-03-13 10:16:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q7' is clicked on
+
+2020-03-13 10:16:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q7"), "Are there any fines imposed on me while staying with RoomMe ?"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q7' are matched.
+
+2020-03-13 10:16:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q7' are matched.
+
+2020-03-13 10:16:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A7")): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A7' is visible
+
+2020-03-13 10:16:59 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A7' is visible
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A7"), id FAQ Text Data").getValue(1, 4)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A7' are matched.
+
+2020-03-13 10:16:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A7' are matched.
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/Verify Footer RoomMe.id' successfully
+
+2020-03-13 10:16:59 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/Verify Footer RoomMe.id: Test Cases/Web RoomMe.id/Verify Footer RoomMe.id
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\RoomMe.id Footer\": null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Text RoomMe' is visible
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Button About Us' is visible
+
+2020-03-13 10:16:59 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Button About Us' is visible
+
+2020-03-13 10:16:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Button Contact Us' is visible
+
+2020-03-13 10:17:00 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Button Contact Us' is visible
+
+2020-03-13 10:17:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Button Disclaimer' is visible
+
+2020-03-13 10:17:00 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Button Disclaimer' is visible
+
+2020-03-13 10:17:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Button FAQ' is visible
+
+2020-03-13 10:17:00 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Button FAQ' is visible
+
+2020-03-13 10:17:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Button Privacy Policy' is visible
+
+2020-03-13 10:17:00 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Button Privacy Policy' is visible
+
+2020-03-13 10:17:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Button Terms Conditions' is visible
+
+2020-03-13 10:17:01 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Button Terms Conditions' is visible
+
+2020-03-13 10:17:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Button Terms of Use' is visible
+
+2020-03-13 10:17:01 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Button Terms of Use' is visible
+
+2020-03-13 10:17:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Image Logo Footer' is visible
+
+2020-03-13 10:17:01 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Image Logo Footer' is visible
+
+2020-03-13 10:17:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\img_Get Started_m-2' is visible
+
+2020-03-13 10:17:02 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\img_Get Started_m-2' is visible
+
+2020-03-13 10:17:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Text 2020 RoomMe All Right Reserved' is visible
+
+2020-03-13 10:17:02 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Text 2020 RoomMe All Right Reserved' is visible
+
+2020-03-13 10:17:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Text Download RoomMe App' is visible
+
+2020-03-13 10:17:02 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Text Download RoomMe App' is visible
+
+2020-03-13 10:17:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Text Follow Us' is visible
+
+2020-03-13 10:17:02 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Text Follow Us' is visible
+
+2020-03-13 10:17:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Text Our Terms' is visible
+
+2020-03-13 10:17:03 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Text Our Terms' is visible
+
+2020-03-13 10:17:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Text RoomMe' is visible
+
+2020-03-13 10:17:03 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Footer\Text RoomMe' is visible
+
+2020-03-13 10:17:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/Verify Footer RoomMe.id' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-13 10:15:47 - [TEST_SUITE][PASSED] - Customer Access FAQ Page: Test Cases/Web RoomMe.id/Customer Access FAQ (Payment) Page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

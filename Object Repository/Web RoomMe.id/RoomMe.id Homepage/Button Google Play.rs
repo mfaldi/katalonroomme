@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button Google Play</name>
+   <tag></tag>
+   <elementGuidId>616a5920-0731-4f98-b59d-2a3498639744</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[4]/div/div[4]/a/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>anima-src</name>
+      <type>Main</type>
+      <value>~/assets/icons/ic-google-play-badge.svg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/_nuxt/img/35b4237.svg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__layout&quot;)/div[1]/div[@class=&quot;container-fluid m-0 p-0&quot;]/div[@class=&quot;row m-0 p-0 d-flex&quot;]/div[@class=&quot;col-lg-12 col-md-12 col-sm-12 m-0 p-0&quot;]/div[@class=&quot;card m-0 p-0&quot;]/div[@class=&quot;card-content d-none d-md-block&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row m-0&quot;]/div[@class=&quot;col-md-3 col-sm-12 my-2&quot;]/div[@class=&quot;card-transparent&quot;]/div[@class=&quot;card-content&quot;]/a[1]/img[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__layout']/div/div[3]/div/div/div/div/div/div/div[4]/div/div[4]/a/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[4]/a/img</value>
+   </webElementXpaths>
+</WebElementEntity>

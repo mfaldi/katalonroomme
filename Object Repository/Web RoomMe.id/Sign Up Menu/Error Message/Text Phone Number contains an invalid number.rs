@@ -6,11 +6,15 @@
    <elementGuidId>5f05432c-e12e-43d3-a083-45db8a7b8fb9</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(contains(text(), 'Phone Number contains an invalid number ') or contains(., 'Phone Number contains an invalid number '))]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='dropdown-auth']/ul/div/div/div/div/form/div/div[3]/div/div[2]/span</value>
+         <value>//div[3]/div/div[2]/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

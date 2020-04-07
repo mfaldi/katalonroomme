@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Web RoomMe.id/3. Sign In/1. Login With Valid Credential'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Web RoomMe.id/Search Kost Menu/input'), 'tebet')
+WebUI.setText(findTestObject('Web RoomMe.id/Search Kost Menu/Textfield Location'), 'tebet')
 
 WebUI.click(findTestObject('Web RoomMe.id/RoomMe.id Homepage/Text Suggestion Location (Tebet)'))
 

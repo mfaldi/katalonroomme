@@ -87,7 +87,7 @@ WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Privacy Policy Page/Bu
 
 WebUI.verifyElementText(findTestObject('Web RoomMe.id/Privacy Policy Page/Button Q5'), 'Transfer of Data')
 
-WebUI.scrollToPosition(0, 600)
+WebUI.scrollToElement(findTestObject('Web RoomMe.id/Privacy Policy Page/Button Q4'), 0)
 
 WebUI.verifyElementInViewport(findTestObject('Web RoomMe.id/Privacy Policy Page/Button Q5'), 0)
 

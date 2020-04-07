@@ -18,23 +18,25 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id'), [:], FailureHandling.STOP_ON_FAILURE)
 
 not_run: WebUI.callTestCase(findTestCase('Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Web RoomMe.id/RoomMe.id Homepage/Button Sign In'))
 
-WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementClickable(findTestObject('Web RoomMe.id/Sign In Menu/Textfield Email'), 0)
 
-not_run: WebUI.callTestCase(findTestCase('Web RoomMe.id/3. Sign In/Verify Sign In Menu'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementClickable(findTestObject('Web RoomMe.id/Sign In Menu/Textfield Password'), 0)
 
-WebUI.setText(findTestObject('Web RoomMe.id/Sign In Menu/Textfield Email'), 'faldinv68@gmail.com')
+WebUI.callTestCase(findTestCase('Web RoomMe.id/3. Sign In/Verify Sign In Menu'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Web RoomMe.id/Sign In Menu/Textfield Email'), 'hurujy@getnada.com')
 
 WebUI.setEncryptedText(findTestObject('Web RoomMe.id/Sign In Menu/Textfield Password'), 'aeHFOx8jV/A=')
 
 WebUI.click(findTestObject('Web RoomMe.id/Sign In Menu/Button Sign In'))
 
-WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/RoomMe.id Header/User Menu/User Menu'), 10)
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/RoomMe.id Header/User Menu/User Menu'), 10, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/RoomMe.id Header/User Menu/User Profile Image'), 10)
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/RoomMe.id Header/User Menu/User Profile Image'), 10, FailureHandling.STOP_ON_FAILURE)
 

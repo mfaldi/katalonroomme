@@ -35,6 +35,6 @@ for (int i = 0; i < fileNames.length; i++) {
 }
 
 for (String obj : testObjects) {
-    WebUI.waitForElementVisible(findTestObject(obj), 0, FailureHandling.STOP_ON_FAILURE)
+    WebUI.waitForElementVisible(findTestObject(obj), 30, FailureHandling.STOP_ON_FAILURE)
 }
 

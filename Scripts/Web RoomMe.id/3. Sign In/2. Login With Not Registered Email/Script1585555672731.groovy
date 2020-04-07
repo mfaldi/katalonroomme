@@ -27,7 +27,9 @@ WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 not_run: WebUI.callTestCase(findTestCase('Web RoomMe.id/3. Sign In/Verify Sign In Menu'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign In Menu/Textfield Email'), 0)
+WebUI.waitForElementClickable(findTestObject('Web RoomMe.id/Sign In Menu/Textfield Email'), 0)
+
+WebUI.waitForElementClickable(findTestObject('Web RoomMe.id/Sign In Menu/Textfield Password'), 0)
 
 WebUI.setText(findTestObject('Web RoomMe.id/Sign In Menu/Textfield Email'), 'burujy@getnada.com')
 

@@ -23,11 +23,11 @@ not_run: WebUI.callTestCase(findTestCase('Web RoomMe.id/1. Homepage/7. Verify Fo
 
 WebUI.click(findTestObject('Web RoomMe.id/RoomMe.id Homepage/Button Sign In'))
 
-WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementClickable(findTestObject('Web RoomMe.id/Sign In Menu/Textfield Email'), 0)
+
+WebUI.waitForElementClickable(findTestObject('Web RoomMe.id/Sign In Menu/Textfield Password'), 0)
 
 not_run: WebUI.callTestCase(findTestCase('Web RoomMe.id/3. Sign In/Verify Sign In Menu'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign In Menu/Textfield Email'), 0)
 
 WebUI.setText(findTestObject('Web RoomMe.id/Sign In Menu/Textfield Email'), 'hurujy@getnada.com')
 

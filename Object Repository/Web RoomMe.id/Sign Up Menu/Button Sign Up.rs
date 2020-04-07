@@ -6,11 +6,15 @@
    <elementGuidId>ec7dd5b2-0be9-4ca9-9913-1cbc12389c55</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'btSignUp' and @type = 'submit' and (contains(text(), 'Sign Up') or contains(., 'Sign Up'))]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//button[@id='btSignUp']</value>
+         <value>//form/div/button</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

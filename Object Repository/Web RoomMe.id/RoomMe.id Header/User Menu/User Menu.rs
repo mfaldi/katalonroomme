@@ -6,11 +6,15 @@
    <elementGuidId>bd7093ff-42a8-4e5b-8da9-347ee3692c89</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;dropdown-profile__BV_toggle_&quot;)/span[1]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//button[@id='dropdown-profile__BV_toggle_']/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

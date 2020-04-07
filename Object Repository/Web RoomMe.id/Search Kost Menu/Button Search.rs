@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Search')]</value>
+         <value>//div[2]/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,30 +24,28 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>search-button</value>
+      <value>btn btn-block btn-outline-primary btn-search</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-          Search
-        </value>
+      <value>Search</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__layout&quot;)/div[1]/div[@class=&quot;mobileversion h-auto&quot;]/div[@class=&quot;my-5&quot;]/div[1]/form[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-2 butt&quot;]/a[@class=&quot;search-button&quot;]</value>
+      <value>id(&quot;__layout&quot;)/div[1]/div[@class=&quot;page-content&quot;]/div[1]/div[@class=&quot;search-wrapper mb-5&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;search-container&quot;]/div[@class=&quot;search-form&quot;]/form[1]/div[@class=&quot;row row-5&quot;]/div[@class=&quot;col-md-2 search-button&quot;]/div[@class=&quot;form-group mb-0 mt-2 mt-md-0&quot;]/a[@class=&quot;btn btn-block btn-outline-primary btn-search&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__layout']/div/div[2]/div[2]/div/form/div/div[3]/a</value>
+      <value>//div[@id='__layout']/div/div[2]/div/div[2]/div/div/div[2]/form/div/div[2]/div/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,21 +66,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Additional'])[1]/following::a[11]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Additional'])[1]/following::a[17]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Why choosing us ?'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Why RoomMe?'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Affordable Price'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Free Wifi'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,6 +94,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/a</value>
+      <value>//div[2]/div/a</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -4,11 +4,11 @@
    <name>Customer Login</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>faldinv68@gmail.com;</mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
-   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
    <testSuiteGuid>c89ff13d-ed72-44de-8ab0-3bf4d10e4650</testSuiteGuid>
    <testCaseLink>
       <guid>8a3385f2-f0ce-41d0-b724-e334a9eb6d7f</guid>

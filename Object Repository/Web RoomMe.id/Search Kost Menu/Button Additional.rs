@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='0 Days']/parent::*</value>
+         <value>//div[3]/div/div/div[2]/div/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -52,35 +52,35 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>__BVID__85__BV_toggle_</value>
+      <value>__BVID__62__BV_toggle_</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>0 Days</value>
+      <value>0 Day</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__BVID__85__BV_toggle_&quot;)</value>
+      <value>id(&quot;__BVID__62__BV_toggle_&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='__BVID__85__BV_toggle_']</value>
+      <value>//button[@id='__BVID__62__BV_toggle_']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__BVID__85']/button</value>
+      <value>//div[@id='__BVID__62']/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,13 +115,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='0 Days']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='0 Day']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/button</value>
+      <value>//div[3]/div/div/div[2]/div/button</value>
    </webElementXpaths>
 </WebElementEntity>

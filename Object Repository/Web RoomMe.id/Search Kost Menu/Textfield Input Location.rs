@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//md-autocomplete/div/input</value>
+         <value>//div[@id='__layout']/div/div[2]/div/div[2]/div/div/div[2]/form/div/div/div/div/div/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,13 +29,6 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>md-input-kx90riud7</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>Cari Lokasi Kost</value>
@@ -45,34 +38,34 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>md-input</value>
+      <value>form-control auto-complete</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;md-input-kx90riud7&quot;)</value>
+      <value>id(&quot;__layout&quot;)/div[1]/div[@class=&quot;page-content&quot;]/div[1]/div[@class=&quot;search-wrapper mb-5&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;search-container&quot;]/div[@class=&quot;search-form&quot;]/form[1]/div[@class=&quot;row row-5&quot;]/div[@class=&quot;col-md-10 search-fields&quot;]/div[@class=&quot;row row-5&quot;]/div[@class=&quot;col-md-4&quot;]/div[@class=&quot;form-group mb-3 mb-md-0&quot;]/div[@class=&quot;input-group search-group&quot;]/input[@class=&quot;form-control auto-complete&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='md-input-kx90riud7']</value>
+      <value>//input[@value='']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__layout']/div/div[2]/div/div[2]/div/div/div[2]/form/div/div/div/div/div/div/md-autocomplete/div/input</value>
+      <value>//div[@id='__layout']/div/div[2]/div/div[2]/div/div/div[2]/form/div/div/div/div/div/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//md-autocomplete/div/input</value>
+      <value>//input</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -24,10 +24,6 @@ WebUI.maximizeWindow()
 
 WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/RoomMe.id Homepage/Image Logo Header'))
 
-WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/RoomMe.id Homepage/Button  Community'))
-
-not_run: WebUI.verifyElementVisible(findTestObject('null'))
-
 WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/RoomMe.id Homepage/Button List Your Unit Here'))
 
 WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/RoomMe.id Homepage/Button Sign In'))

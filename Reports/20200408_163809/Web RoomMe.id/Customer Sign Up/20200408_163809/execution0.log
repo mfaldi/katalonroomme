@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-04-08T16:38:11</date>
+  <millis>1586338691973</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Web RoomMe.id/Customer Sign Up</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Customer Sign Up</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Web RoomMe.id/Customer Sign Up</property>
+</record>
+<record>
+  <date>2020-04-08T16:38:11</date>
+  <millis>1586338691992</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = LENNONOVO$ - LENNONOVO</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">LENNONOVO$ - LENNONOVO</property>
+</record>
+<record>
+  <date>2020-04-08T16:38:11</date>
+  <millis>1586338691993</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2020-04-08T16:38:11</date>
+  <millis>1586338691994</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.1.15</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.1.15</property>
+</record>
+<record>
+  <date>2020-04-08T16:38:11</date>
+  <millis>1586338691995</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.3.3.11</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.3.3.11</property>
+</record>
+<record>
+  <date>2020-04-08T16:38:12</date>
+  <millis>1586338692270</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Web RoomMe.id/2. Sign Up/8. Sign Up with Already Registered Email</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Web RoomMe.id/2. Sign Up/8. Sign Up with Already Registered Email</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Web RoomMe.id/2. Sign Up/8. Sign Up with Already Registered Email</property>
+  <property name="source">C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Test Cases\\Web RoomMe.id\\2. Sign Up\\8. Sign Up with Already Registered Email.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-04-08T16:38:12</date>
+  <millis>1586338692771</millis>
+  <sequence>8</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Web RoomMe.id/2. Sign Up/8. Sign Up with Already Registered Email FAILED.\nReason:\norg.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\r\nfile:/C:/Users/Faldi/Katalon%20Studio/katalonroomme-master/Scripts/Web%20RoomMe.id/2.%20Sign%20Up/8.%20Sign%20Up%20with%20Already%20Registered%20Email/Script1586330458026.groovy: 15: unable to resolve class com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords\n @ line 15, column 1.\r\n   import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows\r\n   ^\r\n\r\n1 error\r\n\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1586338689719.run(TempTestSuite1586338689719.groovy:35)\r\n</message>
+  <exception>
+    <message>org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Faldi/Katalon%20Studio/katalonroomme-master/Scripts/Web%20RoomMe.id/2.%20Sign%20Up/8.%20Sign%20Up%20with%20Already%20Registered%20Email/Script1586330458026.groovy: 15: unable to resolve class com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords
+ @ line 15, column 1.
+   import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+   ^
+
+1 error
+</message>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>getScript</method>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1586338689719</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\r\nfile:/C:/Users/Faldi/Katalon%20Studio/katalonroomme-master/Scripts/Web%20RoomMe.id/2.%20Sign%20Up/8.%20Sign%20Up%20with%20Already%20Registered%20Email/Script1586330458026.groovy: 15: unable to resolve class com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords\n @ line 15, column 1.\r\n   import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows\r\n   ^\r\n\r\n1 error\r\n\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1586338689719.run(TempTestSuite1586338689719.groovy:35)\r\n</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:\r\nfile:/C:/Users/Faldi/Katalon%20Studio/katalonroomme-master/Scripts/Web%20RoomMe.id/2.%20Sign%20Up/8.%20Sign%20Up%20with%20Already%20Registered%20Email/Script1586330458026.groovy: 15: unable to resolve class com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords\n @ line 15, column 1.\r\n   import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows\r\n   ^\r\n\r\n1 error\r\n</property>
+</record>
+<record>
+  <date>2020-04-08T16:38:12</date>
+  <millis>1586338692780</millis>
+  <sequence>10</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Web RoomMe.id/2. Sign Up/8. Sign Up with Already Registered Email</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-04-08T16:38:12</date>
+  <millis>1586338692935</millis>
+  <sequence>11</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Web RoomMe.id/Customer Sign Up</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

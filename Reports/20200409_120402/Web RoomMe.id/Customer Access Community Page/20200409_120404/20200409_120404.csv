@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Customer Access Community Page,Firefox 74.0,,,2020-04-09 12:14:09,2020-04-09 12:14:49,40.127s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/6. Community/1. Customer Access Community Page From Header,Firefox 74.0,Customer access community page from homepage by click Communiy button,community,2020-04-09 12:14:09,2020-04-09 12:14:30,20.773s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:14:10,2020-04-09 12:14:22,12.504s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Header/Button Community""), 30)",Firefox 74.0,,,2020-04-09 12:14:22,2020-04-09 12:14:25,2.633s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Header/Button Community""))",Firefox 74.0,,,2020-04-09 12:14:25,2020-04-09 12:14:28,2.683s,PASSED
+waitForPageLoad(0),Firefox 74.0,,,2020-04-09 12:14:28,2020-04-09 12:14:28,0.022s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Community Page/Text Community Registration""), 30)",Firefox 74.0,,,2020-04-09 12:14:28,2020-04-09 12:14:30,2.690s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/6. Community/2. Customer Access Community Page From Homepage Section,Firefox 74.0,,,2020-04-09 12:14:30,2020-04-09 12:14:49,19.179s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:14:30,2020-04-09 12:14:42,11.774s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Button Explore Community""), 30)",Firefox 74.0,,,2020-04-09 12:14:42,2020-04-09 12:14:44,2.058s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Button Explore Community""))",Firefox 74.0,,,2020-04-09 12:14:44,2020-04-09 12:14:47,2.336s,PASSED
+waitForPageLoad(0),Firefox 74.0,,,2020-04-09 12:14:47,2020-04-09 12:14:47,0.027s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Community Page/Text Community Registration""), 30)",Firefox 74.0,,,2020-04-09 12:14:47,2020-04-09 12:14:49,2.851s,PASSED

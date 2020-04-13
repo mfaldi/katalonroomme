@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Customer Access About RooMe Page,Chrome 80.0.3987.163,,,2020-04-13 14:36:45,2020-04-13 14:37:13,28.355s,FAILED
+,,,,,,,
+Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access Contact Us Page,Chrome 80.0.3987.163,customer access contact us page,contactus,2020-04-13 14:36:45,2020-04-13 14:37:12,26.848s,FAILED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.163,,,2020-04-13 14:36:46,2020-04-13 14:37:10,23.788s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Footer/Button Contact Us""))",Chrome 80.0.3987.163,,,2020-04-13 14:37:10,2020-04-13 14:37:10,0.167s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Footer/Button Contact Us""))",Chrome 80.0.3987.163,,,2020-04-13 14:37:10,2020-04-13 14:37:11,1.188s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.163,,,2020-04-13 14:37:11,2020-04-13 14:37:11,0.001s,NOT_RUN
+"callTestCase(findTestCase(""Web RoomMe.id/5. About RoomMe/Verify Contact Us Page""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.163,,,2020-04-13 14:37:11,2020-04-13 14:37:12,1.248s,FAILED
+,,,,,,,
+Test Cases/Web RoomMe.id/5. About RoomMe/Verify Contact Us Page,Chrome 80.0.3987.163,,,2020-04-13 14:37:12,2020-04-13 14:37:13,1.056s,FAILED
+"objectSubFolder = ""Web RoomMe.id\RoomMe.id Contact Us Page\""",Chrome 80.0.3987.163,,,2020-04-13 14:37:12,2020-04-13 14:37:12,0.000s,PASSED
+"pathToObjRep = getProjectDir() + ""\Object Repository\"" + objectSubFolder",Chrome 80.0.3987.163,,,2020-04-13 14:37:12,2020-04-13 14:37:12,0.004s,PASSED
+yourObjects = new java.io.File(pathToObjRep),Chrome 80.0.3987.163,,,2020-04-13 14:37:12,2020-04-13 14:37:12,0.001s,PASSED
+fileNames = yourObjects.list(),Chrome 80.0.3987.163,,,2020-04-13 14:37:12,2020-04-13 14:37:12,0.001s,PASSED
+testObjects = new java.util.ArrayList(),Chrome 80.0.3987.163,,,2020-04-13 14:37:12,2020-04-13 14:37:12,0.002s,PASSED
+"for ([i = 0, i < length, (i++)])",Chrome 80.0.3987.163,,,2020-04-13 14:37:12,2020-04-13 14:37:12,0.034s,PASSED
+for (String obj : testObjects),Chrome 80.0.3987.163,,,2020-04-13 14:37:12,2020-04-13 14:37:13,1.003s,FAILED

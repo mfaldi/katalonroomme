@@ -16,7 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Web RoomMe.id/8. Search for Kost/Customer Search For Kost'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Web RoomMe.id/8. Search for Kost/1. Customer Search For Kost 1 Month 0 Day'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Web RoomMe.id/Search Result Menu/Image Kost'))
 

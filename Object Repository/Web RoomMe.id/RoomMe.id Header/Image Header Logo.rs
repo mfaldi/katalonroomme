@@ -4,18 +4,23 @@
    <name>Image Header Logo</name>
    <tag></tag>
    <elementGuidId>f282e5c5-2bcc-48cc-868b-799d331eb7c9</elementGuidId>
+   <imagePath>Images/6abfae6.png</imagePath>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
          <value>//img[@class = 'logo']</value>
       </entry>
       <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='__layout']/div/div/div/div/div/a/img</value>
+         <value>//img</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
@@ -28,7 +33,7 @@
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>/_nuxt/img/6abfae6.png</value>
+      <value>https://web.roomme.id/public/img/6abfae6.png</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

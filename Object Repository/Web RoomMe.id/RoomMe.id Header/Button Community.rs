@@ -11,10 +11,10 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='__layout']/div/div/div/div/div[2]/div/div/div/div/a</value>
+         <value>//div[2]/div/div/div/div/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

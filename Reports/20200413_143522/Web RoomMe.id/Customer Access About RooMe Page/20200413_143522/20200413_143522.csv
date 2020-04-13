@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Customer Access About RooMe Page,Chrome 80.0.3987.163,,,2020-04-13 14:35:29,2020-04-13 14:36:12,42.712s,FAILED
+,,,,,,,
+Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access About Us Page,Chrome 80.0.3987.163,Customer access about us page from homepage footer,aboutus,2020-04-13 14:35:30,2020-04-13 14:35:53,23.504s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.163,,,2020-04-13 14:35:30,2020-04-13 14:35:49,19.457s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Footer/Button About Us""))",Chrome 80.0.3987.163,,,2020-04-13 14:35:49,2020-04-13 14:35:49,0.161s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Footer/Button About Us""))",Chrome 80.0.3987.163,,,2020-04-13 14:35:49,2020-04-13 14:35:51,1.364s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.163,,,2020-04-13 14:35:51,2020-04-13 14:35:51,0.003s,NOT_RUN
+"callTestCase(findTestCase(""Web RoomMe.id/5. About RoomMe/Verify About Us Page""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.163,,,2020-04-13 14:35:51,2020-04-13 14:35:53,2.262s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.163,,,2020-04-13 14:35:53,2020-04-13 14:35:53,0.000s,NOT_RUN
+,,,,,,,
+Test Cases/Web RoomMe.id/5. About RoomMe/Verify About Us Page,Chrome 80.0.3987.163,verify about us page element,,2020-04-13 14:35:53,2020-04-13 14:35:54,1.270s,PASSED
+"objectSubFolder = ""Web RoomMe.id\RoomMe.id About Us Page\""",Chrome 80.0.3987.163,,,2020-04-13 14:35:53,2020-04-13 14:35:53,0.001s,PASSED
+"pathToObjRep = getProjectDir() + ""\Object Repository\"" + objectSubFolder",Chrome 80.0.3987.163,,,2020-04-13 14:35:53,2020-04-13 14:35:53,0.000s,PASSED
+yourObjects = new java.io.File(pathToObjRep),Chrome 80.0.3987.163,,,2020-04-13 14:35:53,2020-04-13 14:35:53,0.000s,PASSED
+fileNames = yourObjects.list(),Chrome 80.0.3987.163,,,2020-04-13 14:35:53,2020-04-13 14:35:53,0.001s,PASSED
+testObjects = new java.util.ArrayList(),Chrome 80.0.3987.163,,,2020-04-13 14:35:53,2020-04-13 14:35:53,0.000s,PASSED
+"for ([i = 0, i < length, (i++)])",Chrome 80.0.3987.163,,,2020-04-13 14:35:53,2020-04-13 14:35:53,0.018s,PASSED
+for (String obj : testObjects),Chrome 80.0.3987.163,,,2020-04-13 14:35:53,2020-04-13 14:35:54,1.242s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access Contact Us Page,Chrome 80.0.3987.163,customer access contact us page,contactus,2020-04-13 14:35:54,2020-04-13 14:36:11,16.870s,FAILED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.163,,,2020-04-13 14:35:54,2020-04-13 14:36:09,14.200s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Footer/Button Contact Us""))",Chrome 80.0.3987.163,,,2020-04-13 14:36:09,2020-04-13 14:36:09,0.074s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Footer/Button Contact Us""))",Chrome 80.0.3987.163,,,2020-04-13 14:36:09,2020-04-13 14:36:10,1.271s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.163,,,2020-04-13 14:36:10,2020-04-13 14:36:10,0.001s,NOT_RUN
+"callTestCase(findTestCase(""Web RoomMe.id/5. About RoomMe/Verify Contact Us Page""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.163,,,2020-04-13 14:36:10,2020-04-13 14:36:11,1.183s,FAILED
+,,,,,,,
+Test Cases/Web RoomMe.id/5. About RoomMe/Verify Contact Us Page,Chrome 80.0.3987.163,,,2020-04-13 14:36:11,2020-04-13 14:36:12,0.858s,FAILED
+"objectSubFolder = ""Web RoomMe.id\RoomMe.id Contact Us Page\""",Chrome 80.0.3987.163,,,2020-04-13 14:36:11,2020-04-13 14:36:11,0.000s,PASSED
+"pathToObjRep = getProjectDir() + ""\Object Repository\"" + objectSubFolder",Chrome 80.0.3987.163,,,2020-04-13 14:36:11,2020-04-13 14:36:11,0.000s,PASSED
+yourObjects = new java.io.File(pathToObjRep),Chrome 80.0.3987.163,,,2020-04-13 14:36:11,2020-04-13 14:36:11,0.000s,PASSED
+fileNames = yourObjects.list(),Chrome 80.0.3987.163,,,2020-04-13 14:36:11,2020-04-13 14:36:11,0.001s,PASSED
+testObjects = new java.util.ArrayList(),Chrome 80.0.3987.163,,,2020-04-13 14:36:11,2020-04-13 14:36:11,0.000s,PASSED
+"for ([i = 0, i < length, (i++)])",Chrome 80.0.3987.163,,,2020-04-13 14:36:11,2020-04-13 14:36:11,0.012s,PASSED
+for (String obj : testObjects),Chrome 80.0.3987.163,,,2020-04-13 14:36:11,2020-04-13 14:36:12,0.837s,FAILED

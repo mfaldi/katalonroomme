@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Text password didnt match</name>
+   <name>Text Password didnt match</name>
    <tag></tag>
    <elementGuidId>6377ae29-131e-44ac-a4f3-8e6cb4564d97</elementGuidId>
    <selectorCollection>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Customer Access Landlord Page" time="38.055" tests="2" failures="0" errors="0">
+   <testsuite name="Customer Access Landlord Page" tests="2" failures="0" errors="0" time="38.055" timestamp="2020-04-09 12:15:08" hostname="Win 10 - LENNONOVO" id="Test Suites/Web RoomMe.id/Customer Access Landlord Page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Reports\\20200409_120402\\Web RoomMe.id\\Customer Access Landlord Page\\20200409_120405"/>
+         <property name="logFiles" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Reports\\20200409_120402\\Web RoomMe.id\\Customer Access Landlord Page\\20200409_120405\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Win 10 - LENNONOVO"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.6.1"/>
+         <property name="browser" value="Firefox 74.0"/>
+         <property name="hostAddress" value="192.168.1.15"/>
+         <property name="sessionId" value="3d07aa9d-5283-4f74-b200-d8da2f276f0c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Web RoomMe.id/7. Landlord/1. Customer Access Landlord Page From Header" time="17.091" classname="Test Cases/Web RoomMe.id/7. Landlord/1. Customer Access Landlord Page From Header" status="PASSED">
+         <system-out><![CDATA[2020-04-09 12:15:08 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/7. Landlord/1. Customer Access Landlord Page From Header: Test Cases/Web RoomMe.id/7. Landlord/1. Customer Access Landlord Page From Header
+
+2020-04-09 12:15:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-09 12:15:08 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-04-09 12:15:08 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-09 12:15:09 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-04-09 12:15:09 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-04-09 12:15:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-09 12:15:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-09 12:15:20 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-09 12:15:20 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-09 12:15:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-04-09 12:15:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-09 12:15:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-09 12:15:20 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Are You Landlord"), 30): Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Are You Landlord' is visible
+
+2020-04-09 12:15:22 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Are You Landlord' is visible
+
+2020-04-09 12:15:22 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Are You Landlord")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Are You Landlord' is clicked on
+
+2020-04-09 12:15:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Are You Landlord' is clicked on
+
+2020-04-09 12:15:24 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-09 12:15:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-04-09 12:15:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-09 12:15:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Landlord Page/Text 4 Easy Steps to Become Landlord"), 30): Object 'Object Repository/Web RoomMe.id/RoomMe.id Landlord Page/Text 4 Easy Steps to Become Landlord' is visible
+
+2020-04-09 12:15:25 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Landlord Page/Text 4 Easy Steps to Become Landlord' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/7. Landlord/2. Customer Access Landlord Page From Homepage Section" time="15.521" classname="Test Cases/Web RoomMe.id/7. Landlord/2. Customer Access Landlord Page From Homepage Section" status="PASSED">
+         <system-out><![CDATA[2020-04-09 12:15:25 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/7. Landlord/2. Customer Access Landlord Page From Homepage Section: Test Cases/Web RoomMe.id/7. Landlord/2. Customer Access Landlord Page From Homepage Section
+
+2020-04-09 12:15:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-09 12:15:25 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-04-09 12:15:25 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-09 12:15:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-04-09 12:15:27 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-04-09 12:15:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-09 12:15:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-09 12:15:35 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-09 12:15:35 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-09 12:15:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-04-09 12:15:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-09 12:15:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-09 12:15:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Get Started"), 30): Object 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Get Started' is visible
+
+2020-04-09 12:15:38 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Get Started' is visible
+
+2020-04-09 12:15:38 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Get Started")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Get Started' is clicked on
+
+2020-04-09 12:15:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Get Started' is clicked on
+
+2020-04-09 12:15:40 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-09 12:15:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-04-09 12:15:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-09 12:15:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Landlord Page/Text 4 Easy Steps to Become Landlord"), 30): Object 'Object Repository/Web RoomMe.id/RoomMe.id Landlord Page/Text 4 Easy Steps to Become Landlord' is visible
+
+2020-04-09 12:15:40 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Landlord Page/Text 4 Easy Steps to Become Landlord' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-09 12:15:08 - [TEST_SUITE][PASSED] - Customer Access Landlord Page: Test Cases/Web RoomMe.id/7. Landlord/2. Customer Access Landlord Page From Homepage Section]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

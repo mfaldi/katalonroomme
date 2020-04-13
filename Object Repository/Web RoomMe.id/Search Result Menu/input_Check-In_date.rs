@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='date']</value>
+         <value>//div[@id='__layout']/div/div[2]/div/div/div/div/div[2]/div/form/div/div/div/div[2]/div/div/div/div/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -59,7 +59,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__layout&quot;)/div[1]/div[@class=&quot;pt-3 pb-3 mobileversion h-auto&quot;]/div[@class=&quot;mb-5&quot;]/form[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-7 padd10&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-3 box-inputs padd10&quot;]/div[@class=&quot;mx-datepicker&quot;]/div[@class=&quot;mx-input-wrapper&quot;]/input[@class=&quot;mx-input&quot;]</value>
+      <value>id(&quot;__layout&quot;)/div[1]/div[@class=&quot;page-content&quot;]/div[@class=&quot;search-result-wrapper&quot;]/div[@class=&quot;search-filter&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;search-filter-wrapper&quot;]/div[@class=&quot;body-search&quot;]/div[@class=&quot;search-form&quot;]/form[1]/div[@class=&quot;row row-5&quot;]/div[@class=&quot;col-md-10 search-fields&quot;]/div[@class=&quot;row row-5&quot;]/div[@class=&quot;col-md-8&quot;]/div[@class=&quot;row row-5&quot;]/div[@class=&quot;col-sm-3&quot;]/div[@class=&quot;form-group mb-3 mb-md-0&quot;]/div[@class=&quot;mx-datepicker&quot;]/div[@class=&quot;mx-input-wrapper&quot;]/input[@class=&quot;mx-input&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,13 +73,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__layout']/div/div[2]/div/form/div/div[2]/div/div/div/div/input</value>
+      <value>//div[@id='__layout']/div/div[2]/div/div/div/div/div[2]/div/form/div/div/div/div[2]/div/div/div/div/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/div/div/input</value>
+      <value>//div[2]/div/div/div/div/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

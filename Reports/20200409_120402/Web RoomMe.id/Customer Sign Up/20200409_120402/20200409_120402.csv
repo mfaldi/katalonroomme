@@ -1,0 +1,172 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Customer Sign Up,Firefox 74.0,,,2020-04-09 12:04:15,2020-04-09 12:10:25,6m - 9.763s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/2. Sign Up/1. Sign Up with Valid Data,Firefox 74.0,,,2020-04-09 12:04:16,2020-04-09 12:04:40,24.763s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:04:16,2020-04-09 12:04:26,9.838s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id""), [:], STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:04:26,2020-04-09 12:04:29,3.204s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Header/Button Sign In""))",Firefox 74.0,,,2020-04-09 12:04:29,2020-04-09 12:04:30,0.541s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Button Sign Up""), 0)",Firefox 74.0,,,2020-04-09 12:04:30,2020-04-09 12:04:30,0.505s,PASSED
+"click(findTestObject(""Web RoomMe.id/Sign In Menu/Button Sign Up""))",Firefox 74.0,,,2020-04-09 12:04:30,2020-04-09 12:04:31,0.546s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/2. Sign Up/Verify Sign Up Menu""), [:], STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:04:31,2020-04-09 12:04:35,4.246s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Name Textfield""), 0)",Firefox 74.0,,,2020-04-09 12:04:35,2020-04-09 12:04:35,0.334s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign Up Menu/Name Textfield""), ""Faldi Test AT"")",Firefox 74.0,,,2020-04-09 12:04:35,2020-04-09 12:04:36,0.385s,PASSED
+"getAttribute(findTestObject(""Web RoomMe.id/Sign Up Menu/Name Textfield""), ""tag"")",Firefox 74.0,,,2020-04-09 12:04:36,2020-04-09 12:04:36,0.002s,NOT_RUN
+"namauser = concatenate(findTestObject(""Web RoomMe.id/Sign Up Menu/Name Textfield""))",Firefox 74.0,,,2020-04-09 12:04:36,2020-04-09 12:04:36,0.000s,NOT_RUN
+"setText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Email""), ""faldiat"" + RandomStringUtils.randomNumeric(5))",Firefox 74.0,,,2020-04-09 12:04:36,2020-04-09 12:04:37,0.973s,PASSED
+"sendKeys(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Email""), ""@gmail.com"")",Firefox 74.0,,,2020-04-09 12:04:37,2020-04-09 12:04:37,0.545s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Phone Number""), ""081234567890"")",Firefox 74.0,,,2020-04-09 12:04:37,2020-04-09 12:04:38,0.327s,PASSED
+"setEncryptedText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Password""), ""aeHFOx8jV/A="")",Firefox 74.0,,,2020-04-09 12:04:38,2020-04-09 12:04:39,1.074s,PASSED
+"setEncryptedText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Confirm Password""), ""aeHFOx8jV/A="")",Firefox 74.0,,,2020-04-09 12:04:39,2020-04-09 12:04:40,0.959s,PASSED
+"click(findTestObject(""Web RoomMe.id/Sign Up Menu/Button Sign Up""))",Firefox 74.0,,,2020-04-09 12:04:40,2020-04-09 12:04:40,0.743s,PASSED
+waitForPageLoad(0),Firefox 74.0,,,2020-04-09 12:04:40,2020-04-09 12:04:40,0.001s,NOT_RUN
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Success Sign Up/Button Close""))",Firefox 74.0,,,2020-04-09 12:04:40,2020-04-09 12:04:40,0.001s,NOT_RUN
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Success Sign Up/Image Logo RoomMe""))",Firefox 74.0,,,2020-04-09 12:04:40,2020-04-09 12:04:40,0.001s,NOT_RUN
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Success Sign Up/Text Welcome to RoomMe""))",Firefox 74.0,,,2020-04-09 12:04:40,2020-04-09 12:04:40,0.001s,NOT_RUN
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Success Sign Up/Text User Full Name""))",Firefox 74.0,,,2020-04-09 12:04:40,2020-04-09 12:04:40,0.001s,NOT_RUN
+"verifyElementText(findTestObject(""Web RoomMe.id/Sign Up Menu/Success Sign Up/Text User Full Name""), namauser)",Firefox 74.0,,,2020-04-09 12:04:40,2020-04-09 12:04:40,0.001s,NOT_RUN
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Success Sign Up/Text Thank you Youve successfully signed up""))",Firefox 74.0,,,2020-04-09 12:04:40,2020-04-09 12:04:40,0.001s,NOT_RUN
+"verifyElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Success Sign Up/Text Please check your email for activation""))",Firefox 74.0,,,2020-04-09 12:04:40,2020-04-09 12:04:40,0.001s,NOT_RUN
+,,,,,,,
+Test Cases/Web RoomMe.id/2. Sign Up/5. Customer Input Phone Number with Invalid Format,Firefox 74.0,,,2020-04-09 12:04:40,2020-04-09 12:05:08,27.385s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:04:41,2020-04-09 12:04:49,8.686s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id""), [:], STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:04:49,2020-04-09 12:04:54,4.548s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Header/Button Sign In""))",Firefox 74.0,,,2020-04-09 12:04:54,2020-04-09 12:04:54,0.587s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Button Sign Up""), 0)",Firefox 74.0,,,2020-04-09 12:04:54,2020-04-09 12:04:55,0.396s,PASSED
+"click(findTestObject(""Web RoomMe.id/Sign In Menu/Button Sign Up""))",Firefox 74.0,,,2020-04-09 12:04:55,2020-04-09 12:04:55,0.577s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/2. Sign Up/Verify Sign Up Menu""), [:], STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:04:55,2020-04-09 12:04:59,3.988s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Phone Number""), 30, STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:04:59,2020-04-09 12:05:00,0.305s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Phone Number""), ""abcdefghij"")",Firefox 74.0,,,2020-04-09 12:05:00,2020-04-09 12:05:00,0.371s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Error Message/Text Phone Number contains an invalid number""), 30, STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:05:00,2020-04-09 12:05:01,1.069s,PASSED
+"clearText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Phone Number""))",Firefox 74.0,,,2020-04-09 12:05:01,2020-04-09 12:05:01,0.280s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Phone Number""), ""12345abcde"")",Firefox 74.0,,,2020-04-09 12:05:01,2020-04-09 12:05:02,0.347s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Error Message/Text Phone Number contains an invalid number""), 30, STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:05:02,2020-04-09 12:05:03,1.061s,PASSED
+"clearText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Phone Number""))",Firefox 74.0,,,2020-04-09 12:05:03,2020-04-09 12:05:03,0.311s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Phone Number""), ""08123456 7890"")",Firefox 74.0,,,2020-04-09 12:05:03,2020-04-09 12:05:03,0.342s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Error Message/Text Phone Number contains an invalid number""), 30, STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:05:03,2020-04-09 12:05:04,1.050s,PASSED
+"clearText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Phone Number""))",Firefox 74.0,,,2020-04-09 12:05:04,2020-04-09 12:05:05,0.304s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Phone Number""), ""!@#$%^&*()"")",Firefox 74.0,,,2020-04-09 12:05:05,2020-04-09 12:05:05,0.365s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Error Message/Text Phone Number contains an invalid number""), 30, STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:05:05,2020-04-09 12:05:06,0.937s,PASSED
+"clearText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Phone Number""))",Firefox 74.0,,,2020-04-09 12:05:06,2020-04-09 12:05:06,0.311s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Phone Number""), ""08123456789012"")",Firefox 74.0,,,2020-04-09 12:05:06,2020-04-09 12:05:07,0.324s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Error Message/Text Phone Number contains an invalid number""), 30, STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:05:07,2020-04-09 12:05:08,1.071s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/2. Sign Up/3. Customer Input Name Field with Invalid Format,Firefox 74.0,,,2020-04-09 12:05:08,2020-04-09 12:06:27,1m - 18.950s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:05:08,2020-04-09 12:06:14,1m - 5.676s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id""), [:], STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:06:14,2020-04-09 12:06:19,5.123s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Header/Button Sign In""))",Firefox 74.0,,,2020-04-09 12:06:19,2020-04-09 12:06:19,0.532s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Button Sign Up""), 0)",Firefox 74.0,,,2020-04-09 12:06:19,2020-04-09 12:06:20,0.313s,PASSED
+"click(findTestObject(""Web RoomMe.id/Sign In Menu/Button Sign Up""))",Firefox 74.0,,,2020-04-09 12:06:20,2020-04-09 12:06:20,0.559s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/2. Sign Up/Verify Sign Up Menu""), [:], STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:06:20,2020-04-09 12:06:24,3.957s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Name Textfield""), 30, STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:06:24,2020-04-09 12:06:24,0.292s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign Up Menu/Name Textfield""), ""a1"")",Firefox 74.0,,,2020-04-09 12:06:24,2020-04-09 12:06:25,0.348s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Error Message/Text At least input 3 characters long""), 30, STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:06:25,2020-04-09 12:06:26,0.840s,PASSED
+"clearText(findTestObject(""Web RoomMe.id/Sign Up Menu/Name Textfield""))",Firefox 74.0,,,2020-04-09 12:06:26,2020-04-09 12:06:26,0.305s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign Up Menu/Name Textfield""), ""ab12#$  ch12ab12#$  ch12ab12#$  ch12ab12#$  ch12ab12#$  ch12X"")",Firefox 74.0,,,2020-04-09 12:06:26,2020-04-09 12:06:26,0.368s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Error Message/Text Name Input Character is 50""), 30, STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:06:26,2020-04-09 12:06:27,0.513s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/2. Sign Up/4. Customer Input Email with Invalid Format,Firefox 74.0,,,2020-04-09 12:06:27,2020-04-09 12:07:06,39.667s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:06:27,2020-04-09 12:06:47,19.737s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id""), [:], STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:06:47,2020-04-09 12:06:50,3.347s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Header/Button Sign In""))",Firefox 74.0,,,2020-04-09 12:06:50,2020-04-09 12:06:51,0.727s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Button Sign Up""), 0)",Firefox 74.0,,,2020-04-09 12:06:51,2020-04-09 12:06:51,0.322s,PASSED
+"click(findTestObject(""Web RoomMe.id/Sign In Menu/Button Sign Up""))",Firefox 74.0,,,2020-04-09 12:06:51,2020-04-09 12:06:52,0.558s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/2. Sign Up/Verify Sign Up Menu""), [:], STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:06:52,2020-04-09 12:06:56,3.927s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Email""), 30, STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:06:56,2020-04-09 12:06:56,0.316s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Email""), ""abc123"")",Firefox 74.0,,,2020-04-09 12:06:56,2020-04-09 12:06:56,0.350s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Error Message/Text Email is not valid""), 30, STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:06:56,2020-04-09 12:06:57,0.845s,PASSED
+"clearText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Email""))",Firefox 74.0,,,2020-04-09 12:06:57,2020-04-09 12:06:57,0.291s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Email""), ""abc 123"")",Firefox 74.0,,,2020-04-09 12:06:57,2020-04-09 12:06:58,0.345s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Error Message/Text Email is not valid""), 30, STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:06:58,2020-04-09 12:06:58,0.536s,PASSED
+"clearText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Email""))",Firefox 74.0,,,2020-04-09 12:06:58,2020-04-09 12:06:59,0.599s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Email""), ""!@#$$!@"")",Firefox 74.0,,,2020-04-09 12:06:59,2020-04-09 12:06:59,0.341s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Error Message/Text Email is not valid""), 30, STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:06:59,2020-04-09 12:07:00,0.839s,PASSED
+"clearText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Email""))",Firefox 74.0,,,2020-04-09 12:07:00,2020-04-09 12:07:00,0.295s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Email""), ""ab@gmail"")",Firefox 74.0,,,2020-04-09 12:07:00,2020-04-09 12:07:01,0.345s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Error Message/Text Email is not valid""), 30, STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:07:01,2020-04-09 12:07:01,0.529s,PASSED
+"clearText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Email""))",Firefox 74.0,,,2020-04-09 12:07:01,2020-04-09 12:07:02,0.595s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Email""), ""ab@.com"")",Firefox 74.0,,,2020-04-09 12:07:02,2020-04-09 12:07:02,0.350s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Error Message/Text Email is not valid""), 30, STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:07:02,2020-04-09 12:07:03,0.921s,PASSED
+"clearText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Email""))",Firefox 74.0,,,2020-04-09 12:07:03,2020-04-09 12:07:03,0.297s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Email""), ""abc 1 2 3@ac.com"")",Firefox 74.0,,,2020-04-09 12:07:03,2020-04-09 12:07:04,0.569s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Error Message/Text Email is not valid""), 30, STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:07:04,2020-04-09 12:07:05,0.919s,PASSED
+"clearText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Email""))",Firefox 74.0,,,2020-04-09 12:07:05,2020-04-09 12:07:05,0.291s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Email""), "" abc@getnda.com"")",Firefox 74.0,,,2020-04-09 12:07:05,2020-04-09 12:07:05,0.355s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Error Message/Text Email is not valid""), 30, STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:07:05,2020-04-09 12:07:06,0.934s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/2. Sign Up/5. Customer Input Phone Number with Invalid Format,Firefox 74.0,,,2020-04-09 12:07:06,2020-04-09 12:07:37,30.718s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:07:06,2020-04-09 12:07:20,13.263s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id""), [:], STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:07:20,2020-04-09 12:07:23,3.569s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Header/Button Sign In""))",Firefox 74.0,,,2020-04-09 12:07:23,2020-04-09 12:07:24,0.838s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Button Sign Up""), 0)",Firefox 74.0,,,2020-04-09 12:07:24,2020-04-09 12:07:24,0.404s,PASSED
+"click(findTestObject(""Web RoomMe.id/Sign In Menu/Button Sign Up""))",Firefox 74.0,,,2020-04-09 12:07:24,2020-04-09 12:07:25,0.596s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/2. Sign Up/Verify Sign Up Menu""), [:], STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:07:25,2020-04-09 12:07:29,3.835s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Phone Number""), 30, STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:07:29,2020-04-09 12:07:29,0.322s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Phone Number""), ""abcdefghij"")",Firefox 74.0,,,2020-04-09 12:07:29,2020-04-09 12:07:30,0.353s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Error Message/Text Phone Number contains an invalid number""), 30, STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:07:30,2020-04-09 12:07:31,0.939s,PASSED
+"clearText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Phone Number""))",Firefox 74.0,,,2020-04-09 12:07:31,2020-04-09 12:07:31,0.299s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Phone Number""), ""12345abcde"")",Firefox 74.0,,,2020-04-09 12:07:31,2020-04-09 12:07:31,0.345s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Error Message/Text Phone Number contains an invalid number""), 30, STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:07:31,2020-04-09 12:07:32,1.078s,PASSED
+"clearText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Phone Number""))",Firefox 74.0,,,2020-04-09 12:07:32,2020-04-09 12:07:33,0.338s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Phone Number""), ""08123456 7890"")",Firefox 74.0,,,2020-04-09 12:07:33,2020-04-09 12:07:33,0.367s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Error Message/Text Phone Number contains an invalid number""), 30, STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:07:33,2020-04-09 12:07:34,1.070s,PASSED
+"clearText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Phone Number""))",Firefox 74.0,,,2020-04-09 12:07:34,2020-04-09 12:07:34,0.298s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Phone Number""), ""!@#$%^&*()"")",Firefox 74.0,,,2020-04-09 12:07:34,2020-04-09 12:07:35,0.350s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Error Message/Text Phone Number contains an invalid number""), 30, STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:07:35,2020-04-09 12:07:36,0.896s,PASSED
+"clearText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Phone Number""))",Firefox 74.0,,,2020-04-09 12:07:36,2020-04-09 12:07:36,0.295s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Phone Number""), ""08123456789012"")",Firefox 74.0,,,2020-04-09 12:07:36,2020-04-09 12:07:36,0.333s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Error Message/Text Phone Number contains an invalid number""), 30, STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:07:36,2020-04-09 12:07:37,0.924s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/2. Sign Up/6. Customer Input Password with Invalid Format,Firefox 74.0,,,2020-04-09 12:07:37,2020-04-09 12:08:06,28.997s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:07:37,2020-04-09 12:07:49,11.772s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id""), [:], STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:07:49,2020-04-09 12:07:52,2.902s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Header/Button Sign In""))",Firefox 74.0,,,2020-04-09 12:07:52,2020-04-09 12:07:52,0.558s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Button Sign Up""), 0)",Firefox 74.0,,,2020-04-09 12:07:52,2020-04-09 12:07:53,0.547s,PASSED
+"click(findTestObject(""Web RoomMe.id/Sign In Menu/Button Sign Up""))",Firefox 74.0,,,2020-04-09 12:07:53,2020-04-09 12:07:54,0.597s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/2. Sign Up/Verify Sign Up Menu""), [:], STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:07:54,2020-04-09 12:07:57,3.884s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Password""), 30, STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:07:57,2020-04-09 12:07:58,0.309s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Password""), ""abc"")",Firefox 74.0,,,2020-04-09 12:07:58,2020-04-09 12:07:58,0.348s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Error Message/Text Minimum Password Required is 6 Characters""), 0)",Firefox 74.0,,,2020-04-09 12:07:58,2020-04-09 12:07:59,1.237s,PASSED
+"clearText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Password""))",Firefox 74.0,,,2020-04-09 12:07:59,2020-04-09 12:08:00,0.288s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Password""), ""123"")",Firefox 74.0,,,2020-04-09 12:08:00,2020-04-09 12:08:00,0.318s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Error Message/Text Minimum Password Required is 6 Characters""), 0)",Firefox 74.0,,,2020-04-09 12:08:00,2020-04-09 12:08:01,1.292s,PASSED
+"clearText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Password""))",Firefox 74.0,,,2020-04-09 12:08:01,2020-04-09 12:08:02,0.273s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Password""), ""!@#"")",Firefox 74.0,,,2020-04-09 12:08:02,2020-04-09 12:08:02,0.329s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Error Message/Text Minimum Password Required is 6 Characters""), 0)",Firefox 74.0,,,2020-04-09 12:08:02,2020-04-09 12:08:03,0.939s,PASSED
+"clearText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Password""))",Firefox 74.0,,,2020-04-09 12:08:03,2020-04-09 12:08:03,0.291s,PASSED
+"sendKeys(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Password""), ""       "")",Firefox 74.0,,,2020-04-09 12:08:03,2020-04-09 12:08:03,0.344s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Error Message/Text Cant use Space for Password""), 0)",Firefox 74.0,,,2020-04-09 12:08:03,2020-04-09 12:08:04,0.523s,PASSED
+"clearText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Password""))",Firefox 74.0,,,2020-04-09 12:08:04,2020-04-09 12:08:04,0.492s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Password""), ""abcde1234512345"")",Firefox 74.0,,,2020-04-09 12:08:04,2020-04-09 12:08:05,0.352s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Error Message/Text Limit Password Characters has Reached""), 0)",Firefox 74.0,,,2020-04-09 12:08:05,2020-04-09 12:08:06,1.276s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/2. Sign Up/7. Customer Input Confirm Password with Invalid Format,Firefox 74.0,,,2020-04-09 12:08:06,2020-04-09 12:10:00,1m - 53.966s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:08:06,2020-04-09 12:08:17,10.326s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id""), [:], STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:08:17,2020-04-09 12:08:20,3.215s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Header/Button Sign In""))",Firefox 74.0,,,2020-04-09 12:08:20,2020-04-09 12:08:21,0.794s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Button Sign Up""), 0)",Firefox 74.0,,,2020-04-09 12:08:21,2020-04-09 12:08:21,0.416s,PASSED
+"click(findTestObject(""Web RoomMe.id/Sign In Menu/Button Sign Up""))",Firefox 74.0,,,2020-04-09 12:08:21,2020-04-09 12:08:22,0.689s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/2. Sign Up/Verify Sign Up Menu""), [:], STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:08:22,2020-04-09 12:08:26,3.927s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Confirm Password""), 30, STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:08:26,2020-04-09 12:08:26,0.313s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Password""), 30, STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:08:26,2020-04-09 12:08:26,0.308s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Password""), ""123456"")",Firefox 74.0,,,2020-04-09 12:08:26,2020-04-09 12:08:27,0.340s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Confirm Password""), ""abcdef"")",Firefox 74.0,,,2020-04-09 12:08:27,2020-04-09 12:08:27,0.571s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Error Message/Text Password didnt match""), 0)",Firefox 74.0,,,2020-04-09 12:08:27,2020-04-09 12:10:00,1m - 32.617s,PASSED
+"clearText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Confirm Password""))",Firefox 74.0,,,2020-04-09 12:10:00,2020-04-09 12:10:00,0.332s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/2. Sign Up/8. Sign Up with Already Registered Email,Firefox 74.0,,,2020-04-09 12:10:00,2020-04-09 12:10:25,25.097s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:10:00,2020-04-09 12:10:12,11.915s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id""), [:], STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:10:12,2020-04-09 12:10:15,2.782s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Header/Button Sign In""))",Firefox 74.0,,,2020-04-09 12:10:15,2020-04-09 12:10:15,0.555s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Button Sign Up""), 0)",Firefox 74.0,,,2020-04-09 12:10:15,2020-04-09 12:10:16,0.464s,PASSED
+"click(findTestObject(""Web RoomMe.id/Sign In Menu/Button Sign Up""))",Firefox 74.0,,,2020-04-09 12:10:16,2020-04-09 12:10:17,0.603s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/2. Sign Up/Verify Sign Up Menu""), [:], STOP_ON_FAILURE)",Firefox 74.0,,,2020-04-09 12:10:17,2020-04-09 12:10:21,4.031s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Name Textfield""), 0)",Firefox 74.0,,,2020-04-09 12:10:21,2020-04-09 12:10:21,0.318s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign Up Menu/Name Textfield""), ""Faldi Test AT"")",Firefox 74.0,,,2020-04-09 12:10:21,2020-04-09 12:10:21,0.370s,PASSED
+"getAttribute(findTestObject(""Web RoomMe.id/Sign Up Menu/Name Textfield""), ""tag"")",Firefox 74.0,,,2020-04-09 12:10:21,2020-04-09 12:10:21,0.001s,NOT_RUN
+"namauser = concatenate(findTestObject(""Web RoomMe.id/Sign Up Menu/Name Textfield""))",Firefox 74.0,,,2020-04-09 12:10:21,2020-04-09 12:10:21,0.000s,NOT_RUN
+"setText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Email""), ""hurujy@getnada.com"")",Firefox 74.0,,,2020-04-09 12:10:21,2020-04-09 12:10:22,0.955s,PASSED
+"setText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Phone Number""), ""081234567890"")",Firefox 74.0,,,2020-04-09 12:10:22,2020-04-09 12:10:23,0.535s,PASSED
+"setEncryptedText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Password""), ""aeHFOx8jV/A="")",Firefox 74.0,,,2020-04-09 12:10:23,2020-04-09 12:10:23,0.521s,PASSED
+"setEncryptedText(findTestObject(""Web RoomMe.id/Sign Up Menu/Textfield Confirm Password""), ""aeHFOx8jV/A="")",Firefox 74.0,,,2020-04-09 12:10:23,2020-04-09 12:10:24,0.550s,PASSED
+"click(findTestObject(""Web RoomMe.id/Sign Up Menu/Button Sign Up""))",Firefox 74.0,,,2020-04-09 12:10:24,2020-04-09 12:10:25,0.737s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign Up Menu/Error Message/Text Email already registered""), 30)",Firefox 74.0,,,2020-04-09 12:10:25,2020-04-09 12:10:25,0.637s,PASSED

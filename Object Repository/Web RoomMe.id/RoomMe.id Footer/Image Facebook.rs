@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Image Facebook</name>
+   <tag></tag>
+   <elementGuidId>107605a2-12ea-4df7-9ac5-93bfc2409cd6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[4]/div/div[2]/a/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>anima-src</name>
+      <type>Main</type>
+      <value>~/assets/icons/ic-facebook@3x.png</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/public/img/062936f.png</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__layout&quot;)/div[1]/div[@class=&quot;footer py-3 py-md-4&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;d-none d-md-block&quot;]/div[@class=&quot;row row-10&quot;]/div[@class=&quot;col-md-3 col-sm-12 my-2&quot;]/div[@class=&quot;card-transparent&quot;]/div[@class=&quot;card-content mb-4&quot;]/a[1]/img[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__layout']/div/div[3]/div/div/div/div[4]/div/div[2]/a/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[2]/a/img</value>
+   </webElementXpaths>
+</WebElementEntity>

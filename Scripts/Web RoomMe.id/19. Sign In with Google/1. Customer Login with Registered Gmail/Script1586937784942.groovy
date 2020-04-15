@@ -21,6 +21,8 @@ WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/RoomMe.id Header/Butto
 
 WebUI.click(findTestObject('Web RoomMe.id/RoomMe.id Header/Button Sign In'))
 
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign In Menu/Button Sign In with Google'), 0)
+
 WebUI.click(findTestObject('Web RoomMe.id/Sign In Menu/Button Sign In with Google'))
 
 WebUI.switchToWindowIndex(1)

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Customer Login with Google" time="94.462" tests="2" failures="0" errors="0">
+   <testsuite name="Customer Login with Google" tests="2" failures="0" errors="0" time="94.462" timestamp="2020-04-15 18:16:54" hostname="Win 10 - LENNONOVO" id="Test Suites/Web RoomMe.id/Customer Login with Google">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Reports\\20200415_181645\\Web RoomMe.id\\Customer Login with Google\\20200415_181645"/>
+         <property name="logFiles" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Reports\\20200415_181645\\Web RoomMe.id\\Customer Login with Google\\20200415_181645\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Win 10 - LENNONOVO"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.6.1"/>
+         <property name="browser" value="Chrome 80.0.3987.163"/>
+         <property name="hostAddress" value="192.168.1.15"/>
+         <property name="sessionId" value="bb87572ae48ce36be15f380fd6ca2b04"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Web RoomMe.id/19. Sign In with Google/1. Customer Login with Registered Gmail" time="40.309" classname="Test Cases/Web RoomMe.id/19. Sign In with Google/1. Customer Login with Registered Gmail" status="PASSED">
+         <system-out><![CDATA[2020-04-15 18:16:54 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/19. Sign In with Google/1. Customer Login with Registered Gmail: Test Cases/Web RoomMe.id/19. Sign In with Google/1. Customer Login with Registered Gmail
+
+2020-04-15 18:16:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-15 18:16:54 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-04-15 18:16:55 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-15 18:16:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-15 18:16:55 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-04-15 18:17:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-15 18:17:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-15 18:17:13 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-15 18:17:13 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-15 18:17:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-04-15 18:17:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-15 18:17:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-15 18:17:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Sign In"), 0): Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is visible
+
+2020-04-15 18:17:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-04-15 18:17:13 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is visible
+
+2020-04-15 18:17:13 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is clicked on
+
+2020-04-15 18:17:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is clicked on
+
+2020-04-15 18:17:14 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In with Google")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In with Google' is clicked on
+
+2020-04-15 18:17:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In with Google' is clicked on
+
+2020-04-15 18:17:14 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2020-04-15 18:17:14 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2020-04-15 18:17:14 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-15 18:17:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-04-15 18:17:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-15 18:17:19 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Google Sign In/Textfield Email Google"), 0): Object 'Object Repository/Google Sign In/Textfield Email Google' is visible
+
+2020-04-15 18:17:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-04-15 18:17:19 - [MESSAGE][PASSED] - Object 'Object Repository/Google Sign In/Textfield Email Google' is visible
+
+2020-04-15 18:17:19 - [TEST_STEP][PASSED] - setText(findTestObject("Google Sign In/Textfield Email Google"), "faldi@roomme.space"): Text 'faldi@roomme.space' is set on object 'Object Repository/Google Sign In/Textfield Email Google'
+
+2020-04-15 18:17:19 - [MESSAGE][PASSED] - Text 'faldi@roomme.space' is set on object 'Object Repository/Google Sign In/Textfield Email Google'
+
+2020-04-15 18:17:19 - [TEST_STEP][PASSED] - click(findTestObject("Google Sign In/Button Berikutnya")): Object: 'Object Repository/Google Sign In/Button Berikutnya' is clicked on
+
+2020-04-15 18:17:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Google Sign In/Button Berikutnya' is clicked on
+
+2020-04-15 18:17:20 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Google Sign In/Textfield Password"), 0): Object 'Object Repository/Google Sign In/Textfield Password' is visible
+
+2020-04-15 18:17:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-04-15 18:17:22 - [MESSAGE][PASSED] - Object 'Object Repository/Google Sign In/Textfield Password' is visible
+
+2020-04-15 18:17:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Google Sign In/Textfield Password"), "aWQtAdXqif4Z+35qHGW6CQ=="): Text ****** has been set on object 'Object Repository/Google Sign In/Textfield Password'
+
+2020-04-15 18:17:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Google Sign In/Textfield Password'
+
+2020-04-15 18:17:22 - [TEST_STEP][PASSED] - click(findTestObject("Google Sign In/Button Berikutnya (Password)")): Object: 'Object Repository/Google Sign In/Button Berikutnya (Password)' is clicked on
+
+2020-04-15 18:17:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Google Sign In/Button Berikutnya (Password)' is clicked on
+
+2020-04-15 18:17:23 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2020-04-15 18:17:23 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-04-15 18:17:23 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-15 18:17:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-04-15 18:17:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-15 18:17:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Header/User Menu/User Profile Image"), 0): Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/User Menu/User Profile Image' is visible
+
+2020-04-15 18:17:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-04-15 18:17:34 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/User Menu/User Profile Image' is visible
+
+2020-04-15 18:17:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Header/User Menu/User Menu"), 0): Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/User Menu/User Menu' is visible
+
+2020-04-15 18:17:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-04-15 18:17:34 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/User Menu/User Menu' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/19. Sign In with Google/2. Customer Login with Already Login Google Account" time="48.515" classname="Test Cases/Web RoomMe.id/19. Sign In with Google/2. Customer Login with Already Login Google Account" status="PASSED">
+         <system-out><![CDATA[2020-04-15 18:17:34 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/19. Sign In with Google/2. Customer Login with Already Login Google Account: Test Cases/Web RoomMe.id/19. Sign In with Google/2. Customer Login with Already Login Google Account
+
+2020-04-15 18:17:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/19. Sign In with Google/1. Customer Login with Registered Gmail"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/19. Sign In with Google/1. Customer Login with Registered Gmail' successfully
+
+2020-04-15 18:17:35 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/19. Sign In with Google/1. Customer Login with Registered Gmail: Test Cases/Web RoomMe.id/19. Sign In with Google/1. Customer Login with Registered Gmail
+
+2020-04-15 18:17:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-15 18:17:35 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-04-15 18:17:35 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-15 18:17:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-04-15 18:17:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-15 18:17:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-15 18:17:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-15 18:17:49 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-15 18:17:49 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-15 18:17:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-04-15 18:17:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-15 18:17:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-15 18:17:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Sign In"), 0): Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is visible
+
+2020-04-15 18:17:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-04-15 18:17:50 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is visible
+
+2020-04-15 18:17:50 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is clicked on
+
+2020-04-15 18:17:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is clicked on
+
+2020-04-15 18:17:50 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In with Google")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In with Google' is clicked on
+
+2020-04-15 18:17:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In with Google' is clicked on
+
+2020-04-15 18:17:51 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2020-04-15 18:17:51 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2020-04-15 18:17:51 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-15 18:17:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-04-15 18:17:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-15 18:17:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Google Sign In/Textfield Email Google"), 0): Object 'Object Repository/Google Sign In/Textfield Email Google' is visible
+
+2020-04-15 18:17:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-04-15 18:17:55 - [MESSAGE][PASSED] - Object 'Object Repository/Google Sign In/Textfield Email Google' is visible
+
+2020-04-15 18:17:55 - [TEST_STEP][PASSED] - setText(findTestObject("Google Sign In/Textfield Email Google"), "faldi@roomme.space"): Text 'faldi@roomme.space' is set on object 'Object Repository/Google Sign In/Textfield Email Google'
+
+2020-04-15 18:17:56 - [MESSAGE][PASSED] - Text 'faldi@roomme.space' is set on object 'Object Repository/Google Sign In/Textfield Email Google'
+
+2020-04-15 18:17:56 - [TEST_STEP][PASSED] - click(findTestObject("Google Sign In/Button Berikutnya")): Object: 'Object Repository/Google Sign In/Button Berikutnya' is clicked on
+
+2020-04-15 18:17:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Google Sign In/Button Berikutnya' is clicked on
+
+2020-04-15 18:17:57 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Google Sign In/Textfield Password"), 0): Object 'Object Repository/Google Sign In/Textfield Password' is visible
+
+2020-04-15 18:17:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-04-15 18:17:58 - [MESSAGE][PASSED] - Object 'Object Repository/Google Sign In/Textfield Password' is visible
+
+2020-04-15 18:17:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Google Sign In/Textfield Password"), "aWQtAdXqif4Z+35qHGW6CQ=="): Text ****** has been set on object 'Object Repository/Google Sign In/Textfield Password'
+
+2020-04-15 18:17:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Google Sign In/Textfield Password'
+
+2020-04-15 18:17:59 - [TEST_STEP][PASSED] - click(findTestObject("Google Sign In/Button Berikutnya (Password)")): Object: 'Object Repository/Google Sign In/Button Berikutnya (Password)' is clicked on
+
+2020-04-15 18:17:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Google Sign In/Button Berikutnya (Password)' is clicked on
+
+2020-04-15 18:17:59 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2020-04-15 18:17:59 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-04-15 18:17:59 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-15 18:17:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-04-15 18:17:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-15 18:17:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Header/User Menu/User Profile Image"), 0): Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/User Menu/User Profile Image' is visible
+
+2020-04-15 18:17:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-04-15 18:18:08 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/User Menu/User Profile Image' is visible
+
+2020-04-15 18:18:08 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Header/User Menu/User Menu"), 0): Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/User Menu/User Menu' is visible
+
+2020-04-15 18:18:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-04-15 18:18:08 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/User Menu/User Menu' is visible
+
+2020-04-15 18:18:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/19. Sign In with Google/1. Customer Login with Registered Gmail' successfully
+
+2020-04-15 18:18:08 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Header/User Menu/User Menu")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/User Menu/User Menu' is clicked on
+
+2020-04-15 18:18:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/User Menu/User Menu' is clicked on
+
+2020-04-15 18:18:09 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/User Menu/Button Log out")): Object: 'Object Repository/Web RoomMe.id/User Menu/Button Log out' is clicked on
+
+2020-04-15 18:18:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/User Menu/Button Log out' is clicked on
+
+2020-04-15 18:18:09 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-15 18:18:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-04-15 18:18:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-15 18:18:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Sign In"), 0): Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is visible
+
+2020-04-15 18:18:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-04-15 18:18:14 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is visible
+
+2020-04-15 18:18:14 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is clicked on
+
+2020-04-15 18:18:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is clicked on
+
+2020-04-15 18:18:15 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In with Google")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In with Google' is clicked on
+
+2020-04-15 18:18:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In with Google' is clicked on
+
+2020-04-15 18:18:15 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-15 18:18:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-04-15 18:18:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-15 18:18:15 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Header/User Menu/User Profile Image"), 0): Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/User Menu/User Profile Image' is visible
+
+2020-04-15 18:18:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-04-15 18:18:23 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/User Menu/User Profile Image' is visible
+
+2020-04-15 18:18:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Header/User Menu/User Menu"), 0): Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/User Menu/User Menu' is visible
+
+2020-04-15 18:18:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-04-15 18:18:23 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/User Menu/User Menu' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-15 18:16:54 - [TEST_SUITE][PASSED] - Customer Login with Google: Test Cases/Web RoomMe.id/19. Sign In with Google/2. Customer Login with Already Login Google Account]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

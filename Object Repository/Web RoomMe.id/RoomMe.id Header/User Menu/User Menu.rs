@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='dropdown-profile__BV_toggle_']/span</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Are You a Landlord?'])[1]/following::span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

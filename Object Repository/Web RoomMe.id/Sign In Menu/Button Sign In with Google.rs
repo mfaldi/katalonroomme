@@ -6,15 +6,15 @@
    <elementGuidId>ef8a618e-5f58-40a8-9b8a-376a953de010</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(contains(text(), 'Google') or contains(., 'Google'))]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='dropdown-auth']/ul/div/div/div/form/div[6]/div/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(contains(text(), 'Google') or contains(., 'Google'))]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -32,10 +32,12 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>contains</matchCondition>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Google</value>
+      <value>
+					Sign in with Google
+				</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

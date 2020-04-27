@@ -39,11 +39,13 @@ WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Email'), 'hur
 
 WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Phone Number'), '081234567890')
 
-WebUI.setEncryptedText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Password'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Password'), 'da8fEzhczGg=')
 
-WebUI.setEncryptedText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Confirm Password'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Confirm Password'), 'da8fEzhczGg=')
 
 WebUI.click(findTestObject('Web RoomMe.id/Sign Up Menu/Button Sign Up'))
 
-WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Email already registered'), 30)
+WebUI.mouseOver(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Toast User is Registered'))
+
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Toast User is Registered'), 0)
 

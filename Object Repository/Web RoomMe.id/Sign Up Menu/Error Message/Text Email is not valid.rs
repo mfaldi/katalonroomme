@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='dropdown-auth']/ul/div/div/div/div/form/div/div[2]/div/div[2]/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(contains(text(), 'Email is not valid ') or contains(., 'Email is not valid '))]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

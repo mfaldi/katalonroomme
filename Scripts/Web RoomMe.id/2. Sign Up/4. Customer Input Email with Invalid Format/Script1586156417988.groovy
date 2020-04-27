@@ -14,6 +14,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 //import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -33,39 +34,35 @@ WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Email'), 'abc
 
 WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Email is not valid'), 30, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.clearText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Email'))
+WebUI.sendKeys(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Email'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
 
 WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Email'), 'abc 123')
 
 WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Email is not valid'), 30, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.clearText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Email'))
+WebUI.sendKeys(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Email'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
 
 WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Email'), '!@#$$!@')
 
 WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Email is not valid'), 30, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.clearText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Email'))
+WebUI.sendKeys(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Email'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
 
 WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Email'), 'ab@gmail')
 
 WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Email is not valid'), 30, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.clearText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Email'))
+WebUI.sendKeys(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Email'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
 
 WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Email'), 'ab@.com')
 
 WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Email is not valid'), 30, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.clearText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Email'))
+WebUI.sendKeys(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Email'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
 
 WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Email'), 'abc 1 2 3@ac.com')
 
 WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Email is not valid'), 30, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.clearText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Email'))
-
-WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Email'), ' abc@getnda.com')
-
-WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Email is not valid'), 30, FailureHandling.STOP_ON_FAILURE)
+WebUI.sendKeys(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Email'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
 

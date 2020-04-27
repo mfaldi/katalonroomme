@@ -31,11 +31,10 @@ WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield
 
 WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Password'), 30, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Password'), '123456')
+WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Password'), 'Abc123!')
 
 WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Confirm Password'), 'abcdef')
 
-WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Password didnt match'), 0)
-
-WebUI.clearText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Confirm Password'))
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text password confirmation didnt match password'), 
+    0)
 

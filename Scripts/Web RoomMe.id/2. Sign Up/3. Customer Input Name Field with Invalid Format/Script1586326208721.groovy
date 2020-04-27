@@ -14,9 +14,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 //import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import org.openqa.selenium.Keys as Keys
 
+//import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 WebUI.callTestCase(findTestCase('Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -36,26 +36,24 @@ WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Name Textfield'), 'ab')
 WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text At least input 3 characters long'), 
     30, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.getCSSValue(findTestObject('Web RoomMe.id/Sign Up Menu/Name Textfield'), '')
+WebUI.sendKeys(findTestObject('Web RoomMe.id/Sign Up Menu/Name Textfield'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
 
-not_run: WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Name Textfield'), 'abcde abcde abcde abcde abcde abcde abcde abcde')
+WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Name Textfield'), 'abcde abcde abcde abcde abcde abcde abcde abcde')
 
-not_run: WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Name input characters is 20'), 
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Name input characters is 20'), 
     30, FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.clearText(findTestObject('Web RoomMe.id/Sign Up Menu/Name Textfield'))
+WebUI.sendKeys(findTestObject('Web RoomMe.id/Sign Up Menu/Name Textfield'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
 
-not_run: WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Name Textfield'), 'abc1')
+WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Name Textfield'), 'abc1')
 
-not_run: WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Your name seems to contain incorrect characters'), 
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Your name seems to contain incorrect characters'), 
     30, FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.clearText(findTestObject('Web RoomMe.id/Sign Up Menu/Name Textfield'))
+WebUI.sendKeys(findTestObject('Web RoomMe.id/Sign Up Menu/Name Textfield'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
 
-not_run: WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Name Textfield'), 'abc!@#')
+WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Name Textfield'), 'abc!@#')
 
-not_run: WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Your name seems to contain incorrect characters'), 
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Your name seems to contain incorrect characters'), 
     30, FailureHandling.STOP_ON_FAILURE)
-
-not_run: WebUI.clearText(findTestObject('Web RoomMe.id/Sign Up Menu/Name Textfield'))
 

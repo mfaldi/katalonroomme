@@ -14,6 +14,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 //import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -31,34 +32,25 @@ WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield
 
 WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Phone Number'), 'abcdefghij')
 
-WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Phone Number contains an invalid number'), 
-    30, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Invalid phone number'), 30, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.clearText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Phone Number'))
+WebUI.sendKeys(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Phone Number'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
 
 WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Phone Number'), '12345abcde')
 
-WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Phone Number contains an invalid number'), 
-    30, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Invalid phone number'), 30, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.clearText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Phone Number'))
+WebUI.sendKeys(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Phone Number'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
 
 WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Phone Number'), '08123456 7890')
 
-WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Phone Number contains an invalid number'), 
-    30, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Invalid phone number'), 30, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.clearText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Phone Number'))
+WebUI.sendKeys(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Phone Number'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
 
 WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Phone Number'), '!@#$%^&*()')
 
-WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Phone Number contains an invalid number'), 
-    30, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Invalid phone number'), 30, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.clearText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Phone Number'))
-
-WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Phone Number'), '08123456789012')
-
-WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Phone Number contains an invalid number'), 
-    30, FailureHandling.STOP_ON_FAILURE)
+WebUI.sendKeys(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Phone Number'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
 

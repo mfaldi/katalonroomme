@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Customer Login with Google,Firefox 75.0,,,2020-04-27 02:12:06,2020-04-27 02:13:40,1m - 34.250s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/19. Sign In with Google/1. Customer Login with Registered Gmail,Firefox 75.0,,,2020-04-27 02:12:06,2020-04-27 02:12:36,30.097s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:12:07,2020-04-27 02:12:19,12.369s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Header/Button Sign In""), 0)",Firefox 75.0,,,2020-04-27 02:12:19,2020-04-27 02:12:20,1.162s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Header/Button Sign In""))",Firefox 75.0,,,2020-04-27 02:12:20,2020-04-27 02:12:21,0.814s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Sign In Menu/Button Sign In with Google""), 0)",Firefox 75.0,,,2020-04-27 02:12:21,2020-04-27 02:12:21,0.355s,PASSED
+"click(findTestObject(""Web RoomMe.id/Sign In Menu/Button Sign In with Google""))",Firefox 75.0,,,2020-04-27 02:12:21,2020-04-27 02:12:22,0.812s,PASSED
+switchToWindowIndex(1),Firefox 75.0,,,2020-04-27 02:12:22,2020-04-27 02:12:22,0.031s,PASSED
+waitForPageLoad(0),Firefox 75.0,,,2020-04-27 02:12:22,2020-04-27 02:12:23,1.012s,PASSED
+"waitForElementVisible(findTestObject(""Google Sign In/Textfield Email Google""), 0)",Firefox 75.0,,,2020-04-27 02:12:23,2020-04-27 02:12:24,0.891s,PASSED
+"setText(findTestObject(""Google Sign In/Textfield Email Google""), ""faldi@roomme.space"")",Firefox 75.0,,,2020-04-27 02:12:24,2020-04-27 02:12:25,0.684s,PASSED
+"click(findTestObject(""Google Sign In/Button Berikutnya""))",Firefox 75.0,,,2020-04-27 02:12:25,2020-04-27 02:12:26,0.751s,PASSED
+"waitForElementVisible(findTestObject(""Google Sign In/Textfield Password""), 0)",Firefox 75.0,,,2020-04-27 02:12:26,2020-04-27 02:12:27,1.615s,PASSED
+"setEncryptedText(findTestObject(""Google Sign In/Textfield Password""), ""aWQtAdXqif4Z+35qHGW6CQ=="")",Firefox 75.0,,,2020-04-27 02:12:27,2020-04-27 02:12:28,0.396s,PASSED
+"click(findTestObject(""Google Sign In/Button Berikutnya (Password)""))",Firefox 75.0,,,2020-04-27 02:12:28,2020-04-27 02:12:30,2.229s,PASSED
+switchToWindowIndex(0),Firefox 75.0,,,2020-04-27 02:12:30,2020-04-27 02:12:30,0.032s,PASSED
+waitForPageLoad(0),Firefox 75.0,,,2020-04-27 02:12:30,2020-04-27 02:12:30,0.020s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Header/User Menu/User Profile Image""), 0)",Firefox 75.0,,,2020-04-27 02:12:30,2020-04-27 02:12:36,6.157s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Header/User Menu/User Menu""), 0)",Firefox 75.0,,,2020-04-27 02:12:36,2020-04-27 02:12:36,0.369s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/19. Sign In with Google/2. Customer Login with Already Login Google Account,Firefox 75.0,,,2020-04-27 02:12:36,2020-04-27 02:13:40,1m - 3.862s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/19. Sign In with Google/1. Customer Login with Registered Gmail""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:12:37,2020-04-27 02:13:25,48.593s,PASSED
+waitForPageLoad(0),Firefox 75.0,,,2020-04-27 02:13:25,2020-04-27 02:13:25,0.015s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Header/User Menu/User Menu""), 0)",Firefox 75.0,,,2020-04-27 02:13:25,2020-04-27 02:13:26,0.349s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Header/User Menu/User Menu""))",Firefox 75.0,,,2020-04-27 02:13:26,2020-04-27 02:13:26,0.570s,PASSED
+"click(findTestObject(""Web RoomMe.id/User Menu/Button Log out""))",Firefox 75.0,,,2020-04-27 02:13:26,2020-04-27 02:13:29,2.508s,PASSED
+waitForPageLoad(0),Firefox 75.0,,,2020-04-27 02:13:29,2020-04-27 02:13:29,0.017s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Header/Button Sign In""), 0)",Firefox 75.0,,,2020-04-27 02:13:29,2020-04-27 02:13:31,2.896s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Header/Button Sign In""))",Firefox 75.0,,,2020-04-27 02:13:31,2020-04-27 02:13:32,0.530s,PASSED
+"click(findTestObject(""Web RoomMe.id/Sign In Menu/Button Sign In with Google""))",Firefox 75.0,,,2020-04-27 02:13:32,2020-04-27 02:13:33,0.821s,PASSED
+waitForPageLoad(0),Firefox 75.0,,,2020-04-27 02:13:33,2020-04-27 02:13:33,0.014s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Header/User Menu/User Profile Image""), 0)",Firefox 75.0,,,2020-04-27 02:13:33,2020-04-27 02:13:40,6.991s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Header/User Menu/User Menu""), 0)",Firefox 75.0,,,2020-04-27 02:13:40,2020-04-27 02:13:40,0.341s,PASSED

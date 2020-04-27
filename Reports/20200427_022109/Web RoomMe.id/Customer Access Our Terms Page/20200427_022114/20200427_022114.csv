@@ -1,0 +1,246 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Customer Access Our Terms Page,Firefox 75.0,,,2020-04-27 02:34:58,2020-04-27 02:38:54,3m - 56.248s,FAILED
+,,,,,,,
+Test Cases/Web RoomMe.id/4. Our Terms/Customer Access FAQ (Booking) Page,Firefox 75.0,,faq,2020-04-27 02:34:58,2020-04-27 02:35:33,34.157s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:34:59,2020-04-27 02:35:11,12.543s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Footer/Button FAQ""))",Firefox 75.0,,,2020-04-27 02:35:11,2020-04-27 02:35:15,3.271s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:35:15,2020-04-27 02:35:15,0.003s,NOT_RUN
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs""), 60)",Firefox 75.0,,,2020-04-27 02:35:15,2020-04-27 02:35:16,1.034s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions""), 60)",Firefox 75.0,,,2020-04-27 02:35:16,2020-04-27 02:35:17,0.922s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use""), 60)",Firefox 75.0,,,2020-04-27 02:35:17,2020-04-27 02:35:17,0.355s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer""), 60)",Firefox 75.0,,,2020-04-27 02:35:17,2020-04-27 02:35:18,0.827s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy""), 60)",Firefox 75.0,,,2020-04-27 02:35:18,2020-04-27 02:35:18,0.363s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Booking""), 60)",Firefox 75.0,,,2020-04-27 02:35:18,2020-04-27 02:35:19,0.384s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Payment""), 60)",Firefox 75.0,,,2020-04-27 02:35:19,2020-04-27 02:35:19,0.577s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q1""), 60)",Firefox 75.0,,,2020-04-27 02:35:19,2020-04-27 02:35:20,0.346s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q1""), ""Can I make a room booking at kost RoomMe ?"")",Firefox 75.0,,,2020-04-27 02:35:20,2020-04-27 02:35:20,0.327s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Text A1""), 60)",Firefox 75.0,,,2020-04-27 02:35:20,2020-04-27 02:35:20,0.400s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Text A1""), ""Yes, you can browse through ourlisting for available rooms."")",Firefox 75.0,,,2020-04-27 02:35:20,2020-04-27 02:35:21,0.298s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q2""), 60)",Firefox 75.0,,,2020-04-27 02:35:21,2020-04-27 02:35:21,0.352s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q2""), ""Can I survey the place prior to making payments ?"")",Firefox 75.0,,,2020-04-27 02:35:21,2020-04-27 02:35:21,0.298s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q2""))",Firefox 75.0,,,2020-04-27 02:35:21,2020-04-27 02:35:22,0.592s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Text A2""), 60)",Firefox 75.0,,,2020-04-27 02:35:22,2020-04-27 02:35:22,0.671s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Text A2""), ""Yes you may and we encourage you to do so! Our survey sessions are held every Monday-Sunday, from 8AM-10PM"")",Firefox 75.0,,,2020-04-27 02:35:22,2020-04-27 02:35:23,0.314s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q3""), 60)",Firefox 75.0,,,2020-04-27 02:35:23,2020-04-27 02:35:23,0.351s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q3""), ""What consist of the standard facilities provided by RoomMe ?"")",Firefox 75.0,,,2020-04-27 02:35:23,2020-04-27 02:35:23,0.297s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q3""))",Firefox 75.0,,,2020-04-27 02:35:23,2020-04-27 02:35:24,0.573s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Text A3""), 60)",Firefox 75.0,,,2020-04-27 02:35:24,2020-04-27 02:35:25,0.660s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Text A3""), id FAQ Text Data"").getValue(1, 1))",Firefox 75.0,,,2020-04-27 02:35:25,2020-04-27 02:35:26,1.223s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q4""), 60)",Firefox 75.0,,,2020-04-27 02:35:26,2020-04-27 02:35:26,0.385s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q4""), ""What if I want to move out of my kost before my stay period is over ?"")",Firefox 75.0,,,2020-04-27 02:35:26,2020-04-27 02:35:27,0.322s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q4""))",Firefox 75.0,,,2020-04-27 02:35:27,2020-04-27 02:35:27,0.556s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Text A4""), 60)",Firefox 75.0,,,2020-04-27 02:35:27,2020-04-27 02:35:28,0.708s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Text A4""), ""We have a “No Cancellation Policy” where customers cannot cancel bookings that they have made."")",Firefox 75.0,,,2020-04-27 02:35:28,2020-04-27 02:35:28,0.301s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q5""), 60)",Firefox 75.0,,,2020-04-27 02:35:28,2020-04-27 02:35:29,0.343s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q5""), ""Can I invite relative/friends to occasionally stay at the kost ?"")",Firefox 75.0,,,2020-04-27 02:35:29,2020-04-27 02:35:29,0.301s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q5""))",Firefox 75.0,,,2020-04-27 02:35:29,2020-04-27 02:35:29,0.581s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Text A5""), 60)",Firefox 75.0,,,2020-04-27 02:35:29,2020-04-27 02:35:30,0.670s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Text A5""), ""Our kost facilities are intended only forregistered and registered tenants. If the tenant wishes to host guests, then a rate of Rp. 250,000 per person per night is required. There is a maximum of 2 people perroom, and if the guest(s) stays for more than 1 day, he/she must provide government-approved identification (PERSONAL IDENTIFICATION CARD [KTP] / DRIVER’S LICENSE [SIM] / PASSPORT)."")",Firefox 75.0,,,2020-04-27 02:35:30,2020-04-27 02:35:30,0.295s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q6""), 60)",Firefox 75.0,,,2020-04-27 02:35:30,2020-04-27 02:35:31,0.389s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q6""), ""To whom and where do I report to if there is damage in my room ?"")",Firefox 75.0,,,2020-04-27 02:35:31,2020-04-27 02:35:31,0.289s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Q6""))",Firefox 75.0,,,2020-04-27 02:35:31,2020-04-27 02:35:32,0.563s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Text A6""), 60)",Firefox 75.0,,,2020-04-27 02:35:32,2020-04-27 02:35:32,0.615s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Text A6""), ""For reports, please call or WhatsApp our customer service at 0821-7666-6300"")",Firefox 75.0,,,2020-04-27 02:35:32,2020-04-27 02:35:33,0.283s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:35:33,2020-04-27 02:35:33,0.001s,NOT_RUN
+,,,,,,,
+Test Cases/Web RoomMe.id/4. Our Terms/Customer Access FAQ (Payment) Page,Firefox 75.0,,,2020-04-27 02:35:33,2020-04-27 02:35:59,26.683s,FAILED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:35:33,2020-04-27 02:35:53,19.952s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:35:53,2020-04-27 02:35:53,0.001s,NOT_RUN
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Footer/Button FAQ""))",Firefox 75.0,,,2020-04-27 02:35:53,2020-04-27 02:35:56,3.556s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:35:56,2020-04-27 02:35:59,2.888s,FAILED
+,,,,,,,
+Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Terms and Conditions Page,Firefox 75.0,,,2020-04-27 02:35:59,2020-04-27 02:36:41,42.048s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:35:59,2020-04-27 02:36:19,19.840s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Footer/Button Terms Conditions""))",Firefox 75.0,,,2020-04-27 02:36:19,2020-04-27 02:36:23,3.420s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:36:23,2020-04-27 02:36:23,0.001s,NOT_RUN
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:36:23,2020-04-27 02:36:23,0.001s,NOT_RUN
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs""), 60)",Firefox 75.0,,,2020-04-27 02:36:23,2020-04-27 02:36:24,1.044s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions""), 60)",Firefox 75.0,,,2020-04-27 02:36:24,2020-04-27 02:36:24,0.432s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use""), 60)",Firefox 75.0,,,2020-04-27 02:36:24,2020-04-27 02:36:25,0.431s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer""), 60)",Firefox 75.0,,,2020-04-27 02:36:25,2020-04-27 02:36:26,1.008s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy""), 60)",Firefox 75.0,,,2020-04-27 02:36:26,2020-04-27 02:36:26,0.315s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Image Terms and Conditions""), 60)",Firefox 75.0,,,2020-04-27 02:36:26,2020-04-27 02:36:26,0.336s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Text Global Content of Terms  Conditions for Web and Apps""), 60)",Firefox 75.0,,,2020-04-27 02:36:26,2020-04-27 02:36:27,0.342s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Button Q1""), 60)",Firefox 75.0,,,2020-04-27 02:36:27,2020-04-27 02:36:27,0.332s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Button Q1""), ""Welcome to RoomMe"")",Firefox 75.0,,,2020-04-27 02:36:27,2020-04-27 02:36:27,0.300s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Text A1""), 60)",Firefox 75.0,,,2020-04-27 02:36:27,2020-04-27 02:36:28,0.446s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Text A1""), id Terms and Conditions Text Data"").getValue(1, 1))",Firefox 75.0,,,2020-04-27 02:36:28,2020-04-27 02:36:28,0.408s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Button Q2""), 60)",Firefox 75.0,,,2020-04-27 02:36:28,2020-04-27 02:36:29,0.377s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Button Q2""), ""Copyright"")",Firefox 75.0,,,2020-04-27 02:36:29,2020-04-27 02:36:29,0.296s,PASSED
+"click(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Button Q2""))",Firefox 75.0,,,2020-04-27 02:36:29,2020-04-27 02:36:29,0.535s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Text A2""), 60)",Firefox 75.0,,,2020-04-27 02:36:29,2020-04-27 02:36:30,0.640s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Text A2""), id Terms and Conditions Text Data"").getValue(1, 2))",Firefox 75.0,,,2020-04-27 02:36:30,2020-04-27 02:36:30,0.324s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Button Q3""), 60)",Firefox 75.0,,,2020-04-27 02:36:30,2020-04-27 02:36:31,0.354s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Button Q3""), ""Cookies"")",Firefox 75.0,,,2020-04-27 02:36:31,2020-04-27 02:36:31,0.293s,PASSED
+"click(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Button Q3""))",Firefox 75.0,,,2020-04-27 02:36:31,2020-04-27 02:36:32,0.537s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Text A3""), 60)",Firefox 75.0,,,2020-04-27 02:36:32,2020-04-27 02:36:32,0.676s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Text A3""), id Terms and Conditions Text Data"").getValue(1, 3))",Firefox 75.0,,,2020-04-27 02:36:32,2020-04-27 02:36:33,0.340s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Button Q4""), 60)",Firefox 75.0,,,2020-04-27 02:36:33,2020-04-27 02:36:33,0.379s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Button Q4""), ""License and Site Access"")",Firefox 75.0,,,2020-04-27 02:36:33,2020-04-27 02:36:33,0.309s,PASSED
+"click(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Button Q4""))",Firefox 75.0,,,2020-04-27 02:36:33,2020-04-27 02:36:34,0.516s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Text A4""), 60)",Firefox 75.0,,,2020-04-27 02:36:34,2020-04-27 02:36:34,0.685s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Text A4""), id Terms and Conditions Text Data"").getValue(1, 4))",Firefox 75.0,,,2020-04-27 02:36:34,2020-04-27 02:36:35,0.313s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Button Q5""), 60)",Firefox 75.0,,,2020-04-27 02:36:35,2020-04-27 02:36:35,0.372s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Button Q5""), ""Comments, Reviews, and Emails"")",Firefox 75.0,,,2020-04-27 02:36:35,2020-04-27 02:36:35,0.285s,PASSED
+"click(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Button Q5""))",Firefox 75.0,,,2020-04-27 02:36:35,2020-04-27 02:36:36,0.515s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Text A5""), 60)",Firefox 75.0,,,2020-04-27 02:36:36,2020-04-27 02:36:37,0.696s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Text A5""), id Terms and Conditions Text Data"").getValue(1, 5))",Firefox 75.0,,,2020-04-27 02:36:37,2020-04-27 02:36:37,0.328s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Button Q6""), 60)",Firefox 75.0,,,2020-04-27 02:36:37,2020-04-27 02:36:37,0.332s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Button Q6""), ""Content Liability"")",Firefox 75.0,,,2020-04-27 02:36:37,2020-04-27 02:36:38,0.295s,PASSED
+"click(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Button Q6""))",Firefox 75.0,,,2020-04-27 02:36:38,2020-04-27 02:36:38,0.532s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Text A6""), 60)",Firefox 75.0,,,2020-04-27 02:36:38,2020-04-27 02:36:39,0.647s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Text A6""), id Terms and Conditions Text Data"").getValue(1, 6))",Firefox 75.0,,,2020-04-27 02:36:39,2020-04-27 02:36:39,0.335s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Button Q7""), 60)",Firefox 75.0,,,2020-04-27 02:36:39,2020-04-27 02:36:39,0.371s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Button Q7""), ""User Account"")",Firefox 75.0,,,2020-04-27 02:36:39,2020-04-27 02:36:40,0.303s,PASSED
+"click(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Button Q7""))",Firefox 75.0,,,2020-04-27 02:36:40,2020-04-27 02:36:40,0.512s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Text A7""), 60)",Firefox 75.0,,,2020-04-27 02:36:40,2020-04-27 02:36:41,0.689s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Terms and Conditions Page/Text A7""), id Terms and Conditions Text Data"").getValue(1, 7))",Firefox 75.0,,,2020-04-27 02:36:41,2020-04-27 02:36:41,0.327s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Terms of Use Page,Firefox 75.0,,,2020-04-27 02:36:41,2020-04-27 02:37:25,43.672s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:36:41,2020-04-27 02:37:02,20.152s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Footer/Button Terms of Use""))",Firefox 75.0,,,2020-04-27 02:37:02,2020-04-27 02:37:06,4.160s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:37:06,2020-04-27 02:37:06,0.001s,NOT_RUN
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:37:06,2020-04-27 02:37:06,0.000s,NOT_RUN
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs""), 60)",Firefox 75.0,,,2020-04-27 02:37:06,2020-04-27 02:37:07,1.082s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions""), 60)",Firefox 75.0,,,2020-04-27 02:37:07,2020-04-27 02:37:07,0.484s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use""), 60)",Firefox 75.0,,,2020-04-27 02:37:07,2020-04-27 02:37:08,0.412s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer""), 60)",Firefox 75.0,,,2020-04-27 02:37:08,2020-04-27 02:37:08,0.307s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy""), 60)",Firefox 75.0,,,2020-04-27 02:37:08,2020-04-27 02:37:09,0.884s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms of Use Page/Image Terms of Use""), 60)",Firefox 75.0,,,2020-04-27 02:37:09,2020-04-27 02:37:09,0.329s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms of Use Page/Text Global Content of Terms of Use for Web Apps""), 60)",Firefox 75.0,,,2020-04-27 02:37:09,2020-04-27 02:37:10,0.369s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms of Use Page/Text Terms of Use Content""), 60)",Firefox 75.0,,,2020-04-27 02:37:10,2020-04-27 02:37:10,0.376s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Terms of Use Page/Text Terms of Use Content""), id Terms of Use Text Data"").getValue(1, 1))",Firefox 75.0,,,2020-04-27 02:37:10,2020-04-27 02:37:11,0.460s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms of Use Page/Button Q1""), 60)",Firefox 75.0,,,2020-04-27 02:37:11,2020-04-27 02:37:11,0.313s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Terms of Use Page/Button Q1""), ""Bookings"")",Firefox 75.0,,,2020-04-27 02:37:11,2020-04-27 02:37:11,0.298s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms of Use Page/Text A1""), 60)",Firefox 75.0,,,2020-04-27 02:37:11,2020-04-27 02:37:12,0.386s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Terms of Use Page/Text A1""), id Terms of Use Text Data"").getValue(1, 2))",Firefox 75.0,,,2020-04-27 02:37:12,2020-04-27 02:37:12,0.318s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms of Use Page/Button Q2""), 60)",Firefox 75.0,,,2020-04-27 02:37:12,2020-04-27 02:37:12,0.379s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Terms of Use Page/Button Q2""), ""Fees and Payments"")",Firefox 75.0,,,2020-04-27 02:37:12,2020-04-27 02:37:12,0.293s,PASSED
+"click(findTestObject(""Web RoomMe.id/Terms of Use Page/Button Q2""))",Firefox 75.0,,,2020-04-27 02:37:12,2020-04-27 02:37:13,0.535s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms of Use Page/Text A2""), 60)",Firefox 75.0,,,2020-04-27 02:37:13,2020-04-27 02:37:14,0.664s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Terms of Use Page/Text A2""), id Terms of Use Text Data"").getValue(1, 3))",Firefox 75.0,,,2020-04-27 02:37:14,2020-04-27 02:37:14,0.317s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms of Use Page/Button Q3""), 60)",Firefox 75.0,,,2020-04-27 02:37:14,2020-04-27 02:37:14,0.382s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Terms of Use Page/Button Q3""), ""Termination"")",Firefox 75.0,,,2020-04-27 02:37:14,2020-04-27 02:37:15,0.354s,PASSED
+"click(findTestObject(""Web RoomMe.id/Terms of Use Page/Button Q3""))",Firefox 75.0,,,2020-04-27 02:37:15,2020-04-27 02:37:15,0.514s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms of Use Page/Text A3""), 60)",Firefox 75.0,,,2020-04-27 02:37:15,2020-04-27 02:37:16,0.697s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Terms of Use Page/Text A3""), id Terms of Use Text Data"").getValue(1, 4))",Firefox 75.0,,,2020-04-27 02:37:16,2020-04-27 02:37:16,0.317s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms of Use Page/Button Q4""), 60)",Firefox 75.0,,,2020-04-27 02:37:16,2020-04-27 02:37:17,0.318s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Terms of Use Page/Button Q4""), ""Content"")",Firefox 75.0,,,2020-04-27 02:37:17,2020-04-27 02:37:17,0.282s,PASSED
+"click(findTestObject(""Web RoomMe.id/Terms of Use Page/Button Q4""))",Firefox 75.0,,,2020-04-27 02:37:17,2020-04-27 02:37:17,0.514s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms of Use Page/Text A4""), 60)",Firefox 75.0,,,2020-04-27 02:37:17,2020-04-27 02:37:18,0.688s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Terms of Use Page/Text A4""), id Terms of Use Text Data"").getValue(1, 5))",Firefox 75.0,,,2020-04-27 02:37:18,2020-04-27 02:37:18,0.317s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms of Use Page/Button Q5""), 60)",Firefox 75.0,,,2020-04-27 02:37:18,2020-04-27 02:37:19,0.351s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Terms of Use Page/Button Q5""), ""Links To Other Websites"")",Firefox 75.0,,,2020-04-27 02:37:19,2020-04-27 02:37:19,0.325s,PASSED
+"click(findTestObject(""Web RoomMe.id/Terms of Use Page/Button Q5""))",Firefox 75.0,,,2020-04-27 02:37:19,2020-04-27 02:37:20,0.539s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms of Use Page/Text A5""), 60)",Firefox 75.0,,,2020-04-27 02:37:20,2020-04-27 02:37:20,0.685s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Terms of Use Page/Text A5""), id Terms of Use Text Data"").getValue(1, 6))",Firefox 75.0,,,2020-04-27 02:37:20,2020-04-27 02:37:21,0.317s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms of Use Page/Button Q6""), 60)",Firefox 75.0,,,2020-04-27 02:37:21,2020-04-27 02:37:21,0.385s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Terms of Use Page/Button Q6""), ""Change to Terms"")",Firefox 75.0,,,2020-04-27 02:37:21,2020-04-27 02:37:21,0.282s,PASSED
+"click(findTestObject(""Web RoomMe.id/Terms of Use Page/Button Q6""))",Firefox 75.0,,,2020-04-27 02:37:21,2020-04-27 02:37:22,0.517s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms of Use Page/Text A6""), 60)",Firefox 75.0,,,2020-04-27 02:37:22,2020-04-27 02:37:22,0.690s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Terms of Use Page/Text A6""), id Terms of Use Text Data"").getValue(1, 7))",Firefox 75.0,,,2020-04-27 02:37:22,2020-04-27 02:37:23,0.308s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms of Use Page/Button Q7""), 60)",Firefox 75.0,,,2020-04-27 02:37:23,2020-04-27 02:37:23,0.362s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Terms of Use Page/Button Q7""), ""Contact Us"")",Firefox 75.0,,,2020-04-27 02:37:23,2020-04-27 02:37:23,0.296s,PASSED
+"click(findTestObject(""Web RoomMe.id/Terms of Use Page/Button Q7""))",Firefox 75.0,,,2020-04-27 02:37:23,2020-04-27 02:37:24,0.533s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Terms of Use Page/Text A7""), 60)",Firefox 75.0,,,2020-04-27 02:37:24,2020-04-27 02:37:25,0.638s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Terms of Use Page/Text A7""), id Terms of Use Text Data"").getValue(1, 8))",Firefox 75.0,,,2020-04-27 02:37:25,2020-04-27 02:37:25,0.317s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Disclaimer Page,Firefox 75.0,,,2020-04-27 02:37:25,2020-04-27 02:37:57,31.798s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:37:25,2020-04-27 02:37:45,20.033s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Footer/Button Disclaimer""))",Firefox 75.0,,,2020-04-27 02:37:45,2020-04-27 02:37:49,3.358s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:37:49,2020-04-27 02:37:49,0.000s,NOT_RUN
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:37:49,2020-04-27 02:37:49,0.001s,NOT_RUN
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs""), 60)",Firefox 75.0,,,2020-04-27 02:37:49,2020-04-27 02:37:50,1.087s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions""), 60)",Firefox 75.0,,,2020-04-27 02:37:50,2020-04-27 02:37:50,0.425s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use""), 60)",Firefox 75.0,,,2020-04-27 02:37:50,2020-04-27 02:37:50,0.429s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer""), 60)",Firefox 75.0,,,2020-04-27 02:37:50,2020-04-27 02:37:51,0.969s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy""), 60)",Firefox 75.0,,,2020-04-27 02:37:51,2020-04-27 02:37:52,0.325s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Disclaimer Page/Image Disclaimer""), 60)",Firefox 75.0,,,2020-04-27 02:37:52,2020-04-27 02:37:52,0.355s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Disclaimer Page/Text Global Disclaimer""), 60)",Firefox 75.0,,,2020-04-27 02:37:52,2020-04-27 02:37:53,0.409s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Disclaimer Page/Text Disclaimer Content""), 60)",Firefox 75.0,,,2020-04-27 02:37:53,2020-04-27 02:37:53,0.339s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Disclaimer Page/Text Disclaimer Content""), id Disclaimer Text Data"").getValue(1, 1))",Firefox 75.0,,,2020-04-27 02:37:53,2020-04-27 02:37:53,0.345s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Disclaimer Page/Button Q1""), 60)",Firefox 75.0,,,2020-04-27 02:37:53,2020-04-27 02:37:54,0.342s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Disclaimer Page/Button Q1""), ""Consent"")",Firefox 75.0,,,2020-04-27 02:37:54,2020-04-27 02:37:54,0.296s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Disclaimer Page/Text A1""), 60)",Firefox 75.0,,,2020-04-27 02:37:54,2020-04-27 02:37:54,0.469s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Disclaimer Page/Text A1""), ""By using our website, you hereby consent to our disclaimer and agree to its terms."")",Firefox 75.0,,,2020-04-27 02:37:54,2020-04-27 02:37:55,0.288s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Disclaimer Page/Button Q2""), 60)",Firefox 75.0,,,2020-04-27 02:37:55,2020-04-27 02:37:55,0.336s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Disclaimer Page/Button Q2""), ""Update"")",Firefox 75.0,,,2020-04-27 02:37:55,2020-04-27 02:37:55,0.294s,PASSED
+"click(findTestObject(""Web RoomMe.id/Disclaimer Page/Button Q2""))",Firefox 75.0,,,2020-04-27 02:37:55,2020-04-27 02:37:56,0.541s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Disclaimer Page/Text A2""), 60)",Firefox 75.0,,,2020-04-27 02:37:56,2020-04-27 02:37:56,0.658s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Disclaimer Page/Text A2""), ""Should we update, amend or make any changes to this document, those changes will be promptly posted here."")",Firefox 75.0,,,2020-04-27 02:37:56,2020-04-27 02:37:57,0.290s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Privacy Policy,Firefox 75.0,,,2020-04-27 02:37:57,2020-04-27 02:38:54,57.547s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:37:57,2020-04-27 02:38:19,21.650s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Footer/Button Privacy Policy""))",Firefox 75.0,,,2020-04-27 02:38:19,2020-04-27 02:38:24,5.430s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:38:24,2020-04-27 02:38:24,0.001s,NOT_RUN
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:38:24,2020-04-27 02:38:24,0.000s,NOT_RUN
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs""), 60)",Firefox 75.0,,,2020-04-27 02:38:24,2020-04-27 02:38:25,1.060s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions""), 60)",Firefox 75.0,,,2020-04-27 02:38:25,2020-04-27 02:38:26,0.769s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use""), 60)",Firefox 75.0,,,2020-04-27 02:38:26,2020-04-27 02:38:27,0.902s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer""), 60)",Firefox 75.0,,,2020-04-27 02:38:27,2020-04-27 02:38:27,0.336s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy""), 60)",Firefox 75.0,,,2020-04-27 02:38:27,2020-04-27 02:38:27,0.306s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Privacy Policy Page/Image Privacy Policy""), 60)",Firefox 75.0,,,2020-04-27 02:38:27,2020-04-27 02:38:28,0.432s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Privacy Policy Page/Text Privacy Policy""), 60)",Firefox 75.0,,,2020-04-27 02:38:28,2020-04-27 02:38:28,0.316s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Privacy Policy Page/Text Privacy Policy Content""), 60)",Firefox 75.0,,,2020-04-27 02:38:28,2020-04-27 02:38:29,0.400s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Privacy Policy Page/Text Privacy Policy Content""), id Privacy Policy Text Data"").getValue(1, 1))",Firefox 75.0,,,2020-04-27 02:38:29,2020-04-27 02:38:29,0.441s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q1""), 0)",Firefox 75.0,,,2020-04-27 02:38:29,2020-04-27 02:38:29,0.308s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q1""), ""Definitions"")",Firefox 75.0,,,2020-04-27 02:38:29,2020-04-27 02:38:30,0.314s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Privacy Policy Page/Text A1""), 0)",Firefox 75.0,,,2020-04-27 02:38:30,2020-04-27 02:38:30,0.365s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Privacy Policy Page/Text A1""), id Privacy Policy Text Data"").getValue(1, 2))",Firefox 75.0,,,2020-04-27 02:38:30,2020-04-27 02:38:30,0.322s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q2""), 0)",Firefox 75.0,,,2020-04-27 02:38:30,2020-04-27 02:38:31,0.330s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q2""), ""Information Collection and Use"")",Firefox 75.0,,,2020-04-27 02:38:31,2020-04-27 02:38:31,0.297s,PASSED
+"click(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q2""))",Firefox 75.0,,,2020-04-27 02:38:31,2020-04-27 02:38:32,0.537s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Privacy Policy Page/Text A2""), 0)",Firefox 75.0,,,2020-04-27 02:38:32,2020-04-27 02:38:32,0.645s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Privacy Policy Page/Text A2""), ""We collect several different types of information for various purposes to provide and improve our Service to you."")",Firefox 75.0,,,2020-04-27 02:38:32,2020-04-27 02:38:32,0.275s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q3""), ""Personal Data"")",Firefox 75.0,,,2020-04-27 02:38:32,2020-04-27 02:38:33,0.370s,PASSED
+"click(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q3""))",Firefox 75.0,,,2020-04-27 02:38:33,2020-04-27 02:38:33,0.520s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Privacy Policy Page/Text A3""), 0)",Firefox 75.0,,,2020-04-27 02:38:33,2020-04-27 02:38:34,0.658s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Privacy Policy Page/Text A3""), id Privacy Policy Text Data"").getValue(1, 4))",Firefox 75.0,,,2020-04-27 02:38:34,2020-04-27 02:38:34,0.312s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q4""), 0)",Firefox 75.0,,,2020-04-27 02:38:34,2020-04-27 02:38:35,0.385s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q4""), ""Use of Data"")",Firefox 75.0,,,2020-04-27 02:38:35,2020-04-27 02:38:35,0.286s,PASSED
+"click(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q4""))",Firefox 75.0,,,2020-04-27 02:38:35,2020-04-27 02:38:35,0.524s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Privacy Policy Page/Text A4""), 0)",Firefox 75.0,,,2020-04-27 02:38:35,2020-04-27 02:38:36,0.701s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Privacy Policy Page/Text A4""), id Privacy Policy Text Data"").getValue(1, 5))",Firefox 75.0,,,2020-04-27 02:38:36,2020-04-27 02:38:37,0.318s,PASSED
+"executeJavaScript(""document.body.style.zoom='50%'"", null)",Firefox 75.0,,,2020-04-27 02:38:37,2020-04-27 02:38:37,0.001s,NOT_RUN
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q5""), 0)",Firefox 75.0,,,2020-04-27 02:38:37,2020-04-27 02:38:37,0.378s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q5""), ""Transfer of Data"")",Firefox 75.0,,,2020-04-27 02:38:37,2020-04-27 02:38:37,0.283s,PASSED
+"scrollToElement(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q4""), 0)",Firefox 75.0,,,2020-04-27 02:38:37,2020-04-27 02:38:37,0.292s,PASSED
+"verifyElementInViewport(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q5""), 0)",Firefox 75.0,,,2020-04-27 02:38:37,2020-04-27 02:38:38,0.333s,PASSED
+"click(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q5""))",Firefox 75.0,,,2020-04-27 02:38:38,2020-04-27 02:38:38,0.511s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Privacy Policy Page/Text A5""), 0)",Firefox 75.0,,,2020-04-27 02:38:38,2020-04-27 02:38:39,0.658s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Privacy Policy Page/Text A5""), id Privacy Policy Text Data"").getValue(1, 6))",Firefox 75.0,,,2020-04-27 02:38:39,2020-04-27 02:38:39,0.303s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q6""), 0)",Firefox 75.0,,,2020-04-27 02:38:39,2020-04-27 02:38:40,0.385s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q6""), ""Disclosure of Data"")",Firefox 75.0,,,2020-04-27 02:38:40,2020-04-27 02:38:40,0.283s,PASSED
+"click(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q6""))",Firefox 75.0,,,2020-04-27 02:38:40,2020-04-27 02:38:40,0.516s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Privacy Policy Page/Text A6""), 0)",Firefox 75.0,,,2020-04-27 02:38:40,2020-04-27 02:38:41,0.666s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Privacy Policy Page/Text A6""), id Privacy Policy Text Data"").getValue(1, 7))",Firefox 75.0,,,2020-04-27 02:38:41,2020-04-27 02:38:41,0.317s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q7""), 0)",Firefox 75.0,,,2020-04-27 02:38:41,2020-04-27 02:38:42,0.373s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q7""), ""Security of Data"")",Firefox 75.0,,,2020-04-27 02:38:42,2020-04-27 02:38:42,0.292s,PASSED
+"click(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q7""))",Firefox 75.0,,,2020-04-27 02:38:42,2020-04-27 02:38:43,0.522s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Privacy Policy Page/Text A7""), 0)",Firefox 75.0,,,2020-04-27 02:38:43,2020-04-27 02:38:43,0.626s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Privacy Policy Page/Text A7""), ""The security of your data is important to us but remember that no method of transmission over the Internet or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security."")",Firefox 75.0,,,2020-04-27 02:38:43,2020-04-27 02:38:44,0.283s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q8""), 0)",Firefox 75.0,,,2020-04-27 02:38:44,2020-04-27 02:38:44,0.388s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q8""), ""Service Providers"")",Firefox 75.0,,,2020-04-27 02:38:44,2020-04-27 02:38:44,0.288s,PASSED
+"click(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q8""))",Firefox 75.0,,,2020-04-27 02:38:44,2020-04-27 02:38:45,0.557s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Privacy Policy Page/Text A8""), 0)",Firefox 75.0,,,2020-04-27 02:38:45,2020-04-27 02:38:45,0.685s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Privacy Policy Page/Text A8""), id Privacy Policy Text Data"").getValue(1, 9))",Firefox 75.0,,,2020-04-27 02:38:45,2020-04-27 02:38:46,0.310s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q9""), 0)",Firefox 75.0,,,2020-04-27 02:38:46,2020-04-27 02:38:46,0.343s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q9""), ""Links to Other Sites"")",Firefox 75.0,,,2020-04-27 02:38:46,2020-04-27 02:38:46,0.293s,PASSED
+"click(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q9""))",Firefox 75.0,,,2020-04-27 02:38:46,2020-04-27 02:38:47,0.515s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Privacy Policy Page/Text A9""), 0)",Firefox 75.0,,,2020-04-27 02:38:47,2020-04-27 02:38:48,0.639s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Privacy Policy Page/Text A9""), id Privacy Policy Text Data"").getValue(1, 10))",Firefox 75.0,,,2020-04-27 02:38:48,2020-04-27 02:38:48,0.304s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q10""), 0)",Firefox 75.0,,,2020-04-27 02:38:48,2020-04-27 02:38:48,0.343s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q10""), ""Children's Privacy"")",Firefox 75.0,,,2020-04-27 02:38:48,2020-04-27 02:38:48,0.291s,PASSED
+"click(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q10""))",Firefox 75.0,,,2020-04-27 02:38:48,2020-04-27 02:38:49,0.521s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Privacy Policy Page/Text A10""), 0)",Firefox 75.0,,,2020-04-27 02:38:49,2020-04-27 02:38:50,0.693s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Privacy Policy Page/Text A10""), id Privacy Policy Text Data"").getValue(1, 11))",Firefox 75.0,,,2020-04-27 02:38:50,2020-04-27 02:38:50,0.318s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q11""), 0)",Firefox 75.0,,,2020-04-27 02:38:50,2020-04-27 02:38:50,0.372s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q11""), ""Changes to This Privacy Policy"")",Firefox 75.0,,,2020-04-27 02:38:50,2020-04-27 02:38:51,0.283s,PASSED
+"click(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q11""))",Firefox 75.0,,,2020-04-27 02:38:51,2020-04-27 02:38:51,0.519s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Privacy Policy Page/Text A11""), 0)",Firefox 75.0,,,2020-04-27 02:38:51,2020-04-27 02:38:52,0.620s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Privacy Policy Page/Text A11""), id Privacy Policy Text Data"").getValue(1, 12))",Firefox 75.0,,,2020-04-27 02:38:52,2020-04-27 02:38:52,0.317s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q12""), 0)",Firefox 75.0,,,2020-04-27 02:38:52,2020-04-27 02:38:52,0.368s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q12""), ""Contact Us"")",Firefox 75.0,,,2020-04-27 02:38:52,2020-04-27 02:38:53,0.278s,PASSED
+"click(findTestObject(""Web RoomMe.id/Privacy Policy Page/Button Q12""))",Firefox 75.0,,,2020-04-27 02:38:53,2020-04-27 02:38:53,0.528s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/Privacy Policy Page/Text A12""), 0)",Firefox 75.0,,,2020-04-27 02:38:53,2020-04-27 02:38:54,0.683s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/Privacy Policy Page/Text A12""), id Privacy Policy Text Data"").getValue(1, 13))",Firefox 75.0,,,2020-04-27 02:38:54,2020-04-27 02:38:54,0.310s,PASSED

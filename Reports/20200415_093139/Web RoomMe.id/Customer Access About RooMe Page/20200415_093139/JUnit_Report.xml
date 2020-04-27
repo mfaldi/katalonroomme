@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Customer Access About RooMe Page" time="162.194" tests="4" failures="1" errors="0">
+   <testsuite name="Customer Access About RooMe Page" tests="4" failures="1" errors="0" time="162.194" timestamp="2020-04-15 09:32:01" hostname="Faldi - DESKTOP-HHN6DC2" id="Test Suites/Web RoomMe.id/Customer Access About RooMe Page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme\\Reports\\20200415_093139\\Web RoomMe.id\\Customer Access About RooMe Page\\20200415_093139"/>
+         <property name="logFiles" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme\\Reports\\20200415_093139\\Web RoomMe.id\\Customer Access About RooMe Page\\20200415_093139\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme\\Reports\\20200415_093139\\Web RoomMe.id\\Customer Access About RooMe Page\\20200415_093139\\1586918023280.png"/>
+         <property name="hostName" value="Faldi - DESKTOP-HHN6DC2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.6.1"/>
+         <property name="browser" value="Firefox 75.0"/>
+         <property name="hostAddress" value="192.168.1.59"/>
+         <property name="sessionId" value="4901e32d-1b66-44d7-9833-5840984109bd"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access About Us Page" time="101.954" classname="Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access About Us Page" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access About Us Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/Disclaimer Page/Button Q1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Customer Access About Us Page.run(Customer Access About Us Page:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1586917899015.run(TempTestSuite1586917899015.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/Disclaimer Page/Button Q1' located by 'By.xpath: //*[(text() = 'Consent' or . = 'Consent')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-04-15 09:32:01 - [TEST_CASE][FAILED] - Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access About Us Page: Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access About Us Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/Disclaimer Page/Button Q1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Customer Access About Us Page.run(Customer Access About Us Page:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1586917899015.run(TempTestSuite1586917899015.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/Disclaimer Page/Button Q1' located by 'By.xpath: //*[(text() = 'Consent' or . = 'Consent')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-04-15 09:32:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-15 09:32:02 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-04-15 09:32:02 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-15 09:32:02 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+2020-04-15 09:32:02 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-04-15 09:32:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-15 09:32:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-15 09:32:22 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-15 09:32:22 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-15 09:32:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-04-15 09:32:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-15 09:32:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-15 09:32:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Footer/Button About Us")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button About Us' is visible
+
+2020-04-15 09:32:23 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button About Us' is visible
+
+2020-04-15 09:32:23 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Footer/Button About Us")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button About Us' is clicked on
+
+2020-04-15 09:32:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button About Us' is clicked on
+
+2020-04-15 09:32:40 - [TEST_STEP][FAILED] - click(findTestObject("Web RoomMe.id/Disclaimer Page/Button Q1")): Unable to click on object 'Object Repository/Web RoomMe.id/Disclaimer Page/Button Q1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/Disclaimer Page/Button Q1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Customer Access About Us Page.run(Customer Access About Us Page:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1586917899015.run(TempTestSuite1586917899015.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/Disclaimer Page/Button Q1' located by 'By.xpath: //*[(text() = 'Consent' or . = 'Consent')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1583319120419.run(Script1583319120419.groovy:25)
+	... 13 more
+)
+
+2020-04-15 09:33:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'Consent' or . = 'Consent')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-04-15 09:33:43 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Web RoomMe.id/Disclaimer Page/Button Q1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/Disclaimer Page/Button Q1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Customer Access About Us Page.run(Customer Access About Us Page:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1586917899015.run(TempTestSuite1586917899015.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/Disclaimer Page/Button Q1' located by 'By.xpath: //*[(text() = 'Consent' or . = 'Consent')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1583319120419.run(Script1583319120419.groovy:25)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Faldi\\Katalon Studio\\katalonroomme\\Reports\\20200415_093139\\Web RoomMe.id\\Customer Access About RooMe Page\\20200415_093139\\1586918023280.png]]]]></system-out>
+         <system-err><![CDATA[2020-04-15 09:32:01 - [TEST_CASE][FAILED] - Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access About Us Page: Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access About Us Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/Disclaimer Page/Button Q1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Customer Access About Us Page.run(Customer Access About Us Page:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1586917899015.run(TempTestSuite1586917899015.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/Disclaimer Page/Button Q1' located by 'By.xpath: //*[(text() = 'Consent' or . = 'Consent')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/5. About RoomMe/Verify About Us Page" time="1.507" classname="Test Cases/Web RoomMe.id/5. About RoomMe/Verify About Us Page" status="PASSED">
+         <system-out><![CDATA[2020-04-15 09:33:43 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/5. About RoomMe/Verify About Us Page: Test Cases/Web RoomMe.id/5. About RoomMe/Verify About Us Page
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\RoomMe.id About Us Page\": null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text Strong Branding Promotion' is visible
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' is visible
+
+2020-04-15 09:33:44 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' is visible
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text 247 TollFree Support' is visible
+
+2020-04-15 09:33:44 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text 247 TollFree Support' is visible
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text 247Service' is visible
+
+2020-04-15 09:33:44 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text 247Service' is visible
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text About Us Content 2' is visible
+
+2020-04-15 09:33:44 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text About Us Content 2' is visible
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text About Us Content' is visible
+
+2020-04-15 09:33:44 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text About Us Content' is visible
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text About Us' is visible
+
+2020-04-15 09:33:44 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text About Us' is visible
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text AffordablePrice' is visible
+
+2020-04-15 09:33:44 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text AffordablePrice' is visible
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text Best QualityGuarantee' is visible
+
+2020-04-15 09:33:44 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text Best QualityGuarantee' is visible
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text ComfortableLiving' is visible
+
+2020-04-15 09:33:44 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text ComfortableLiving' is visible
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text CostEfficient' is visible
+
+2020-04-15 09:33:44 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text CostEfficient' is visible
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text Get More Income Without Hassle' is visible
+
+2020-04-15 09:33:44 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text Get More Income Without Hassle' is visible
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text Handle Check in Check Out' is visible
+
+2020-04-15 09:33:44 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text Handle Check in Check Out' is visible
+
+2020-04-15 09:33:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text IncreaseRevenues' is visible
+
+2020-04-15 09:33:45 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text IncreaseRevenues' is visible
+
+2020-04-15 09:33:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text Initial RoutineStaff Audit' is visible
+
+2020-04-15 09:33:45 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text Initial RoutineStaff Audit' is visible
+
+2020-04-15 09:33:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text Kost Owners' is visible
+
+2020-04-15 09:33:45 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text Kost Owners' is visible
+
+2020-04-15 09:33:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text MonthlyReport' is visible
+
+2020-04-15 09:33:45 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text MonthlyReport' is visible
+
+2020-04-15 09:33:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text PropertyMaintenance' is visible
+
+2020-04-15 09:33:45 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text PropertyMaintenance' is visible
+
+2020-04-15 09:33:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text Strong Branding Promotion' is visible
+
+2020-04-15 09:33:45 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Text Strong Branding Promotion' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access Contact Us Page" time="46.621" classname="Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access Contact Us Page" status="PASSED">
+         <system-out><![CDATA[2020-04-15 09:33:45 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access Contact Us Page: Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access Contact Us Page
+
+2020-04-15 09:33:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-15 09:33:45 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-04-15 09:33:45 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-15 09:33:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-04-15 09:33:48 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+2020-04-15 09:34:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-15 09:34:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-15 09:34:02 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-15 09:34:02 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-15 09:34:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-04-15 09:34:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-15 09:34:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-15 09:34:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Footer/Button Contact Us")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button Contact Us' is visible
+
+2020-04-15 09:34:02 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button Contact Us' is visible
+
+2020-04-15 09:34:02 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Footer/Button Contact Us")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button Contact Us' is clicked on
+
+2020-04-15 09:34:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button Contact Us' is clicked on
+
+2020-04-15 09:34:30 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-15 09:34:30 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/5. About RoomMe/Verify Contact Us Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/5. About RoomMe/Verify Contact Us Page' successfully
+
+2020-04-15 09:34:30 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/5. About RoomMe/Verify Contact Us Page: Test Cases/Web RoomMe.id/5. About RoomMe/Verify Contact Us Page
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\RoomMe.id Contact Us Page\": null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text RoomMe Location Content' is visible
+
+2020-04-15 09:34:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Button Attach File' is visible
+
+2020-04-15 09:34:31 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Button Attach File' is visible
+
+2020-04-15 09:34:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Button Submit' is visible
+
+2020-04-15 09:34:31 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Button Submit' is visible
+
+2020-04-15 09:34:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Checkbox I Have my RoomMe Booking ID' is visible
+
+2020-04-15 09:34:31 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Checkbox I Have my RoomMe Booking ID' is visible
+
+2020-04-15 09:34:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Image Contact Us' is visible
+
+2020-04-15 09:34:31 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Image Contact Us' is visible
+
+2020-04-15 09:34:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Input Customer Name' is visible
+
+2020-04-15 09:34:31 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Input Customer Name' is visible
+
+2020-04-15 09:34:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Input Email' is visible
+
+2020-04-15 09:34:31 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Input Email' is visible
+
+2020-04-15 09:34:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Input Message' is visible
+
+2020-04-15 09:34:31 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Input Message' is visible
+
+2020-04-15 09:34:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text Get In Touch Content' is visible
+
+2020-04-15 09:34:31 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text Get In Touch Content' is visible
+
+2020-04-15 09:34:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text Get In Touch with Us' is visible
+
+2020-04-15 09:34:31 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text Get In Touch with Us' is visible
+
+2020-04-15 09:34:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text Head Office' is visible
+
+2020-04-15 09:34:31 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text Head Office' is visible
+
+2020-04-15 09:34:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text RoomMe Location Content' is visible
+
+2020-04-15 09:34:31 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text RoomMe Location Content' is visible
+
+2020-04-15 09:34:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/5. About RoomMe/Verify Contact Us Page' successfully
+
+2020-04-15 09:34:31 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-15 09:34:31 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-15 09:34:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id Contact Us Page/Text Get In Touch with Us"), "Get In Touch with Us"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id Contact Us Page/Text Get In Touch with Us' are matched.
+
+2020-04-15 09:34:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id Contact Us Page/Text Get In Touch with Us' are matched.
+
+2020-04-15 09:34:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id Contact Us Page/Text Head Office"), "Head Office"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id Contact Us Page/Text Head Office' are matched.
+
+2020-04-15 09:34:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id Contact Us Page/Text Head Office' are matched.
+
+2020-04-15 09:34:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id Contact Us Page/Text Get In Touch Content"), "If you have any questions, please get in touch with our friendly and knowledgable customer support team by filling out the form below."): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id Contact Us Page/Text Get In Touch Content' are matched.
+
+2020-04-15 09:34:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id Contact Us Page/Text Get In Touch Content' are matched.
+
+2020-04-15 09:34:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id Contact Us Page/Text RoomMe Location Content"), "Jl. Tiang Bendera IV no 34 I-J, RT.7/RW.3, Roa Malaka, Kec. Tambora, Indonesia, DKI Jakarta 11230"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id Contact Us Page/Text RoomMe Location Content' are matched.
+
+2020-04-15 09:34:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id Contact Us Page/Text RoomMe Location Content' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/5. About RoomMe/Verify Contact Us Page" time="0.725" classname="Test Cases/Web RoomMe.id/5. About RoomMe/Verify Contact Us Page" status="PASSED">
+         <system-out><![CDATA[2020-04-15 09:34:31 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/5. About RoomMe/Verify Contact Us Page: Test Cases/Web RoomMe.id/5. About RoomMe/Verify Contact Us Page
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\RoomMe.id Contact Us Page\": null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text RoomMe Location Content' is visible
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Button Attach File' is visible
+
+2020-04-15 09:34:32 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Button Attach File' is visible
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Button Submit' is visible
+
+2020-04-15 09:34:32 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Button Submit' is visible
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Checkbox I Have my RoomMe Booking ID' is visible
+
+2020-04-15 09:34:32 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Checkbox I Have my RoomMe Booking ID' is visible
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Image Contact Us' is visible
+
+2020-04-15 09:34:32 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Image Contact Us' is visible
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Input Customer Name' is visible
+
+2020-04-15 09:34:32 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Input Customer Name' is visible
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Input Email' is visible
+
+2020-04-15 09:34:32 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Input Email' is visible
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Input Message' is visible
+
+2020-04-15 09:34:32 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Input Message' is visible
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text Get In Touch Content' is visible
+
+2020-04-15 09:34:32 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text Get In Touch Content' is visible
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text Get In Touch with Us' is visible
+
+2020-04-15 09:34:32 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text Get In Touch with Us' is visible
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text Head Office' is visible
+
+2020-04-15 09:34:32 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text Head Office' is visible
+
+2020-04-15 09:34:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text RoomMe Location Content' is visible
+
+2020-04-15 09:34:32 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text RoomMe Location Content' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-15 09:32:01 - [TEST_SUITE][FAILED] - Customer Access About RooMe Page: Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access About Us Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/Disclaimer Page/Button Q1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Customer Access About Us Page.run(Customer Access About Us Page:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1586917899015.run(TempTestSuite1586917899015.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/Disclaimer Page/Button Q1' located by 'By.xpath: //*[(text() = 'Consent' or . = 'Consent')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-04-15 09:32:01 - [TEST_SUITE][FAILED] - Customer Access About RooMe Page: Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access About Us Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/Disclaimer Page/Button Q1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Customer Access About Us Page.run(Customer Access About Us Page:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1586917899015.run(TempTestSuite1586917899015.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/Disclaimer Page/Button Q1' located by 'By.xpath: //*[(text() = 'Consent' or . = 'Consent')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

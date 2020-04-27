@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Customer Access Landlord Page,Firefox 75.0,,,2020-04-27 02:39:15,2020-04-27 02:40:01,45.926s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/7. Landlord/1. Customer Access Landlord Page From Header,Firefox 75.0,customer access list your unit here page from homepage by click list your unit here button,listunit,2020-04-27 02:39:15,2020-04-27 02:39:34,18.972s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:39:16,2020-04-27 02:39:28,12.013s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Header/Button Are You Landlord""), 30)",Firefox 75.0,,,2020-04-27 02:39:28,2020-04-27 02:39:31,3.704s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Header/Button Are You Landlord""))",Firefox 75.0,,,2020-04-27 02:39:31,2020-04-27 02:39:33,1.871s,PASSED
+waitForPageLoad(0),Firefox 75.0,,,2020-04-27 02:39:33,2020-04-27 02:39:33,0.027s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Landlord Page/Text 4 Easy Steps to Become Landlord""), 30)",Firefox 75.0,,,2020-04-27 02:39:33,2020-04-27 02:39:34,1.004s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/7. Landlord/2. Customer Access Landlord Page From Homepage Section,Firefox 75.0,,,2020-04-27 02:39:34,2020-04-27 02:40:01,26.650s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:39:34,2020-04-27 02:39:56,21.093s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Button Get Started""), 30)",Firefox 75.0,,,2020-04-27 02:39:56,2020-04-27 02:39:58,2.430s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Homepage/Button Get Started""))",Firefox 75.0,,,2020-04-27 02:39:58,2020-04-27 02:40:00,1.786s,PASSED
+waitForPageLoad(0),Firefox 75.0,,,2020-04-27 02:40:00,2020-04-27 02:40:00,0.039s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Landlord Page/Text 4 Easy Steps to Become Landlord""), 30)",Firefox 75.0,,,2020-04-27 02:40:00,2020-04-27 02:40:01,1.073s,PASSED

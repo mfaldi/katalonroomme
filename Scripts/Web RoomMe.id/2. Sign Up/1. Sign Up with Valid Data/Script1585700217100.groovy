@@ -43,9 +43,9 @@ WebUI.sendKeys(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Email'), '@g
 
 WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Phone Number'), '081234567890')
 
-WebUI.setEncryptedText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Password'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Password'), 'da8fEzhczGg=')
 
-WebUI.setEncryptedText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Confirm Password'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Confirm Password'), 'da8fEzhczGg=')
 
 WebUI.click(findTestObject('Web RoomMe.id/Sign Up Menu/Button Sign Up'))
 

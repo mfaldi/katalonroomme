@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Customer Access About RooMe Page,Firefox 75.0,,,2020-04-27 02:41:37,2020-04-27 02:43:54,2m - 16.657s,FAILED
+,,,,,,,
+Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access About Us Page,Firefox 75.0,Customer access about us page from homepage footer,aboutus,2020-04-27 02:41:38,2020-04-27 02:42:40,1m - 2.629s,FAILED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:41:38,2020-04-27 02:41:50,11.829s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Footer/Button About Us""))",Firefox 75.0,,,2020-04-27 02:41:50,2020-04-27 02:41:52,1.920s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Footer/Button About Us""))",Firefox 75.0,,,2020-04-27 02:41:52,2020-04-27 02:41:54,2.181s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:41:54,2020-04-27 02:41:54,0.003s,NOT_RUN
+"callTestCase(findTestCase(""Web RoomMe.id/5. About RoomMe/Verify About Us Page""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:41:54,2020-04-27 02:42:40,46.340s,FAILED
+,,,,,,,
+Test Cases/Web RoomMe.id/5. About RoomMe/Verify About Us Page,Firefox 75.0,verify about us page element,,2020-04-27 02:42:40,2020-04-27 02:43:25,44.814s,FAILED
+"objectSubFolder = ""Web RoomMe.id\RoomMe.id About Us Page\""",Firefox 75.0,,,2020-04-27 02:42:40,2020-04-27 02:42:40,0.000s,PASSED
+"pathToObjRep = getProjectDir() + ""\Object Repository\"" + objectSubFolder",Firefox 75.0,,,2020-04-27 02:42:40,2020-04-27 02:42:40,0.000s,PASSED
+yourObjects = new java.io.File(pathToObjRep),Firefox 75.0,,,2020-04-27 02:42:40,2020-04-27 02:42:40,0.000s,PASSED
+fileNames = yourObjects.list(),Firefox 75.0,,,2020-04-27 02:42:40,2020-04-27 02:42:40,0.000s,PASSED
+testObjects = new java.util.ArrayList(),Firefox 75.0,,,2020-04-27 02:42:40,2020-04-27 02:42:40,0.000s,PASSED
+"for ([i = 0, i < length, (i++)])",Firefox 75.0,,,2020-04-27 02:42:40,2020-04-27 02:42:40,0.063s,PASSED
+for (String obj : testObjects),Firefox 75.0,,,2020-04-27 02:42:40,2020-04-27 02:43:25,44.735s,FAILED
+,,,,,,,
+Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access Contact Us Page,Firefox 75.0,customer access contact us page,contactus,2020-04-27 02:43:25,2020-04-27 02:43:50,24.983s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:43:25,2020-04-27 02:43:38,13.247s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Footer/Button Contact Us""))",Firefox 75.0,,,2020-04-27 02:43:38,2020-04-27 02:43:41,2.213s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Footer/Button Contact Us""))",Firefox 75.0,,,2020-04-27 02:43:41,2020-04-27 02:43:43,2.269s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:43:43,2020-04-27 02:43:43,0.001s,NOT_RUN
+"callTestCase(findTestCase(""Web RoomMe.id/5. About RoomMe/Verify Contact Us Page""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:43:43,2020-04-27 02:43:49,5.881s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:43:49,2020-04-27 02:43:49,0.000s,NOT_RUN
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id Contact Us Page/Text Get In Touch with Us""), ""Get In Touch with Us"")",Firefox 75.0,,,2020-04-27 02:43:49,2020-04-27 02:43:49,0.297s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id Contact Us Page/Text Head Office""), ""Head Office"")",Firefox 75.0,,,2020-04-27 02:43:49,2020-04-27 02:43:49,0.277s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id Contact Us Page/Text Get In Touch Content""), ""If you have any questions, please get in touch with our friendly and knowledgable customer support team by filling out the form below."")",Firefox 75.0,,,2020-04-27 02:43:49,2020-04-27 02:43:50,0.279s,PASSED
+"verifyElementText(findTestObject(""Web RoomMe.id/RoomMe.id Contact Us Page/Text RoomMe Location Content""), ""Jl. Tiang Bendera IV no 34 I-J, RT.7/RW.3, Roa Malaka, Kec. Tambora, Indonesia, DKI Jakarta 11230"")",Firefox 75.0,,,2020-04-27 02:43:50,2020-04-27 02:43:50,0.297s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/5. About RoomMe/Verify Contact Us Page,Firefox 75.0,,,2020-04-27 02:43:50,2020-04-27 02:43:54,3.911s,PASSED
+"objectSubFolder = ""Web RoomMe.id\RoomMe.id Contact Us Page\""",Firefox 75.0,,,2020-04-27 02:43:50,2020-04-27 02:43:50,0.000s,PASSED
+"pathToObjRep = getProjectDir() + ""\Object Repository\"" + objectSubFolder",Firefox 75.0,,,2020-04-27 02:43:50,2020-04-27 02:43:50,0.000s,PASSED
+yourObjects = new java.io.File(pathToObjRep),Firefox 75.0,,,2020-04-27 02:43:50,2020-04-27 02:43:50,0.000s,PASSED
+fileNames = yourObjects.list(),Firefox 75.0,,,2020-04-27 02:43:50,2020-04-27 02:43:50,0.000s,PASSED
+testObjects = new java.util.ArrayList(),Firefox 75.0,,,2020-04-27 02:43:50,2020-04-27 02:43:50,0.000s,PASSED
+"for ([i = 0, i < length, (i++)])",Firefox 75.0,,,2020-04-27 02:43:50,2020-04-27 02:43:50,0.000s,PASSED
+for (String obj : testObjects),Firefox 75.0,,,2020-04-27 02:43:50,2020-04-27 02:43:54,3.895s,PASSED

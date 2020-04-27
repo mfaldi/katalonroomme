@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@type='text'])[3]</value>
+         <value>//div[@id='dropdown-auth']/ul/div/div/div/div/form/div/div[3]/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
+      <value>tel</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,14 +45,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;dropdown-auth&quot;)/ul[@class=&quot;dropdown-menu show&quot;]/div[1]/div[1]/div[@class=&quot;auth-dropdown-form pt-0&quot;]/div[@class=&quot;pre-scrollable&quot;]/form[@class=&quot;auth-form&quot;]/div[1]/div[@class=&quot;form-group&quot;]/div[@class=&quot;my-2&quot;]/input[@class=&quot;form-control&quot;]</value>
+      <value>id(&quot;dropdown-auth&quot;)/ul[@class=&quot;dropdown-menu show&quot;]/div[1]/div[1]/div[@class=&quot;auth-dropdown-form pt-0&quot;]/div[1]/form[@class=&quot;auth-form&quot;]/div[1]/div[@class=&quot;form-group&quot;]/div[@class=&quot;my-2&quot;]/input[@class=&quot;form-control&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//input[@type='text'])[3]</value>
+      <value>//input[@type='tel']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

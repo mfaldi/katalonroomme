@@ -10,7 +10,7 @@
          <value>//div[@id='dropdown-auth']/ul/div/div/div/div/form/div/div[2]/div/div[2]/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,17 +21,19 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>contains</matchCondition>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Email is required </value>
+      <value>
+							Email is required
+							</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;dropdown-auth&quot;)/ul[@class=&quot;dropdown-menu show&quot;]/div[1]/div[1]/div[@class=&quot;auth-dropdown-form pt-0&quot;]/div[@class=&quot;pre-scrollable&quot;]/form[@class=&quot;auth-form&quot;]/div[1]/div[@class=&quot;form-group&quot;]/div[@class=&quot;my-2&quot;]/div[@class=&quot;invalid-feedback&quot;]/span[1]</value>
+      <value>id(&quot;dropdown-auth&quot;)/ul[@class=&quot;dropdown-menu show&quot;]/div[1]/div[1]/div[@class=&quot;auth-dropdown-form pt-0&quot;]/div[1]/form[@class=&quot;auth-form&quot;]/div[1]/div[@class=&quot;form-group&quot;]/div[@class=&quot;my-2&quot;]/div[@class=&quot;invalid-feedback&quot;]/span[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

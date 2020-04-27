@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Customer Access About RooMe Page,Firefox 75.0,,,2020-04-27 02:48:39,2020-04-27 02:50:26,1m - 47.156s,FAILED
+,,,,,,,
+Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access About Us Page,Firefox 75.0,Customer access about us page from homepage footer,aboutus,2020-04-27 02:48:39,2020-04-27 02:49:42,1m - 2.437s,FAILED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:48:40,2020-04-27 02:48:52,12.044s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Footer/Button About Us""))",Firefox 75.0,,,2020-04-27 02:48:52,2020-04-27 02:48:53,1.642s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Footer/Button About Us""))",Firefox 75.0,,,2020-04-27 02:48:53,2020-04-27 02:48:55,2.125s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:48:55,2020-04-27 02:48:55,0.003s,NOT_RUN
+"callTestCase(findTestCase(""Web RoomMe.id/5. About RoomMe/Verify About Us Page""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:48:55,2020-04-27 02:49:42,46.276s,FAILED
+,,,,,,,
+Test Cases/Web RoomMe.id/5. About RoomMe/Verify About Us Page,Firefox 75.0,verify about us page element,,2020-04-27 02:49:42,2020-04-27 02:50:26,44.411s,FAILED
+"objectSubFolder = ""Web RoomMe.id\RoomMe.id About Us Page\""",Firefox 75.0,,,2020-04-27 02:49:42,2020-04-27 02:49:42,0.000s,PASSED
+"pathToObjRep = getProjectDir() + ""\Object Repository\"" + objectSubFolder",Firefox 75.0,,,2020-04-27 02:49:42,2020-04-27 02:49:42,0.015s,PASSED
+yourObjects = new java.io.File(pathToObjRep),Firefox 75.0,,,2020-04-27 02:49:42,2020-04-27 02:49:42,0.000s,PASSED
+fileNames = yourObjects.list(),Firefox 75.0,,,2020-04-27 02:49:42,2020-04-27 02:49:42,0.000s,PASSED
+testObjects = new java.util.ArrayList(),Firefox 75.0,,,2020-04-27 02:49:42,2020-04-27 02:49:42,0.000s,PASSED
+"for ([i = 0, i < length, (i++)])",Firefox 75.0,,,2020-04-27 02:49:42,2020-04-27 02:49:42,0.031s,PASSED
+for (String obj : testObjects),Firefox 75.0,,,2020-04-27 02:49:42,2020-04-27 02:50:26,44.347s,FAILED

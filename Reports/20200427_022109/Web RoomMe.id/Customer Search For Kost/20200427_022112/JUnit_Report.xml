@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Customer Search For Kost" time="193.635" tests="6" failures="0" errors="0">
+   <testsuite name="Customer Search For Kost" tests="6" failures="0" errors="0" time="193.635" timestamp="2020-04-27 02:29:59" hostname="Faldi - Alienware-X51" id="Test Suites/Web RoomMe.id/Customer Search For Kost">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme\\Reports\\20200427_022109\\Web RoomMe.id\\Customer Search For Kost\\20200427_022112"/>
+         <property name="logFiles" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme\\Reports\\20200427_022109\\Web RoomMe.id\\Customer Search For Kost\\20200427_022112\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Faldi - Alienware-X51"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.4.0.1"/>
+         <property name="browser" value="Firefox 75.0"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="b1aff976-db65-412f-9f20-78dad6c3afa1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Web RoomMe.id/8. Search for Kost/1. Customer Search For Kost 1 Month 0 Day" time="21.606" classname="Test Cases/Web RoomMe.id/8. Search for Kost/1. Customer Search For Kost 1 Month 0 Day" status="PASSED">
+         <system-out><![CDATA[2020-04-27 02:29:59 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/8. Search for Kost/1. Customer Search For Kost 1 Month 0 Day: Test Cases/Web RoomMe.id/8. Search for Kost/1. Customer Search For Kost 1 Month 0 Day
+
+2020-04-27 02:30:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-27 02:30:00 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-04-27 02:30:00 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-27 02:30:01 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-04-27 02:30:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-04-27 02:30:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-27 02:30:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-27 02:30:12 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-27 02:30:12 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-27 02:30:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-27 02:30:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-27 02:30:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-27 02:30:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Search Kost Menu/Textfield Input Location"), "jakarta"): Keys 'jakarta' sent to object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location'
+
+2020-04-27 02:30:14 - [MESSAGE][PASSED] - Keys 'jakarta' sent to object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location'
+
+2020-04-27 02:30:14 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Kost Menu/Text Location Suggestion")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Text Location Suggestion' is clicked on
+
+2020-04-27 02:30:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Text Location Suggestion' is clicked on
+
+2020-04-27 02:30:15 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Kost Menu/Datepicker Check-in")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker Check-in' is clicked on
+
+2020-04-27 02:30:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker Check-in' is clicked on
+
+2020-04-27 02:30:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-04-27 02:30:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-04-27 02:30:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-04-27 02:30:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-04-27 02:30:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month' is clicked on
+
+2020-04-27 02:30:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month' is clicked on
+
+2020-04-27 02:30:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional' is clicked on
+
+2020-04-27 02:30:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional' is clicked on
+
+2020-04-27 02:30:18 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day")): NOT_RUN: click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day"))
+
+2020-04-27 02:30:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day"))
+
+2020-04-27 02:30:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Search")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Search' is clicked on
+
+2020-04-27 02:30:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Search' is clicked on
+
+2020-04-27 02:30:21 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Field Facilities")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Field Facilities"))
+
+2020-04-27 02:30:21 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Field Facilities"))
+
+2020-04-27 02:30:21 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Nama Kost")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Nama Kost"))
+
+2020-04-27 02:30:21 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Nama Kost"))
+
+2020-04-27 02:30:21 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Submit_col-md-4 img-s")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Submit_col-md-4 img-s"))
+
+2020-04-27 02:30:21 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Submit_col-md-4 img-s"))
+
+2020-04-27 02:30:21 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Rp1400000")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Rp1400000"))
+
+2020-04-27 02:30:21 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Rp1400000"))
+
+2020-04-27 02:30:21 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost"))
+
+2020-04-27 02:30:21 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost"))
+
+2020-04-27 02:30:21 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-27 02:30:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-27 02:30:21 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/8. Search for Kost/2. Customer Search For Kost 1 Month 1 Day" time="29.758" classname="Test Cases/Web RoomMe.id/8. Search for Kost/2. Customer Search For Kost 1 Month 1 Day" status="PASSED">
+         <system-out><![CDATA[2020-04-27 02:30:21 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/8. Search for Kost/2. Customer Search For Kost 1 Month 1 Day: Test Cases/Web RoomMe.id/8. Search for Kost/2. Customer Search For Kost 1 Month 1 Day
+
+2020-04-27 02:30:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-27 02:30:21 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-04-27 02:30:21 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-27 02:30:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-04-27 02:30:31 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-04-27 02:30:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-04-27 02:30:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-27 02:30:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-27 02:30:41 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-27 02:30:41 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-27 02:30:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-27 02:30:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-27 02:30:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-27 02:30:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Search Kost Menu/Textfield Input Location"), "jakarta"): Keys 'jakarta' sent to object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location'
+
+2020-04-27 02:30:43 - [MESSAGE][PASSED] - Keys 'jakarta' sent to object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location'
+
+2020-04-27 02:30:43 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Kost Menu/Text Location Suggestion")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Text Location Suggestion' is clicked on
+
+2020-04-27 02:30:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Text Location Suggestion' is clicked on
+
+2020-04-27 02:30:44 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Kost Menu/Datepicker Check-in")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker Check-in' is clicked on
+
+2020-04-27 02:30:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker Check-in' is clicked on
+
+2020-04-27 02:30:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-04-27 02:30:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-04-27 02:30:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-04-27 02:30:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-04-27 02:30:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month' is clicked on
+
+2020-04-27 02:30:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month' is clicked on
+
+2020-04-27 02:30:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional' is clicked on
+
+2020-04-27 02:30:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional' is clicked on
+
+2020-04-27 02:30:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day' is clicked on
+
+2020-04-27 02:30:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day' is clicked on
+
+2020-04-27 02:30:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Search")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Search' is clicked on
+
+2020-04-27 02:30:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Search' is clicked on
+
+2020-04-27 02:30:50 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Field Facilities")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Field Facilities"))
+
+2020-04-27 02:30:50 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Field Facilities"))
+
+2020-04-27 02:30:50 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Nama Kost")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Nama Kost"))
+
+2020-04-27 02:30:50 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Nama Kost"))
+
+2020-04-27 02:30:50 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Submit_col-md-4 img-s")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Submit_col-md-4 img-s"))
+
+2020-04-27 02:30:50 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Submit_col-md-4 img-s"))
+
+2020-04-27 02:30:50 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Rp1400000")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Rp1400000"))
+
+2020-04-27 02:30:50 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Rp1400000"))
+
+2020-04-27 02:30:50 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost"))
+
+2020-04-27 02:30:50 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost"))
+
+2020-04-27 02:30:50 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-27 02:30:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-27 02:30:51 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/8. Search for Kost/3. Customer Search For Kost 1 Month 2 Days" time="30.054" classname="Test Cases/Web RoomMe.id/8. Search for Kost/3. Customer Search For Kost 1 Month 2 Days" status="PASSED">
+         <system-out><![CDATA[2020-04-27 02:30:51 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/8. Search for Kost/3. Customer Search For Kost 1 Month 2 Days: Test Cases/Web RoomMe.id/8. Search for Kost/3. Customer Search For Kost 1 Month 2 Days
+
+2020-04-27 02:30:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-27 02:30:51 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-04-27 02:30:51 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-27 02:30:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-04-27 02:31:01 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-04-27 02:31:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-04-27 02:31:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-27 02:31:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-27 02:31:11 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-27 02:31:11 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-27 02:31:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-27 02:31:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-27 02:31:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-27 02:31:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Search Kost Menu/Textfield Input Location"), "jakarta"): Keys 'jakarta' sent to object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location'
+
+2020-04-27 02:31:13 - [MESSAGE][PASSED] - Keys 'jakarta' sent to object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location'
+
+2020-04-27 02:31:13 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Kost Menu/Text Location Suggestion")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Text Location Suggestion' is clicked on
+
+2020-04-27 02:31:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Text Location Suggestion' is clicked on
+
+2020-04-27 02:31:14 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Kost Menu/Datepicker Check-in")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker Check-in' is clicked on
+
+2020-04-27 02:31:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker Check-in' is clicked on
+
+2020-04-27 02:31:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-04-27 02:31:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-04-27 02:31:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-04-27 02:31:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-04-27 02:31:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month' is clicked on
+
+2020-04-27 02:31:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month' is clicked on
+
+2020-04-27 02:31:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional' is clicked on
+
+2020-04-27 02:31:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional' is clicked on
+
+2020-04-27 02:31:18 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Kost Menu/Button 2 Days")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Days' is clicked on
+
+2020-04-27 02:31:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Days' is clicked on
+
+2020-04-27 02:31:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Search")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Search' is clicked on
+
+2020-04-27 02:31:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Search' is clicked on
+
+2020-04-27 02:31:21 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Field Facilities")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Field Facilities"))
+
+2020-04-27 02:31:21 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Field Facilities"))
+
+2020-04-27 02:31:21 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Nama Kost")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Nama Kost"))
+
+2020-04-27 02:31:21 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Nama Kost"))
+
+2020-04-27 02:31:21 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Submit_col-md-4 img-s")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Submit_col-md-4 img-s"))
+
+2020-04-27 02:31:21 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Submit_col-md-4 img-s"))
+
+2020-04-27 02:31:21 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Rp1400000")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Rp1400000"))
+
+2020-04-27 02:31:21 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Rp1400000"))
+
+2020-04-27 02:31:21 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost"))
+
+2020-04-27 02:31:21 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost"))
+
+2020-04-27 02:31:21 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-27 02:31:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-27 02:31:21 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/8. Search for Kost/4. Customer Search For Kost 2 Months 0 Day" time="30.537" classname="Test Cases/Web RoomMe.id/8. Search for Kost/4. Customer Search For Kost 2 Months 0 Day" status="PASSED">
+         <system-out><![CDATA[2020-04-27 02:31:21 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/8. Search for Kost/4. Customer Search For Kost 2 Months 0 Day: Test Cases/Web RoomMe.id/8. Search for Kost/4. Customer Search For Kost 2 Months 0 Day
+
+2020-04-27 02:31:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-27 02:31:21 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-04-27 02:31:21 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-27 02:31:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-04-27 02:31:32 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-04-27 02:31:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-04-27 02:31:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-27 02:31:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-27 02:31:41 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-27 02:31:41 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-27 02:31:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-27 02:31:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-27 02:31:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-27 02:31:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Search Kost Menu/Textfield Input Location"), "jakarta"): Keys 'jakarta' sent to object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location'
+
+2020-04-27 02:31:43 - [MESSAGE][PASSED] - Keys 'jakarta' sent to object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location'
+
+2020-04-27 02:31:43 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Kost Menu/Text Location Suggestion")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Text Location Suggestion' is clicked on
+
+2020-04-27 02:31:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Text Location Suggestion' is clicked on
+
+2020-04-27 02:31:45 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Kost Menu/Datepicker Check-in")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker Check-in' is clicked on
+
+2020-04-27 02:31:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker Check-in' is clicked on
+
+2020-04-27 02:31:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-04-27 02:31:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-04-27 02:31:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-04-27 02:31:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-04-27 02:31:48 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Kost Menu/Button 2 Months")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months' is clicked on
+
+2020-04-27 02:31:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months' is clicked on
+
+2020-04-27 02:31:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional' is clicked on
+
+2020-04-27 02:31:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional' is clicked on
+
+2020-04-27 02:31:49 - [TEST_STEP][NOT_RUN] - click(findTestObject("Web RoomMe.id/Search Kost Menu/Button 2 Days")): NOT_RUN: click(findTestObject("Web RoomMe.id/Search Kost Menu/Button 2 Days"))
+
+2020-04-27 02:31:49 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Web RoomMe.id/Search Kost Menu/Button 2 Days"))
+
+2020-04-27 02:31:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Search")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Search' is clicked on
+
+2020-04-27 02:31:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Search' is clicked on
+
+2020-04-27 02:31:51 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Field Facilities")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Field Facilities"))
+
+2020-04-27 02:31:51 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Field Facilities"))
+
+2020-04-27 02:31:51 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Nama Kost")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Nama Kost"))
+
+2020-04-27 02:31:51 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Nama Kost"))
+
+2020-04-27 02:31:51 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Submit_col-md-4 img-s")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Submit_col-md-4 img-s"))
+
+2020-04-27 02:31:51 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Submit_col-md-4 img-s"))
+
+2020-04-27 02:31:51 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Rp1400000")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Rp1400000"))
+
+2020-04-27 02:31:51 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Rp1400000"))
+
+2020-04-27 02:31:51 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost"))
+
+2020-04-27 02:31:51 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost"))
+
+2020-04-27 02:31:51 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-27 02:31:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-27 02:31:51 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/8. Search for Kost/5. Customer Search For Kost 2 Months 1 Day" time="31.465" classname="Test Cases/Web RoomMe.id/8. Search for Kost/5. Customer Search For Kost 2 Months 1 Day" status="PASSED">
+         <system-out><![CDATA[2020-04-27 02:31:51 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/8. Search for Kost/5. Customer Search For Kost 2 Months 1 Day: Test Cases/Web RoomMe.id/8. Search for Kost/5. Customer Search For Kost 2 Months 1 Day
+
+2020-04-27 02:31:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-27 02:31:51 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-04-27 02:31:51 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-27 02:31:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-04-27 02:32:03 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-04-27 02:32:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-04-27 02:32:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-27 02:32:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-27 02:32:13 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-27 02:32:13 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-27 02:32:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-27 02:32:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-27 02:32:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-27 02:32:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Search Kost Menu/Textfield Input Location"), "jakarta"): Keys 'jakarta' sent to object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location'
+
+2020-04-27 02:32:15 - [MESSAGE][PASSED] - Keys 'jakarta' sent to object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location'
+
+2020-04-27 02:32:15 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Kost Menu/Text Location Suggestion")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Text Location Suggestion' is clicked on
+
+2020-04-27 02:32:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Text Location Suggestion' is clicked on
+
+2020-04-27 02:32:16 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Kost Menu/Datepicker Check-in")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker Check-in' is clicked on
+
+2020-04-27 02:32:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker Check-in' is clicked on
+
+2020-04-27 02:32:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-04-27 02:32:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-04-27 02:32:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-04-27 02:32:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-04-27 02:32:19 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Kost Menu/Button 2 Months")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months' is clicked on
+
+2020-04-27 02:32:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months' is clicked on
+
+2020-04-27 02:32:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional' is clicked on
+
+2020-04-27 02:32:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional' is clicked on
+
+2020-04-27 02:32:20 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Kost Menu/Button 1 Day")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day' is clicked on
+
+2020-04-27 02:32:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day' is clicked on
+
+2020-04-27 02:32:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Search")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Search' is clicked on
+
+2020-04-27 02:32:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Search' is clicked on
+
+2020-04-27 02:32:23 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Field Facilities")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Field Facilities"))
+
+2020-04-27 02:32:23 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Field Facilities"))
+
+2020-04-27 02:32:23 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Nama Kost")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Nama Kost"))
+
+2020-04-27 02:32:23 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Nama Kost"))
+
+2020-04-27 02:32:23 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Submit_col-md-4 img-s")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Submit_col-md-4 img-s"))
+
+2020-04-27 02:32:23 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Submit_col-md-4 img-s"))
+
+2020-04-27 02:32:23 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Rp1400000")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Rp1400000"))
+
+2020-04-27 02:32:23 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Rp1400000"))
+
+2020-04-27 02:32:23 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost"))
+
+2020-04-27 02:32:23 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost"))
+
+2020-04-27 02:32:23 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-27 02:32:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-27 02:32:23 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/8. Search for Kost/6. Customer Search For Kost 2 Months 2 Days" time="29.574" classname="Test Cases/Web RoomMe.id/8. Search for Kost/6. Customer Search For Kost 2 Months 2 Days" status="PASSED">
+         <system-out><![CDATA[2020-04-27 02:32:23 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/8. Search for Kost/6. Customer Search For Kost 2 Months 2 Days: Test Cases/Web RoomMe.id/8. Search for Kost/6. Customer Search For Kost 2 Months 2 Days
+
+2020-04-27 02:32:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-27 02:32:23 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-04-27 02:32:23 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-27 02:32:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-04-27 02:32:33 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-04-27 02:32:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-04-27 02:32:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-27 02:32:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-27 02:32:43 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-27 02:32:43 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-27 02:32:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-27 02:32:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-27 02:32:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-27 02:32:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Search Kost Menu/Textfield Input Location"), "jakarta"): Keys 'jakarta' sent to object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location'
+
+2020-04-27 02:32:45 - [MESSAGE][PASSED] - Keys 'jakarta' sent to object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location'
+
+2020-04-27 02:32:45 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Kost Menu/Text Location Suggestion")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Text Location Suggestion' is clicked on
+
+2020-04-27 02:32:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Text Location Suggestion' is clicked on
+
+2020-04-27 02:32:46 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Kost Menu/Datepicker Check-in")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker Check-in' is clicked on
+
+2020-04-27 02:32:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker Check-in' is clicked on
+
+2020-04-27 02:32:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-04-27 02:32:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-04-27 02:32:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-04-27 02:32:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-04-27 02:32:48 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Kost Menu/Button 2 Months")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months' is clicked on
+
+2020-04-27 02:32:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months' is clicked on
+
+2020-04-27 02:32:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional' is clicked on
+
+2020-04-27 02:32:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional' is clicked on
+
+2020-04-27 02:32:49 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Kost Menu/Button 2 Days")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Days' is clicked on
+
+2020-04-27 02:32:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Days' is clicked on
+
+2020-04-27 02:32:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Search")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Search' is clicked on
+
+2020-04-27 02:32:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Search' is clicked on
+
+2020-04-27 02:32:52 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Field Facilities")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Field Facilities"))
+
+2020-04-27 02:32:52 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Field Facilities"))
+
+2020-04-27 02:32:52 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Nama Kost")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Nama Kost"))
+
+2020-04-27 02:32:52 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Nama Kost"))
+
+2020-04-27 02:32:52 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Submit_col-md-4 img-s")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Submit_col-md-4 img-s"))
+
+2020-04-27 02:32:52 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Submit_col-md-4 img-s"))
+
+2020-04-27 02:32:52 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Rp1400000")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Rp1400000"))
+
+2020-04-27 02:32:52 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Rp1400000"))
+
+2020-04-27 02:32:52 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost"))
+
+2020-04-27 02:32:52 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost"))
+
+2020-04-27 02:32:52 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-27 02:32:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-27 02:32:52 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-27 02:29:59 - [TEST_SUITE][PASSED] - Customer Search For Kost: Test Cases/Web RoomMe.id/8. Search for Kost/6. Customer Search For Kost 2 Months 2 Days]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

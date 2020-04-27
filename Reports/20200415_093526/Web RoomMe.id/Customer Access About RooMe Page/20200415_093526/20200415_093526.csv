@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Customer Access About RooMe Page,Firefox 75.0,,,2020-04-15 09:35:38,2020-04-15 09:36:59,1m - 21.727s,FAILED
+,,,,,,,
+Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access About Us Page,Firefox 75.0,Customer access about us page from homepage footer,aboutus,2020-04-15 09:35:38,2020-04-15 09:36:59,1m - 21.491s,FAILED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-15 09:35:38,2020-04-15 09:35:52,14.010s,PASSED
+"verifyElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Footer/Button About Us""))",Firefox 75.0,,,2020-04-15 09:35:52,2020-04-15 09:35:52,0.150s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Footer/Button About Us""))",Firefox 75.0,,,2020-04-15 09:35:52,2020-04-15 09:35:56,3.593s,PASSED
+"click(findTestObject(""Web RoomMe.id/Disclaimer Page/Button Q1""))",Firefox 75.0,,,2020-04-15 09:35:56,2020-04-15 09:36:59,1m - 3.433s,FAILED

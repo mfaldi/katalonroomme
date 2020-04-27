@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Customer Access RoomMe Social Media Page,Firefox 75.0,,,2020-04-27 02:33:21,2020-04-27 02:34:36,1m - 15.042s,FAILED
+,,,,,,,
+Test Cases/Web RoomMe.id/18. Social Media/1. Customer Access RoomMe Facebook Page,Firefox 75.0,,,2020-04-27 02:33:21,2020-04-27 02:33:41,19.467s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:33:22,2020-04-27 02:33:34,12.149s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Footer/Image Facebook""), 0)",Firefox 75.0,,,2020-04-27 02:33:34,2020-04-27 02:33:36,1.982s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Footer/Image Facebook""))",Firefox 75.0,,,2020-04-27 02:33:36,2020-04-27 02:33:36,0.808s,PASSED
+"switchToWindowIndex(""1"")",Firefox 75.0,,,2020-04-27 02:33:36,2020-04-27 02:33:37,0.139s,PASSED
+waitForPageLoad(0),Firefox 75.0,,,2020-04-27 02:33:37,2020-04-27 02:33:40,3.844s,PASSED
+fbtitle = getWindowTitle(),Firefox 75.0,,,2020-04-27 02:33:40,2020-04-27 02:33:41,0.027s,PASSED
+"verifyMatch(fbtitle, ""Roomme Indonesia - Beranda | Facebook"", false)",Firefox 75.0,,,2020-04-27 02:33:41,2020-04-27 02:33:41,0.010s,PASSED
+fburl = getUrl(),Firefox 75.0,,,2020-04-27 02:33:41,2020-04-27 02:33:41,0.027s,PASSED
+"verifyMatch(fburl, ""https://business.facebook.com/Roomme/"", false)",Firefox 75.0,,,2020-04-27 02:33:41,2020-04-27 02:33:41,0.009s,PASSED
+,,,,,,,
+Test Cases/Web RoomMe.id/18. Social Media/2. Customer Access RoomMe Instagram Page,Firefox 75.0,,,2020-04-27 02:33:41,2020-04-27 02:34:09,28.418s,FAILED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:33:41,2020-04-27 02:34:04,23.524s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Footer/Image Instagram""), 0)",Firefox 75.0,,,2020-04-27 02:34:04,2020-04-27 02:34:06,2.085s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Footer/Image Instagram""))",Firefox 75.0,,,2020-04-27 02:34:06,2020-04-27 02:34:07,0.803s,PASSED
+"switchToWindowIndex(""1"")",Firefox 75.0,,,2020-04-27 02:34:07,2020-04-27 02:34:07,0.139s,PASSED
+waitForPageLoad(0),Firefox 75.0,,,2020-04-27 02:34:07,2020-04-27 02:34:09,1.563s,PASSED
+igtitle = getWindowTitle(),Firefox 75.0,,,2020-04-27 02:34:09,2020-04-27 02:34:09,0.012s,PASSED
+"verifyMatch(igtitle, ""Virtual Kost Operator (@roommeid) • Instagram photos and videos"", false)",Firefox 75.0,,,2020-04-27 02:34:09,2020-04-27 02:34:09,0.021s,FAILED
+,,,,,,,
+Test Cases/Web RoomMe.id/18. Social Media/3. Customer Access RoomMe LinkedIn Page,Firefox 75.0,,,2020-04-27 02:34:09,2020-04-27 02:34:36,26.798s,PASSED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",Firefox 75.0,,,2020-04-27 02:34:09,2020-04-27 02:34:32,23.126s,PASSED
+"waitForElementVisible(findTestObject(""Web RoomMe.id/RoomMe.id Footer/Image LinkedIn""), 0)",Firefox 75.0,,,2020-04-27 02:34:32,2020-04-27 02:34:34,1.895s,PASSED
+"click(findTestObject(""Web RoomMe.id/RoomMe.id Footer/Image LinkedIn""))",Firefox 75.0,,,2020-04-27 02:34:34,2020-04-27 02:34:35,0.790s,PASSED
+"switchToWindowIndex(""1"")",Firefox 75.0,,,2020-04-27 02:34:35,2020-04-27 02:34:35,0.137s,PASSED
+waitForPageLoad(0),Firefox 75.0,,,2020-04-27 02:34:35,2020-04-27 02:34:36,0.530s,PASSED
+linkedintitle = getWindowTitle(),Firefox 75.0,,,2020-04-27 02:34:36,2020-04-27 02:34:36,0.001s,NOT_RUN
+"verifyMatch(linkedintitle, ""Virtual Kost Operator (@roommeid) • Instagram photos and videos"", false)",Firefox 75.0,,,2020-04-27 02:34:36,2020-04-27 02:34:36,0.000s,NOT_RUN
+linkedinurl = getUrl(),Firefox 75.0,,,2020-04-27 02:34:36,2020-04-27 02:34:36,0.002s,NOT_RUN
+"verifyMatch(linkedinurl, ""https://www.linkedin.com/company/roomme/"", false)",Firefox 75.0,,,2020-04-27 02:34:36,2020-04-27 02:34:36,0.000s,NOT_RUN

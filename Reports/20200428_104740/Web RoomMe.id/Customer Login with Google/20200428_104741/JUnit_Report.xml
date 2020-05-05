@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Customer Login with Google" time="161.039" tests="2" failures="1" errors="0">
+   <testsuite name="Customer Login with Google" tests="2" failures="1" errors="0" time="161.039" timestamp="2020-04-28 10:47:58" hostname="Win 10 - LENNONOVO" id="Test Suites/Web RoomMe.id/Customer Login with Google">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Reports\\20200428_104740\\Web RoomMe.id\\Customer Login with Google\\20200428_104741"/>
+         <property name="logFiles" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Reports\\20200428_104740\\Web RoomMe.id\\Customer Login with Google\\20200428_104741\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Reports\\20200428_104740\\Web RoomMe.id\\Customer Login with Google\\20200428_104741\\1588045836802.png"/>
+         <property name="hostName" value="Win 10 - LENNONOVO"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.0.1"/>
+         <property name="browser" value="Chrome 81.0.4044.122"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="235e010dbf66efdcb2d5f93174817355"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Web RoomMe.id/19. Sign In with Google/1. Customer Login with Registered Gmail" time="39.613" classname="Test Cases/Web RoomMe.id/19. Sign In with Google/1. Customer Login with Registered Gmail" status="PASSED">
+         <system-out><![CDATA[2020-04-28 10:47:58 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/19. Sign In with Google/1. Customer Login with Registered Gmail: Test Cases/Web RoomMe.id/19. Sign In with Google/1. Customer Login with Registered Gmail
+
+2020-04-28 10:47:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-28 10:47:59 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-04-28 10:47:59 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-28 10:48:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-28 10:48:00 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-04-28 10:48:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-28 10:48:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-28 10:48:14 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-28 10:48:14 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-28 10:48:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 10:48:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-28 10:48:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-28 10:48:15 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Sign In"), 0): Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is visible
+
+2020-04-28 10:48:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 10:48:16 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is visible
+
+2020-04-28 10:48:16 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is clicked on
+
+2020-04-28 10:48:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is clicked on
+
+2020-04-28 10:48:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In with Google"), 0): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In with Google' is visible
+
+2020-04-28 10:48:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 10:48:18 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In with Google' is visible
+
+2020-04-28 10:48:18 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In with Google")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In with Google' is clicked on
+
+2020-04-28 10:48:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In with Google' is clicked on
+
+2020-04-28 10:48:20 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2020-04-28 10:48:20 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2020-04-28 10:48:20 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-28 10:48:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 10:48:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-28 10:48:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Google Sign In/Textfield Email Google"), 0): Object 'Object Repository/Google Sign In/Textfield Email Google' is visible
+
+2020-04-28 10:48:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 10:48:23 - [MESSAGE][PASSED] - Object 'Object Repository/Google Sign In/Textfield Email Google' is visible
+
+2020-04-28 10:48:23 - [TEST_STEP][PASSED] - setText(findTestObject("Google Sign In/Textfield Email Google"), "faldi@roomme.space"): Text 'faldi@roomme.space' is set on object 'Object Repository/Google Sign In/Textfield Email Google'
+
+2020-04-28 10:48:24 - [MESSAGE][PASSED] - Text 'faldi@roomme.space' is set on object 'Object Repository/Google Sign In/Textfield Email Google'
+
+2020-04-28 10:48:24 - [TEST_STEP][PASSED] - click(findTestObject("Google Sign In/Button Berikutnya")): Object: 'Object Repository/Google Sign In/Button Berikutnya' is clicked on
+
+2020-04-28 10:48:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Google Sign In/Button Berikutnya' is clicked on
+
+2020-04-28 10:48:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Google Sign In/Textfield Password"), 0): Object 'Object Repository/Google Sign In/Textfield Password' is visible
+
+2020-04-28 10:48:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 10:48:27 - [MESSAGE][PASSED] - Object 'Object Repository/Google Sign In/Textfield Password' is visible
+
+2020-04-28 10:48:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Google Sign In/Textfield Password"), "aWQtAdXqif4Z+35qHGW6CQ=="): Text ****** has been set on object 'Object Repository/Google Sign In/Textfield Password'
+
+2020-04-28 10:48:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Google Sign In/Textfield Password'
+
+2020-04-28 10:48:28 - [TEST_STEP][PASSED] - click(findTestObject("Google Sign In/Button Berikutnya (Password)")): Object: 'Object Repository/Google Sign In/Button Berikutnya (Password)' is clicked on
+
+2020-04-28 10:48:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Google Sign In/Button Berikutnya (Password)' is clicked on
+
+2020-04-28 10:48:29 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2020-04-28 10:48:29 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-04-28 10:48:29 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-28 10:48:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 10:48:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-28 10:48:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Header/User Menu/User Profile Image"), 0): Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/User Menu/User Profile Image' is visible
+
+2020-04-28 10:48:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 10:48:37 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/User Menu/User Profile Image' is visible
+
+2020-04-28 10:48:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Header/User Menu/User Menu"), 0): Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/User Menu/User Menu' is visible
+
+2020-04-28 10:48:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 10:48:38 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/User Menu/User Menu' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/19. Sign In with Google/2. Customer Login with Already Login Google Account" time="119.478" classname="Test Cases/Web RoomMe.id/19. Sign In with Google/2. Customer Login with Already Login Google Account" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Web RoomMe.id/19. Sign In with Google/2. Customer Login with Already Login Google Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/User Menu/Button Log out'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 2. Customer Login with Already Login Google Account.run(2. Customer Login with Already Login Google Account:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588045661452.run(TempTestSuite1588045661452.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/User Menu/Button Log out' located by 'By.xpath: //div[@id='dropdown-profile']/ul/li[3]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-04-28 10:48:38 - [TEST_CASE][FAILED] - Test Cases/Web RoomMe.id/19. Sign In with Google/2. Customer Login with Already Login Google Account: Test Cases/Web RoomMe.id/19. Sign In with Google/2. Customer Login with Already Login Google Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/User Menu/Button Log out'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 2. Customer Login with Already Login Google Account.run(2. Customer Login with Already Login Google Account:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588045661452.run(TempTestSuite1588045661452.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/User Menu/Button Log out' located by 'By.xpath: //div[@id='dropdown-profile']/ul/li[3]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-04-28 10:48:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/19. Sign In with Google/1. Customer Login with Registered Gmail"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/19. Sign In with Google/1. Customer Login with Registered Gmail' successfully
+
+2020-04-28 10:48:38 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/19. Sign In with Google/1. Customer Login with Registered Gmail: Test Cases/Web RoomMe.id/19. Sign In with Google/1. Customer Login with Registered Gmail
+
+2020-04-28 10:48:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-28 10:48:38 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-04-28 10:48:38 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-28 10:48:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-04-28 10:48:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-28 10:48:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-28 10:48:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-28 10:48:51 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-28 10:48:51 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-28 10:48:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 10:48:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-28 10:48:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-28 10:48:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Sign In"), 0): Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is visible
+
+2020-04-28 10:48:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 10:48:52 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is visible
+
+2020-04-28 10:48:52 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is clicked on
+
+2020-04-28 10:48:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is clicked on
+
+2020-04-28 10:48:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In with Google"), 0): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In with Google' is visible
+
+2020-04-28 10:48:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 10:48:55 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In with Google' is visible
+
+2020-04-28 10:48:55 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In with Google")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In with Google' is clicked on
+
+2020-04-28 10:48:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In with Google' is clicked on
+
+2020-04-28 10:48:56 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2020-04-28 10:48:56 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2020-04-28 10:48:56 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-28 10:48:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 10:48:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-28 10:48:58 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Google Sign In/Textfield Email Google"), 0): Object 'Object Repository/Google Sign In/Textfield Email Google' is visible
+
+2020-04-28 10:48:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 10:48:58 - [MESSAGE][PASSED] - Object 'Object Repository/Google Sign In/Textfield Email Google' is visible
+
+2020-04-28 10:48:58 - [TEST_STEP][PASSED] - setText(findTestObject("Google Sign In/Textfield Email Google"), "faldi@roomme.space"): Text 'faldi@roomme.space' is set on object 'Object Repository/Google Sign In/Textfield Email Google'
+
+2020-04-28 10:48:59 - [MESSAGE][PASSED] - Text 'faldi@roomme.space' is set on object 'Object Repository/Google Sign In/Textfield Email Google'
+
+2020-04-28 10:48:59 - [TEST_STEP][PASSED] - click(findTestObject("Google Sign In/Button Berikutnya")): Object: 'Object Repository/Google Sign In/Button Berikutnya' is clicked on
+
+2020-04-28 10:49:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Google Sign In/Button Berikutnya' is clicked on
+
+2020-04-28 10:49:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Google Sign In/Textfield Password"), 0): Object 'Object Repository/Google Sign In/Textfield Password' is visible
+
+2020-04-28 10:49:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 10:49:02 - [MESSAGE][PASSED] - Object 'Object Repository/Google Sign In/Textfield Password' is visible
+
+2020-04-28 10:49:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Google Sign In/Textfield Password"), "aWQtAdXqif4Z+35qHGW6CQ=="): Text ****** has been set on object 'Object Repository/Google Sign In/Textfield Password'
+
+2020-04-28 10:49:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Google Sign In/Textfield Password'
+
+2020-04-28 10:49:02 - [TEST_STEP][PASSED] - click(findTestObject("Google Sign In/Button Berikutnya (Password)")): Object: 'Object Repository/Google Sign In/Button Berikutnya (Password)' is clicked on
+
+2020-04-28 10:49:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Google Sign In/Button Berikutnya (Password)' is clicked on
+
+2020-04-28 10:49:03 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2020-04-28 10:49:03 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-04-28 10:49:03 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-28 10:49:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 10:49:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-28 10:49:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Header/User Menu/User Profile Image"), 0): Web element with id: 'Object Repository/Web RoomMe.id/RoomMe.id Header/User Menu/User Profile Image' located by 'By.xpath: //*[@class = 'profileImage']' not found
+
+2020-04-28 10:49:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 10:49:49 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@class = 'profileImage']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-04-28 10:49:49 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Web RoomMe.id/RoomMe.id Header/User Menu/User Profile Image' located by 'By.xpath: //*[@class = 'profileImage']' not found
+
+2020-04-28 10:49:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Header/User Menu/User Menu"), 0): Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/User Menu/User Menu' is visible
+
+2020-04-28 10:49:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 10:49:49 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/User Menu/User Menu' is visible
+
+2020-04-28 10:49:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/19. Sign In with Google/1. Customer Login with Registered Gmail' successfully
+
+2020-04-28 10:49:49 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-28 10:49:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 10:49:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-28 10:49:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Header/User Menu/User Menu"), 0): Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/User Menu/User Menu' is visible
+
+2020-04-28 10:49:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 10:49:50 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/User Menu/User Menu' is visible
+
+2020-04-28 10:49:50 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Header/User Menu/User Menu")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/User Menu/User Menu' is clicked on
+
+2020-04-28 10:49:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/User Menu/User Menu' is clicked on
+
+2020-04-28 10:49:50 - [TEST_STEP][FAILED] - click(findTestObject("Web RoomMe.id/User Menu/Button Log out")): Unable to click on object 'Object Repository/Web RoomMe.id/User Menu/Button Log out' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/User Menu/Button Log out'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 2. Customer Login with Already Login Google Account.run(2. Customer Login with Already Login Google Account:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588045661452.run(TempTestSuite1588045661452.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/User Menu/Button Log out' located by 'By.xpath: //div[@id='dropdown-profile']/ul/li[3]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1586939665185.run(Script1586939665185.groovy:26)
+	... 13 more
+)
+
+2020-04-28 10:50:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='dropdown-profile']/ul/li[3]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-04-28 10:50:37 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Web RoomMe.id/User Menu/Button Log out' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/User Menu/Button Log out'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 2. Customer Login with Already Login Google Account.run(2. Customer Login with Already Login Google Account:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588045661452.run(TempTestSuite1588045661452.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/User Menu/Button Log out' located by 'By.xpath: //div[@id='dropdown-profile']/ul/li[3]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1586939665185.run(Script1586939665185.groovy:26)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Reports\\20200428_104740\\Web RoomMe.id\\Customer Login with Google\\20200428_104741\\1588045836802.png]]]]></system-out>
+         <system-err><![CDATA[2020-04-28 10:48:38 - [TEST_CASE][FAILED] - Test Cases/Web RoomMe.id/19. Sign In with Google/2. Customer Login with Already Login Google Account: Test Cases/Web RoomMe.id/19. Sign In with Google/2. Customer Login with Already Login Google Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/User Menu/Button Log out'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 2. Customer Login with Already Login Google Account.run(2. Customer Login with Already Login Google Account:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588045661452.run(TempTestSuite1588045661452.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/User Menu/Button Log out' located by 'By.xpath: //div[@id='dropdown-profile']/ul/li[3]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-28 10:47:58 - [TEST_SUITE][FAILED] - Customer Login with Google: Test Cases/Web RoomMe.id/19. Sign In with Google/2. Customer Login with Already Login Google Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/User Menu/Button Log out'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 2. Customer Login with Already Login Google Account.run(2. Customer Login with Already Login Google Account:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588045661452.run(TempTestSuite1588045661452.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/User Menu/Button Log out' located by 'By.xpath: //div[@id='dropdown-profile']/ul/li[3]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-04-28 10:47:58 - [TEST_SUITE][FAILED] - Customer Login with Google: Test Cases/Web RoomMe.id/19. Sign In with Google/2. Customer Login with Already Login Google Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/User Menu/Button Log out'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 2. Customer Login with Already Login Google Account.run(2. Customer Login with Already Login Google Account:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588045661452.run(TempTestSuite1588045661452.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/User Menu/Button Log out' located by 'By.xpath: //div[@id='dropdown-profile']/ul/li[3]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

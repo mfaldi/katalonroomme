@@ -6,6 +6,14 @@
    <elementGuidId>b21c44cf-25f0-4118-bf8f-89d8546c50f2</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = concat('
+					Thank you! You' , &quot;'&quot; , 've successfully signed up.
+				') or . = concat('
+					Thank you! You' , &quot;'&quot; , 've successfully signed up.
+				'))]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='modal-signup-success___BV_modal_body_']/div/div[2]/p</value>
       </entry>
@@ -28,10 +36,12 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>contains</matchCondition>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Thank you! You've successfully signed up.</value>
+      <value>
+					Thank you! You've successfully signed up.
+				</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

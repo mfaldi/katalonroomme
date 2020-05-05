@@ -23,6 +23,7 @@ WebUI.click(findTestObject('Web RoomMe.id/RoomMe.id Header/Button Are You Landlo
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/RoomMe.id Landlord Page/Text 4 Easy Steps to Become Landlord'), 
-    30)
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/RoomMe.id Landlord Page/Image Landlord'), 30)
+
+WebUI.callTestCase(findTestCase('Web RoomMe.id/7. Landlord/Verify Landlord Page'), [:], FailureHandling.STOP_ON_FAILURE)
 

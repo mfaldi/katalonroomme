@@ -32,10 +32,6 @@ WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Name Text
 
 WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Name Textfield'), 'Faldi Test AT')
 
-not_run: WebUI.getAttribute(findTestObject('Web RoomMe.id/Sign Up Menu/Name Textfield'), 'tag')
-
-not_run: namauser = WebUI.concatenate(((findTestObject('Web RoomMe.id/Sign Up Menu/Name Textfield')) as String))
-
 WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Email'), 'faldiat' + RandomStringUtils.randomNumeric(
         5))
 
@@ -49,19 +45,15 @@ WebUI.setEncryptedText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Conf
 
 WebUI.click(findTestObject('Web RoomMe.id/Sign Up Menu/Button Sign Up'))
 
-not_run: WebUI.waitForPageLoad(0)
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Success Sign Up/Button Close'), 0)
 
-not_run: WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Success Sign Up/Button Close'))
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Success Sign Up/Icon RoomMe'), 0)
 
-not_run: WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Success Sign Up/Image Logo RoomMe'))
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Success Sign Up/Text Welcome to RoomMe'), 0)
 
-not_run: WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Success Sign Up/Text Welcome to RoomMe'))
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Success Sign Up/Text Thank you Youve successfully signed up'), 
+    0)
 
-not_run: WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Success Sign Up/Text User Full Name'))
-
-not_run: WebUI.verifyElementText(findTestObject('Web RoomMe.id/Sign Up Menu/Success Sign Up/Text User Full Name'), namauser)
-
-not_run: WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Success Sign Up/Text Thank you Youve successfully signed up'))
-
-not_run: WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Success Sign Up/Text Please check your email for activation'))
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Success Sign Up/Text Please check your email for activation'), 
+    0)
 

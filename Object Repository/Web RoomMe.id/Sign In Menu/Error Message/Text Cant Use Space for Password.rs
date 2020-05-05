@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//div[@id='__BVID__28__BV_feedback_invalid_']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = '__BVID__28__BV_feedback_invalid_' and (text() = 'Cant Use Space for Password' or . = 'Cant Use Space for Password')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -27,7 +31,7 @@
       <value>-1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>

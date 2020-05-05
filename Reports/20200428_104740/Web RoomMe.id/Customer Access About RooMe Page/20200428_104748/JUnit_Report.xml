@@ -1,0 +1,1416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Customer Access About RooMe Page" time="144.136" tests="4" failures="2" errors="0">
+   <testsuite name="Customer Access About RooMe Page" tests="4" failures="2" errors="0" time="144.136" timestamp="2020-04-28 10:54:25" hostname="Win 10 - LENNONOVO" id="Test Suites/Web RoomMe.id/Customer Access About RooMe Page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Reports\\20200428_104740\\Web RoomMe.id\\Customer Access About RooMe Page\\20200428_104748"/>
+         <property name="logFiles" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Reports\\20200428_104740\\Web RoomMe.id\\Customer Access About RooMe Page\\20200428_104748\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Reports\\20200428_104740\\Web RoomMe.id\\Customer Access About RooMe Page\\20200428_104748\\1588046133414.png, C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Reports\\20200428_104740\\Web RoomMe.id\\Customer Access About RooMe Page\\20200428_104748\\1588046134100.png, C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Reports\\20200428_104740\\Web RoomMe.id\\Customer Access About RooMe Page\\20200428_104748\\1588046179898.png, C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Reports\\20200428_104740\\Web RoomMe.id\\Customer Access About RooMe Page\\20200428_104748\\1588046180444.png"/>
+         <property name="hostName" value="Win 10 - LENNONOVO"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.0.1"/>
+         <property name="browser" value="Chrome 81.0.4044.122"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="22c725c833aec17b1abd2b23c95cecb8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access About Us Page" time="68.413" classname="Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access About Us Page" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access About Us Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Web RoomMe.id/5. About RoomMe/Verify About Us Page' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Customer Access About Us Page.run(Customer Access About Us Page:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588045668367.run(TempTestSuite1588045668367.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$2.call(Unknown Source)
+	at Verify About Us Page.run(Verify About Us Page:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' located by 'By.xpath: //div[@id='__layout']/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+"/>
+         <system-out><![CDATA[2020-04-28 10:54:26 - [TEST_CASE][FAILED] - Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access About Us Page: Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access About Us Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Web RoomMe.id/5. About RoomMe/Verify About Us Page' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Customer Access About Us Page.run(Customer Access About Us Page:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588045668367.run(TempTestSuite1588045668367.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$2.call(Unknown Source)
+	at Verify About Us Page.run(Verify About Us Page:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' located by 'By.xpath: //div[@id='__layout']/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+
+
+2020-04-28 10:54:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-28 10:54:27 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-04-28 10:54:27 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-28 10:54:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-28 10:54:28 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-04-28 10:54:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-28 10:54:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-28 10:54:40 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-28 10:54:40 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-28 10:54:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 10:54:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-28 10:54:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-28 10:54:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Footer/Button About Us")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button About Us' is visible
+
+2020-04-28 10:54:42 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button About Us' is visible
+
+2020-04-28 10:54:42 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Footer/Button About Us")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button About Us' is clicked on
+
+2020-04-28 10:54:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button About Us' is clicked on
+
+2020-04-28 10:54:46 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-28 10:54:46 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-28 10:54:46 - [TEST_STEP][FAILED] - callTestCase(findTestCase("Web RoomMe.id/5. About RoomMe/Verify About Us Page"), [:], STOP_ON_FAILURE): Unable to call Test Case 'Test Cases/Web RoomMe.id/5. About RoomMe/Verify About Us Page' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Web RoomMe.id/5. About RoomMe/Verify About Us Page' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Customer Access About Us Page.run(Customer Access About Us Page:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588045668367.run(TempTestSuite1588045668367.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$2.call(Unknown Source)
+	at Verify About Us Page.run(Verify About Us Page:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' located by 'By.xpath: //div[@id='__layout']/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+
+2020-04-28 10:54:46 - [TEST_CASE][FAILED] - Test Cases/Web RoomMe.id/5. About RoomMe/Verify About Us Page: Test Cases/Web RoomMe.id/5. About RoomMe/Verify About Us Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$2.call(Unknown Source)
+	at Verify About Us Page.run(Verify About Us Page:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Customer Access About Us Page.run(Customer Access About Us Page:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588045668367.run(TempTestSuite1588045668367.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' located by 'By.xpath: //div[@id='__layout']/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\RoomMe.id About Us Page\": null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:54:47 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:54:47 - [TEST_STEP][FAILED] - for (String obj : testObjects): Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$2.call(Unknown Source)
+	at Verify About Us Page.run(Verify About Us Page:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Customer Access About Us Page.run(Customer Access About Us Page:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588045668367.run(TempTestSuite1588045668367.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' located by 'By.xpath: //div[@id='__layout']/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+
+2020-04-28 10:54:47 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject(obj)): Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$2.call(Unknown Source)
+	at Verify About Us Page.run(Verify About Us Page:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Customer Access About Us Page.run(Customer Access About Us Page:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588045668367.run(TempTestSuite1588045668367.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' located by 'By.xpath: //div[@id='__layout']/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+
+2020-04-28 10:55:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__layout']/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/img'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-04-28 10:55:34 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' located by 'By.xpath: //div[@id='__layout']/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/img' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' located by 'By.xpath: //div[@id='__layout']/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$2.call(Unknown Source)
+	at Verify About Us Page.run(Verify About Us Page:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Customer Access About Us Page.run(Customer Access About Us Page:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588045668367.run(TempTestSuite1588045668367.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Reports\\20200428_104740\\Web RoomMe.id\\Customer Access About RooMe Page\\20200428_104748\\1588046133414.png]]
+
+2020-04-28 10:55:34 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$2.call(Unknown Source)
+	at Verify About Us Page.run(Verify About Us Page:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Customer Access About Us Page.run(Customer Access About Us Page:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588045668367.run(TempTestSuite1588045668367.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' located by 'By.xpath: //div[@id='__layout']/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+[[ATTACHMENT|C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Reports\\20200428_104740\\Web RoomMe.id\\Customer Access About RooMe Page\\20200428_104748\\1588046134100.png]]
+
+2020-04-28 10:55:34 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/Web RoomMe.id/5. About RoomMe/Verify About Us Page' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Web RoomMe.id/5. About RoomMe/Verify About Us Page' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Customer Access About Us Page.run(Customer Access About Us Page:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588045668367.run(TempTestSuite1588045668367.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$2.call(Unknown Source)
+	at Verify About Us Page.run(Verify About Us Page:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' located by 'By.xpath: //div[@id='__layout']/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)]]></system-out>
+         <system-err><![CDATA[2020-04-28 10:54:26 - [TEST_CASE][FAILED] - Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access About Us Page: Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access About Us Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Web RoomMe.id/5. About RoomMe/Verify About Us Page' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Customer Access About Us Page.run(Customer Access About Us Page:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588045668367.run(TempTestSuite1588045668367.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$2.call(Unknown Source)
+	at Verify About Us Page.run(Verify About Us Page:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' located by 'By.xpath: //div[@id='__layout']/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/5. About RoomMe/Verify About Us Page" time="46.309" classname="Test Cases/Web RoomMe.id/5. About RoomMe/Verify About Us Page" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Web RoomMe.id/5. About RoomMe/Verify About Us Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$2.call(Unknown Source)
+	at Verify About Us Page.run(Verify About Us Page:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588045668367.run(TempTestSuite1588045668367.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' located by 'By.xpath: //div[@id='__layout']/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-04-28 10:55:34 - [TEST_CASE][FAILED] - Test Cases/Web RoomMe.id/5. About RoomMe/Verify About Us Page: Test Cases/Web RoomMe.id/5. About RoomMe/Verify About Us Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$2.call(Unknown Source)
+	at Verify About Us Page.run(Verify About Us Page:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588045668367.run(TempTestSuite1588045668367.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' located by 'By.xpath: //div[@id='__layout']/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\RoomMe.id About Us Page\": null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:55:34 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:55:34 - [TEST_STEP][FAILED] - for (String obj : testObjects): Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$2.call(Unknown Source)
+	at Verify About Us Page.run(Verify About Us Page:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588045668367.run(TempTestSuite1588045668367.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' located by 'By.xpath: //div[@id='__layout']/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-04-28 10:55:34 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject(obj)): Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$2.call(Unknown Source)
+	at Verify About Us Page.run(Verify About Us Page:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588045668367.run(TempTestSuite1588045668367.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' located by 'By.xpath: //div[@id='__layout']/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-04-28 10:56:19 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__layout']/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/img'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-04-28 10:56:20 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' located by 'By.xpath: //div[@id='__layout']/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/img' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' located by 'By.xpath: //div[@id='__layout']/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$2.call(Unknown Source)
+	at Verify About Us Page.run(Verify About Us Page:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588045668367.run(TempTestSuite1588045668367.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Reports\\20200428_104740\\Web RoomMe.id\\Customer Access About RooMe Page\\20200428_104748\\1588046179898.png]]
+
+2020-04-28 10:56:20 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$2.call(Unknown Source)
+	at Verify About Us Page.run(Verify About Us Page:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588045668367.run(TempTestSuite1588045668367.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' located by 'By.xpath: //div[@id='__layout']/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Reports\\20200428_104740\\Web RoomMe.id\\Customer Access About RooMe Page\\20200428_104748\\1588046180444.png]]]]></system-out>
+         <system-err><![CDATA[2020-04-28 10:55:34 - [TEST_CASE][FAILED] - Test Cases/Web RoomMe.id/5. About RoomMe/Verify About Us Page: Test Cases/Web RoomMe.id/5. About RoomMe/Verify About Us Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$2.call(Unknown Source)
+	at Verify About Us Page.run(Verify About Us Page:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588045668367.run(TempTestSuite1588045668367.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' located by 'By.xpath: //div[@id='__layout']/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access Contact Us Page" time="23.532" classname="Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access Contact Us Page" status="PASSED">
+         <system-out><![CDATA[2020-04-28 10:56:20 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access Contact Us Page: Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access Contact Us Page
+
+2020-04-28 10:56:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-28 10:56:21 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-04-28 10:56:21 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-28 10:56:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-04-28 10:56:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-28 10:56:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-28 10:56:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-28 10:56:32 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-28 10:56:32 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-28 10:56:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 10:56:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-28 10:56:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-28 10:56:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Footer/Button Contact Us")): Object 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button Contact Us' is visible
+
+2020-04-28 10:56:33 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button Contact Us' is visible
+
+2020-04-28 10:56:33 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Footer/Button Contact Us")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button Contact Us' is clicked on
+
+2020-04-28 10:56:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button Contact Us' is clicked on
+
+2020-04-28 10:56:37 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-28 10:56:37 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/5. About RoomMe/Verify Contact Us Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/5. About RoomMe/Verify Contact Us Page' successfully
+
+2020-04-28 10:56:37 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/5. About RoomMe/Verify Contact Us Page: Test Cases/Web RoomMe.id/5. About RoomMe/Verify Contact Us Page
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\RoomMe.id Contact Us Page\": null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text RoomMe Location Content' is visible
+
+2020-04-28 10:56:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Button Attach File' is visible
+
+2020-04-28 10:56:39 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Button Attach File' is visible
+
+2020-04-28 10:56:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Button Submit' is visible
+
+2020-04-28 10:56:39 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Button Submit' is visible
+
+2020-04-28 10:56:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Checkbox I Have my RoomMe Booking ID' is visible
+
+2020-04-28 10:56:39 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Checkbox I Have my RoomMe Booking ID' is visible
+
+2020-04-28 10:56:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Image Contact Us' is visible
+
+2020-04-28 10:56:40 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Image Contact Us' is visible
+
+2020-04-28 10:56:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Input Customer Name' is visible
+
+2020-04-28 10:56:40 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Input Customer Name' is visible
+
+2020-04-28 10:56:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Input Email' is visible
+
+2020-04-28 10:56:41 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Input Email' is visible
+
+2020-04-28 10:56:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Input Message' is visible
+
+2020-04-28 10:56:41 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Input Message' is visible
+
+2020-04-28 10:56:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text Get In Touch Content' is visible
+
+2020-04-28 10:56:41 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text Get In Touch Content' is visible
+
+2020-04-28 10:56:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text Get In Touch with Us' is visible
+
+2020-04-28 10:56:42 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text Get In Touch with Us' is visible
+
+2020-04-28 10:56:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text Head Office' is visible
+
+2020-04-28 10:56:42 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text Head Office' is visible
+
+2020-04-28 10:56:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text RoomMe Location Content' is visible
+
+2020-04-28 10:56:43 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text RoomMe Location Content' is visible
+
+2020-04-28 10:56:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/5. About RoomMe/Verify Contact Us Page' successfully
+
+2020-04-28 10:56:43 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-28 10:56:43 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-28 10:56:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id Contact Us Page/Text Get In Touch with Us"), "Get In Touch with Us"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id Contact Us Page/Text Get In Touch with Us' are matched.
+
+2020-04-28 10:56:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id Contact Us Page/Text Get In Touch with Us' are matched.
+
+2020-04-28 10:56:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id Contact Us Page/Text Head Office"), "Head Office"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id Contact Us Page/Text Head Office' are matched.
+
+2020-04-28 10:56:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id Contact Us Page/Text Head Office' are matched.
+
+2020-04-28 10:56:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id Contact Us Page/Text Get In Touch Content"), "If you have any questions, please get in touch with our friendly and knowledgable customer support team by filling out the form below."): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id Contact Us Page/Text Get In Touch Content' are matched.
+
+2020-04-28 10:56:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id Contact Us Page/Text Get In Touch Content' are matched.
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id Contact Us Page/Text RoomMe Location Content"), "Jl. Tiang Bendera IV no 34 I-J, RT.7/RW.3, Roa Malaka, Kec. Tambora, Indonesia, DKI Jakarta 11230"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id Contact Us Page/Text RoomMe Location Content' are matched.
+
+2020-04-28 10:56:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id Contact Us Page/Text RoomMe Location Content' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/5. About RoomMe/Verify Contact Us Page" time="4.132" classname="Test Cases/Web RoomMe.id/5. About RoomMe/Verify Contact Us Page" status="PASSED">
+         <system-out><![CDATA[2020-04-28 10:56:44 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/5. About RoomMe/Verify Contact Us Page: Test Cases/Web RoomMe.id/5. About RoomMe/Verify Contact Us Page
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\RoomMe.id Contact Us Page\": null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text RoomMe Location Content' is visible
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Button Attach File' is visible
+
+2020-04-28 10:56:44 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Button Attach File' is visible
+
+2020-04-28 10:56:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Button Submit' is visible
+
+2020-04-28 10:56:45 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Button Submit' is visible
+
+2020-04-28 10:56:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Checkbox I Have my RoomMe Booking ID' is visible
+
+2020-04-28 10:56:45 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Checkbox I Have my RoomMe Booking ID' is visible
+
+2020-04-28 10:56:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Image Contact Us' is visible
+
+2020-04-28 10:56:45 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Image Contact Us' is visible
+
+2020-04-28 10:56:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Input Customer Name' is visible
+
+2020-04-28 10:56:46 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Input Customer Name' is visible
+
+2020-04-28 10:56:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Input Email' is visible
+
+2020-04-28 10:56:46 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Input Email' is visible
+
+2020-04-28 10:56:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Input Message' is visible
+
+2020-04-28 10:56:47 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Input Message' is visible
+
+2020-04-28 10:56:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text Get In Touch Content' is visible
+
+2020-04-28 10:56:47 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text Get In Touch Content' is visible
+
+2020-04-28 10:56:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text Get In Touch with Us' is visible
+
+2020-04-28 10:56:47 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text Get In Touch with Us' is visible
+
+2020-04-28 10:56:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text Head Office' is visible
+
+2020-04-28 10:56:48 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text Head Office' is visible
+
+2020-04-28 10:56:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text RoomMe Location Content' is visible
+
+2020-04-28 10:56:48 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Contact Us Page\Text RoomMe Location Content' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-28 10:54:25 - [TEST_SUITE][FAILED] - Customer Access About RooMe Page: Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access About Us Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Web RoomMe.id/5. About RoomMe/Verify About Us Page' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Customer Access About Us Page.run(Customer Access About Us Page:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588045668367.run(TempTestSuite1588045668367.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$2.call(Unknown Source)
+	at Verify About Us Page.run(Verify About Us Page:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' located by 'By.xpath: //div[@id='__layout']/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-out>
+      <system-err><![CDATA[2020-04-28 10:54:25 - [TEST_SUITE][FAILED] - Customer Access About RooMe Page: Test Cases/Web RoomMe.id/5. About RoomMe/Customer Access About Us Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Web RoomMe.id/5. About RoomMe/Verify About Us Page' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Customer Access About Us Page.run(Customer Access About Us Page:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588045668367.run(TempTestSuite1588045668367.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$2.call(Unknown Source)
+	at Verify About Us Page.run(Verify About Us Page:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\RoomMe.id About Us Page\Image About Us' located by 'By.xpath: //div[@id='__layout']/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/img' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-err>
+   </testsuite>
+</testsuites>

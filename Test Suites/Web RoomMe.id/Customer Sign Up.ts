@@ -23,10 +23,10 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>193a66c7-b5c0-4eed-a81c-b5048bcaaf0c</guid>
+      <guid>8c11aea4-deac-4ae4-b7a7-bb74ccf99c02</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web RoomMe.id/2. Sign Up/5. Customer Input Phone Number with Invalid Format</testCaseId>
+      <testCaseId>Test Cases/Web RoomMe.id/2. Sign Up/2. Sign Up With Blank Data</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>92c9165c-be04-405d-bae1-7741c0cc7bb6</guid>
@@ -41,7 +41,7 @@
       <testCaseId>Test Cases/Web RoomMe.id/2. Sign Up/4. Customer Input Email with Invalid Format</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b311d419-e43c-44f9-ad85-b4fa2de26123</guid>
+      <guid>193a66c7-b5c0-4eed-a81c-b5048bcaaf0c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web RoomMe.id/2. Sign Up/5. Customer Input Phone Number with Invalid Format</testCaseId>

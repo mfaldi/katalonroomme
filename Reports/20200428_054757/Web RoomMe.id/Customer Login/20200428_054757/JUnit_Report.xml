@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Customer Login" time="121.495" tests="6" failures="0" errors="0">
+   <testsuite name="Customer Login" tests="6" failures="0" errors="0" time="121.495" timestamp="2020-04-28 05:48:05" hostname="Win 10 - LENNONOVO" id="Test Suites/Web RoomMe.id/Customer Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Reports\\20200428_054757\\Web RoomMe.id\\Customer Login\\20200428_054757"/>
+         <property name="logFiles" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Reports\\20200428_054757\\Web RoomMe.id\\Customer Login\\20200428_054757\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Win 10 - LENNONOVO"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.0.1"/>
+         <property name="browser" value="Chrome 81.0.4044.122"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="c467d01afa6c8b8166df8984809c2d01"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Web RoomMe.id/3. Sign In/1. Login With Valid Credential" time="26.383" classname="Test Cases/Web RoomMe.id/3. Sign In/1. Login With Valid Credential" status="PASSED">
+         <system-out><![CDATA[2020-04-28 05:48:06 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/3. Sign In/1. Login With Valid Credential: Test Cases/Web RoomMe.id/3. Sign In/1. Login With Valid Credential
+
+2020-04-28 05:48:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-28 05:48:06 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-04-28 05:48:07 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-28 05:48:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-28 05:48:07 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-04-28 05:48:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-28 05:48:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-28 05:48:19 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-28 05:48:19 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-28 05:48:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 05:48:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-28 05:48:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-28 05:48:19 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:48:19 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:48:19 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:48:19 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:48:19 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In' is clicked on
+
+2020-04-28 05:48:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In' is clicked on
+
+2020-04-28 05:48:20 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), 0): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is clickable
+
+2020-04-28 05:48:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 05:48:20 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is clickable
+
+2020-04-28 05:48:20 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password"), 0): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is clickable
+
+2020-04-28 05:48:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 05:48:21 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is clickable
+
+2020-04-28 05:48:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/3. Sign In/Verify Sign In Menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/3. Sign In/Verify Sign In Menu' successfully
+
+2020-04-28 05:48:21 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/3. Sign In/Verify Sign In Menu: Test Cases/Web RoomMe.id/3. Sign In/Verify Sign In Menu
+
+2020-04-28 05:48:21 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\Sign In Menu\": null
+
+2020-04-28 05:48:21 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-04-28 05:48:21 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-04-28 05:48:21 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-04-28 05:48:21 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-04-28 05:48:21 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-04-28 05:48:21 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 05:48:21 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 05:48:21 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 05:48:21 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 05:48:21 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 05:48:21 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 05:48:21 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 05:48:21 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 05:48:21 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 05:48:21 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 05:48:21 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 05:48:21 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 05:48:21 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 05:48:21 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 05:48:21 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 05:48:21 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 05:48:21 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 05:48:21 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 05:48:21 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 05:48:21 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-04-28 05:48:21 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-04-28 05:48:21 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-04-28 05:48:21 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\Sign In Menu\Textfield Password' is visible
+
+2020-04-28 05:48:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject(obj), 30, STOP_ON_FAILURE): Object 'Object Repository/Web RoomMe.id\Sign In Menu\Button Forgot Password' is visible
+
+2020-04-28 05:48:22 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign In Menu\Button Forgot Password' is visible
+
+2020-04-28 05:48:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject(obj), 30, STOP_ON_FAILURE): Object 'Object Repository/Web RoomMe.id\Sign In Menu\Button Sign In with Google' is visible
+
+2020-04-28 05:48:22 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign In Menu\Button Sign In with Google' is visible
+
+2020-04-28 05:48:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject(obj), 30, STOP_ON_FAILURE): Object 'Object Repository/Web RoomMe.id\Sign In Menu\Button Sign In' is visible
+
+2020-04-28 05:48:23 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign In Menu\Button Sign In' is visible
+
+2020-04-28 05:48:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject(obj), 30, STOP_ON_FAILURE): Object 'Object Repository/Web RoomMe.id\Sign In Menu\Button Sign Up' is visible
+
+2020-04-28 05:48:23 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign In Menu\Button Sign Up' is visible
+
+2020-04-28 05:48:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject(obj), 30, STOP_ON_FAILURE): Object 'Object Repository/Web RoomMe.id\Sign In Menu\Checkbox Remember me' is visible
+
+2020-04-28 05:48:24 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign In Menu\Checkbox Remember me' is visible
+
+2020-04-28 05:48:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject(obj), 30, STOP_ON_FAILURE): Object 'Object Repository/Web RoomMe.id\Sign In Menu\Textfield Email' is visible
+
+2020-04-28 05:48:24 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign In Menu\Textfield Email' is visible
+
+2020-04-28 05:48:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject(obj), 30, STOP_ON_FAILURE): Object 'Object Repository/Web RoomMe.id\Sign In Menu\Textfield Password' is visible
+
+2020-04-28 05:48:25 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign In Menu\Textfield Password' is visible
+
+2020-04-28 05:48:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/3. Sign In/Verify Sign In Menu' successfully
+
+2020-04-28 05:48:25 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), "hurujy@getnada.com"): Text 'hurujy@getnada.com' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-04-28 05:48:26 - [MESSAGE][PASSED] - Text 'hurujy@getnada.com' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-04-28 05:48:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-04-28 05:48:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-04-28 05:48:26 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is clicked on
+
+2020-04-28 05:48:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is clicked on
+
+2020-04-28 05:48:27 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Header/User Menu/User Menu"), 10, STOP_ON_FAILURE): Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/User Menu/User Menu' is visible
+
+2020-04-28 05:48:32 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/User Menu/User Menu' is visible
+
+2020-04-28 05:48:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Header/User Menu/User Profile Image"), 10, STOP_ON_FAILURE): Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/User Menu/User Profile Image' is visible
+
+2020-04-28 05:48:32 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/User Menu/User Profile Image' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/3. Sign In/2. Login With Not Registered Email" time="16.362" classname="Test Cases/Web RoomMe.id/3. Sign In/2. Login With Not Registered Email" status="PASSED">
+         <system-out><![CDATA[2020-04-28 05:48:32 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/3. Sign In/2. Login With Not Registered Email: Test Cases/Web RoomMe.id/3. Sign In/2. Login With Not Registered Email
+
+2020-04-28 05:48:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-28 05:48:32 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-04-28 05:48:32 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-28 05:48:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-04-28 05:48:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-28 05:48:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-28 05:48:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-28 05:48:42 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-28 05:48:42 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-28 05:48:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 05:48:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-28 05:48:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-28 05:48:42 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:48:42 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:48:42 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:48:42 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:48:42 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In' is clicked on
+
+2020-04-28 05:48:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In' is clicked on
+
+2020-04-28 05:48:43 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-04-28 05:48:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-04-28 05:48:44 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/3. Sign In/Verify Sign In Menu"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/3. Sign In/Verify Sign In Menu"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:48:44 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/3. Sign In/Verify Sign In Menu"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:48:44 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), 0): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is clickable
+
+2020-04-28 05:48:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 05:48:44 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is clickable
+
+2020-04-28 05:48:44 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password"), 0): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is clickable
+
+2020-04-28 05:48:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 05:48:45 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is clickable
+
+2020-04-28 05:48:45 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), "burujy@getnada.com"): Text 'burujy@getnada.com' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-04-28 05:48:45 - [MESSAGE][PASSED] - Text 'burujy@getnada.com' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-04-28 05:48:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-04-28 05:48:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-04-28 05:48:46 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is clicked on
+
+2020-04-28 05:48:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is clicked on
+
+2020-04-28 05:48:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Email Not Found"), 10): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Error Message/Text Email Not Found' is visible
+
+2020-04-28 05:48:48 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Error Message/Text Email Not Found' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/3. Sign In/3. Input Email With Incorrect Email Format" time="17.331" classname="Test Cases/Web RoomMe.id/3. Sign In/3. Input Email With Incorrect Email Format" status="PASSED">
+         <system-out><![CDATA[2020-04-28 05:48:48 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/3. Sign In/3. Input Email With Incorrect Email Format: Test Cases/Web RoomMe.id/3. Sign In/3. Input Email With Incorrect Email Format
+
+2020-04-28 05:48:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-28 05:48:49 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-04-28 05:48:49 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-28 05:48:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-04-28 05:48:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-28 05:48:56 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-28 05:48:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-28 05:48:59 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-28 05:48:59 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-28 05:48:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 05:48:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-28 05:48:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-28 05:48:59 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:48:59 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:48:59 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:48:59 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:48:59 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In' is clicked on
+
+2020-04-28 05:48:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In' is clicked on
+
+2020-04-28 05:48:59 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), 0): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is clickable
+
+2020-04-28 05:49:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 05:49:00 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is clickable
+
+2020-04-28 05:49:00 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password"), 0): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is clickable
+
+2020-04-28 05:49:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 05:49:01 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is clickable
+
+2020-04-28 05:49:01 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/3. Sign In/Verify Sign In Menu"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/3. Sign In/Verify Sign In Menu"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:49:01 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/3. Sign In/Verify Sign In Menu"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:49:01 - [TEST_STEP][NOT_RUN] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), 0): NOT_RUN: waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), 0)
+
+2020-04-28 05:49:01 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), 0)
+
+2020-04-28 05:49:01 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), "hurujy"): Text 'hurujy' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-04-28 05:49:02 - [MESSAGE][PASSED] - Text 'hurujy' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-04-28 05:49:02 - [TEST_STEP][NOT_RUN] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid"), 10): NOT_RUN: waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid"), 10)
+
+2020-04-28 05:49:02 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid"), 10)
+
+2020-04-28 05:49:02 - [TEST_STEP][PASSED] - clearText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email")): Text of object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is cleared
+
+2020-04-28 05:49:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is cleared
+
+2020-04-28 05:49:02 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), "12345"): Text '12345' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-04-28 05:49:03 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-04-28 05:49:03 - [TEST_STEP][NOT_RUN] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid"), 10): NOT_RUN: waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid"), 10)
+
+2020-04-28 05:49:03 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid"), 10)
+
+2020-04-28 05:49:03 - [TEST_STEP][PASSED] - clearText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email")): Text of object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is cleared
+
+2020-04-28 05:49:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is cleared
+
+2020-04-28 05:49:03 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), "!@#$%^"): Text '!@#$%^' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-04-28 05:49:04 - [MESSAGE][PASSED] - Text '!@#$%^' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-04-28 05:49:04 - [TEST_STEP][NOT_RUN] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid"), 10): NOT_RUN: waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid"), 10)
+
+2020-04-28 05:49:04 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid"), 10)
+
+2020-04-28 05:49:04 - [TEST_STEP][PASSED] - clearText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email")): Text of object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is cleared
+
+2020-04-28 05:49:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is cleared
+
+2020-04-28 05:49:05 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), "                  "): Text '                  ' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-04-28 05:49:06 - [MESSAGE][PASSED] - Text '                  ' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-04-28 05:49:06 - [TEST_STEP][NOT_RUN] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid"), 10): NOT_RUN: waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid"), 10)
+
+2020-04-28 05:49:06 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid"), 10)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/3. Sign In/4. Login With Wrong Password" time="16.01" classname="Test Cases/Web RoomMe.id/3. Sign In/4. Login With Wrong Password" status="PASSED">
+         <system-out><![CDATA[2020-04-28 05:49:06 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/3. Sign In/4. Login With Wrong Password: Test Cases/Web RoomMe.id/3. Sign In/4. Login With Wrong Password
+
+2020-04-28 05:49:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-28 05:49:06 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-04-28 05:49:06 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-28 05:49:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-04-28 05:49:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-28 05:49:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-28 05:49:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-28 05:49:16 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-28 05:49:16 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-28 05:49:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 05:49:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-28 05:49:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-28 05:49:16 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:49:16 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:49:16 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:49:16 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:49:16 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In' is clicked on
+
+2020-04-28 05:49:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In' is clicked on
+
+2020-04-28 05:49:16 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), 0): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is clickable
+
+2020-04-28 05:49:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 05:49:18 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is clickable
+
+2020-04-28 05:49:18 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password"), 0): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is clickable
+
+2020-04-28 05:49:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 05:49:18 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is clickable
+
+2020-04-28 05:49:18 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/3. Sign In/Verify Sign In Menu"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/3. Sign In/Verify Sign In Menu"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:49:18 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/3. Sign In/Verify Sign In Menu"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:49:18 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), "hurujy@getnada.com"): Text 'hurujy@getnada.com' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-04-28 05:49:19 - [MESSAGE][PASSED] - Text 'hurujy@getnada.com' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-04-28 05:49:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password"), "BHvA5AcphSgkyy/qmGt4NA=="): Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-04-28 05:49:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-04-28 05:49:20 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is clicked on
+
+2020-04-28 05:49:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is clicked on
+
+2020-04-28 05:49:20 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Email  Password Not Match"), 10): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Error Message/Text Email  Password Not Match' is visible
+
+2020-04-28 05:49:22 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Error Message/Text Email  Password Not Match' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/3. Sign In/5. Input Password With Less Than 6 Character" time="16.733" classname="Test Cases/Web RoomMe.id/3. Sign In/5. Input Password With Less Than 6 Character" status="PASSED">
+         <system-out><![CDATA[2020-04-28 05:49:22 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/3. Sign In/5. Input Password With Less Than 6 Character: Test Cases/Web RoomMe.id/3. Sign In/5. Input Password With Less Than 6 Character
+
+2020-04-28 05:49:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-28 05:49:22 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-04-28 05:49:22 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-28 05:49:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-04-28 05:49:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-28 05:49:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-28 05:49:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-28 05:49:32 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-28 05:49:32 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-28 05:49:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 05:49:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-28 05:49:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-28 05:49:32 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:49:32 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:49:32 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:49:32 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:49:32 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In' is clicked on
+
+2020-04-28 05:49:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In' is clicked on
+
+2020-04-28 05:49:32 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), 0): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is clickable
+
+2020-04-28 05:49:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 05:49:33 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is clickable
+
+2020-04-28 05:49:33 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password"), 0): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is clickable
+
+2020-04-28 05:49:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 05:49:34 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is clickable
+
+2020-04-28 05:49:34 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/3. Sign In/Verify Sign In Menu"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/3. Sign In/Verify Sign In Menu"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:49:34 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/3. Sign In/Verify Sign In Menu"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:49:34 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password"), "abc"): Text 'abc' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-04-28 05:49:34 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-04-28 05:49:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Minimum Password Required is 6 Character"), 10): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Error Message/Text Minimum Password Required is 6 Character' is visible
+
+2020-04-28 05:49:35 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Error Message/Text Minimum Password Required is 6 Character' is visible
+
+2020-04-28 05:49:35 - [TEST_STEP][PASSED] - clearText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password")): Text of object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is cleared
+
+2020-04-28 05:49:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is cleared
+
+2020-04-28 05:49:35 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password"), "12345"): Text '12345' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-04-28 05:49:36 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-04-28 05:49:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Minimum Password Required is 6 Character"), 10): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Error Message/Text Minimum Password Required is 6 Character' is visible
+
+2020-04-28 05:49:37 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Error Message/Text Minimum Password Required is 6 Character' is visible
+
+2020-04-28 05:49:37 - [TEST_STEP][PASSED] - clearText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password")): Text of object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is cleared
+
+2020-04-28 05:49:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is cleared
+
+2020-04-28 05:49:37 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password"), "!@#$%"): Text '!@#$%' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-04-28 05:49:38 - [MESSAGE][PASSED] - Text '!@#$%' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-04-28 05:49:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Minimum Password Required is 6 Character"), 10): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Error Message/Text Minimum Password Required is 6 Character' is visible
+
+2020-04-28 05:49:38 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Error Message/Text Minimum Password Required is 6 Character' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/3. Sign In/6. Input Password With Space Character" time="13.971" classname="Test Cases/Web RoomMe.id/3. Sign In/6. Input Password With Space Character" status="PASSED">
+         <system-out><![CDATA[2020-04-28 05:49:38 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/3. Sign In/6. Input Password With Space Character: Test Cases/Web RoomMe.id/3. Sign In/6. Input Password With Space Character
+
+2020-04-28 05:49:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-28 05:49:39 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-04-28 05:49:39 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-28 05:49:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-04-28 05:49:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-28 05:49:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-04-28 05:49:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-28 05:49:49 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-28 05:49:49 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-04-28 05:49:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 05:49:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-28 05:49:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-04-28 05:49:49 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:49:49 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:49:49 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:49:49 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:49:49 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In' is clicked on
+
+2020-04-28 05:49:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In' is clicked on
+
+2020-04-28 05:49:49 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), 0): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is clickable
+
+2020-04-28 05:49:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 05:49:51 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is clickable
+
+2020-04-28 05:49:51 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password"), 0): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is clickable
+
+2020-04-28 05:49:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-28 05:49:51 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is clickable
+
+2020-04-28 05:49:51 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/3. Sign In/Verify Sign In Menu"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/3. Sign In/Verify Sign In Menu"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:49:51 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/3. Sign In/Verify Sign In Menu"), [:], STOP_ON_FAILURE)
+
+2020-04-28 05:49:51 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password"), "      "): Text '      ' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-04-28 05:49:52 - [MESSAGE][PASSED] - Text '      ' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-04-28 05:49:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Cant Use Space for Password"), 10): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Error Message/Text Cant Use Space for Password' is visible
+
+2020-04-28 05:49:52 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Error Message/Text Cant Use Space for Password' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-28 05:48:05 - [TEST_SUITE][PASSED] - Customer Login: Test Cases/Web RoomMe.id/3. Sign In/6. Input Password With Space Character]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -35,7 +35,7 @@ not_run: WebUI.getAttribute(findTestObject('Web RoomMe.id/Sign Up Menu/Name Text
 
 not_run: namauser = WebUI.concatenate(((findTestObject('Web RoomMe.id/Sign Up Menu/Name Textfield')) as String))
 
-WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Email'), 'hurujy@getnada.com')
+WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Email'), 'faldidev@getnada.com')
 
 WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Phone Number'), '081234567890')
 
@@ -45,7 +45,5 @@ WebUI.setEncryptedText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Conf
 
 WebUI.click(findTestObject('Web RoomMe.id/Sign Up Menu/Button Sign Up'))
 
-WebUI.mouseOver(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Toast User is Registered'))
-
-WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Toast User is Registered'), 0)
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Email already registered'), 0)
 

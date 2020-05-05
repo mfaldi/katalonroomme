@@ -35,6 +35,6 @@ WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Password'), '
 
 WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Confirm Password'), 'abcdef')
 
-WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text password confirmation didnt match password'), 
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Password and confirmation password dont match'), 
     0)
 

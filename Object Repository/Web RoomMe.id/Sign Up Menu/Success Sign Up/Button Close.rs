@@ -14,7 +14,7 @@
          <value>//div[@id='modal-signup-success___BV_modal_body_']/div/div/button/img</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>/_nuxt/img/5ccb7fd.svg</value>
+      <value>/public/img/5ccb7fd.svg</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

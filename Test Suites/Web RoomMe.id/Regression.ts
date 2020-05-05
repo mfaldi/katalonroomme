@@ -3,14 +3,14 @@
    <description></description>
    <name>Regression</name>
    <tag></tag>
-   <executionMode>SEQUENTIAL</executionMode>
-   <maxConcurrentInstances>8</maxConcurrentInstances>
+   <executionMode>PARALLEL</executionMode>
+   <maxConcurrentInstances>3</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
-            <runConfigurationId>Firefox</runConfigurationId>
+            <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Web RoomMe.id/Customer Login</testSuiteEntity>
@@ -19,7 +19,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
-            <runConfigurationId>Firefox</runConfigurationId>
+            <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Web RoomMe.id/Customer Login with Google</testSuiteEntity>
@@ -28,7 +28,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
-            <runConfigurationId>Firefox</runConfigurationId>
+            <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Web RoomMe.id/Customer Sign Up</testSuiteEntity>
@@ -37,7 +37,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
-            <runConfigurationId>Firefox</runConfigurationId>
+            <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Web RoomMe.id/Customer Search For Kost</testSuiteEntity>
@@ -46,7 +46,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
-            <runConfigurationId>Firefox</runConfigurationId>
+            <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Web RoomMe.id/Customer Access RoomMe Social Media Page</testSuiteEntity>
@@ -55,7 +55,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
-            <runConfigurationId>Firefox</runConfigurationId>
+            <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Web RoomMe.id/Customer Access Our Terms Page</testSuiteEntity>
@@ -64,7 +64,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
-            <runConfigurationId>Firefox</runConfigurationId>
+            <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Web RoomMe.id/Customer Access Landlord Page</testSuiteEntity>
@@ -73,7 +73,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
-            <runConfigurationId>Firefox</runConfigurationId>
+            <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Web RoomMe.id/Customer Access Community Page</testSuiteEntity>
@@ -82,7 +82,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
-            <runConfigurationId>Firefox</runConfigurationId>
+            <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Web RoomMe.id/Customer Access About RooMe Page</testSuiteEntity>

@@ -32,5 +32,5 @@ not_run: WebUI.callTestCase(findTestCase('Web RoomMe.id/3. Sign In/Verify Sign I
 WebUI.setText(findTestObject('Web RoomMe.id/Sign In Menu/Textfield Password'), '      ')
 
 WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign In Menu/Error Message/Text Cant Use Space for Password'), 
-    10)
+    0)
 

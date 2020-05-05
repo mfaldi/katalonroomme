@@ -32,21 +32,21 @@ WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield
 
 WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Password'), 'abc')
 
-WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Password at least 6 Characters one letter of capitalize one number'), 
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Minimum Password Required is 6 Characters'), 
     0)
 
 WebUI.sendKeys(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Password'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
 
 WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Password'), '123')
 
-WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Password at least 6 Characters one letter of capitalize one number'), 
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Minimum Password Required is 6 Characters'), 
     0)
 
 WebUI.sendKeys(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Password'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
 
 WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Password'), '!@#')
 
-WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Password at least 6 Characters one letter of capitalize one number'), 
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Minimum Password Required is 6 Characters'), 
     0)
 
 WebUI.sendKeys(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Password'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
@@ -59,13 +59,8 @@ WebUI.sendKeys(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Password'), 
 
 WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Password'), 'abcde1234512345')
 
-WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Password at least 6 Characters one letter of capitalize one number'), 
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Limit Password Characters has Reached'), 
     0)
 
 WebUI.sendKeys(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Password'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
-
-WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Password'), 'abcd123!@#')
-
-WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Password at least 6 Characters one letter of capitalize one number'), 
-    0)
 

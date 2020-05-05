@@ -38,9 +38,9 @@ WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Mes
 
 WebUI.sendKeys(findTestObject('Web RoomMe.id/Sign Up Menu/Name Textfield'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
 
-WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Name Textfield'), 'abcde abcde abcde abcde abcde abcde abcde abcde')
+WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Name Textfield'), 'Abcde Abcde Abcde Abcde Abcde Abcde Abcde Abcde 123')
 
-WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Name input characters is 20'), 
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Name Input Character is 50'), 
     30, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.sendKeys(findTestObject('Web RoomMe.id/Sign Up Menu/Name Textfield'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))

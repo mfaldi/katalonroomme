@@ -6,6 +6,10 @@
    <elementGuidId>cabd2a62-a584-463c-873b-98d107a95a30</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Please check your email for activation.' or . = 'Please check your email for activation.')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='modal-signup-success___BV_modal_body_']/div/div[2]/p[2]</value>
       </entry>
@@ -21,7 +25,7 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>contains</matchCondition>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Please check your email for activation.</value>

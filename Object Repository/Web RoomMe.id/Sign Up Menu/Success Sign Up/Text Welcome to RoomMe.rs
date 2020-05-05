@@ -6,11 +6,19 @@
    <elementGuidId>fbf9b229-2084-4402-b462-5624e230dab8</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '
+					Welcome to RoomMe,
+					Faldi Tost AT!' or . = '
+					Welcome to RoomMe,
+					Faldi Tost AT!')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='modal-signup-success___BV_modal_body_']/div/div[2]/div[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,10 +36,12 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>contains</matchCondition>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Welcome to RoomMe</value>
+      <value>
+					Welcome to RoomMe,
+					Faldi Tost AT!</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

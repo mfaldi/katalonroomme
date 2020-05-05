@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Customer Login,,,,2020-04-28 05:42:05,2020-04-28 05:42:20,14.450s,FAILED
+,,,,,,,
+Test Cases/Web RoomMe.id/3. Sign In/1. Login With Valid Credential,,Customer login to RoomMe.id,login,2020-04-28 05:42:06,2020-04-28 05:42:10,4.511s,FAILED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",,,,2020-04-28 05:42:06,2020-04-28 05:42:10,4.025s,FAILED
+,,,,,,,
+Test Cases/Web RoomMe.id/3. Sign In/2. Login With Not Registered Email,,,,2020-04-28 05:42:10,2020-04-28 05:42:12,1.919s,FAILED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",,,,2020-04-28 05:42:11,2020-04-28 05:42:12,1.570s,FAILED
+,,,,,,,
+Test Cases/Web RoomMe.id/3. Sign In/3. Input Email With Incorrect Email Format,,,,2020-04-28 05:42:12,2020-04-28 05:42:14,2.002s,FAILED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",,,,2020-04-28 05:42:13,2020-04-28 05:42:14,1.668s,FAILED
+,,,,,,,
+Test Cases/Web RoomMe.id/3. Sign In/4. Login With Wrong Password,,,,2020-04-28 05:42:14,2020-04-28 05:42:16,1.943s,FAILED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",,,,2020-04-28 05:42:14,2020-04-28 05:42:16,1.626s,FAILED
+,,,,,,,
+Test Cases/Web RoomMe.id/3. Sign In/5. Input Password With Less Than 6 Character,,,,2020-04-28 05:42:16,2020-04-28 05:42:18,1.875s,FAILED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",,,,2020-04-28 05:42:16,2020-04-28 05:42:18,1.544s,FAILED
+,,,,,,,
+Test Cases/Web RoomMe.id/3. Sign In/6. Input Password With Space Character,,,,2020-04-28 05:42:18,2020-04-28 05:42:20,1.837s,FAILED
+"callTestCase(findTestCase(""Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page""), [:], STOP_ON_FAILURE)",,,,2020-04-28 05:42:18,2020-04-28 05:42:20,1.553s,FAILED

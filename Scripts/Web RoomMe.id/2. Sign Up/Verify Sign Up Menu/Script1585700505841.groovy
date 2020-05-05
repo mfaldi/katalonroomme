@@ -27,15 +27,14 @@ String[] fileNames = yourObjects.list()
 List<String> testObjects = new ArrayList()
 
 for (int i = 0; i < fileNames.length; i++) {
-	if ((fileNames[i]).contains('.rs')) {
-		(fileNames[i]) = (fileNames[i]).replace('.rs', '')
+    if (fileNames[i].contains('.rs')) {
+        (fileNames[i]) = fileNames[i].replace('.rs', '')
 
-		testObjects.add(objectSubFolder + (fileNames[i]))
-	}
+        testObjects.add(objectSubFolder + (fileNames[i]))
+    }
 }
 
 for (String obj : testObjects) {
-	WebUI.verifyElementVisible(findTestObject(obj))
+    WebUI.verifyElementVisible(findTestObject(obj))
 }
-
 

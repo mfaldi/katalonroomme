@@ -12,15 +12,29 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+//import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-WebUI.callTestCase(findTestCase('Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page'), [:], FailureHandling.STOP_ON_FAILURE)
+String objectSubFolder = 'Web RoomMe.id\\Community Page\\Community Registration\\'
 
-WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/RoomMe.id Header/Image Header Logo'))
+String pathToObjRep = (RunConfiguration.getProjectDir() + '\\Object Repository\\') + objectSubFolder
 
-WebUI.verifyImagePresent(findTestObject('Web RoomMe.id/RoomMe.id Header/Image Header Logo'))
+File yourObjects = new File(pathToObjRep)
 
-WebUI.verifyElementAttributeValue(findTestObject('Web RoomMe.id/RoomMe.id Header/Image Header Logo'), 'src', 'https://web.roomme.id/public/img/6abfae6.png', 
-    0)
+String[] fileNames = yourObjects.list()
+
+List<String> testObjects = new ArrayList()
+
+for (int i = 0; i < fileNames.length; i++) {
+    if (fileNames[i].contains('.rs')) {
+        (fileNames[i]) = fileNames[i].replace('.rs', '')
+
+        testObjects.add(objectSubFolder + (fileNames[i]))
+    }
+}
+
+for (String obj : testObjects) {
+    WebUI.verifyElementVisible(findTestObject(obj))
+}
 

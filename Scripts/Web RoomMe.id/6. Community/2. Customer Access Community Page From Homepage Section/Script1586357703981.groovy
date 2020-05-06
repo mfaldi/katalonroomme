@@ -23,5 +23,5 @@ WebUI.click(findTestObject('Web RoomMe.id/RoomMe.id Homepage/Button Explore Comm
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Community Page/Text Community Registration'), 30)
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Community Page/Community Registration/Text Community Registration'), 30)
 

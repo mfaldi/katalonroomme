@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button Left Year</name>
+   <tag></tag>
+   <elementGuidId>eac93d18-89b1-4d92-a0a0-eb9095568bd0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mx-icon-double-left</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;md-theme-default&quot;]/body[@class=&quot;modal-open&quot;]/div[@class=&quot;mx-datepicker-main mx-datepicker-popup&quot;]/div[@class=&quot;mx-datepicker-content&quot;]/div[@class=&quot;mx-datepicker-body&quot;]/div[@class=&quot;mx-calendar mx-calendar-panel-year&quot;]/div[@class=&quot;mx-calendar-header&quot;]/button[@class=&quot;mx-btn mx-btn-text mx-btn-icon-double-left&quot;]/i[@class=&quot;mx-icon-double-left&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/i</value>
+   </webElementXpaths>
+</WebElementEntity>

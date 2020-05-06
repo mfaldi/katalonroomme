@@ -12,16 +12,11 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-//import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/RoomMe.id Header/Button Community'), 30)
+listlinkhomepage = WebUI.getAllLinksOnCurrentPage(false, [])
 
-WebUI.click(findTestObject('Web RoomMe.id/RoomMe.id Header/Button Community'))
-
-WebUI.waitForPageLoad(0)
-
-WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Community Page/Community Registration/Text Community Registration'), 30)
+WebUI.verifyLinksAccessible(listlinkhomepage)
 

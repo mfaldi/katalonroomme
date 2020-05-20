@@ -3,7 +3,7 @@
    <description></description>
    <name>Text Gender</name>
    <tag></tag>
-   <elementGuidId>8122ea7f-2fec-4f01-a827-be76645e331d</elementGuidId>
+   <elementGuidId>d9937ed6-48bd-46c8-afb0-5430965d642d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -52,14 +52,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please Choice your gender'])[1]/preceding::b[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Birthdate'])[1]/preceding::b[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Birthdate'])[1]/preceding::b[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='The minimum age allowed is 17 years'])[1]/preceding::b[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

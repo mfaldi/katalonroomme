@@ -7,7 +7,15 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='submit'])[2]</value>
+         <value>//div[@id='modal-form___BV_modal_body_']/div/div[2]/form/div[5]/button</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and (text() = '
+														Submit
+													' or . = '
+														Submit
+													')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

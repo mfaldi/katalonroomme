@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>(//input[@name='gender'])[2]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'radio' and @value = 'female' and @name = 'gender']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>1</value>
+      <value>female</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

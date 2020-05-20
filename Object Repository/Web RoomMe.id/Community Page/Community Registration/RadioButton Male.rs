@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='modal-form___BV_modal_body_']/div/div[2]/form/div[2]/input</value>
+         <value>//input[@name='gender']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'radio' and @value = 'male' and @name = 'gender']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>0</value>
+      <value>male</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

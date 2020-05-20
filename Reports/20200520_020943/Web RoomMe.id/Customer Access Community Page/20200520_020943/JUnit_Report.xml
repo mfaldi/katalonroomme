@@ -1,0 +1,2086 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Customer Access Community Page" time="257.927" tests="4" failures="1" errors="0">
+   <testsuite name="Customer Access Community Page" tests="4" failures="1" errors="0" time="257.927" timestamp="2020-05-20 02:09:52" hostname="Win 10 - LENNONOVO" id="Test Suites/Web RoomMe.id/Customer Access Community Page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Reports\\20200520_020943\\Web RoomMe.id\\Customer Access Community Page\\20200520_020943"/>
+         <property name="logFiles" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Reports\\20200520_020943\\Web RoomMe.id\\Customer Access Community Page\\20200520_020943\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Reports\\20200520_020943\\Web RoomMe.id\\Customer Access Community Page\\20200520_020943\\1589915647515.png, C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Reports\\20200520_020943\\Web RoomMe.id\\Customer Access Community Page\\20200520_020943\\1589915648308.png"/>
+         <property name="hostName" value="Win 10 - LENNONOVO"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.1.1.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.1.14"/>
+         <property name="sessionId" value="ece233b799b773239e589e7a07a95229"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Web RoomMe.id/6. Community/1. Customer Access Community Page From Header" time="41.973" classname="Test Cases/Web RoomMe.id/6. Community/1. Customer Access Community Page From Header" status="PASSED">
+         <system-out><![CDATA[2020-05-20 02:09:53 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/6. Community/1. Customer Access Community Page From Header: Test Cases/Web RoomMe.id/6. Community/1. Customer Access Community Page From Header
+
+2020-05-20 02:09:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-20 02:09:53 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-20 02:09:54 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-05-20 02:09:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-20 02:09:54 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-20 02:10:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-05-20 02:10:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-20 02:10:06 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-20 02:10:06 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-20 02:10:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 02:10:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-20 02:10:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-20 02:10:07 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Community"), 30): Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Community' is visible
+
+2020-05-20 02:10:07 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Community' is visible
+
+2020-05-20 02:10:07 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Community")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Community' is clicked on
+
+2020-05-20 02:10:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Community' is clicked on
+
+2020-05-20 02:10:10 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-20 02:10:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 02:10:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-20 02:10:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/6. Community/5. Verify Welcome Video"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/6. Community/5. Verify Welcome Video' successfully
+
+2020-05-20 02:10:12 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/6. Community/5. Verify Welcome Video: Test Cases/Web RoomMe.id/6. Community/5. Verify Welcome Video
+
+2020-05-20 02:10:12 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/6. Community/1. Customer Access Community Page From Header"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/6. Community/1. Customer Access Community Page From Header"), [:], STOP_ON_FAILURE)
+
+2020-05-20 02:10:12 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/6. Community/1. Customer Access Community Page From Header"), [:], STOP_ON_FAILURE)
+
+2020-05-20 02:10:12 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Text JOIN OUR COMMUNITY"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Text JOIN OUR COMMUNITY' is visible
+
+2020-05-20 02:10:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 02:10:13 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Text JOIN OUR COMMUNITY' is visible
+
+2020-05-20 02:10:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Text And enjoy the benefits and features"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Text And enjoy the benefits and features' is visible
+
+2020-05-20 02:10:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 02:10:13 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Text And enjoy the benefits and features' is visible
+
+2020-05-20 02:10:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Video Events RoomMe"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Video Events RoomMe' is visible
+
+2020-05-20 02:10:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 02:10:14 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Video Events RoomMe' is visible
+
+2020-05-20 02:10:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is visible
+
+2020-05-20 02:10:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 02:10:14 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is visible
+
+2020-05-20 02:10:14 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-20 02:10:24 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-20 02:10:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/6. Community/5. Verify Welcome Video' successfully
+
+2020-05-20 02:10:24 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration")): Object: 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is clicked on
+
+2020-05-20 02:10:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is clicked on
+
+2020-05-20 02:10:25 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Header/Image Header Logo")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Image Header Logo' is clicked on
+
+2020-05-20 02:10:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Image Header Logo' is clicked on
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/6. Community/4. Verify Element on Community Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/6. Community/4. Verify Element on Community Page' successfully
+
+2020-05-20 02:10:28 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/6. Community/4. Verify Element on Community Page: Test Cases/Web RoomMe.id/6. Community/4. Verify Element on Community Page
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\Community Page\": null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\Community Page\Video Events' is visible
+
+2020-05-20 02:10:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Button Join Our Community' is visible
+
+2020-05-20 02:10:29 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Button Join Our Community' is visible
+
+2020-05-20 02:10:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Button See More Events' is visible
+
+2020-05-20 02:10:29 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Button See More Events' is visible
+
+2020-05-20 02:10:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Button See More Videos' is visible
+
+2020-05-20 02:10:30 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Button See More Videos' is visible
+
+2020-05-20 02:10:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Button See More' is visible
+
+2020-05-20 02:10:30 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Button See More' is visible
+
+2020-05-20 02:10:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Image Carousel' is visible
+
+2020-05-20 02:10:30 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Image Carousel' is visible
+
+2020-05-20 02:10:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Image Event' is visible
+
+2020-05-20 02:10:31 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Image Event' is visible
+
+2020-05-20 02:10:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text All Events' is visible
+
+2020-05-20 02:10:31 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text All Events' is visible
+
+2020-05-20 02:10:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Discover your pleasant' is visible
+
+2020-05-20 02:10:31 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Discover your pleasant' is visible
+
+2020-05-20 02:10:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text From inspiring  funny stories' is visible
+
+2020-05-20 02:10:32 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text From inspiring  funny stories' is visible
+
+2020-05-20 02:10:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Happening Events in Community' is visible
+
+2020-05-20 02:10:32 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Happening Events in Community' is visible
+
+2020-05-20 02:10:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Hey RoomMies Lets join our community' is visible
+
+2020-05-20 02:10:33 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Hey RoomMies Lets join our community' is visible
+
+2020-05-20 02:10:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Join the right communit' is visible
+
+2020-05-20 02:10:33 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Join the right communit' is visible
+
+2020-05-20 02:10:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Know Your Friends' is visible
+
+2020-05-20 02:10:33 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Know Your Friends' is visible
+
+2020-05-20 02:10:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Latest Events to Watch' is visible
+
+2020-05-20 02:10:34 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Latest Events to Watch' is visible
+
+2020-05-20 02:10:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text To know more about our activitie' is visible
+
+2020-05-20 02:10:34 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text To know more about our activitie' is visible
+
+2020-05-20 02:10:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Your hobbies will be more exciting' is visible
+
+2020-05-20 02:10:34 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Your hobbies will be more exciting' is visible
+
+2020-05-20 02:10:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Video Events' is visible
+
+2020-05-20 02:10:35 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Video Events' is visible
+
+2020-05-20 02:10:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/6. Community/4. Verify Element on Community Page' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/6. Community/2. Customer Access Community Page From Homepage Section" time="37.548" classname="Test Cases/Web RoomMe.id/6. Community/2. Customer Access Community Page From Homepage Section" status="PASSED">
+         <system-out><![CDATA[2020-05-20 02:10:35 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/6. Community/2. Customer Access Community Page From Homepage Section: Test Cases/Web RoomMe.id/6. Community/2. Customer Access Community Page From Homepage Section
+
+2020-05-20 02:10:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-20 02:10:35 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-20 02:10:35 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-05-20 02:10:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-20 02:10:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-20 02:10:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-05-20 02:10:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-20 02:10:46 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-20 02:10:46 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-20 02:10:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 02:10:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-20 02:10:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-20 02:10:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Explore Community"), 30): Object 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Explore Community' is visible
+
+2020-05-20 02:10:46 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Explore Community' is visible
+
+2020-05-20 02:10:46 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Explore Community")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Explore Community' is clicked on
+
+2020-05-20 02:10:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Explore Community' is clicked on
+
+2020-05-20 02:10:48 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-20 02:10:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 02:10:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-20 02:10:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/6. Community/5. Verify Welcome Video"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/6. Community/5. Verify Welcome Video' successfully
+
+2020-05-20 02:10:51 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/6. Community/5. Verify Welcome Video: Test Cases/Web RoomMe.id/6. Community/5. Verify Welcome Video
+
+2020-05-20 02:10:51 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/6. Community/1. Customer Access Community Page From Header"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/6. Community/1. Customer Access Community Page From Header"), [:], STOP_ON_FAILURE)
+
+2020-05-20 02:10:51 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/6. Community/1. Customer Access Community Page From Header"), [:], STOP_ON_FAILURE)
+
+2020-05-20 02:10:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Text JOIN OUR COMMUNITY"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Text JOIN OUR COMMUNITY' is visible
+
+2020-05-20 02:10:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 02:10:51 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Text JOIN OUR COMMUNITY' is visible
+
+2020-05-20 02:10:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Text And enjoy the benefits and features"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Text And enjoy the benefits and features' is visible
+
+2020-05-20 02:10:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 02:10:52 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Text And enjoy the benefits and features' is visible
+
+2020-05-20 02:10:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Video Events RoomMe"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Video Events RoomMe' is visible
+
+2020-05-20 02:10:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 02:10:52 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Video Events RoomMe' is visible
+
+2020-05-20 02:10:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is visible
+
+2020-05-20 02:10:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 02:10:52 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is visible
+
+2020-05-20 02:10:52 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-20 02:11:02 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-20 02:11:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/6. Community/5. Verify Welcome Video' successfully
+
+2020-05-20 02:11:02 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration")): Object: 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is clicked on
+
+2020-05-20 02:11:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is clicked on
+
+2020-05-20 02:11:03 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Header/Image Header Logo")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Image Header Logo' is clicked on
+
+2020-05-20 02:11:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Image Header Logo' is clicked on
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/6. Community/4. Verify Element on Community Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/6. Community/4. Verify Element on Community Page' successfully
+
+2020-05-20 02:11:06 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/6. Community/4. Verify Element on Community Page: Test Cases/Web RoomMe.id/6. Community/4. Verify Element on Community Page
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\Community Page\": null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\Community Page\Video Events' is visible
+
+2020-05-20 02:11:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Button Join Our Community' is visible
+
+2020-05-20 02:11:07 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Button Join Our Community' is visible
+
+2020-05-20 02:11:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Button See More Events' is visible
+
+2020-05-20 02:11:07 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Button See More Events' is visible
+
+2020-05-20 02:11:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Button See More Videos' is visible
+
+2020-05-20 02:11:07 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Button See More Videos' is visible
+
+2020-05-20 02:11:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Button See More' is visible
+
+2020-05-20 02:11:08 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Button See More' is visible
+
+2020-05-20 02:11:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Image Carousel' is visible
+
+2020-05-20 02:11:08 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Image Carousel' is visible
+
+2020-05-20 02:11:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Image Event' is visible
+
+2020-05-20 02:11:08 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Image Event' is visible
+
+2020-05-20 02:11:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text All Events' is visible
+
+2020-05-20 02:11:09 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text All Events' is visible
+
+2020-05-20 02:11:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Discover your pleasant' is visible
+
+2020-05-20 02:11:09 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Discover your pleasant' is visible
+
+2020-05-20 02:11:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text From inspiring  funny stories' is visible
+
+2020-05-20 02:11:09 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text From inspiring  funny stories' is visible
+
+2020-05-20 02:11:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Happening Events in Community' is visible
+
+2020-05-20 02:11:10 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Happening Events in Community' is visible
+
+2020-05-20 02:11:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Hey RoomMies Lets join our community' is visible
+
+2020-05-20 02:11:10 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Hey RoomMies Lets join our community' is visible
+
+2020-05-20 02:11:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Join the right communit' is visible
+
+2020-05-20 02:11:11 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Join the right communit' is visible
+
+2020-05-20 02:11:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Know Your Friends' is visible
+
+2020-05-20 02:11:11 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Know Your Friends' is visible
+
+2020-05-20 02:11:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Latest Events to Watch' is visible
+
+2020-05-20 02:11:11 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Latest Events to Watch' is visible
+
+2020-05-20 02:11:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text To know more about our activitie' is visible
+
+2020-05-20 02:11:12 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text To know more about our activitie' is visible
+
+2020-05-20 02:11:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Your hobbies will be more exciting' is visible
+
+2020-05-20 02:11:12 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Your hobbies will be more exciting' is visible
+
+2020-05-20 02:11:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Video Events' is visible
+
+2020-05-20 02:11:12 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Video Events' is visible
+
+2020-05-20 02:11:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/6. Community/4. Verify Element on Community Page' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/6. Community/3. Verify All Link in Community Page" time="49.192" classname="Test Cases/Web RoomMe.id/6. Community/3. Verify All Link in Community Page" status="PASSED">
+         <system-out><![CDATA[2020-05-20 02:11:12 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/6. Community/3. Verify All Link in Community Page: Test Cases/Web RoomMe.id/6. Community/3. Verify All Link in Community Page
+
+2020-05-20 02:11:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/6. Community/1. Customer Access Community Page From Header"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/6. Community/1. Customer Access Community Page From Header' successfully
+
+2020-05-20 02:11:13 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/6. Community/1. Customer Access Community Page From Header: Test Cases/Web RoomMe.id/6. Community/1. Customer Access Community Page From Header
+
+2020-05-20 02:11:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-20 02:11:13 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-20 02:11:13 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-05-20 02:11:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-20 02:11:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-20 02:11:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-05-20 02:11:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-20 02:11:25 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-20 02:11:25 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-20 02:11:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 02:11:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-20 02:11:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-20 02:11:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Community"), 30): Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Community' is visible
+
+2020-05-20 02:11:25 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Community' is visible
+
+2020-05-20 02:11:25 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Community")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Community' is clicked on
+
+2020-05-20 02:11:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Community' is clicked on
+
+2020-05-20 02:11:27 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-20 02:11:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 02:11:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-20 02:11:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/6. Community/5. Verify Welcome Video"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/6. Community/5. Verify Welcome Video' successfully
+
+2020-05-20 02:11:29 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/6. Community/5. Verify Welcome Video: Test Cases/Web RoomMe.id/6. Community/5. Verify Welcome Video
+
+2020-05-20 02:11:29 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/6. Community/1. Customer Access Community Page From Header"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/6. Community/1. Customer Access Community Page From Header"), [:], STOP_ON_FAILURE)
+
+2020-05-20 02:11:29 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/6. Community/1. Customer Access Community Page From Header"), [:], STOP_ON_FAILURE)
+
+2020-05-20 02:11:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Text JOIN OUR COMMUNITY"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Text JOIN OUR COMMUNITY' is visible
+
+2020-05-20 02:11:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 02:11:29 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Text JOIN OUR COMMUNITY' is visible
+
+2020-05-20 02:11:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Text And enjoy the benefits and features"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Text And enjoy the benefits and features' is visible
+
+2020-05-20 02:11:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 02:11:30 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Text And enjoy the benefits and features' is visible
+
+2020-05-20 02:11:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Video Events RoomMe"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Video Events RoomMe' is visible
+
+2020-05-20 02:11:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 02:11:30 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Video Events RoomMe' is visible
+
+2020-05-20 02:11:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is visible
+
+2020-05-20 02:11:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 02:11:30 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is visible
+
+2020-05-20 02:11:30 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-20 02:11:40 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-20 02:11:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/6. Community/5. Verify Welcome Video' successfully
+
+2020-05-20 02:11:40 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration")): Object: 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is clicked on
+
+2020-05-20 02:11:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is clicked on
+
+2020-05-20 02:11:41 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Header/Image Header Logo")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Image Header Logo' is clicked on
+
+2020-05-20 02:11:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Image Header Logo' is clicked on
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/6. Community/4. Verify Element on Community Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/6. Community/4. Verify Element on Community Page' successfully
+
+2020-05-20 02:11:44 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/6. Community/4. Verify Element on Community Page: Test Cases/Web RoomMe.id/6. Community/4. Verify Element on Community Page
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\Community Page\": null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\Community Page\Video Events' is visible
+
+2020-05-20 02:11:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Button Join Our Community' is visible
+
+2020-05-20 02:11:45 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Button Join Our Community' is visible
+
+2020-05-20 02:11:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Button See More Events' is visible
+
+2020-05-20 02:11:45 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Button See More Events' is visible
+
+2020-05-20 02:11:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Button See More Videos' is visible
+
+2020-05-20 02:11:45 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Button See More Videos' is visible
+
+2020-05-20 02:11:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Button See More' is visible
+
+2020-05-20 02:11:46 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Button See More' is visible
+
+2020-05-20 02:11:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Image Carousel' is visible
+
+2020-05-20 02:11:46 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Image Carousel' is visible
+
+2020-05-20 02:11:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Image Event' is visible
+
+2020-05-20 02:11:46 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Image Event' is visible
+
+2020-05-20 02:11:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text All Events' is visible
+
+2020-05-20 02:11:47 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text All Events' is visible
+
+2020-05-20 02:11:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Discover your pleasant' is visible
+
+2020-05-20 02:11:47 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Discover your pleasant' is visible
+
+2020-05-20 02:11:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text From inspiring  funny stories' is visible
+
+2020-05-20 02:11:47 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text From inspiring  funny stories' is visible
+
+2020-05-20 02:11:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Happening Events in Community' is visible
+
+2020-05-20 02:11:48 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Happening Events in Community' is visible
+
+2020-05-20 02:11:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Hey RoomMies Lets join our community' is visible
+
+2020-05-20 02:11:48 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Hey RoomMies Lets join our community' is visible
+
+2020-05-20 02:11:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Join the right communit' is visible
+
+2020-05-20 02:11:48 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Join the right communit' is visible
+
+2020-05-20 02:11:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Know Your Friends' is visible
+
+2020-05-20 02:11:49 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Know Your Friends' is visible
+
+2020-05-20 02:11:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Latest Events to Watch' is visible
+
+2020-05-20 02:11:49 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Latest Events to Watch' is visible
+
+2020-05-20 02:11:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text To know more about our activitie' is visible
+
+2020-05-20 02:11:49 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text To know more about our activitie' is visible
+
+2020-05-20 02:11:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Your hobbies will be more exciting' is visible
+
+2020-05-20 02:11:50 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Your hobbies will be more exciting' is visible
+
+2020-05-20 02:11:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Video Events' is visible
+
+2020-05-20 02:11:50 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Video Events' is visible
+
+2020-05-20 02:11:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/6. Community/4. Verify Element on Community Page' successfully
+
+2020-05-20 02:11:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/6. Community/1. Customer Access Community Page From Header' successfully
+
+2020-05-20 02:11:50 - [TEST_STEP][PASSED] - verifyAllLinksOnCurrentPageAccessible(false, []): All links on the page 'https://web.roomme.id/community' are accessible
+
+2020-05-20 02:11:53 - [MESSAGE][PASSED] - Found 52 unique links on the page https://web.roomme.id/community
+
+2020-05-20 02:11:55 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\0.har
+
+2020-05-20 02:11:55 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:55 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\1.har
+
+2020-05-20 02:11:55 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:55 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\2.har
+
+2020-05-20 02:11:55 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:55 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\3.har
+
+2020-05-20 02:11:55 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:55 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\4.har
+
+2020-05-20 02:11:55 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:55 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\5.har
+
+2020-05-20 02:11:55 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:55 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\6.har
+
+2020-05-20 02:11:55 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:56 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\7.har
+
+2020-05-20 02:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:56 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\8.har
+
+2020-05-20 02:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:56 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\9.har
+
+2020-05-20 02:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:56 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\10.har
+
+2020-05-20 02:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:56 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\11.har
+
+2020-05-20 02:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:56 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\12.har
+
+2020-05-20 02:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:56 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\13.har
+
+2020-05-20 02:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:56 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\14.har
+
+2020-05-20 02:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:56 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\15.har
+
+2020-05-20 02:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:56 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\16.har
+
+2020-05-20 02:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:56 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\17.har
+
+2020-05-20 02:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:56 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\18.har
+
+2020-05-20 02:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:57 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\19.har
+
+2020-05-20 02:11:57 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:57 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\20.har
+
+2020-05-20 02:11:57 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:57 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\21.har
+
+2020-05-20 02:11:57 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:57 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\22.har
+
+2020-05-20 02:11:57 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:57 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\23.har
+
+2020-05-20 02:11:57 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:57 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\24.har
+
+2020-05-20 02:11:57 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:57 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\25.har
+
+2020-05-20 02:11:57 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:57 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\26.har
+
+2020-05-20 02:11:57 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:57 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\27.har
+
+2020-05-20 02:11:57 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:57 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\28.har
+
+2020-05-20 02:11:57 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:58 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\29.har
+
+2020-05-20 02:11:58 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:58 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\30.har
+
+2020-05-20 02:11:58 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:58 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\31.har
+
+2020-05-20 02:11:58 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:58 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\32.har
+
+2020-05-20 02:11:58 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:58 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\33.har
+
+2020-05-20 02:11:58 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:58 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\34.har
+
+2020-05-20 02:11:58 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:59 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\35.har
+
+2020-05-20 02:11:59 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:59 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\36.har
+
+2020-05-20 02:11:59 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:59 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\37.har
+
+2020-05-20 02:11:59 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:59 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\38.har
+
+2020-05-20 02:11:59 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:11:59 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\39.har
+
+2020-05-20 02:11:59 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:12:00 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\40.har
+
+2020-05-20 02:12:00 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:12:00 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\41.har
+
+2020-05-20 02:12:00 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:12:00 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\42.har
+
+2020-05-20 02:12:00 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:12:00 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\43.har
+
+2020-05-20 02:12:00 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:12:01 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\44.har
+
+2020-05-20 02:12:01 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:12:01 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\45.har
+
+2020-05-20 02:12:01 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:12:01 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\46.har
+
+2020-05-20 02:12:01 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:12:01 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\47.har
+
+2020-05-20 02:12:01 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:12:01 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\48.har
+
+2020-05-20 02:12:01 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:12:01 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\49.har
+
+2020-05-20 02:12:01 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:12:01 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\50.har
+
+2020-05-20 02:12:01 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:12:01 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme-master\Reports\20200520_020943\Web RoomMe.id\Customer Access Community Page\20200520_020943\requests\main\51.har
+
+2020-05-20 02:12:01 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-20 02:12:01 - [MESSAGE][PASSED] - All links are accessible
+
+2020-05-20 02:12:01 - [MESSAGE][PASSED] - All links on the page 'https://web.roomme.id/community' are accessible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/6. Community/6. Register Community From Community Page Section" time="127.181" classname="Test Cases/Web RoomMe.id/6. Community/6. Register Community From Community Page Section" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Web RoomMe.id/6. Community/6. Register Community From Community Page Section FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Web RoomMe.id/20. Community Registration/1. Verify Registration Form' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 6. Register Community From Community Page Section.run(6. Register Community From Community Page Section:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589915383980.run(TempTestSuite1589915383980.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Dropdown Interest Default' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at 1. Verify Registration Form.run(1. Verify Registration Form:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Dropdown Interest Default' located by 'By.xpath: //select[@id='__BVID__125']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+"/>
+         <system-out><![CDATA[2020-05-20 02:12:01 - [TEST_CASE][FAILED] - Test Cases/Web RoomMe.id/6. Community/6. Register Community From Community Page Section: Test Cases/Web RoomMe.id/6. Community/6. Register Community From Community Page Section FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Web RoomMe.id/20. Community Registration/1. Verify Registration Form' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 6. Register Community From Community Page Section.run(6. Register Community From Community Page Section:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589915383980.run(TempTestSuite1589915383980.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Dropdown Interest Default' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at 1. Verify Registration Form.run(1. Verify Registration Form:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Dropdown Interest Default' located by 'By.xpath: //select[@id='__BVID__125']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+
+
+2020-05-20 02:12:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/6. Community/1. Customer Access Community Page From Header"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/6. Community/1. Customer Access Community Page From Header' successfully
+
+2020-05-20 02:12:02 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/6. Community/1. Customer Access Community Page From Header: Test Cases/Web RoomMe.id/6. Community/1. Customer Access Community Page From Header
+
+2020-05-20 02:12:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-20 02:12:02 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-20 02:12:02 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-05-20 02:12:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-20 02:12:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-20 02:12:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-05-20 02:12:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-20 02:12:54 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-20 02:12:54 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-20 02:12:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 02:12:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-20 02:12:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-20 02:12:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Community"), 30): Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Community' is visible
+
+2020-05-20 02:12:54 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Community' is visible
+
+2020-05-20 02:12:54 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Community")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Community' is clicked on
+
+2020-05-20 02:12:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Community' is clicked on
+
+2020-05-20 02:12:57 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-20 02:12:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 02:12:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-20 02:12:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/6. Community/5. Verify Welcome Video"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/6. Community/5. Verify Welcome Video' successfully
+
+2020-05-20 02:12:58 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/6. Community/5. Verify Welcome Video: Test Cases/Web RoomMe.id/6. Community/5. Verify Welcome Video
+
+2020-05-20 02:12:59 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/6. Community/1. Customer Access Community Page From Header"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/6. Community/1. Customer Access Community Page From Header"), [:], STOP_ON_FAILURE)
+
+2020-05-20 02:12:59 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/6. Community/1. Customer Access Community Page From Header"), [:], STOP_ON_FAILURE)
+
+2020-05-20 02:12:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Text JOIN OUR COMMUNITY"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Text JOIN OUR COMMUNITY' is visible
+
+2020-05-20 02:12:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 02:12:59 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Text JOIN OUR COMMUNITY' is visible
+
+2020-05-20 02:12:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Text And enjoy the benefits and features"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Text And enjoy the benefits and features' is visible
+
+2020-05-20 02:12:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 02:12:59 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Text And enjoy the benefits and features' is visible
+
+2020-05-20 02:12:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Video Events RoomMe"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Video Events RoomMe' is visible
+
+2020-05-20 02:12:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 02:13:00 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Video Events RoomMe' is visible
+
+2020-05-20 02:13:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is visible
+
+2020-05-20 02:13:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 02:13:00 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is visible
+
+2020-05-20 02:13:00 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-20 02:13:10 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-20 02:13:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/6. Community/5. Verify Welcome Video' successfully
+
+2020-05-20 02:13:10 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration")): Object: 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is clicked on
+
+2020-05-20 02:13:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is clicked on
+
+2020-05-20 02:13:11 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Header/Image Header Logo")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Image Header Logo' is clicked on
+
+2020-05-20 02:13:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Image Header Logo' is clicked on
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/6. Community/4. Verify Element on Community Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/6. Community/4. Verify Element on Community Page' successfully
+
+2020-05-20 02:13:14 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/6. Community/4. Verify Element on Community Page: Test Cases/Web RoomMe.id/6. Community/4. Verify Element on Community Page
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\Community Page\": null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\Community Page\Video Events' is visible
+
+2020-05-20 02:13:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Button Join Our Community' is visible
+
+2020-05-20 02:13:15 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Button Join Our Community' is visible
+
+2020-05-20 02:13:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Button See More Events' is visible
+
+2020-05-20 02:13:15 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Button See More Events' is visible
+
+2020-05-20 02:13:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Button See More Videos' is visible
+
+2020-05-20 02:13:15 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Button See More Videos' is visible
+
+2020-05-20 02:13:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Button See More' is visible
+
+2020-05-20 02:13:16 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Button See More' is visible
+
+2020-05-20 02:13:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Image Carousel' is visible
+
+2020-05-20 02:13:16 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Image Carousel' is visible
+
+2020-05-20 02:13:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Image Event' is visible
+
+2020-05-20 02:13:16 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Image Event' is visible
+
+2020-05-20 02:13:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text All Events' is visible
+
+2020-05-20 02:13:17 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text All Events' is visible
+
+2020-05-20 02:13:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Discover your pleasant' is visible
+
+2020-05-20 02:13:17 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Discover your pleasant' is visible
+
+2020-05-20 02:13:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text From inspiring  funny stories' is visible
+
+2020-05-20 02:13:17 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text From inspiring  funny stories' is visible
+
+2020-05-20 02:13:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Happening Events in Community' is visible
+
+2020-05-20 02:13:18 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Happening Events in Community' is visible
+
+2020-05-20 02:13:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Hey RoomMies Lets join our community' is visible
+
+2020-05-20 02:13:18 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Hey RoomMies Lets join our community' is visible
+
+2020-05-20 02:13:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Join the right communit' is visible
+
+2020-05-20 02:13:18 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Join the right communit' is visible
+
+2020-05-20 02:13:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Know Your Friends' is visible
+
+2020-05-20 02:13:19 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Know Your Friends' is visible
+
+2020-05-20 02:13:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Latest Events to Watch' is visible
+
+2020-05-20 02:13:19 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Latest Events to Watch' is visible
+
+2020-05-20 02:13:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text To know more about our activitie' is visible
+
+2020-05-20 02:13:19 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text To know more about our activitie' is visible
+
+2020-05-20 02:13:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Your hobbies will be more exciting' is visible
+
+2020-05-20 02:13:20 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Your hobbies will be more exciting' is visible
+
+2020-05-20 02:13:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Video Events' is visible
+
+2020-05-20 02:13:20 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Video Events' is visible
+
+2020-05-20 02:13:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/6. Community/4. Verify Element on Community Page' successfully
+
+2020-05-20 02:13:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/6. Community/1. Customer Access Community Page From Header' successfully
+
+2020-05-20 02:13:20 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Button Join Our Community"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Button Join Our Community' is visible
+
+2020-05-20 02:13:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 02:13:20 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Button Join Our Community' is visible
+
+2020-05-20 02:13:20 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Community Page/Button Join Our Community")): Object: 'Object Repository/Web RoomMe.id/Community Page/Button Join Our Community' is clicked on
+
+2020-05-20 02:13:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Community Page/Button Join Our Community' is clicked on
+
+2020-05-20 02:13:21 - [TEST_STEP][FAILED] - callTestCase(findTestCase("Web RoomMe.id/20. Community Registration/1. Verify Registration Form"), [:], STOP_ON_FAILURE): Unable to call Test Case 'Test Cases/Web RoomMe.id/20. Community Registration/1. Verify Registration Form' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Web RoomMe.id/20. Community Registration/1. Verify Registration Form' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 6. Register Community From Community Page Section.run(6. Register Community From Community Page Section:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589915383980.run(TempTestSuite1589915383980.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Dropdown Interest Default' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at 1. Verify Registration Form.run(1. Verify Registration Form:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Dropdown Interest Default' located by 'By.xpath: //select[@id='__BVID__125']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+
+2020-05-20 02:13:21 - [TEST_CASE][FAILED] - Test Cases/Web RoomMe.id/20. Community Registration/1. Verify Registration Form: Test Cases/Web RoomMe.id/20. Community Registration/1. Verify Registration Form FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Dropdown Interest Default' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at 1. Verify Registration Form.run(1. Verify Registration Form:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 6. Register Community From Community Page Section.run(6. Register Community From Community Page Section:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589915383980.run(TempTestSuite1589915383980.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Dropdown Interest Default' located by 'By.xpath: //select[@id='__BVID__125']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\Community Page\Community Registration\": null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 02:13:21 - [TEST_STEP][FAILED] - for (String obj : testObjects): Unable to verify object 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Dropdown Interest Default' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Dropdown Interest Default' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at 1. Verify Registration Form.run(1. Verify Registration Form:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 6. Register Community From Community Page Section.run(6. Register Community From Community Page Section:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589915383980.run(TempTestSuite1589915383980.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Dropdown Interest Default' located by 'By.xpath: //select[@id='__BVID__125']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+
+2020-05-20 02:13:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Button Submit' is visible
+
+2020-05-20 02:13:22 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Button Submit' is visible
+
+2020-05-20 02:13:22 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject(obj)): Unable to verify object 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Dropdown Interest Default' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Dropdown Interest Default' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at 1. Verify Registration Form.run(1. Verify Registration Form:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 6. Register Community From Community Page Section.run(6. Register Community From Community Page Section:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589915383980.run(TempTestSuite1589915383980.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Dropdown Interest Default' located by 'By.xpath: //select[@id='__BVID__125']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+
+2020-05-20 02:14:07 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //select[@id='__BVID__125']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-05-20 02:14:08 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Dropdown Interest Default' located by 'By.xpath: //select[@id='__BVID__125']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Dropdown Interest Default' located by 'By.xpath: //select[@id='__BVID__125']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at 1. Verify Registration Form.run(1. Verify Registration Form:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 6. Register Community From Community Page Section.run(6. Register Community From Community Page Section:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589915383980.run(TempTestSuite1589915383980.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Reports\\20200520_020943\\Web RoomMe.id\\Customer Access Community Page\\20200520_020943\\1589915647515.png]]
+
+2020-05-20 02:14:09 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Dropdown Interest Default' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Dropdown Interest Default' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at 1. Verify Registration Form.run(1. Verify Registration Form:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 6. Register Community From Community Page Section.run(6. Register Community From Community Page Section:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589915383980.run(TempTestSuite1589915383980.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Dropdown Interest Default' located by 'By.xpath: //select[@id='__BVID__125']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+[[ATTACHMENT|C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Reports\\20200520_020943\\Web RoomMe.id\\Customer Access Community Page\\20200520_020943\\1589915648308.png]]
+
+2020-05-20 02:14:09 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/Web RoomMe.id/20. Community Registration/1. Verify Registration Form' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Web RoomMe.id/20. Community Registration/1. Verify Registration Form' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 6. Register Community From Community Page Section.run(6. Register Community From Community Page Section:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589915383980.run(TempTestSuite1589915383980.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Dropdown Interest Default' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at 1. Verify Registration Form.run(1. Verify Registration Form:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Dropdown Interest Default' located by 'By.xpath: //select[@id='__BVID__125']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)]]></system-out>
+         <system-err><![CDATA[2020-05-20 02:12:01 - [TEST_CASE][FAILED] - Test Cases/Web RoomMe.id/6. Community/6. Register Community From Community Page Section: Test Cases/Web RoomMe.id/6. Community/6. Register Community From Community Page Section FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Web RoomMe.id/20. Community Registration/1. Verify Registration Form' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 6. Register Community From Community Page Section.run(6. Register Community From Community Page Section:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589915383980.run(TempTestSuite1589915383980.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Dropdown Interest Default' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at 1. Verify Registration Form.run(1. Verify Registration Form:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Dropdown Interest Default' located by 'By.xpath: //select[@id='__BVID__125']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-20 02:09:52 - [TEST_SUITE][FAILED] - Customer Access Community Page: Test Cases/Web RoomMe.id/6. Community/6. Register Community From Community Page Section FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Web RoomMe.id/20. Community Registration/1. Verify Registration Form' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 6. Register Community From Community Page Section.run(6. Register Community From Community Page Section:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589915383980.run(TempTestSuite1589915383980.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Dropdown Interest Default' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at 1. Verify Registration Form.run(1. Verify Registration Form:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Dropdown Interest Default' located by 'By.xpath: //select[@id='__BVID__125']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-out>
+      <system-err><![CDATA[2020-05-20 02:09:52 - [TEST_SUITE][FAILED] - Customer Access Community Page: Test Cases/Web RoomMe.id/6. Community/6. Register Community From Community Page Section FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Web RoomMe.id/20. Community Registration/1. Verify Registration Form' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 6. Register Community From Community Page Section.run(6. Register Community From Community Page Section:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589915383980.run(TempTestSuite1589915383980.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Dropdown Interest Default' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at 1. Verify Registration Form.run(1. Verify Registration Form:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Dropdown Interest Default' located by 'By.xpath: //select[@id='__BVID__125']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-err>
+   </testsuite>
+</testsuites>

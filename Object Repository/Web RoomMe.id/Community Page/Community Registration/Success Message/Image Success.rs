@@ -3,11 +3,11 @@
    <description></description>
    <name>Image Success</name>
    <tag></tag>
-   <elementGuidId>392cbdce-1126-456b-9614-467b607b2818</elementGuidId>
+   <elementGuidId>b1cd2dbe-2f7a-4732-90eb-b2fb34b6ea2b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='__BVID__46___BV_modal_body_']/div/img</value>
+         <value>//div[@id='__BVID__48___BV_modal_body_']/div/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -45,14 +45,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__BVID__46___BV_modal_body_&quot;)/div[@class=&quot;p-5 text-center&quot;]/img[@class=&quot;mb-3&quot;]</value>
+      <value>id(&quot;__BVID__48___BV_modal_body_&quot;)/div[@class=&quot;p-5 text-center&quot;]/img[@class=&quot;mb-3&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__BVID__46___BV_modal_body_']/div/img</value>
+      <value>//div[@id='__BVID__48___BV_modal_body_']/div/img</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

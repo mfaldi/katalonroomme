@@ -23,7 +23,7 @@ WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/User Menu/Button My Pro
 
 WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/User Menu/Button My Booking'))
 
-WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/User Menu/Button Log out'))
+WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/User Menu/Button Sign Out'))
 
 WebUI.click(findTestObject('Web RoomMe.id/User Menu/Button My Profile'))
 

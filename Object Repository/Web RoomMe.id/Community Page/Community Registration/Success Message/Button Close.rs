@@ -3,11 +3,11 @@
    <description></description>
    <name>Button Close</name>
    <tag></tag>
-   <elementGuidId>7e7471e3-3d91-48c4-ab52-c42fc200158c</elementGuidId>
+   <elementGuidId>131d597f-81ad-43dd-b796-817806d0f897</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[4]</value>
+         <value>(//button[@type='button'])[7]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -39,29 +39,29 @@
       <name>text</name>
       <type>Main</type>
       <value>
-					X
-				</value>
+			X
+		</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__BVID__46___BV_modal_body_&quot;)/button[@class=&quot;btn success-regist btn-secondary&quot;]</value>
+      <value>id(&quot;__BVID__48___BV_modal_body_&quot;)/button[@class=&quot;btn success-regist btn-secondary&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[4]</value>
+      <value>(//button[@type='button'])[7]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__BVID__46___BV_modal_body_']/button</value>
+      <value>//div[@id='__BVID__48___BV_modal_body_']/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Well done! Welcome to our community.'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Well done! Welcome to our community and we will contact you through email.'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

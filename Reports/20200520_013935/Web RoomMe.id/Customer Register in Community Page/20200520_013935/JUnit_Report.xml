@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Customer Register in Community Page" time="51.652" tests="3" failures="1" errors="0">
+   <testsuite name="Customer Register in Community Page" tests="3" failures="1" errors="0" time="51.652" timestamp="2020-05-20 01:39:43" hostname="Win 10 - LENNONOVO" id="Test Suites/Web RoomMe.id/Customer Register in Community Page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Reports\\20200520_013935\\Web RoomMe.id\\Customer Register in Community Page\\20200520_013935"/>
+         <property name="logFiles" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Reports\\20200520_013935\\Web RoomMe.id\\Customer Register in Community Page\\20200520_013935\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Win 10 - LENNONOVO"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.1.1.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.1.14"/>
+         <property name="sessionId" value="194287d67c777137449a326690450d08"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Web RoomMe.id/20. Community Registration/1. Verify Registration Form" time="1.397" classname="Test Cases/Web RoomMe.id/20. Community Registration/1. Verify Registration Form" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Web RoomMe.id/20. Community Registration/1. Verify Registration Form FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Button Submit' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible.call(Unknown Source)
+	at 1. Verify Registration Form.run(1. Verify Registration Form:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589913575406.run(TempTestSuite1589913575406.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LENNONOVO', ip: '192.168.1.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:786)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:771)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:757)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:712)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1109)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-20 01:39:44 - [TEST_CASE][FAILED] - Test Cases/Web RoomMe.id/20. Community Registration/1. Verify Registration Form: Test Cases/Web RoomMe.id/20. Community Registration/1. Verify Registration Form FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Button Submit' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible.call(Unknown Source)
+	at 1. Verify Registration Form.run(1. Verify Registration Form:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589913575406.run(TempTestSuite1589913575406.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LENNONOVO', ip: '192.168.1.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:786)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:771)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:757)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:712)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1109)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\Community Page\Community Registration\": null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-20 01:39:44 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-20 01:39:44 - [TEST_STEP][FAILED] - for (String obj : testObjects): Unable to verify object 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Button Submit' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Button Submit' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible.call(Unknown Source)
+	at 1. Verify Registration Form.run(1. Verify Registration Form:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589913575406.run(TempTestSuite1589913575406.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LENNONOVO', ip: '192.168.1.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:786)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:771)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:757)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:712)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1109)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible.call(Unknown Source)
+	at Script1588739337002.run(Script1588739337002.groovy:38)
+	... 13 more
+)
+
+2020-05-20 01:39:44 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject(obj)): Unable to verify object 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Button Submit' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Button Submit' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible.call(Unknown Source)
+	at 1. Verify Registration Form.run(1. Verify Registration Form:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589913575406.run(TempTestSuite1589913575406.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LENNONOVO', ip: '192.168.1.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:786)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:771)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:757)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:712)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1109)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible.call(Unknown Source)
+	at Script1588739337002.run(Script1588739337002.groovy:38)
+	... 13 more
+)
+
+2020-05-20 01:39:45 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2020-05-20 01:39:45 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Button Submit' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Button Submit' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible.call(Unknown Source)
+	at 1. Verify Registration Form.run(1. Verify Registration Form:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589913575406.run(TempTestSuite1589913575406.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LENNONOVO', ip: '192.168.1.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:786)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:771)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:757)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:712)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1109)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible.call(Unknown Source)
+	at Script1588739337002.run(Script1588739337002.groovy:38)
+	... 13 more
+)]]></system-out>
+         <system-err><![CDATA[2020-05-20 01:39:44 - [TEST_CASE][FAILED] - Test Cases/Web RoomMe.id/20. Community Registration/1. Verify Registration Form: Test Cases/Web RoomMe.id/20. Community Registration/1. Verify Registration Form FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Button Submit' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible.call(Unknown Source)
+	at 1. Verify Registration Form.run(1. Verify Registration Form:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589913575406.run(TempTestSuite1589913575406.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LENNONOVO', ip: '192.168.1.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:786)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:771)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:757)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:712)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1109)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/20. Community Registration/3. Customer Register with Blank Data" time="23.037" classname="Test Cases/Web RoomMe.id/20. Community Registration/3. Customer Register with Blank Data" status="PASSED">
+         <system-out><![CDATA[2020-05-20 01:39:45 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/20. Community Registration/3. Customer Register with Blank Data: Test Cases/Web RoomMe.id/20. Community Registration/3. Customer Register with Blank Data
+
+2020-05-20 01:39:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/6. Community/Customer Access Community Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/6. Community/Customer Access Community Page' successfully
+
+2020-05-20 01:39:46 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/6. Community/Customer Access Community Page: Test Cases/Web RoomMe.id/6. Community/Customer Access Community Page
+
+2020-05-20 01:39:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-20 01:39:46 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-20 01:39:46 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-05-20 01:39:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-20 01:39:46 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-20 01:39:55 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-05-20 01:39:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-20 01:39:58 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-20 01:39:58 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-20 01:39:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 01:39:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-20 01:39:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-20 01:39:58 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Community"), 30): Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Community' is visible
+
+2020-05-20 01:39:59 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Community' is visible
+
+2020-05-20 01:39:59 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Community")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Community' is clicked on
+
+2020-05-20 01:40:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Community' is clicked on
+
+2020-05-20 01:40:02 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-20 01:40:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 01:40:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-20 01:40:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/6. Community/Customer Access Community Page' successfully
+
+2020-05-20 01:40:04 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is visible
+
+2020-05-20 01:40:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 01:40:04 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is visible
+
+2020-05-20 01:40:04 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration")): Object: 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is clicked on
+
+2020-05-20 01:40:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is clicked on
+
+2020-05-20 01:40:05 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Community Registration/Button Submit"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Button Submit' is visible
+
+2020-05-20 01:40:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 01:40:06 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Button Submit' is visible
+
+2020-05-20 01:40:06 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Community Page/Community Registration/Button Submit")): Object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Button Submit' is clicked on
+
+2020-05-20 01:40:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Button Submit' is clicked on
+
+2020-05-20 01:40:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Community Registration/Error Message/Text Email is required"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Error Message/Text Email is required' is visible
+
+2020-05-20 01:40:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 01:40:06 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Error Message/Text Email is required' is visible
+
+2020-05-20 01:40:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Community Registration/Error Message/Text Gender is required"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Error Message/Text Gender is required' is visible
+
+2020-05-20 01:40:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 01:40:07 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Error Message/Text Gender is required' is visible
+
+2020-05-20 01:40:07 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Community Registration/Error Message/Text Interest is required"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Error Message/Text Interest is required' is visible
+
+2020-05-20 01:40:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 01:40:07 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Error Message/Text Interest is required' is visible
+
+2020-05-20 01:40:07 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Community Registration/Error Message/Text Name is required"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Error Message/Text Name is required' is visible
+
+2020-05-20 01:40:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 01:40:08 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Error Message/Text Name is required' is visible
+
+2020-05-20 01:40:08 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Community Registration/Error Message/Text Phone is required"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Error Message/Text Phone is required' is visible
+
+2020-05-20 01:40:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 01:40:08 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Error Message/Text Phone is required' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/20. Community Registration/4. Customer Input Full Name with Invalid Data" time="25.301" classname="Test Cases/Web RoomMe.id/20. Community Registration/4. Customer Input Full Name with Invalid Data" status="PASSED">
+         <system-out><![CDATA[2020-05-20 01:40:08 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/20. Community Registration/4. Customer Input Full Name with Invalid Data: Test Cases/Web RoomMe.id/20. Community Registration/4. Customer Input Full Name with Invalid Data
+
+2020-05-20 01:40:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/6. Community/Customer Access Community Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/6. Community/Customer Access Community Page' successfully
+
+2020-05-20 01:40:09 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/6. Community/Customer Access Community Page: Test Cases/Web RoomMe.id/6. Community/Customer Access Community Page
+
+2020-05-20 01:40:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-20 01:40:09 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-20 01:40:09 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-05-20 01:40:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-20 01:40:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-20 01:40:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-05-20 01:40:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-20 01:40:19 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-20 01:40:19 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-20 01:40:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 01:40:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-20 01:40:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-20 01:40:19 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Community"), 30): Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Community' is visible
+
+2020-05-20 01:40:19 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Community' is visible
+
+2020-05-20 01:40:19 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Community")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Community' is clicked on
+
+2020-05-20 01:40:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Community' is clicked on
+
+2020-05-20 01:40:22 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-20 01:40:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 01:40:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-20 01:40:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/6. Community/Customer Access Community Page' successfully
+
+2020-05-20 01:40:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is visible
+
+2020-05-20 01:40:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 01:40:24 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is visible
+
+2020-05-20 01:40:24 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration")): Object: 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is clicked on
+
+2020-05-20 01:40:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is clicked on
+
+2020-05-20 01:40:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Community Registration/Textfield Full Name"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Textfield Full Name' is visible
+
+2020-05-20 01:40:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 01:40:25 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Textfield Full Name' is visible
+
+2020-05-20 01:40:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Community Page/Community Registration/Textfield Full Name"), "ab"): Keys 'ab' sent to object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Textfield Full Name'
+
+2020-05-20 01:40:26 - [MESSAGE][PASSED] - Keys 'ab' sent to object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Textfield Full Name'
+
+2020-05-20 01:40:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Community Registration/Error Message/Text At least input 3 characters long"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Error Message/Text At least input 3 characters long' is visible
+
+2020-05-20 01:40:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 01:40:27 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Error Message/Text At least input 3 characters long' is visible
+
+2020-05-20 01:40:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Community Page/Community Registration/Textfield Full Name"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Textfield Full Name'
+
+2020-05-20 01:40:27 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Textfield Full Name'
+
+2020-05-20 01:40:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Community Page/Community Registration/Textfield Full Name"), "123"): Keys '123' sent to object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Textfield Full Name'
+
+2020-05-20 01:40:28 - [MESSAGE][PASSED] - Keys '123' sent to object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Textfield Full Name'
+
+2020-05-20 01:40:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Community Registration/Error Message/Text Your name seems to contain incorrect characters"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Error Message/Text Your name seems to contain incorrect characters' is visible
+
+2020-05-20 01:40:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 01:40:29 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Error Message/Text Your name seems to contain incorrect characters' is visible
+
+2020-05-20 01:40:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Community Page/Community Registration/Textfield Full Name"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Textfield Full Name'
+
+2020-05-20 01:40:29 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Textfield Full Name'
+
+2020-05-20 01:40:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Community Page/Community Registration/Textfield Full Name"), "!@#$"): Keys '!@#$' sent to object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Textfield Full Name'
+
+2020-05-20 01:40:30 - [MESSAGE][PASSED] - Keys '!@#$' sent to object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Textfield Full Name'
+
+2020-05-20 01:40:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Community Registration/Error Message/Text Your name seems to contain incorrect characters"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Error Message/Text Your name seems to contain incorrect characters' is visible
+
+2020-05-20 01:40:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 01:40:31 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Error Message/Text Your name seems to contain incorrect characters' is visible
+
+2020-05-20 01:40:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Community Page/Community Registration/Textfield Full Name"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Textfield Full Name'
+
+2020-05-20 01:40:31 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Textfield Full Name'
+
+2020-05-20 01:40:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Community Page/Community Registration/Textfield Full Name"), "abcde12345abcde12345abcde12345abcde12345abcde12345as"): Keys 'abcde12345abcde12345abcde12345abcde12345abcde12345as' sent to object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Textfield Full Name'
+
+2020-05-20 01:40:32 - [MESSAGE][PASSED] - Keys 'abcde12345abcde12345abcde12345abcde12345abcde12345as' sent to object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Textfield Full Name'
+
+2020-05-20 01:40:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Community Registration/Error Message/Text Name input characters is 50"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Error Message/Text Name input characters is 50' is visible
+
+2020-05-20 01:40:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-20 01:40:33 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Error Message/Text Name input characters is 50' is visible
+
+2020-05-20 01:40:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Community Page/Community Registration/Textfield Full Name"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Textfield Full Name'
+
+2020-05-20 01:40:33 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Textfield Full Name']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-20 01:39:43 - [TEST_SUITE][FAILED] - Customer Register in Community Page: Test Cases/Web RoomMe.id/20. Community Registration/1. Verify Registration Form FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Button Submit' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible.call(Unknown Source)
+	at 1. Verify Registration Form.run(1. Verify Registration Form:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589913575406.run(TempTestSuite1589913575406.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LENNONOVO', ip: '192.168.1.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:786)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:771)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:757)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:712)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1109)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-05-20 01:39:43 - [TEST_SUITE][FAILED] - Customer Register in Community Page: Test Cases/Web RoomMe.id/20. Community Registration/1. Verify Registration Form FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\Community Page\Community Registration\Button Submit' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible.call(Unknown Source)
+	at 1. Verify Registration Form.run(1. Verify Registration Form:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589913575406.run(TempTestSuite1589913575406.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LENNONOVO', ip: '192.168.1.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:786)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:771)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:757)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:712)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1109)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

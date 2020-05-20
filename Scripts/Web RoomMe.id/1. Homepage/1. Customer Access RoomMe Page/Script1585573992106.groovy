@@ -15,9 +15,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 //import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('https://web.roomme.id/')
+WebUI.openBrowser('web.roomme.id')
 
-//WebUI.navigateToUrl('https://web.roomme.id/')
 WebUI.maximizeWindow()
 
 WebUI.waitForPageLoad(0)

@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Customer Access RoomMe Social Media Page" time="71.079" tests="3" failures="1" errors="0">
+   <testsuite name="Customer Access RoomMe Social Media Page" tests="3" failures="1" errors="0" time="71.079" timestamp="2020-05-12 14:40:12" hostname="Win 10 - LENNONOVO" id="Test Suites/Web RoomMe.id/Customer Access RoomMe Social Media Page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Reports\\20200512_143510\\Web RoomMe.id\\Customer Access RoomMe Social Media Page\\20200512_143514"/>
+         <property name="logFiles" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Reports\\20200512_143510\\Web RoomMe.id\\Customer Access RoomMe Social Media Page\\20200512_143514\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Win 10 - LENNONOVO"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.1.1.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.1.14"/>
+         <property name="sessionId" value="c82a52c271f5aa6409e4420f6ecfb15e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Web RoomMe.id/18. Social Media/1. Customer Access RoomMe Facebook Page" time="25.578" classname="Test Cases/Web RoomMe.id/18. Social Media/1. Customer Access RoomMe Facebook Page" status="PASSED">
+         <system-out><![CDATA[2020-05-12 14:40:12 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/18. Social Media/1. Customer Access RoomMe Facebook Page: Test Cases/Web RoomMe.id/18. Social Media/1. Customer Access RoomMe Facebook Page
+
+2020-05-12 14:40:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-12 14:40:13 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-12 14:40:14 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-05-12 14:40:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-12 14:40:14 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-12 14:40:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-05-12 14:40:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-12 14:40:28 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-12 14:40:28 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-12 14:40:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:40:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-12 14:40:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-12 14:40:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Footer/Image Facebook"), 0): Object 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Image Facebook' is visible
+
+2020-05-12 14:40:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:40:28 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Image Facebook' is visible
+
+2020-05-12 14:40:28 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Footer/Image Facebook")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Image Facebook' is clicked on
+
+2020-05-12 14:40:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Image Facebook' is clicked on
+
+2020-05-12 14:40:29 - [TEST_STEP][PASSED] - switchToWindowIndex("1"): Switched to window with index: '1'
+
+2020-05-12 14:40:29 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2020-05-12 14:40:29 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-12 14:40:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:40:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-12 14:40:37 - [TEST_STEP][PASSED] - fbtitle = getWindowTitle(): Current window's title is: 'Roomme Indonesia - Beranda | Facebook'
+
+2020-05-12 14:40:38 - [MESSAGE][PASSED] - Current window's title is: 'Roomme Indonesia - Beranda | Facebook'
+
+2020-05-12 14:40:38 - [TEST_STEP][PASSED] - verifyMatch(fbtitle, "Roomme Indonesia - Beranda | Facebook", false): Actual text 'Roomme Indonesia - Beranda | Facebook' and expected text 'Roomme Indonesia - Beranda | Facebook' are matched 
+
+2020-05-12 14:40:38 - [MESSAGE][PASSED] - Actual text 'Roomme Indonesia - Beranda | Facebook' and expected text 'Roomme Indonesia - Beranda | Facebook' are matched 
+
+2020-05-12 14:40:38 - [TEST_STEP][PASSED] - fburl = getUrl(): Current window's url is: 'https://business.facebook.com/Roomme/'
+
+2020-05-12 14:40:38 - [MESSAGE][PASSED] - Current window's url is: 'https://business.facebook.com/Roomme/'
+
+2020-05-12 14:40:38 - [TEST_STEP][PASSED] - verifyMatch(fburl, "https://business.facebook.com/Roomme/", false): Actual text 'https://business.facebook.com/Roomme/' and expected text 'https://business.facebook.com/Roomme/' are matched 
+
+2020-05-12 14:40:38 - [MESSAGE][PASSED] - Actual text 'https://business.facebook.com/Roomme/' and expected text 'https://business.facebook.com/Roomme/' are matched]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/18. Social Media/2. Customer Access RoomMe Instagram Page" time="21.427" classname="Test Cases/Web RoomMe.id/18. Social Media/2. Customer Access RoomMe Instagram Page" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Web RoomMe.id/18. Social Media/2. Customer Access RoomMe Instagram Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Virtual Kost Operator #1 (@roommeid) • Instagram photos and videos' and expected text 'Virtual Kost Operator (@roommeid) • Instagram photos and videos' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at 2. Customer Access RoomMe Instagram Page.run(2. Customer Access RoomMe Instagram Page:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589268914321.run(TempTestSuite1589268914321.groovy:36)
+"/>
+         <system-out><![CDATA[2020-05-12 14:40:38 - [TEST_CASE][FAILED] - Test Cases/Web RoomMe.id/18. Social Media/2. Customer Access RoomMe Instagram Page: Test Cases/Web RoomMe.id/18. Social Media/2. Customer Access RoomMe Instagram Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Virtual Kost Operator #1 (@roommeid) • Instagram photos and videos' and expected text 'Virtual Kost Operator (@roommeid) • Instagram photos and videos' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at 2. Customer Access RoomMe Instagram Page.run(2. Customer Access RoomMe Instagram Page:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589268914321.run(TempTestSuite1589268914321.groovy:36)
+
+
+2020-05-12 14:40:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-12 14:40:38 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-12 14:40:38 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-05-12 14:40:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-12 14:40:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-12 14:40:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-05-12 14:40:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-12 14:40:53 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-12 14:40:53 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-12 14:40:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:40:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-12 14:40:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-12 14:40:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Footer/Image Instagram"), 0): Object 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Image Instagram' is visible
+
+2020-05-12 14:40:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:40:54 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Image Instagram' is visible
+
+2020-05-12 14:40:54 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Footer/Image Instagram")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Image Instagram' is clicked on
+
+2020-05-12 14:40:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Image Instagram' is clicked on
+
+2020-05-12 14:40:55 - [TEST_STEP][PASSED] - switchToWindowIndex("1"): Switched to window with index: '1'
+
+2020-05-12 14:40:55 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2020-05-12 14:40:55 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-12 14:40:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:40:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-12 14:40:59 - [TEST_STEP][PASSED] - igtitle = getWindowTitle(): Current window's title is: 'Virtual Kost Operator #1 (@roommeid) • Instagram photos and videos'
+
+2020-05-12 14:40:59 - [MESSAGE][PASSED] - Current window's title is: 'Virtual Kost Operator #1 (@roommeid) • Instagram photos and videos'
+
+2020-05-12 14:40:59 - [TEST_STEP][FAILED] - verifyMatch(igtitle, "Virtual Kost Operator (@roommeid) • Instagram photos and videos", false): Unable to verify match between actual text 'Virtual Kost Operator #1 (@roommeid) • Instagram photos and videos' and expected text 'Virtual Kost Operator (@roommeid) • Instagram photos and videos' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Virtual Kost Operator #1 (@roommeid) • Instagram photos and videos' and expected text 'Virtual Kost Operator (@roommeid) • Instagram photos and videos' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at 2. Customer Access RoomMe Instagram Page.run(2. Customer Access RoomMe Instagram Page:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589268914321.run(TempTestSuite1589268914321.groovy:36)
+)
+
+2020-05-12 14:40:59 - [MESSAGE][FAILED] - Unable to verify match between actual text 'Virtual Kost Operator #1 (@roommeid) • Instagram photos and videos' and expected text 'Virtual Kost Operator (@roommeid) • Instagram photos and videos' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Virtual Kost Operator #1 (@roommeid) • Instagram photos and videos' and expected text 'Virtual Kost Operator (@roommeid) • Instagram photos and videos' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at 2. Customer Access RoomMe Instagram Page.run(2. Customer Access RoomMe Instagram Page:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589268914321.run(TempTestSuite1589268914321.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2020-05-12 14:40:38 - [TEST_CASE][FAILED] - Test Cases/Web RoomMe.id/18. Social Media/2. Customer Access RoomMe Instagram Page: Test Cases/Web RoomMe.id/18. Social Media/2. Customer Access RoomMe Instagram Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Virtual Kost Operator #1 (@roommeid) • Instagram photos and videos' and expected text 'Virtual Kost Operator (@roommeid) • Instagram photos and videos' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at 2. Customer Access RoomMe Instagram Page.run(2. Customer Access RoomMe Instagram Page:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589268914321.run(TempTestSuite1589268914321.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/18. Social Media/3. Customer Access RoomMe LinkedIn Page" time="22.08" classname="Test Cases/Web RoomMe.id/18. Social Media/3. Customer Access RoomMe LinkedIn Page" status="PASSED">
+         <system-out><![CDATA[2020-05-12 14:40:59 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/18. Social Media/3. Customer Access RoomMe LinkedIn Page: Test Cases/Web RoomMe.id/18. Social Media/3. Customer Access RoomMe LinkedIn Page
+
+2020-05-12 14:41:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-12 14:41:00 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-12 14:41:00 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-05-12 14:41:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-12 14:41:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-12 14:41:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-05-12 14:41:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-12 14:41:16 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-12 14:41:16 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-12 14:41:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:41:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-12 14:41:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-12 14:41:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Footer/Image LinkedIn"), 0): Object 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Image LinkedIn' is visible
+
+2020-05-12 14:41:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:41:17 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Image LinkedIn' is visible
+
+2020-05-12 14:41:17 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Footer/Image LinkedIn")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Image LinkedIn' is clicked on
+
+2020-05-12 14:41:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Image LinkedIn' is clicked on
+
+2020-05-12 14:41:19 - [TEST_STEP][PASSED] - switchToWindowIndex("1"): Switched to window with index: '1'
+
+2020-05-12 14:41:19 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2020-05-12 14:41:19 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-12 14:41:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:41:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-12 14:41:21 - [TEST_STEP][NOT_RUN] - linkedintitle = getWindowTitle(): NOT_RUN: linkedintitle = getWindowTitle()
+
+2020-05-12 14:41:21 - [MESSAGE][NOT_RUN] - NOT_RUN: linkedintitle = getWindowTitle()
+
+2020-05-12 14:41:21 - [TEST_STEP][NOT_RUN] - verifyMatch(linkedintitle, "Virtual Kost Operator (@roommeid) • Instagram photos and videos", false): NOT_RUN: verifyMatch(linkedintitle, "Virtual Kost Operator (@roommeid) • Instagram photos and videos", false)
+
+2020-05-12 14:41:21 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyMatch(linkedintitle, "Virtual Kost Operator (@roommeid) • Instagram photos and videos", false)
+
+2020-05-12 14:41:21 - [TEST_STEP][NOT_RUN] - linkedinurl = getUrl(): NOT_RUN: linkedinurl = getUrl()
+
+2020-05-12 14:41:21 - [MESSAGE][NOT_RUN] - NOT_RUN: linkedinurl = getUrl()
+
+2020-05-12 14:41:21 - [TEST_STEP][NOT_RUN] - verifyMatch(linkedinurl, "https://www.linkedin.com/company/roomme/", false): NOT_RUN: verifyMatch(linkedinurl, "https://www.linkedin.com/company/roomme/", false)
+
+2020-05-12 14:41:21 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyMatch(linkedinurl, "https://www.linkedin.com/company/roomme/", false)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-12 14:40:12 - [TEST_SUITE][FAILED] - Customer Access RoomMe Social Media Page: Test Cases/Web RoomMe.id/18. Social Media/2. Customer Access RoomMe Instagram Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Virtual Kost Operator #1 (@roommeid) • Instagram photos and videos' and expected text 'Virtual Kost Operator (@roommeid) • Instagram photos and videos' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at 2. Customer Access RoomMe Instagram Page.run(2. Customer Access RoomMe Instagram Page:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589268914321.run(TempTestSuite1589268914321.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-05-12 14:40:12 - [TEST_SUITE][FAILED] - Customer Access RoomMe Social Media Page: Test Cases/Web RoomMe.id/18. Social Media/2. Customer Access RoomMe Instagram Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Virtual Kost Operator #1 (@roommeid) • Instagram photos and videos' and expected text 'Virtual Kost Operator (@roommeid) • Instagram photos and videos' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at 2. Customer Access RoomMe Instagram Page.run(2. Customer Access RoomMe Instagram Page:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589268914321.run(TempTestSuite1589268914321.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

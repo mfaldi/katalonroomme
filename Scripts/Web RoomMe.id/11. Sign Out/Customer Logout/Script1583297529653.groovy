@@ -17,15 +17,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Web RoomMe.id/3. Sign In/1. Login With Valid Credential'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Web RoomMe.id/Sign In Menu/Button User Menu'))
+WebUI.click(findTestObject('Web RoomMe.id/RoomMe.id Header/Button User Menu'))
 
 WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/User Menu/Button My Profile'))
 
 WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/User Menu/Button My Booking'))
 
-WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/User Menu/Button Log out'))
+WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/User Menu/Button Sign Out'))
 
-WebUI.click(findTestObject('Web RoomMe.id/User Menu/Button Log out'))
+WebUI.click(findTestObject('Web RoomMe.id/User Menu/Button Sign Out'))
 
 WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/RoomMe.id Homepage/Button Sign In'))
 

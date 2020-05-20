@@ -23,5 +23,11 @@ WebUI.click(findTestObject('Web RoomMe.id/RoomMe.id Header/Button Community'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Community Page/Community Registration/Text Community Registration'), 30)
+WebUI.callTestCase(findTestCase('Web RoomMe.id/6. Community/5. Verify Welcome Video'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration'))
+
+WebUI.click(findTestObject('Web RoomMe.id/RoomMe.id Header/Image Header Logo'))
+
+WebUI.callTestCase(findTestCase('Web RoomMe.id/6. Community/4. Verify Element on Community Page'), [:], FailureHandling.STOP_ON_FAILURE)
 

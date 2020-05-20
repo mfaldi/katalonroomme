@@ -3,7 +3,7 @@
    <description></description>
    <name>Text Birthdate</name>
    <tag></tag>
-   <elementGuidId>b1c9b1c1-af02-466e-a964-33a210feb717</elementGuidId>
+   <elementGuidId>8fe6ce3b-4ee2-4840-9689-0865f742bf97</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -52,14 +52,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone Number and Email'])[1]/preceding::b[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='The minimum age allowed is 17 years'])[1]/preceding::b[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone is required'])[1]/preceding::b[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobile Number'])[1]/preceding::b[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

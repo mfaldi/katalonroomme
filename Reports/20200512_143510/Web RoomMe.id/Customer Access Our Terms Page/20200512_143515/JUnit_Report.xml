@@ -1,0 +1,1365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Customer Access Our Terms Page" time="264.716" tests="6" failures="0" errors="0">
+   <testsuite name="Customer Access Our Terms Page" tests="6" failures="0" errors="0" time="264.716" timestamp="2020-05-12 14:40:37" hostname="Win 10 - LENNONOVO" id="Test Suites/Web RoomMe.id/Customer Access Our Terms Page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Reports\\20200512_143510\\Web RoomMe.id\\Customer Access Our Terms Page\\20200512_143515"/>
+         <property name="logFiles" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme-master\\Reports\\20200512_143510\\Web RoomMe.id\\Customer Access Our Terms Page\\20200512_143515\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Win 10 - LENNONOVO"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.1.1.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.1.14"/>
+         <property name="sessionId" value="e0b14718319ffcff6917e9adce958c15"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Web RoomMe.id/4. Our Terms/Customer Access FAQ (Booking) Page" time="50.198" classname="Test Cases/Web RoomMe.id/4. Our Terms/Customer Access FAQ (Booking) Page" status="PASSED">
+         <system-out><![CDATA[2020-05-12 14:40:38 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/4. Our Terms/Customer Access FAQ (Booking) Page: Test Cases/Web RoomMe.id/4. Our Terms/Customer Access FAQ (Booking) Page
+
+2020-05-12 14:40:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-12 14:40:39 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-12 14:40:40 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-05-12 14:40:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-12 14:40:41 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-12 14:40:55 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-05-12 14:40:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-12 14:40:59 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-12 14:40:59 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-12 14:40:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:40:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-12 14:40:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-12 14:40:59 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Footer/Button FAQ")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button FAQ' is clicked on
+
+2020-05-12 14:41:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button FAQ' is clicked on
+
+2020-05-12 14:41:05 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-12 14:41:05 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-12 14:41:05 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs' is visible
+
+2020-05-12 14:41:05 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs' is visible
+
+2020-05-12 14:41:05 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions' is visible
+
+2020-05-12 14:41:06 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions' is visible
+
+2020-05-12 14:41:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use' is visible
+
+2020-05-12 14:41:07 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use' is visible
+
+2020-05-12 14:41:07 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer' is visible
+
+2020-05-12 14:41:07 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer' is visible
+
+2020-05-12 14:41:07 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy' is visible
+
+2020-05-12 14:41:08 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy' is visible
+
+2020-05-12 14:41:08 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Booking"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Booking' is visible
+
+2020-05-12 14:41:09 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Booking' is visible
+
+2020-05-12 14:41:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Payment"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Payment' is visible
+
+2020-05-12 14:41:09 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Payment' is visible
+
+2020-05-12 14:41:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q1"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q1' is visible
+
+2020-05-12 14:41:10 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q1' is visible
+
+2020-05-12 14:41:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q1"), "Can I make a room booking at kost RoomMe ?"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q1' are matched.
+
+2020-05-12 14:41:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q1' are matched.
+
+2020-05-12 14:41:10 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Text A1"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A1' is visible
+
+2020-05-12 14:41:10 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A1' is visible
+
+2020-05-12 14:41:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Text A1"), "Yes, you can browse through ourlisting for available rooms."): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A1' are matched.
+
+2020-05-12 14:41:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A1' are matched.
+
+2020-05-12 14:41:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q2"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q2' is visible
+
+2020-05-12 14:41:11 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q2' is visible
+
+2020-05-12 14:41:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q2"), "Can I survey the place prior to making payments ?"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q2' are matched.
+
+2020-05-12 14:41:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q2' are matched.
+
+2020-05-12 14:41:12 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q2")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q2' is clicked on
+
+2020-05-12 14:41:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q2' is clicked on
+
+2020-05-12 14:41:12 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Text A2"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A2' is visible
+
+2020-05-12 14:41:14 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A2' is visible
+
+2020-05-12 14:41:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Text A2"), "Yes you may and we encourage you to do so! Our survey sessions are held every Monday-Sunday, from 8AM-10PM"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A2' are matched.
+
+2020-05-12 14:41:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A2' are matched.
+
+2020-05-12 14:41:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q3"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q3' is visible
+
+2020-05-12 14:41:15 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q3' is visible
+
+2020-05-12 14:41:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q3"), "What consist of the standard facilities provided by RoomMe ?"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q3' are matched.
+
+2020-05-12 14:41:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q3' are matched.
+
+2020-05-12 14:41:15 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q3")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q3' is clicked on
+
+2020-05-12 14:41:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q3' is clicked on
+
+2020-05-12 14:41:16 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Text A3"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A3' is visible
+
+2020-05-12 14:41:17 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A3' is visible
+
+2020-05-12 14:41:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Text A3"), id FAQ Text Data").getValue(1, 1)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A3' are matched.
+
+2020-05-12 14:41:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A3' are matched.
+
+2020-05-12 14:41:20 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q4"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q4' is visible
+
+2020-05-12 14:41:21 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q4' is visible
+
+2020-05-12 14:41:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q4"), "What if I want to move out of my kost before my stay period is over ?"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q4' are matched.
+
+2020-05-12 14:41:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q4' are matched.
+
+2020-05-12 14:41:21 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q4")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q4' is clicked on
+
+2020-05-12 14:41:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q4' is clicked on
+
+2020-05-12 14:41:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Text A4"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A4' is visible
+
+2020-05-12 14:41:23 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A4' is visible
+
+2020-05-12 14:41:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Text A4"), "We have a “No Cancellation Policy” where customers cannot cancel bookings that they have made."): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A4' are matched.
+
+2020-05-12 14:41:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A4' are matched.
+
+2020-05-12 14:41:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q5"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q5' is visible
+
+2020-05-12 14:41:24 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q5' is visible
+
+2020-05-12 14:41:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q5"), "Can I invite relative/friends to occasionally stay at the kost ?"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q5' are matched.
+
+2020-05-12 14:41:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q5' are matched.
+
+2020-05-12 14:41:24 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q5")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q5' is clicked on
+
+2020-05-12 14:41:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q5' is clicked on
+
+2020-05-12 14:41:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Text A5"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A5' is visible
+
+2020-05-12 14:41:25 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A5' is visible
+
+2020-05-12 14:41:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Text A5"), "Our kost facilities are intended only forregistered and registered tenants. If the tenant wishes to host guests, then a rate of Rp. 250,000 per person per night is required. There is a maximum of 2 people perroom, and if the guest(s) stays for more than 1 day, he/she must provide government-approved identification (PERSONAL IDENTIFICATION CARD [KTP] / DRIVER’S LICENSE [SIM] / PASSPORT)."): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A5' are matched.
+
+2020-05-12 14:41:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A5' are matched.
+
+2020-05-12 14:41:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q6"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q6' is visible
+
+2020-05-12 14:41:26 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q6' is visible
+
+2020-05-12 14:41:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q6"), "To whom and where do I report to if there is damage in my room ?"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q6' are matched.
+
+2020-05-12 14:41:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q6' are matched.
+
+2020-05-12 14:41:26 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q6")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q6' is clicked on
+
+2020-05-12 14:41:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q6' is clicked on
+
+2020-05-12 14:41:27 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Text A6"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A6' is visible
+
+2020-05-12 14:41:28 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A6' is visible
+
+2020-05-12 14:41:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Text A6"), "For reports, please call or WhatsApp our customer service at 0821-7666-6300"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A6' are matched.
+
+2020-05-12 14:41:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A6' are matched.
+
+2020-05-12 14:41:28 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-12 14:41:28 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/4. Our Terms/Customer Access FAQ (Payment) Page" time="49.274" classname="Test Cases/Web RoomMe.id/4. Our Terms/Customer Access FAQ (Payment) Page" status="PASSED">
+         <system-out><![CDATA[2020-05-12 14:41:28 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/4. Our Terms/Customer Access FAQ (Payment) Page: Test Cases/Web RoomMe.id/4. Our Terms/Customer Access FAQ (Payment) Page
+
+2020-05-12 14:41:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-12 14:41:29 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-12 14:41:29 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-05-12 14:41:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-12 14:41:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-12 14:41:44 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-05-12 14:41:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-12 14:41:47 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-12 14:41:47 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-12 14:41:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:41:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-12 14:41:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-12 14:41:47 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-12 14:41:47 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-12 14:41:47 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Footer/Button FAQ")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button FAQ' is clicked on
+
+2020-05-12 14:41:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button FAQ' is clicked on
+
+2020-05-12 14:41:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id' successfully
+
+2020-05-12 14:41:51 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id: Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id
+
+2020-05-12 14:41:52 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\RoomMe.id Header\": null
+
+2020-05-12 14:41:52 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-05-12 14:41:52 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-05-12 14:41:52 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-05-12 14:41:52 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-05-12 14:41:52 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-05-12 14:41:52 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-12 14:41:52 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-12 14:41:52 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-12 14:41:52 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-12 14:41:52 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-12 14:41:52 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-12 14:41:52 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-12 14:41:52 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-12 14:41:52 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-12 14:41:52 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-12 14:41:52 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-12 14:41:52 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-12 14:41:52 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-12 14:41:52 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-12 14:41:52 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-05-12 14:41:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Are You Landlord' is visible
+
+2020-05-12 14:41:53 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Are You Landlord' is visible
+
+2020-05-12 14:41:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Community' is visible
+
+2020-05-12 14:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Community' is visible
+
+2020-05-12 14:41:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Sign In' is visible
+
+2020-05-12 14:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Sign In' is visible
+
+2020-05-12 14:41:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-05-12 14:41:55 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-05-12 14:41:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id' successfully
+
+2020-05-12 14:41:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs' is visible
+
+2020-05-12 14:41:56 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs' is visible
+
+2020-05-12 14:41:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions' is visible
+
+2020-05-12 14:41:56 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions' is visible
+
+2020-05-12 14:41:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use' is visible
+
+2020-05-12 14:41:57 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use' is visible
+
+2020-05-12 14:41:57 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer' is visible
+
+2020-05-12 14:41:57 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer' is visible
+
+2020-05-12 14:41:57 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy' is visible
+
+2020-05-12 14:41:58 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy' is visible
+
+2020-05-12 14:41:58 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Booking"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Booking' is visible
+
+2020-05-12 14:41:58 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Booking' is visible
+
+2020-05-12 14:41:58 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Payment"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Payment' is visible
+
+2020-05-12 14:41:59 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Payment' is visible
+
+2020-05-12 14:41:59 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Payment")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Payment' is clicked on
+
+2020-05-12 14:41:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Payment' is clicked on
+
+2020-05-12 14:41:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q1"), "What method of payments does RoomMe offer ?"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q1' are matched.
+
+2020-05-12 14:42:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q1' are matched.
+
+2020-05-12 14:42:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A1"), id FAQ Text Data").getValue(1, 2)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A1' are matched.
+
+2020-05-12 14:42:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A1' are matched.
+
+2020-05-12 14:42:01 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q2"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q2' is visible
+
+2020-05-12 14:42:01 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q2' is visible
+
+2020-05-12 14:42:01 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q2")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q2' is clicked on
+
+2020-05-12 14:42:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q2' is clicked on
+
+2020-05-12 14:42:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q2"), "Can I survey the place prior to making payments ?"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q2' are matched.
+
+2020-05-12 14:42:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q2' are matched.
+
+2020-05-12 14:42:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A2"), "No, we provide rental and payment terms in a 1-month, 3-months, 6-months or 12-months contract."): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A2' are matched.
+
+2020-05-12 14:42:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A2' are matched.
+
+2020-05-12 14:42:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q3"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q3' is visible
+
+2020-05-12 14:42:03 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q3' is visible
+
+2020-05-12 14:42:03 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q3")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q3' is clicked on
+
+2020-05-12 14:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q3' is clicked on
+
+2020-05-12 14:42:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q3"), "Do I have to pay a deposit upfront ?"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q3' are matched.
+
+2020-05-12 14:42:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q3' are matched.
+
+2020-05-12 14:42:05 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A3"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A3' is visible
+
+2020-05-12 14:42:06 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A3' is visible
+
+2020-05-12 14:42:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A3"), id FAQ Text Data").getValue(1, 3)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A3' are matched.
+
+2020-05-12 14:42:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A3' are matched.
+
+2020-05-12 14:42:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q4"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q4' is visible
+
+2020-05-12 14:42:07 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q4' is visible
+
+2020-05-12 14:42:07 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q4")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q4' is clicked on
+
+2020-05-12 14:42:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q4' is clicked on
+
+2020-05-12 14:42:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q4"), "Will the payments be addressed to RoomMe or kost owners ?"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q4' are matched.
+
+2020-05-12 14:42:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q4' are matched.
+
+2020-05-12 14:42:08 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A4"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A4' is visible
+
+2020-05-12 14:42:08 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A4' is visible
+
+2020-05-12 14:42:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A4"), id FAQ Text Data").getValue(1, 5)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A4' are matched.
+
+2020-05-12 14:42:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A4' are matched.
+
+2020-05-12 14:42:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q5"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q5' is visible
+
+2020-05-12 14:42:09 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q5' is visible
+
+2020-05-12 14:42:09 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q5")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q5' is clicked on
+
+2020-05-12 14:42:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q5' is clicked on
+
+2020-05-12 14:42:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q5"), "Do you have installment programs ?"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q5' are matched.
+
+2020-05-12 14:42:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q5' are matched.
+
+2020-05-12 14:42:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A5"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A5' is visible
+
+2020-05-12 14:42:11 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A5' is visible
+
+2020-05-12 14:42:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A5"), "Unfortunately, we do not have any installment programs at the moment"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A5' are matched.
+
+2020-05-12 14:42:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A5' are matched.
+
+2020-05-12 14:42:12 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q6"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q6' is visible
+
+2020-05-12 14:42:12 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q6' is visible
+
+2020-05-12 14:42:12 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q6")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q6' is clicked on
+
+2020-05-12 14:42:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q6' is clicked on
+
+2020-05-12 14:42:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q6"), "How do I make payments for my kost ?"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q6' are matched.
+
+2020-05-12 14:42:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q6' are matched.
+
+2020-05-12 14:42:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A6"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A6' is visible
+
+2020-05-12 14:42:14 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A6' is visible
+
+2020-05-12 14:42:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A6"), id FAQ Text Data").getValue(1, 5)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A6' are matched.
+
+2020-05-12 14:42:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A6' are matched.
+
+2020-05-12 14:42:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q7"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q7' is visible
+
+2020-05-12 14:42:15 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q7' is visible
+
+2020-05-12 14:42:15 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q7")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q7' is clicked on
+
+2020-05-12 14:42:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q7' is clicked on
+
+2020-05-12 14:42:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q7"), "Are there any fines imposed on me while staying with RoomMe ?"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q7' are matched.
+
+2020-05-12 14:42:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Button Q7' are matched.
+
+2020-05-12 14:42:16 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A7"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A7' is visible
+
+2020-05-12 14:42:17 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A7' is visible
+
+2020-05-12 14:42:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A7"), id FAQ Text Data").getValue(1, 4)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A7' are matched.
+
+2020-05-12 14:42:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/RoomMe FAQ Payment/Text A7' are matched.
+
+2020-05-12 14:42:18 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-12 14:42:18 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Terms and Conditions Page" time="44.002" classname="Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Terms and Conditions Page" status="PASSED">
+         <system-out><![CDATA[2020-05-12 14:42:18 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Terms and Conditions Page: Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Terms and Conditions Page
+
+2020-05-12 14:42:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-12 14:42:18 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-12 14:42:18 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-05-12 14:42:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-12 14:42:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-12 14:42:32 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-05-12 14:42:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-12 14:42:35 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-12 14:42:35 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-12 14:42:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:42:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-12 14:42:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-12 14:42:35 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Footer/Button Terms Conditions")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button Terms Conditions' is clicked on
+
+2020-05-12 14:42:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button Terms Conditions' is clicked on
+
+2020-05-12 14:42:40 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-12 14:42:40 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-12 14:42:40 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-12 14:42:40 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-12 14:42:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs' is visible
+
+2020-05-12 14:42:40 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs' is visible
+
+2020-05-12 14:42:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions' is visible
+
+2020-05-12 14:42:41 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions' is visible
+
+2020-05-12 14:42:41 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use' is visible
+
+2020-05-12 14:42:41 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use' is visible
+
+2020-05-12 14:42:41 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer' is visible
+
+2020-05-12 14:42:42 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer' is visible
+
+2020-05-12 14:42:42 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy' is visible
+
+2020-05-12 14:42:42 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy' is visible
+
+2020-05-12 14:42:42 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms and Conditions Page/Image Terms and Conditions"), 60): Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Image Terms and Conditions' is visible
+
+2020-05-12 14:42:43 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Image Terms and Conditions' is visible
+
+2020-05-12 14:42:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms and Conditions Page/Text Global Content of Terms  Conditions for Web and Apps"), 60): Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text Global Content of Terms  Conditions for Web and Apps' is visible
+
+2020-05-12 14:42:43 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text Global Content of Terms  Conditions for Web and Apps' is visible
+
+2020-05-12 14:42:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms and Conditions Page/Button Q1"), 60): Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q1' is visible
+
+2020-05-12 14:42:44 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q1' is visible
+
+2020-05-12 14:42:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Terms and Conditions Page/Button Q1"), "Welcome to RoomMe"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q1' are matched.
+
+2020-05-12 14:42:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q1' are matched.
+
+2020-05-12 14:42:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms and Conditions Page/Text A1"), 60): Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text A1' is visible
+
+2020-05-12 14:42:45 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text A1' is visible
+
+2020-05-12 14:42:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Terms and Conditions Page/Text A1"), id Terms and Conditions Text Data").getValue(1, 1)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text A1' are matched.
+
+2020-05-12 14:42:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text A1' are matched.
+
+2020-05-12 14:42:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms and Conditions Page/Button Q2"), 60): Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q2' is visible
+
+2020-05-12 14:42:46 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q2' is visible
+
+2020-05-12 14:42:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Terms and Conditions Page/Button Q2"), "Copyright"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q2' are matched.
+
+2020-05-12 14:42:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q2' are matched.
+
+2020-05-12 14:42:46 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Terms and Conditions Page/Button Q2")): Object: 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q2' is clicked on
+
+2020-05-12 14:42:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q2' is clicked on
+
+2020-05-12 14:42:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms and Conditions Page/Text A2"), 60): Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text A2' is visible
+
+2020-05-12 14:42:47 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text A2' is visible
+
+2020-05-12 14:42:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Terms and Conditions Page/Text A2"), id Terms and Conditions Text Data").getValue(1, 2)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text A2' are matched.
+
+2020-05-12 14:42:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text A2' are matched.
+
+2020-05-12 14:42:48 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms and Conditions Page/Button Q3"), 60): Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q3' is visible
+
+2020-05-12 14:42:48 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q3' is visible
+
+2020-05-12 14:42:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Terms and Conditions Page/Button Q3"), "Cookies"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q3' are matched.
+
+2020-05-12 14:42:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q3' are matched.
+
+2020-05-12 14:42:48 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Terms and Conditions Page/Button Q3")): Object: 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q3' is clicked on
+
+2020-05-12 14:42:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q3' is clicked on
+
+2020-05-12 14:42:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms and Conditions Page/Text A3"), 60): Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text A3' is visible
+
+2020-05-12 14:42:50 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text A3' is visible
+
+2020-05-12 14:42:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Terms and Conditions Page/Text A3"), id Terms and Conditions Text Data").getValue(1, 3)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text A3' are matched.
+
+2020-05-12 14:42:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text A3' are matched.
+
+2020-05-12 14:42:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms and Conditions Page/Button Q4"), 60): Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q4' is visible
+
+2020-05-12 14:42:51 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q4' is visible
+
+2020-05-12 14:42:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Terms and Conditions Page/Button Q4"), "License and Site Access"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q4' are matched.
+
+2020-05-12 14:42:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q4' are matched.
+
+2020-05-12 14:42:52 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Terms and Conditions Page/Button Q4")): Object: 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q4' is clicked on
+
+2020-05-12 14:42:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q4' is clicked on
+
+2020-05-12 14:42:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms and Conditions Page/Text A4"), 60): Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text A4' is visible
+
+2020-05-12 14:42:53 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text A4' is visible
+
+2020-05-12 14:42:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Terms and Conditions Page/Text A4"), id Terms and Conditions Text Data").getValue(1, 4)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text A4' are matched.
+
+2020-05-12 14:42:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text A4' are matched.
+
+2020-05-12 14:42:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms and Conditions Page/Button Q5"), 60): Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q5' is visible
+
+2020-05-12 14:42:54 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q5' is visible
+
+2020-05-12 14:42:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Terms and Conditions Page/Button Q5"), "Comments, Reviews, and Emails"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q5' are matched.
+
+2020-05-12 14:42:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q5' are matched.
+
+2020-05-12 14:42:54 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Terms and Conditions Page/Button Q5")): Object: 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q5' is clicked on
+
+2020-05-12 14:42:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q5' is clicked on
+
+2020-05-12 14:42:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms and Conditions Page/Text A5"), 60): Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text A5' is visible
+
+2020-05-12 14:42:56 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text A5' is visible
+
+2020-05-12 14:42:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Terms and Conditions Page/Text A5"), id Terms and Conditions Text Data").getValue(1, 5)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text A5' are matched.
+
+2020-05-12 14:42:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text A5' are matched.
+
+2020-05-12 14:42:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms and Conditions Page/Button Q6"), 60): Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q6' is visible
+
+2020-05-12 14:42:57 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q6' is visible
+
+2020-05-12 14:42:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Terms and Conditions Page/Button Q6"), "Content Liability"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q6' are matched.
+
+2020-05-12 14:42:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q6' are matched.
+
+2020-05-12 14:42:57 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Terms and Conditions Page/Button Q6")): Object: 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q6' is clicked on
+
+2020-05-12 14:42:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q6' is clicked on
+
+2020-05-12 14:42:58 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms and Conditions Page/Text A6"), 60): Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text A6' is visible
+
+2020-05-12 14:42:58 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text A6' is visible
+
+2020-05-12 14:42:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Terms and Conditions Page/Text A6"), id Terms and Conditions Text Data").getValue(1, 6)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text A6' are matched.
+
+2020-05-12 14:42:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text A6' are matched.
+
+2020-05-12 14:42:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms and Conditions Page/Button Q7"), 60): Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q7' is visible
+
+2020-05-12 14:42:59 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q7' is visible
+
+2020-05-12 14:42:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Terms and Conditions Page/Button Q7"), "User Account"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q7' are matched.
+
+2020-05-12 14:43:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q7' are matched.
+
+2020-05-12 14:43:00 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Terms and Conditions Page/Button Q7")): Object: 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q7' is clicked on
+
+2020-05-12 14:43:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q7' is clicked on
+
+2020-05-12 14:43:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms and Conditions Page/Text A7"), 60): Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text A7' is visible
+
+2020-05-12 14:43:01 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text A7' is visible
+
+2020-05-12 14:43:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Terms and Conditions Page/Text A7"), id Terms and Conditions Text Data").getValue(1, 7)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text A7' are matched.
+
+2020-05-12 14:43:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text A7' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Terms of Use Page" time="37.115" classname="Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Terms of Use Page" status="PASSED">
+         <system-out><![CDATA[2020-05-12 14:43:02 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Terms of Use Page: Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Terms of Use Page
+
+2020-05-12 14:43:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-12 14:43:02 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-12 14:43:02 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-05-12 14:43:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-12 14:43:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-12 14:43:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-05-12 14:43:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-12 14:43:14 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-12 14:43:14 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-12 14:43:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:43:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-12 14:43:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-12 14:43:14 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Footer/Button Terms of Use")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button Terms of Use' is clicked on
+
+2020-05-12 14:43:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button Terms of Use' is clicked on
+
+2020-05-12 14:43:18 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-12 14:43:18 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-12 14:43:18 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-12 14:43:18 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-12 14:43:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs' is visible
+
+2020-05-12 14:43:19 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs' is visible
+
+2020-05-12 14:43:19 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions' is visible
+
+2020-05-12 14:43:19 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions' is visible
+
+2020-05-12 14:43:19 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use' is visible
+
+2020-05-12 14:43:20 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use' is visible
+
+2020-05-12 14:43:20 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer' is visible
+
+2020-05-12 14:43:20 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer' is visible
+
+2020-05-12 14:43:20 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy' is visible
+
+2020-05-12 14:43:20 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy' is visible
+
+2020-05-12 14:43:20 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms of Use Page/Image Terms of Use"), 60): Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Image Terms of Use' is visible
+
+2020-05-12 14:43:21 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Image Terms of Use' is visible
+
+2020-05-12 14:43:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms of Use Page/Text Global Content of Terms of Use for Web Apps"), 60): Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text Global Content of Terms of Use for Web Apps' is visible
+
+2020-05-12 14:43:21 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text Global Content of Terms of Use for Web Apps' is visible
+
+2020-05-12 14:43:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms of Use Page/Text Terms of Use Content"), 60): Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text Terms of Use Content' is visible
+
+2020-05-12 14:43:22 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text Terms of Use Content' is visible
+
+2020-05-12 14:43:22 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Terms of Use Page/Text Terms of Use Content"), id Terms of Use Text Data").getValue(1, 1)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text Terms of Use Content' are matched.
+
+2020-05-12 14:43:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text Terms of Use Content' are matched.
+
+2020-05-12 14:43:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms of Use Page/Button Q1"), 60): Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q1' is visible
+
+2020-05-12 14:43:23 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q1' is visible
+
+2020-05-12 14:43:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Terms of Use Page/Button Q1"), "Bookings"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q1' are matched.
+
+2020-05-12 14:43:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q1' are matched.
+
+2020-05-12 14:43:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms of Use Page/Text A1"), 60): Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text A1' is visible
+
+2020-05-12 14:43:24 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text A1' is visible
+
+2020-05-12 14:43:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Terms of Use Page/Text A1"), id Terms of Use Text Data").getValue(1, 2)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text A1' are matched.
+
+2020-05-12 14:43:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text A1' are matched.
+
+2020-05-12 14:43:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms of Use Page/Button Q2"), 60): Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q2' is visible
+
+2020-05-12 14:43:25 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q2' is visible
+
+2020-05-12 14:43:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Terms of Use Page/Button Q2"), "Fees and Payments"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q2' are matched.
+
+2020-05-12 14:43:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q2' are matched.
+
+2020-05-12 14:43:25 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Terms of Use Page/Button Q2")): Object: 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q2' is clicked on
+
+2020-05-12 14:43:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q2' is clicked on
+
+2020-05-12 14:43:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms of Use Page/Text A2"), 60): Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text A2' is visible
+
+2020-05-12 14:43:26 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text A2' is visible
+
+2020-05-12 14:43:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Terms of Use Page/Text A2"), id Terms of Use Text Data").getValue(1, 3)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text A2' are matched.
+
+2020-05-12 14:43:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text A2' are matched.
+
+2020-05-12 14:43:27 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms of Use Page/Button Q3"), 60): Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q3' is visible
+
+2020-05-12 14:43:27 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q3' is visible
+
+2020-05-12 14:43:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Terms of Use Page/Button Q3"), "Termination"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q3' are matched.
+
+2020-05-12 14:43:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q3' are matched.
+
+2020-05-12 14:43:27 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Terms of Use Page/Button Q3")): Object: 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q3' is clicked on
+
+2020-05-12 14:43:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q3' is clicked on
+
+2020-05-12 14:43:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms of Use Page/Text A3"), 60): Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text A3' is visible
+
+2020-05-12 14:43:28 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text A3' is visible
+
+2020-05-12 14:43:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Terms of Use Page/Text A3"), id Terms of Use Text Data").getValue(1, 4)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text A3' are matched.
+
+2020-05-12 14:43:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text A3' are matched.
+
+2020-05-12 14:43:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms of Use Page/Button Q4"), 60): Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q4' is visible
+
+2020-05-12 14:43:29 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q4' is visible
+
+2020-05-12 14:43:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Terms of Use Page/Button Q4"), "Content"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q4' are matched.
+
+2020-05-12 14:43:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q4' are matched.
+
+2020-05-12 14:43:29 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Terms of Use Page/Button Q4")): Object: 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q4' is clicked on
+
+2020-05-12 14:43:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q4' is clicked on
+
+2020-05-12 14:43:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms of Use Page/Text A4"), 60): Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text A4' is visible
+
+2020-05-12 14:43:30 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text A4' is visible
+
+2020-05-12 14:43:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Terms of Use Page/Text A4"), id Terms of Use Text Data").getValue(1, 5)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text A4' are matched.
+
+2020-05-12 14:43:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text A4' are matched.
+
+2020-05-12 14:43:31 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms of Use Page/Button Q5"), 60): Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q5' is visible
+
+2020-05-12 14:43:31 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q5' is visible
+
+2020-05-12 14:43:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Terms of Use Page/Button Q5"), "Links To Other Websites"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q5' are matched.
+
+2020-05-12 14:43:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q5' are matched.
+
+2020-05-12 14:43:31 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Terms of Use Page/Button Q5")): Object: 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q5' is clicked on
+
+2020-05-12 14:43:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q5' is clicked on
+
+2020-05-12 14:43:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms of Use Page/Text A5"), 60): Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text A5' is visible
+
+2020-05-12 14:43:33 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text A5' is visible
+
+2020-05-12 14:43:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Terms of Use Page/Text A5"), id Terms of Use Text Data").getValue(1, 6)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text A5' are matched.
+
+2020-05-12 14:43:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text A5' are matched.
+
+2020-05-12 14:43:33 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms of Use Page/Button Q6"), 60): Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q6' is visible
+
+2020-05-12 14:43:34 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q6' is visible
+
+2020-05-12 14:43:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Terms of Use Page/Button Q6"), "Change to Terms"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q6' are matched.
+
+2020-05-12 14:43:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q6' are matched.
+
+2020-05-12 14:43:34 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Terms of Use Page/Button Q6")): Object: 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q6' is clicked on
+
+2020-05-12 14:43:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q6' is clicked on
+
+2020-05-12 14:43:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms of Use Page/Text A6"), 60): Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text A6' is visible
+
+2020-05-12 14:43:36 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text A6' is visible
+
+2020-05-12 14:43:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Terms of Use Page/Text A6"), id Terms of Use Text Data").getValue(1, 7)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text A6' are matched.
+
+2020-05-12 14:43:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text A6' are matched.
+
+2020-05-12 14:43:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms of Use Page/Button Q7"), 60): Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q7' is visible
+
+2020-05-12 14:43:37 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q7' is visible
+
+2020-05-12 14:43:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Terms of Use Page/Button Q7"), "Contact Us"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q7' are matched.
+
+2020-05-12 14:43:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q7' are matched.
+
+2020-05-12 14:43:37 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Terms of Use Page/Button Q7")): Object: 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q7' is clicked on
+
+2020-05-12 14:43:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Terms of Use Page/Button Q7' is clicked on
+
+2020-05-12 14:43:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms of Use Page/Text A7"), 60): Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text A7' is visible
+
+2020-05-12 14:43:38 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text A7' is visible
+
+2020-05-12 14:43:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Terms of Use Page/Text A7"), id Terms of Use Text Data").getValue(1, 8)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text A7' are matched.
+
+2020-05-12 14:43:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text A7' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Disclaimer Page" time="28.293" classname="Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Disclaimer Page" status="PASSED">
+         <system-out><![CDATA[2020-05-12 14:43:39 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Disclaimer Page: Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Disclaimer Page
+
+2020-05-12 14:43:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-12 14:43:39 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-12 14:43:39 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-05-12 14:43:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-12 14:43:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-12 14:43:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-05-12 14:43:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-12 14:43:54 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-12 14:43:54 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-12 14:43:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:43:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-12 14:43:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-12 14:43:54 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Footer/Button Disclaimer")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button Disclaimer' is clicked on
+
+2020-05-12 14:43:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button Disclaimer' is clicked on
+
+2020-05-12 14:43:58 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-12 14:43:58 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-12 14:43:58 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-12 14:43:58 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-12 14:43:58 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs' is visible
+
+2020-05-12 14:43:59 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs' is visible
+
+2020-05-12 14:43:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions' is visible
+
+2020-05-12 14:43:59 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions' is visible
+
+2020-05-12 14:43:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use' is visible
+
+2020-05-12 14:44:00 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use' is visible
+
+2020-05-12 14:44:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer' is visible
+
+2020-05-12 14:44:00 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer' is visible
+
+2020-05-12 14:44:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy' is visible
+
+2020-05-12 14:44:01 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy' is visible
+
+2020-05-12 14:44:01 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Disclaimer Page/Image Disclaimer"), 60): Object 'Object Repository/Web RoomMe.id/Disclaimer Page/Image Disclaimer' is visible
+
+2020-05-12 14:44:02 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Disclaimer Page/Image Disclaimer' is visible
+
+2020-05-12 14:44:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Disclaimer Page/Text Global Disclaimer"), 60): Object 'Object Repository/Web RoomMe.id/Disclaimer Page/Text Global Disclaimer' is visible
+
+2020-05-12 14:44:02 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Disclaimer Page/Text Global Disclaimer' is visible
+
+2020-05-12 14:44:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Disclaimer Page/Text Disclaimer Content"), 60): Object 'Object Repository/Web RoomMe.id/Disclaimer Page/Text Disclaimer Content' is visible
+
+2020-05-12 14:44:03 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Disclaimer Page/Text Disclaimer Content' is visible
+
+2020-05-12 14:44:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Disclaimer Page/Text Disclaimer Content"), id Disclaimer Text Data").getValue(1, 1)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Disclaimer Page/Text Disclaimer Content' are matched.
+
+2020-05-12 14:44:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Disclaimer Page/Text Disclaimer Content' are matched.
+
+2020-05-12 14:44:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Disclaimer Page/Button Q1"), 60): Object 'Object Repository/Web RoomMe.id/Disclaimer Page/Button Q1' is visible
+
+2020-05-12 14:44:04 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Disclaimer Page/Button Q1' is visible
+
+2020-05-12 14:44:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Disclaimer Page/Button Q1"), "Consent"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Disclaimer Page/Button Q1' are matched.
+
+2020-05-12 14:44:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Disclaimer Page/Button Q1' are matched.
+
+2020-05-12 14:44:04 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Disclaimer Page/Text A1"), 60): Object 'Object Repository/Web RoomMe.id/Disclaimer Page/Text A1' is visible
+
+2020-05-12 14:44:05 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Disclaimer Page/Text A1' is visible
+
+2020-05-12 14:44:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Disclaimer Page/Text A1"), "By using our website, you hereby consent to our disclaimer and agree to its terms."): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Disclaimer Page/Text A1' are matched.
+
+2020-05-12 14:44:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Disclaimer Page/Text A1' are matched.
+
+2020-05-12 14:44:05 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Disclaimer Page/Button Q2"), 60): Object 'Object Repository/Web RoomMe.id/Disclaimer Page/Button Q2' is visible
+
+2020-05-12 14:44:05 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Disclaimer Page/Button Q2' is visible
+
+2020-05-12 14:44:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Disclaimer Page/Button Q2"), "Update"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Disclaimer Page/Button Q2' are matched.
+
+2020-05-12 14:44:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Disclaimer Page/Button Q2' are matched.
+
+2020-05-12 14:44:06 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Disclaimer Page/Button Q2")): Object: 'Object Repository/Web RoomMe.id/Disclaimer Page/Button Q2' is clicked on
+
+2020-05-12 14:44:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Disclaimer Page/Button Q2' is clicked on
+
+2020-05-12 14:44:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Disclaimer Page/Text A2"), 60): Object 'Object Repository/Web RoomMe.id/Disclaimer Page/Text A2' is visible
+
+2020-05-12 14:44:07 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Disclaimer Page/Text A2' is visible
+
+2020-05-12 14:44:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Disclaimer Page/Text A2"), "Should we update, amend or make any changes to this document, those changes will be promptly posted here."): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Disclaimer Page/Text A2' are matched.
+
+2020-05-12 14:44:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Disclaimer Page/Text A2' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Privacy Policy" time="53.113" classname="Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Privacy Policy" status="PASSED">
+         <system-out><![CDATA[2020-05-12 14:44:07 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Privacy Policy: Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Privacy Policy
+
+2020-05-12 14:44:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-12 14:44:08 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-12 14:44:08 - [TEST_STEP][PASSED] - openBrowser("https://web.roomme.id/"): Browser is opened with url: 'https://web.roomme.id/'
+
+2020-05-12 14:44:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-12 14:44:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-12 14:44:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://web.roomme.id/'
+
+2020-05-12 14:44:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-12 14:44:19 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-12 14:44:19 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-12 14:44:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:44:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-12 14:44:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-12 14:44:19 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Footer/Button Privacy Policy")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button Privacy Policy' is clicked on
+
+2020-05-12 14:44:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button Privacy Policy' is clicked on
+
+2020-05-12 14:44:23 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-12 14:44:23 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-12 14:44:23 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-12 14:44:23 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-12 14:44:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs' is visible
+
+2020-05-12 14:44:24 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs' is visible
+
+2020-05-12 14:44:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions' is visible
+
+2020-05-12 14:44:25 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions' is visible
+
+2020-05-12 14:44:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use' is visible
+
+2020-05-12 14:44:25 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use' is visible
+
+2020-05-12 14:44:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer' is visible
+
+2020-05-12 14:44:26 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer' is visible
+
+2020-05-12 14:44:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy' is visible
+
+2020-05-12 14:44:26 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy' is visible
+
+2020-05-12 14:44:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Privacy Policy Page/Image Privacy Policy"), 60): Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Image Privacy Policy' is visible
+
+2020-05-12 14:44:27 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Image Privacy Policy' is visible
+
+2020-05-12 14:44:27 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Privacy Policy Page/Text Privacy Policy"), 60): Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text Privacy Policy' is visible
+
+2020-05-12 14:44:28 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text Privacy Policy' is visible
+
+2020-05-12 14:44:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Privacy Policy Page/Text Privacy Policy Content"), 60): Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text Privacy Policy Content' is visible
+
+2020-05-12 14:44:28 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text Privacy Policy Content' is visible
+
+2020-05-12 14:44:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Privacy Policy Page/Text Privacy Policy Content"), id Privacy Policy Text Data").getValue(1, 1)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text Privacy Policy Content' are matched.
+
+2020-05-12 14:44:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text Privacy Policy Content' are matched.
+
+2020-05-12 14:44:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q1"), 0): Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q1' is visible
+
+2020-05-12 14:44:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:44:29 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q1' is visible
+
+2020-05-12 14:44:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q1"), "Definitions"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q1' are matched.
+
+2020-05-12 14:44:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q1' are matched.
+
+2020-05-12 14:44:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Privacy Policy Page/Text A1"), 0): Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A1' is visible
+
+2020-05-12 14:44:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:44:30 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A1' is visible
+
+2020-05-12 14:44:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Privacy Policy Page/Text A1"), id Privacy Policy Text Data").getValue(1, 2)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A1' are matched.
+
+2020-05-12 14:44:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A1' are matched.
+
+2020-05-12 14:44:31 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q2"), 0): Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q2' is visible
+
+2020-05-12 14:44:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:44:32 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q2' is visible
+
+2020-05-12 14:44:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q2"), "Information Collection and Use"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q2' are matched.
+
+2020-05-12 14:44:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q2' are matched.
+
+2020-05-12 14:44:32 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q2")): Object: 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q2' is clicked on
+
+2020-05-12 14:44:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q2' is clicked on
+
+2020-05-12 14:44:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Privacy Policy Page/Text A2"), 0): Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A2' is visible
+
+2020-05-12 14:44:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:44:33 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A2' is visible
+
+2020-05-12 14:44:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Privacy Policy Page/Text A2"), "We collect several different types of information for various purposes to provide and improve our Service to you."): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A2' are matched.
+
+2020-05-12 14:44:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A2' are matched.
+
+2020-05-12 14:44:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q3"), "Personal Data"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q3' are matched.
+
+2020-05-12 14:44:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q3' are matched.
+
+2020-05-12 14:44:34 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q3")): Object: 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q3' is clicked on
+
+2020-05-12 14:44:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q3' is clicked on
+
+2020-05-12 14:44:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Privacy Policy Page/Text A3"), 0): Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A3' is visible
+
+2020-05-12 14:44:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:44:35 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A3' is visible
+
+2020-05-12 14:44:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Privacy Policy Page/Text A3"), id Privacy Policy Text Data").getValue(1, 4)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A3' are matched.
+
+2020-05-12 14:44:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A3' are matched.
+
+2020-05-12 14:44:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q4"), 0): Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q4' is visible
+
+2020-05-12 14:44:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:44:36 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q4' is visible
+
+2020-05-12 14:44:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q4"), "Use of Data"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q4' are matched.
+
+2020-05-12 14:44:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q4' are matched.
+
+2020-05-12 14:44:36 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q4")): Object: 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q4' is clicked on
+
+2020-05-12 14:44:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q4' is clicked on
+
+2020-05-12 14:44:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Privacy Policy Page/Text A4"), 0): Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A4' is visible
+
+2020-05-12 14:44:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:44:37 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A4' is visible
+
+2020-05-12 14:44:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Privacy Policy Page/Text A4"), id Privacy Policy Text Data").getValue(1, 5)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A4' are matched.
+
+2020-05-12 14:44:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A4' are matched.
+
+2020-05-12 14:44:38 - [TEST_STEP][NOT_RUN] - executeJavaScript("document.body.style.zoom='50%'", null): NOT_RUN: executeJavaScript("document.body.style.zoom='50%'", null)
+
+2020-05-12 14:44:38 - [MESSAGE][NOT_RUN] - NOT_RUN: executeJavaScript("document.body.style.zoom='50%'", null)
+
+2020-05-12 14:44:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q5"), 0): Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q5' is visible
+
+2020-05-12 14:44:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:44:38 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q5' is visible
+
+2020-05-12 14:44:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q5"), "Transfer of Data"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q5' are matched.
+
+2020-05-12 14:44:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q5' are matched.
+
+2020-05-12 14:44:39 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q4"), 0): Scroll to object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q4' successfully
+
+2020-05-12 14:44:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:44:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q4' successfully
+
+2020-05-12 14:44:39 - [TEST_STEP][PASSED] - verifyElementInViewport(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q5"), 0): Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q5' is present and visible in viewport
+
+2020-05-12 14:44:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:44:39 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q5' is present and visible in viewport
+
+2020-05-12 14:44:39 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q5")): Object: 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q5' is clicked on
+
+2020-05-12 14:44:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q5' is clicked on
+
+2020-05-12 14:44:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Privacy Policy Page/Text A5"), 0): Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A5' is visible
+
+2020-05-12 14:44:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:44:41 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A5' is visible
+
+2020-05-12 14:44:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Privacy Policy Page/Text A5"), id Privacy Policy Text Data").getValue(1, 6)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A5' are matched.
+
+2020-05-12 14:44:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A5' are matched.
+
+2020-05-12 14:44:41 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q6"), 0): Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q6' is visible
+
+2020-05-12 14:44:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:44:42 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q6' is visible
+
+2020-05-12 14:44:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q6"), "Disclosure of Data"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q6' are matched.
+
+2020-05-12 14:44:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q6' are matched.
+
+2020-05-12 14:44:42 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q6")): Object: 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q6' is clicked on
+
+2020-05-12 14:44:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q6' is clicked on
+
+2020-05-12 14:44:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Privacy Policy Page/Text A6"), 0): Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A6' is visible
+
+2020-05-12 14:44:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:44:43 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A6' is visible
+
+2020-05-12 14:44:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Privacy Policy Page/Text A6"), id Privacy Policy Text Data").getValue(1, 7)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A6' are matched.
+
+2020-05-12 14:44:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A6' are matched.
+
+2020-05-12 14:44:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q7"), 0): Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q7' is visible
+
+2020-05-12 14:44:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:44:44 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q7' is visible
+
+2020-05-12 14:44:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q7"), "Security of Data"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q7' are matched.
+
+2020-05-12 14:44:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q7' are matched.
+
+2020-05-12 14:44:45 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q7")): Object: 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q7' is clicked on
+
+2020-05-12 14:44:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q7' is clicked on
+
+2020-05-12 14:44:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Privacy Policy Page/Text A7"), 0): Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A7' is visible
+
+2020-05-12 14:44:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:44:46 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A7' is visible
+
+2020-05-12 14:44:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Privacy Policy Page/Text A7"), "The security of your data is important to us but remember that no method of transmission over the Internet or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security."): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A7' are matched.
+
+2020-05-12 14:44:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A7' are matched.
+
+2020-05-12 14:44:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q8"), 0): Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q8' is visible
+
+2020-05-12 14:44:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:44:47 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q8' is visible
+
+2020-05-12 14:44:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q8"), "Service Providers"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q8' are matched.
+
+2020-05-12 14:44:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q8' are matched.
+
+2020-05-12 14:44:47 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q8")): Object: 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q8' is clicked on
+
+2020-05-12 14:44:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q8' is clicked on
+
+2020-05-12 14:44:48 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Privacy Policy Page/Text A8"), 0): Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A8' is visible
+
+2020-05-12 14:44:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:44:49 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A8' is visible
+
+2020-05-12 14:44:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Privacy Policy Page/Text A8"), id Privacy Policy Text Data").getValue(1, 9)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A8' are matched.
+
+2020-05-12 14:44:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A8' are matched.
+
+2020-05-12 14:44:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q9"), 0): Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q9' is visible
+
+2020-05-12 14:44:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:44:50 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q9' is visible
+
+2020-05-12 14:44:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q9"), "Links to Other Sites"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q9' are matched.
+
+2020-05-12 14:44:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q9' are matched.
+
+2020-05-12 14:44:50 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q9")): Object: 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q9' is clicked on
+
+2020-05-12 14:44:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q9' is clicked on
+
+2020-05-12 14:44:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Privacy Policy Page/Text A9"), 0): Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A9' is visible
+
+2020-05-12 14:44:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:44:52 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A9' is visible
+
+2020-05-12 14:44:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Privacy Policy Page/Text A9"), id Privacy Policy Text Data").getValue(1, 10)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A9' are matched.
+
+2020-05-12 14:44:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A9' are matched.
+
+2020-05-12 14:44:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q10"), 0): Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q10' is visible
+
+2020-05-12 14:44:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:44:52 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q10' is visible
+
+2020-05-12 14:44:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q10"), "Children's Privacy"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q10' are matched.
+
+2020-05-12 14:44:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q10' are matched.
+
+2020-05-12 14:44:53 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q10")): Object: 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q10' is clicked on
+
+2020-05-12 14:44:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q10' is clicked on
+
+2020-05-12 14:44:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Privacy Policy Page/Text A10"), 0): Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A10' is visible
+
+2020-05-12 14:44:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:44:54 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A10' is visible
+
+2020-05-12 14:44:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Privacy Policy Page/Text A10"), id Privacy Policy Text Data").getValue(1, 11)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A10' are matched.
+
+2020-05-12 14:44:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A10' are matched.
+
+2020-05-12 14:44:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q11"), 0): Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q11' is visible
+
+2020-05-12 14:44:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:44:55 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q11' is visible
+
+2020-05-12 14:44:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q11"), "Changes to This Privacy Policy"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q11' are matched.
+
+2020-05-12 14:44:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q11' are matched.
+
+2020-05-12 14:44:55 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q11")): Object: 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q11' is clicked on
+
+2020-05-12 14:44:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q11' is clicked on
+
+2020-05-12 14:44:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Privacy Policy Page/Text A11"), 0): Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A11' is visible
+
+2020-05-12 14:44:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:44:57 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A11' is visible
+
+2020-05-12 14:44:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Privacy Policy Page/Text A11"), id Privacy Policy Text Data").getValue(1, 12)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A11' are matched.
+
+2020-05-12 14:44:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A11' are matched.
+
+2020-05-12 14:44:57 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q12"), 0): Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q12' is visible
+
+2020-05-12 14:44:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:44:58 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q12' is visible
+
+2020-05-12 14:44:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q12"), "Contact Us"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q12' are matched.
+
+2020-05-12 14:44:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q12' are matched.
+
+2020-05-12 14:44:58 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Privacy Policy Page/Button Q12")): Object: 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q12' is clicked on
+
+2020-05-12 14:44:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Privacy Policy Page/Button Q12' is clicked on
+
+2020-05-12 14:44:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Privacy Policy Page/Text A12"), 0): Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A12' is visible
+
+2020-05-12 14:44:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-12 14:45:00 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A12' is visible
+
+2020-05-12 14:45:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Privacy Policy Page/Text A12"), id Privacy Policy Text Data").getValue(1, 13)): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A12' are matched.
+
+2020-05-12 14:45:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text A12' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-12 14:40:37 - [TEST_SUITE][PASSED] - Customer Access Our Terms Page: Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Privacy Policy]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

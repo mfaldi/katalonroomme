@@ -3,7 +3,7 @@
    <description></description>
    <name>Text Interest</name>
    <tag></tag>
-   <elementGuidId>5c09a43b-3c02-4818-a2bf-dd1fb60390a2</elementGuidId>
+   <elementGuidId>62041f5b-d146-4269-925a-4fd239b39251</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -52,7 +52,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone is required'])[1]/following::b[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email Address'])[1]/following::b[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Interest is required'])[1]/preceding::b[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -60,13 +67,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/preceding::b[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::b[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

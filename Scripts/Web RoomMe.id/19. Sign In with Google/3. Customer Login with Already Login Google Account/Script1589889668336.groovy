@@ -19,9 +19,9 @@ WebUI.callTestCase(findTestCase('Web RoomMe.id/19. Sign In with Google/1. Custom
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/RoomMe.id Header/Button User Menu'), 0)
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/RoomMe.id Header/User Menu/Button User Menu'), 0)
 
-WebUI.click(findTestObject('Web RoomMe.id/RoomMe.id Header/Button User Menu'))
+WebUI.click(findTestObject('Web RoomMe.id/RoomMe.id Header/User Menu/Button User Menu'))
 
 WebUI.click(findTestObject('Web RoomMe.id/User Menu/Button Sign Out'))
 

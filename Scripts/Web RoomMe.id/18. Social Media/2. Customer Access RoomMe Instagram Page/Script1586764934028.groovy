@@ -27,7 +27,7 @@ WebUI.waitForPageLoad(0)
 
 igtitle = WebUI.getWindowTitle()
 
-WebUI.verifyMatch(igtitle, 'Virtual Kost Operator (@roommeid) • Instagram photos and videos', false)
+WebUI.verifyMatch(igtitle, 'Virtual Kost Operator #1 (@roommeid) • Instagram photos and videos', false)
 
 igurl = WebUI.getUrl()
 

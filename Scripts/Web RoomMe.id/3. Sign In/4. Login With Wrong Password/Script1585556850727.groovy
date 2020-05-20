@@ -29,7 +29,7 @@ WebUI.waitForElementClickable(findTestObject('Web RoomMe.id/Sign In Menu/Textfie
 
 not_run: WebUI.callTestCase(findTestCase('Web RoomMe.id/3. Sign In/Verify Sign In Menu'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Web RoomMe.id/Sign In Menu/Textfield Email'), 'hurujy@getnada.com')
+WebUI.setText(findTestObject('Web RoomMe.id/Sign In Menu/Textfield Email'), 'faldidev@getnada.com')
 
 WebUI.setEncryptedText(findTestObject('Web RoomMe.id/Sign In Menu/Textfield Password'), 'BHvA5AcphSgkyy/qmGt4NA==')
 

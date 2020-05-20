@@ -30,13 +30,13 @@ WebUI.waitForElementClickable(findTestObject('Web RoomMe.id/Sign In Menu/Textfie
 
 WebUI.callTestCase(findTestCase('Web RoomMe.id/3. Sign In/Verify Sign In Menu'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Web RoomMe.id/Sign In Menu/Textfield Email'), 'faldidev@getnada.com')
+WebUI.setText(findTestObject('Web RoomMe.id/Sign In Menu/Textfield Email'), GlobalVariable.email)
 
-WebUI.setEncryptedText(findTestObject('Web RoomMe.id/Sign In Menu/Textfield Password'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Web RoomMe.id/Sign In Menu/Textfield Password'), GlobalVariable.password)
 
 WebUI.click(findTestObject('Web RoomMe.id/Sign In Menu/Button Sign In'))
 
-WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/RoomMe.id Header/User Menu/User Menu'), 10, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/RoomMe.id Header/User Menu/Button User Menu'), 10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/RoomMe.id Header/User Menu/User Profile Image'), 10, FailureHandling.STOP_ON_FAILURE)
 

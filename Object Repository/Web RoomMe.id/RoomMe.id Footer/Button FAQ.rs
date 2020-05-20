@@ -6,11 +6,15 @@
    <elementGuidId>71c027cb-5db8-4b7d-84f9-c64613933f93</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;__layout&quot;)/div[1]/div[@class=&quot;footer py-3 py-md-4&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;d-none d-md-block&quot;]/div[@class=&quot;row row-10&quot;]/div[@class=&quot;col-md-2 col-sm-12 my-2&quot;]/div[@class=&quot;card-transparent&quot;]/div[@class=&quot;card-content&quot;]/h6[@class=&quot;text-muted card-text text-responsive mb-3 white&quot;]/a[@class=&quot;text-muted&quot;]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='__layout']/div/div[3]/div/div/div/div[3]/div/div[2]/h6/a</value>
+         <value>(//a[contains(@href, '/info/faq')])[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,28 +24,35 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/OurTerms/FAQ</value>
+      <value>/info/faq</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rel</name>
+      <type>Main</type>
+      <value>nofollow</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>text-muted</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>FAQ</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
@@ -94,7 +105,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '/OurTerms/FAQ')])[2]</value>
+      <value>(//a[contains(@href, '/info/faq')])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,5 +113,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div[2]/h6/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/OurTerms/FAQ')])[2]</value>
    </webElementXpaths>
 </WebElementEntity>

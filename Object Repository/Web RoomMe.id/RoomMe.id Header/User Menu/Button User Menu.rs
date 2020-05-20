@@ -3,7 +3,7 @@
    <description></description>
    <name>Button User Menu</name>
    <tag></tag>
-   <elementGuidId>6eb3a285-92fd-41b5-b607-c1237694a008</elementGuidId>
+   <elementGuidId>ec966a01-3e76-4b13-85cd-c6a6bbdc036f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

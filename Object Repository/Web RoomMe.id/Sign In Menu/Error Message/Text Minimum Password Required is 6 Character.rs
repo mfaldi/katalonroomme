@@ -6,14 +6,18 @@
    <elementGuidId>1de92886-4407-4b02-89ea-e972210a0ed6</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Minimum password required is 6 character' or . = 'Minimum password required is 6 character')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='__BVID__28__BV_feedback_invalid_']</value>
+         <value>//div[@id='__BVID__133__BV_feedback_invalid_']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>__BVID__28__BV_feedback_invalid_</value>
+      <value>__BVID__133__BV_feedback_invalid_</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,28 +70,28 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Minimum Password Required is 6 Character</value>
+      <value>Minimum password required is 6 character</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__BVID__28__BV_feedback_invalid_&quot;)</value>
+      <value>id(&quot;__BVID__133__BV_feedback_invalid_&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='__BVID__28__BV_feedback_invalid_']</value>
+      <value>//div[@id='__BVID__133__BV_feedback_invalid_']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__BVID__28']/div/div</value>
+      <value>//div[@id='__BVID__133']/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +126,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Minimum Password Required is 6 Character']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Minimum password required is 6 character']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,5 +134,26 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div[2]/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='__BVID__28__BV_feedback_invalid_']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__BVID__28']/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Minimum Password Required is 6 Character']/parent::*</value>
    </webElementXpaths>
 </WebElementEntity>

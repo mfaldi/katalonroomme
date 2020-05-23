@@ -17,15 +17,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Web RoomMe.id/3. Sign In/1. Login With Valid Credential'), [:], FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.click(findTestObject('Web RoomMe.id/Sign In Menu/Button User Menu'))
+WebUI.click(findTestObject('Web RoomMe.id/RoomMe.id Header/User Menu/Button User Menu'))
 
-WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/User Menu/Button My Profile'))
+not_run: WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/User Menu/Button My Profile'))
 
-WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/User Menu/Button My Booking'))
+not_run: WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/User Menu/Button My Booking'))
 
-WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/User Menu/Button Sign Out'))
+not_run: WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/User Menu/Button Sign Out'))
 
-WebUI.click(findTestObject('Web RoomMe.id/User Menu/Button My Profile'))
+not_run: WebUI.click(findTestObject('Web RoomMe.id/User Menu/Button My Profile'))
 
 not_run: btnusermenu = WebUI.getText(findTestObject('Web RoomMe.id/Sign In Menu/Button User Menu'))
 
@@ -35,23 +35,31 @@ not_run: WebUI.getAttribute(findTestObject('Web RoomMe.id/RoomMe.id My Profile P
 
 not_run: WebUI.verifyElementText(btnusermenu, username)
 
-WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/RoomMe.id My Profile Page/img'))
+not_run: WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/RoomMe.id My Profile Page/img'))
 
-WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/RoomMe.id My Profile Page/a_Change Photo'))
+not_run: WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/RoomMe.id My Profile Page/a_Change Photo'))
 
-WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/RoomMe.id My Profile Page/input_First Name_Label'))
+not_run: WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/RoomMe.id My Profile Page/input_First Name_Label'))
 
-WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/RoomMe.id My Profile Page/input_Last Name_Label'))
+not_run: WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/RoomMe.id My Profile Page/input_Last Name_Label'))
 
-WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/RoomMe.id My Profile Page/input_Phone Number_Label'))
+not_run: WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/RoomMe.id My Profile Page/input_Phone Number_Label'))
 
-WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/RoomMe.id My Profile Page/input_Email_Label'))
+not_run: WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/RoomMe.id My Profile Page/input_Email_Label'))
 
-WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/RoomMe.id My Profile Page/input_Date of Birth_Label'))
+not_run: WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/RoomMe.id My Profile Page/input_Date of Birth_Label'))
 
-WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/RoomMe.id My Profile Page/textarea_Address_form-control'))
+not_run: WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/RoomMe.id My Profile Page/textarea_Address_form-control'))
 
-WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/RoomMe.id My Profile Page/a_Reset Password'))
+not_run: WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/RoomMe.id My Profile Page/a_Reset Password'))
 
-WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/RoomMe.id My Profile Page/button_Update'))
+not_run: WebUI.verifyElementVisible(findTestObject('Web RoomMe.id/RoomMe.id My Profile Page/button_Update'))
+
+WebUI.click(findTestObject('Web RoomMe.id/User Menu/Button Change Photo'))
+
+String userDir = System.getProperty('user.dir')
+
+String filePath = userDir + '/Data Files/PP.jpg'
+
+WebUI.uploadFile(findTestObject('Web RoomMe.id/User Menu/Button Select Files'), 'filePath')
 

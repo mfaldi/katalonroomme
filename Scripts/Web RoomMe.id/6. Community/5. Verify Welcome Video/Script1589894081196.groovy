@@ -28,5 +28,5 @@ WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Community Page/Welcome
 WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration'), 
     0)
 
-WebUI.delay(10)
+WebUI.delay(5)
 

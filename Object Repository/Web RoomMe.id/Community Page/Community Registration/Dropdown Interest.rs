@@ -6,11 +6,11 @@
    <elementGuidId>3043631d-66af-4669-89ca-3869d7af02c3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='modal-form___BV_modal_body_']/div/div[2]/form/div[4]/div/select</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//div[@id='modal-form___BV_modal_body_']/div/div[2]/form/div[4]/div/select</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

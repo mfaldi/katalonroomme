@@ -27,7 +27,8 @@ WebUI.callTestCase(findTestCase('Web RoomMe.id/6. Community/5. Verify Welcome Vi
 
 WebUI.click(findTestObject('Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration'))
 
-WebUI.click(findTestObject('Web RoomMe.id/RoomMe.id Header/Image Header Logo'))
+WebUI.clickOffset(findTestObject('Web RoomMe.id/Community Page/Community Registration/Text Community Registration'), 0, 
+    -50)
 
 WebUI.callTestCase(findTestCase('Web RoomMe.id/6. Community/4. Verify Element on Community Page'), [:], FailureHandling.STOP_ON_FAILURE)
 

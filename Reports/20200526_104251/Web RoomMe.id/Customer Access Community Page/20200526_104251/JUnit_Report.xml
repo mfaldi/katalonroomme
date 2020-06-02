@@ -1,0 +1,1411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Customer Access Community Page" time="142.969" tests="4" failures="0" errors="0">
+   <testsuite name="Customer Access Community Page" tests="4" failures="0" errors="0" time="142.969" timestamp="2020-05-26 10:42:58" hostname="Faldi - Alienware-X51" id="Test Suites/Web RoomMe.id/Customer Access Community Page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme\\Reports\\20200526_104251\\Web RoomMe.id\\Customer Access Community Page\\20200526_104251"/>
+         <property name="logFiles" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme\\Reports\\20200526_104251\\Web RoomMe.id\\Customer Access Community Page\\20200526_104251\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Faldi - Alienware-X51"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.9.1"/>
+         <property name="browser" value="Chrome 83.0.4103.61"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="637eca374d19377391350083edbe3c0b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Web RoomMe.id/6. Community/1. Customer Access Community Page From Header" time="42.494" classname="Test Cases/Web RoomMe.id/6. Community/1. Customer Access Community Page From Header" status="PASSED">
+         <system-out><![CDATA[2020-05-26 10:42:58 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/6. Community/1. Customer Access Community Page From Header: Test Cases/Web RoomMe.id/6. Community/1. Customer Access Community Page From Header
+
+2020-05-26 10:42:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-26 10:42:59 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-26 10:42:59 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'web.roomme.id'
+
+2020-05-26 10:42:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 10:42:59 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-26 10:43:16 - [MESSAGE][PASSED] - Browser is opened with url: 'web.roomme.id'
+
+2020-05-26 10:43:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 10:43:18 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 10:43:18 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-26 10:43:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-26 10:43:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-26 10:43:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-26 10:43:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Community"), 30): Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Community' is visible
+
+2020-05-26 10:43:19 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Community' is visible
+
+2020-05-26 10:43:19 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Community")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Community' is clicked on
+
+2020-05-26 10:43:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Community' is clicked on
+
+2020-05-26 10:43:21 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-26 10:43:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-26 10:43:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-26 10:43:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/6. Community/5. Verify Welcome Video"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/6. Community/5. Verify Welcome Video' successfully
+
+2020-05-26 10:43:28 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/6. Community/5. Verify Welcome Video: Test Cases/Web RoomMe.id/6. Community/5. Verify Welcome Video
+
+2020-05-26 10:43:28 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/6. Community/1. Customer Access Community Page From Header"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/6. Community/1. Customer Access Community Page From Header"), [:], STOP_ON_FAILURE)
+
+2020-05-26 10:43:28 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/6. Community/1. Customer Access Community Page From Header"), [:], STOP_ON_FAILURE)
+
+2020-05-26 10:43:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Text JOIN OUR COMMUNITY"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Text JOIN OUR COMMUNITY' is visible
+
+2020-05-26 10:43:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-26 10:43:28 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Text JOIN OUR COMMUNITY' is visible
+
+2020-05-26 10:43:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Text And enjoy the benefits and features"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Text And enjoy the benefits and features' is visible
+
+2020-05-26 10:43:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-26 10:43:29 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Text And enjoy the benefits and features' is visible
+
+2020-05-26 10:43:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Video Events RoomMe"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Video Events RoomMe' is visible
+
+2020-05-26 10:43:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-26 10:43:29 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Video Events RoomMe' is visible
+
+2020-05-26 10:43:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is visible
+
+2020-05-26 10:43:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-26 10:43:29 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is visible
+
+2020-05-26 10:43:29 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-26 10:43:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-26 10:43:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/6. Community/5. Verify Welcome Video' successfully
+
+2020-05-26 10:43:34 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration")): Object: 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is clicked on
+
+2020-05-26 10:43:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is clicked on
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - clickOffset(findTestObject("Web RoomMe.id/Community Page/Community Registration/Text Community Registration"), 0, -50): Object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Text Community Registration' is clicked on using offset x=0 and y=-50
+
+2020-05-26 10:43:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Text Community Registration' is clicked on using offset x=0 and y=-50
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/6. Community/4. Verify Element on Community Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/6. Community/4. Verify Element on Community Page' successfully
+
+2020-05-26 10:43:35 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/6. Community/4. Verify Element on Community Page: Test Cases/Web RoomMe.id/6. Community/4. Verify Element on Community Page
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\Community Page\": null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:43:35 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:43:36 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:43:36 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:43:36 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:43:36 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:43:36 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\Community Page\Video Events' is visible
+
+2020-05-26 10:43:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Button Join Our Community' is visible
+
+2020-05-26 10:43:36 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Button Join Our Community' is visible
+
+2020-05-26 10:43:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Button See More Events' is visible
+
+2020-05-26 10:43:36 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Button See More Events' is visible
+
+2020-05-26 10:43:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Button See More Videos' is visible
+
+2020-05-26 10:43:37 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Button See More Videos' is visible
+
+2020-05-26 10:43:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Button See More' is visible
+
+2020-05-26 10:43:37 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Button See More' is visible
+
+2020-05-26 10:43:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Image Event' is visible
+
+2020-05-26 10:43:37 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Image Event' is visible
+
+2020-05-26 10:43:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text All Events' is visible
+
+2020-05-26 10:43:38 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text All Events' is visible
+
+2020-05-26 10:43:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Discover your pleasant' is visible
+
+2020-05-26 10:43:38 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Discover your pleasant' is visible
+
+2020-05-26 10:43:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text From inspiring  funny stories' is visible
+
+2020-05-26 10:43:38 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text From inspiring  funny stories' is visible
+
+2020-05-26 10:43:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Happening Events in Community' is visible
+
+2020-05-26 10:43:38 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Happening Events in Community' is visible
+
+2020-05-26 10:43:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Hey RoomMies Lets join our community' is visible
+
+2020-05-26 10:43:39 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Hey RoomMies Lets join our community' is visible
+
+2020-05-26 10:43:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Join the right communit' is visible
+
+2020-05-26 10:43:39 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Join the right communit' is visible
+
+2020-05-26 10:43:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Know Your Friends' is visible
+
+2020-05-26 10:43:39 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Know Your Friends' is visible
+
+2020-05-26 10:43:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Latest Events to Watch' is visible
+
+2020-05-26 10:43:40 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Latest Events to Watch' is visible
+
+2020-05-26 10:43:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text To know more about our activitie' is visible
+
+2020-05-26 10:43:40 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text To know more about our activitie' is visible
+
+2020-05-26 10:43:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Your hobbies will be more exciting' is visible
+
+2020-05-26 10:43:40 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Your hobbies will be more exciting' is visible
+
+2020-05-26 10:43:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Video Events' is visible
+
+2020-05-26 10:43:41 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Video Events' is visible
+
+2020-05-26 10:43:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/6. Community/4. Verify Element on Community Page' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/6. Community/2. Customer Access Community Page From Homepage Section" time="27.746" classname="Test Cases/Web RoomMe.id/6. Community/2. Customer Access Community Page From Homepage Section" status="PASSED">
+         <system-out><![CDATA[2020-05-26 10:43:41 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/6. Community/2. Customer Access Community Page From Homepage Section: Test Cases/Web RoomMe.id/6. Community/2. Customer Access Community Page From Homepage Section
+
+2020-05-26 10:43:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-26 10:43:41 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-26 10:43:41 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'web.roomme.id'
+
+2020-05-26 10:43:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-26 10:43:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 10:43:48 - [MESSAGE][PASSED] - Browser is opened with url: 'web.roomme.id'
+
+2020-05-26 10:43:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 10:43:50 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 10:43:50 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-26 10:43:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-26 10:43:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-26 10:43:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-26 10:43:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Explore Community"), 30): Object 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Explore Community' is visible
+
+2020-05-26 10:43:50 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Explore Community' is visible
+
+2020-05-26 10:43:50 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Explore Community")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Explore Community' is clicked on
+
+2020-05-26 10:43:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Explore Community' is clicked on
+
+2020-05-26 10:43:52 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-26 10:43:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-26 10:43:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-26 10:43:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/6. Community/5. Verify Welcome Video"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/6. Community/5. Verify Welcome Video' successfully
+
+2020-05-26 10:43:56 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/6. Community/5. Verify Welcome Video: Test Cases/Web RoomMe.id/6. Community/5. Verify Welcome Video
+
+2020-05-26 10:43:56 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/6. Community/1. Customer Access Community Page From Header"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/6. Community/1. Customer Access Community Page From Header"), [:], STOP_ON_FAILURE)
+
+2020-05-26 10:43:56 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/6. Community/1. Customer Access Community Page From Header"), [:], STOP_ON_FAILURE)
+
+2020-05-26 10:43:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Text JOIN OUR COMMUNITY"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Text JOIN OUR COMMUNITY' is visible
+
+2020-05-26 10:43:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-26 10:43:56 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Text JOIN OUR COMMUNITY' is visible
+
+2020-05-26 10:43:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Text And enjoy the benefits and features"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Text And enjoy the benefits and features' is visible
+
+2020-05-26 10:43:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-26 10:43:56 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Text And enjoy the benefits and features' is visible
+
+2020-05-26 10:43:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Video Events RoomMe"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Video Events RoomMe' is visible
+
+2020-05-26 10:43:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-26 10:43:57 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Video Events RoomMe' is visible
+
+2020-05-26 10:43:57 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is visible
+
+2020-05-26 10:43:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-26 10:43:57 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is visible
+
+2020-05-26 10:43:57 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-26 10:44:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-26 10:44:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/6. Community/5. Verify Welcome Video' successfully
+
+2020-05-26 10:44:02 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration")): Object: 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is clicked on
+
+2020-05-26 10:44:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is clicked on
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - clickOffset(findTestObject("Web RoomMe.id/Community Page/Community Registration/Text Community Registration"), 0, -50): Object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Text Community Registration' is clicked on using offset x=0 and y=-50
+
+2020-05-26 10:44:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Text Community Registration' is clicked on using offset x=0 and y=-50
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/6. Community/4. Verify Element on Community Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/6. Community/4. Verify Element on Community Page' successfully
+
+2020-05-26 10:44:03 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/6. Community/4. Verify Element on Community Page: Test Cases/Web RoomMe.id/6. Community/4. Verify Element on Community Page
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\Community Page\": null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\Community Page\Video Events' is visible
+
+2020-05-26 10:44:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Button Join Our Community' is visible
+
+2020-05-26 10:44:04 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Button Join Our Community' is visible
+
+2020-05-26 10:44:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Button See More Events' is visible
+
+2020-05-26 10:44:04 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Button See More Events' is visible
+
+2020-05-26 10:44:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Button See More Videos' is visible
+
+2020-05-26 10:44:04 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Button See More Videos' is visible
+
+2020-05-26 10:44:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Button See More' is visible
+
+2020-05-26 10:44:05 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Button See More' is visible
+
+2020-05-26 10:44:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Image Event' is visible
+
+2020-05-26 10:44:05 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Image Event' is visible
+
+2020-05-26 10:44:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text All Events' is visible
+
+2020-05-26 10:44:05 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text All Events' is visible
+
+2020-05-26 10:44:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Discover your pleasant' is visible
+
+2020-05-26 10:44:06 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Discover your pleasant' is visible
+
+2020-05-26 10:44:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text From inspiring  funny stories' is visible
+
+2020-05-26 10:44:06 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text From inspiring  funny stories' is visible
+
+2020-05-26 10:44:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Happening Events in Community' is visible
+
+2020-05-26 10:44:06 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Happening Events in Community' is visible
+
+2020-05-26 10:44:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Hey RoomMies Lets join our community' is visible
+
+2020-05-26 10:44:07 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Hey RoomMies Lets join our community' is visible
+
+2020-05-26 10:44:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Join the right communit' is visible
+
+2020-05-26 10:44:07 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Join the right communit' is visible
+
+2020-05-26 10:44:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Know Your Friends' is visible
+
+2020-05-26 10:44:07 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Know Your Friends' is visible
+
+2020-05-26 10:44:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Latest Events to Watch' is visible
+
+2020-05-26 10:44:07 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Latest Events to Watch' is visible
+
+2020-05-26 10:44:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text To know more about our activitie' is visible
+
+2020-05-26 10:44:08 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text To know more about our activitie' is visible
+
+2020-05-26 10:44:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Your hobbies will be more exciting' is visible
+
+2020-05-26 10:44:08 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Your hobbies will be more exciting' is visible
+
+2020-05-26 10:44:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Video Events' is visible
+
+2020-05-26 10:44:08 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Video Events' is visible
+
+2020-05-26 10:44:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/6. Community/4. Verify Element on Community Page' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/6. Community/3. Verify All Link in Community Page" time="36.366" classname="Test Cases/Web RoomMe.id/6. Community/3. Verify All Link in Community Page" status="PASSED">
+         <system-out><![CDATA[2020-05-26 10:44:08 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/6. Community/3. Verify All Link in Community Page: Test Cases/Web RoomMe.id/6. Community/3. Verify All Link in Community Page
+
+2020-05-26 10:44:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/6. Community/1. Customer Access Community Page From Header"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/6. Community/1. Customer Access Community Page From Header' successfully
+
+2020-05-26 10:44:09 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/6. Community/1. Customer Access Community Page From Header: Test Cases/Web RoomMe.id/6. Community/1. Customer Access Community Page From Header
+
+2020-05-26 10:44:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-26 10:44:09 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-26 10:44:09 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'web.roomme.id'
+
+2020-05-26 10:44:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-26 10:44:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 10:44:16 - [MESSAGE][PASSED] - Browser is opened with url: 'web.roomme.id'
+
+2020-05-26 10:44:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 10:44:18 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 10:44:18 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-26 10:44:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-26 10:44:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-26 10:44:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-26 10:44:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Community"), 30): Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Community' is visible
+
+2020-05-26 10:44:19 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Community' is visible
+
+2020-05-26 10:44:19 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Community")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Community' is clicked on
+
+2020-05-26 10:44:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Community' is clicked on
+
+2020-05-26 10:44:21 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-26 10:44:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-26 10:44:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-26 10:44:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/6. Community/5. Verify Welcome Video"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/6. Community/5. Verify Welcome Video' successfully
+
+2020-05-26 10:44:23 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/6. Community/5. Verify Welcome Video: Test Cases/Web RoomMe.id/6. Community/5. Verify Welcome Video
+
+2020-05-26 10:44:23 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/6. Community/1. Customer Access Community Page From Header"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/6. Community/1. Customer Access Community Page From Header"), [:], STOP_ON_FAILURE)
+
+2020-05-26 10:44:23 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/6. Community/1. Customer Access Community Page From Header"), [:], STOP_ON_FAILURE)
+
+2020-05-26 10:44:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Text JOIN OUR COMMUNITY"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Text JOIN OUR COMMUNITY' is visible
+
+2020-05-26 10:44:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-26 10:44:24 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Text JOIN OUR COMMUNITY' is visible
+
+2020-05-26 10:44:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Text And enjoy the benefits and features"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Text And enjoy the benefits and features' is visible
+
+2020-05-26 10:44:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-26 10:44:24 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Text And enjoy the benefits and features' is visible
+
+2020-05-26 10:44:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Video Events RoomMe"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Video Events RoomMe' is visible
+
+2020-05-26 10:44:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-26 10:44:24 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Video Events RoomMe' is visible
+
+2020-05-26 10:44:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is visible
+
+2020-05-26 10:44:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-26 10:44:24 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is visible
+
+2020-05-26 10:44:24 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-26 10:44:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-26 10:44:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/6. Community/5. Verify Welcome Video' successfully
+
+2020-05-26 10:44:30 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration")): Object: 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is clicked on
+
+2020-05-26 10:44:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is clicked on
+
+2020-05-26 10:44:30 - [TEST_STEP][PASSED] - clickOffset(findTestObject("Web RoomMe.id/Community Page/Community Registration/Text Community Registration"), 0, -50): Object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Text Community Registration' is clicked on using offset x=0 and y=-50
+
+2020-05-26 10:44:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Text Community Registration' is clicked on using offset x=0 and y=-50
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/6. Community/4. Verify Element on Community Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/6. Community/4. Verify Element on Community Page' successfully
+
+2020-05-26 10:44:31 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/6. Community/4. Verify Element on Community Page: Test Cases/Web RoomMe.id/6. Community/4. Verify Element on Community Page
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\Community Page\": null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\Community Page\Video Events' is visible
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Button Join Our Community' is visible
+
+2020-05-26 10:44:31 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Button Join Our Community' is visible
+
+2020-05-26 10:44:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Button See More Events' is visible
+
+2020-05-26 10:44:32 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Button See More Events' is visible
+
+2020-05-26 10:44:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Button See More Videos' is visible
+
+2020-05-26 10:44:32 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Button See More Videos' is visible
+
+2020-05-26 10:44:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Button See More' is visible
+
+2020-05-26 10:44:32 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Button See More' is visible
+
+2020-05-26 10:44:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Image Event' is visible
+
+2020-05-26 10:44:32 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Image Event' is visible
+
+2020-05-26 10:44:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text All Events' is visible
+
+2020-05-26 10:44:33 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text All Events' is visible
+
+2020-05-26 10:44:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Discover your pleasant' is visible
+
+2020-05-26 10:44:33 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Discover your pleasant' is visible
+
+2020-05-26 10:44:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text From inspiring  funny stories' is visible
+
+2020-05-26 10:44:33 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text From inspiring  funny stories' is visible
+
+2020-05-26 10:44:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Happening Events in Community' is visible
+
+2020-05-26 10:44:34 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Happening Events in Community' is visible
+
+2020-05-26 10:44:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Hey RoomMies Lets join our community' is visible
+
+2020-05-26 10:44:34 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Hey RoomMies Lets join our community' is visible
+
+2020-05-26 10:44:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Join the right communit' is visible
+
+2020-05-26 10:44:34 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Join the right communit' is visible
+
+2020-05-26 10:44:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Know Your Friends' is visible
+
+2020-05-26 10:44:35 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Know Your Friends' is visible
+
+2020-05-26 10:44:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Latest Events to Watch' is visible
+
+2020-05-26 10:44:35 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Latest Events to Watch' is visible
+
+2020-05-26 10:44:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text To know more about our activitie' is visible
+
+2020-05-26 10:44:35 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text To know more about our activitie' is visible
+
+2020-05-26 10:44:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Your hobbies will be more exciting' is visible
+
+2020-05-26 10:44:35 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Your hobbies will be more exciting' is visible
+
+2020-05-26 10:44:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Video Events' is visible
+
+2020-05-26 10:44:36 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Video Events' is visible
+
+2020-05-26 10:44:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/6. Community/4. Verify Element on Community Page' successfully
+
+2020-05-26 10:44:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/6. Community/1. Customer Access Community Page From Header' successfully
+
+2020-05-26 10:44:36 - [TEST_STEP][PASSED] - verifyAllLinksOnCurrentPageAccessible(false, []): All links on the page 'https://web.roomme.id/community' are accessible
+
+2020-05-26 10:44:38 - [MESSAGE][PASSED] - Found 50 unique links on the page https://web.roomme.id/community
+
+2020-05-26 10:44:39 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\0.har
+
+2020-05-26 10:44:39 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:39 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\1.har
+
+2020-05-26 10:44:39 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:39 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\2.har
+
+2020-05-26 10:44:39 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:39 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\3.har
+
+2020-05-26 10:44:39 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:39 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\4.har
+
+2020-05-26 10:44:39 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:39 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\5.har
+
+2020-05-26 10:44:39 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:39 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\6.har
+
+2020-05-26 10:44:40 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:40 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\7.har
+
+2020-05-26 10:44:40 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:40 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\8.har
+
+2020-05-26 10:44:40 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:40 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\9.har
+
+2020-05-26 10:44:40 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:40 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\10.har
+
+2020-05-26 10:44:40 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:40 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\11.har
+
+2020-05-26 10:44:40 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:40 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\12.har
+
+2020-05-26 10:44:40 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:40 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\13.har
+
+2020-05-26 10:44:40 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:40 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\14.har
+
+2020-05-26 10:44:40 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:40 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\15.har
+
+2020-05-26 10:44:40 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:40 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\16.har
+
+2020-05-26 10:44:40 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:41 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\17.har
+
+2020-05-26 10:44:41 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:41 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\18.har
+
+2020-05-26 10:44:41 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:41 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\19.har
+
+2020-05-26 10:44:41 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:41 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\20.har
+
+2020-05-26 10:44:41 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:41 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\21.har
+
+2020-05-26 10:44:41 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:41 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\22.har
+
+2020-05-26 10:44:41 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:41 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\23.har
+
+2020-05-26 10:44:41 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:41 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\24.har
+
+2020-05-26 10:44:41 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:41 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\25.har
+
+2020-05-26 10:44:41 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:41 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\26.har
+
+2020-05-26 10:44:41 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:41 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\27.har
+
+2020-05-26 10:44:41 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:42 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\28.har
+
+2020-05-26 10:44:42 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:42 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\29.har
+
+2020-05-26 10:44:42 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:42 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\30.har
+
+2020-05-26 10:44:42 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:42 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\31.har
+
+2020-05-26 10:44:42 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:42 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\32.har
+
+2020-05-26 10:44:42 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:42 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\33.har
+
+2020-05-26 10:44:42 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:42 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\34.har
+
+2020-05-26 10:44:42 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:43 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\35.har
+
+2020-05-26 10:44:43 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:43 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\36.har
+
+2020-05-26 10:44:43 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:43 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\37.har
+
+2020-05-26 10:44:43 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:43 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\38.har
+
+2020-05-26 10:44:43 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:43 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\39.har
+
+2020-05-26 10:44:43 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:44 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\40.har
+
+2020-05-26 10:44:44 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:44 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\41.har
+
+2020-05-26 10:44:44 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:44 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\42.har
+
+2020-05-26 10:44:44 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:44 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\43.har
+
+2020-05-26 10:44:44 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:44 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\44.har
+
+2020-05-26 10:44:44 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:45 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\45.har
+
+2020-05-26 10:44:45 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:45 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\46.har
+
+2020-05-26 10:44:45 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:45 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\47.har
+
+2020-05-26 10:44:45 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:45 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\48.har
+
+2020-05-26 10:44:45 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:45 - [MESSAGE][INFO] - HAR: C:\Users\Faldi\Katalon Studio\katalonroomme\Reports\20200526_104251\Web RoomMe.id\Customer Access Community Page\20200526_104251\requests\main\49.har
+
+2020-05-26 10:44:45 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-26 10:44:45 - [MESSAGE][PASSED] - All links are accessible
+
+2020-05-26 10:44:45 - [MESSAGE][PASSED] - All links on the page 'https://web.roomme.id/community' are accessible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/6. Community/6. Register Community From Community Page Section" time="34.988" classname="Test Cases/Web RoomMe.id/6. Community/6. Register Community From Community Page Section" status="PASSED">
+         <system-out><![CDATA[2020-05-26 10:44:45 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/6. Community/6. Register Community From Community Page Section: Test Cases/Web RoomMe.id/6. Community/6. Register Community From Community Page Section
+
+2020-05-26 10:44:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/6. Community/1. Customer Access Community Page From Header"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/6. Community/1. Customer Access Community Page From Header' successfully
+
+2020-05-26 10:44:45 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/6. Community/1. Customer Access Community Page From Header: Test Cases/Web RoomMe.id/6. Community/1. Customer Access Community Page From Header
+
+2020-05-26 10:44:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-26 10:44:45 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-26 10:44:45 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'web.roomme.id'
+
+2020-05-26 10:44:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-26 10:44:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-26 10:44:53 - [MESSAGE][PASSED] - Browser is opened with url: 'web.roomme.id'
+
+2020-05-26 10:44:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-26 10:44:55 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-26 10:44:55 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-26 10:44:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-26 10:44:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-26 10:44:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-26 10:44:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Community"), 30): Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Community' is visible
+
+2020-05-26 10:44:56 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Community' is visible
+
+2020-05-26 10:44:56 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Community")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Community' is clicked on
+
+2020-05-26 10:44:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Community' is clicked on
+
+2020-05-26 10:44:57 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-26 10:44:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-26 10:44:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-26 10:44:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/6. Community/5. Verify Welcome Video"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/6. Community/5. Verify Welcome Video' successfully
+
+2020-05-26 10:44:57 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/6. Community/5. Verify Welcome Video: Test Cases/Web RoomMe.id/6. Community/5. Verify Welcome Video
+
+2020-05-26 10:44:57 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/6. Community/1. Customer Access Community Page From Header"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/6. Community/1. Customer Access Community Page From Header"), [:], STOP_ON_FAILURE)
+
+2020-05-26 10:44:57 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/6. Community/1. Customer Access Community Page From Header"), [:], STOP_ON_FAILURE)
+
+2020-05-26 10:44:57 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Text JOIN OUR COMMUNITY"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Text JOIN OUR COMMUNITY' is visible
+
+2020-05-26 10:44:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-26 10:44:58 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Text JOIN OUR COMMUNITY' is visible
+
+2020-05-26 10:44:58 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Text And enjoy the benefits and features"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Text And enjoy the benefits and features' is visible
+
+2020-05-26 10:44:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-26 10:44:59 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Text And enjoy the benefits and features' is visible
+
+2020-05-26 10:44:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Video Events RoomMe"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Video Events RoomMe' is visible
+
+2020-05-26 10:44:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-26 10:44:59 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Video Events RoomMe' is visible
+
+2020-05-26 10:44:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is visible
+
+2020-05-26 10:44:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-26 10:44:59 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is visible
+
+2020-05-26 10:44:59 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-26 10:45:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-26 10:45:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/6. Community/5. Verify Welcome Video' successfully
+
+2020-05-26 10:45:04 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration")): Object: 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is clicked on
+
+2020-05-26 10:45:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Community Page/Welcome Video/Button Continue on the Form Registration' is clicked on
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - clickOffset(findTestObject("Web RoomMe.id/Community Page/Community Registration/Text Community Registration"), 0, -50): Object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Text Community Registration' is clicked on using offset x=0 and y=-50
+
+2020-05-26 10:45:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Text Community Registration' is clicked on using offset x=0 and y=-50
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/6. Community/4. Verify Element on Community Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/6. Community/4. Verify Element on Community Page' successfully
+
+2020-05-26 10:45:05 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/6. Community/4. Verify Element on Community Page: Test Cases/Web RoomMe.id/6. Community/4. Verify Element on Community Page
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\Community Page\": null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:45:05 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:45:06 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:45:06 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:45:06 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:45:06 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:45:06 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:45:06 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:45:06 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:45:06 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:45:06 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:45:06 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:45:06 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:45:06 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-26 10:45:06 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-26 10:45:06 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-26 10:45:06 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\Community Page\Video Events' is visible
+
+2020-05-26 10:45:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Button Join Our Community' is visible
+
+2020-05-26 10:45:06 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Button Join Our Community' is visible
+
+2020-05-26 10:45:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Button See More Events' is visible
+
+2020-05-26 10:45:06 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Button See More Events' is visible
+
+2020-05-26 10:45:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Button See More Videos' is visible
+
+2020-05-26 10:45:07 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Button See More Videos' is visible
+
+2020-05-26 10:45:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Button See More' is visible
+
+2020-05-26 10:45:07 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Button See More' is visible
+
+2020-05-26 10:45:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Image Event' is visible
+
+2020-05-26 10:45:07 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Image Event' is visible
+
+2020-05-26 10:45:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text All Events' is visible
+
+2020-05-26 10:45:08 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text All Events' is visible
+
+2020-05-26 10:45:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Discover your pleasant' is visible
+
+2020-05-26 10:45:08 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Discover your pleasant' is visible
+
+2020-05-26 10:45:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text From inspiring  funny stories' is visible
+
+2020-05-26 10:45:08 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text From inspiring  funny stories' is visible
+
+2020-05-26 10:45:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Happening Events in Community' is visible
+
+2020-05-26 10:45:09 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Happening Events in Community' is visible
+
+2020-05-26 10:45:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Hey RoomMies Lets join our community' is visible
+
+2020-05-26 10:45:09 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Hey RoomMies Lets join our community' is visible
+
+2020-05-26 10:45:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Join the right communit' is visible
+
+2020-05-26 10:45:09 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Join the right communit' is visible
+
+2020-05-26 10:45:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Know Your Friends' is visible
+
+2020-05-26 10:45:09 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Know Your Friends' is visible
+
+2020-05-26 10:45:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Latest Events to Watch' is visible
+
+2020-05-26 10:45:10 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Latest Events to Watch' is visible
+
+2020-05-26 10:45:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text To know more about our activitie' is visible
+
+2020-05-26 10:45:10 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text To know more about our activitie' is visible
+
+2020-05-26 10:45:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Text Your hobbies will be more exciting' is visible
+
+2020-05-26 10:45:10 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Text Your hobbies will be more exciting' is visible
+
+2020-05-26 10:45:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Community Page\Video Events' is visible
+
+2020-05-26 10:45:11 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Community Page\Video Events' is visible
+
+2020-05-26 10:45:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/6. Community/4. Verify Element on Community Page' successfully
+
+2020-05-26 10:45:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/6. Community/1. Customer Access Community Page From Header' successfully
+
+2020-05-26 10:45:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Button Join Our Community"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Button Join Our Community' is visible
+
+2020-05-26 10:45:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-26 10:45:11 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Button Join Our Community' is visible
+
+2020-05-26 10:45:11 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Community Page/Button Join Our Community")): Object: 'Object Repository/Web RoomMe.id/Community Page/Button Join Our Community' is clicked on
+
+2020-05-26 10:45:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Community Page/Button Join Our Community' is clicked on
+
+2020-05-26 10:45:11 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/20. Community Registration/1. Verify Registration Form"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/20. Community Registration/1. Verify Registration Form"), [:], STOP_ON_FAILURE)
+
+2020-05-26 10:45:11 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/20. Community Registration/1. Verify Registration Form"), [:], STOP_ON_FAILURE)
+
+2020-05-26 10:45:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Community Registration/Textfield Full Name"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Textfield Full Name' is visible
+
+2020-05-26 10:45:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-26 10:45:12 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Textfield Full Name' is visible
+
+2020-05-26 10:45:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Community Page/Community Registration/Textfield Full Name"), "Faldi AT"): Keys 'Faldi AT' sent to object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Textfield Full Name'
+
+2020-05-26 10:45:12 - [MESSAGE][PASSED] - Keys 'Faldi AT' sent to object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Textfield Full Name'
+
+2020-05-26 10:45:12 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Community Page/Community Registration/RadioButton Male")): Object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/RadioButton Male' is clicked on
+
+2020-05-26 10:45:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/RadioButton Male' is clicked on
+
+2020-05-26 10:45:13 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Community Page/Community Registration/Birthdate Datepicker/Datepicker Birthdate_date (1)")): Object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Birthdate Datepicker/Datepicker Birthdate_date (1)' is clicked on
+
+2020-05-26 10:45:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Birthdate Datepicker/Datepicker Birthdate_date (1)' is clicked on
+
+2020-05-26 10:45:13 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Community Page/Community Registration/Birthdate Datepicker/Button Day 1")): Object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Birthdate Datepicker/Button Day 1' is clicked on
+
+2020-05-26 10:45:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Birthdate Datepicker/Button Day 1' is clicked on
+
+2020-05-26 10:45:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Community Page/Community Registration/Textfield Mobile Number"), "081234567890"): Keys '081234567890' sent to object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Textfield Mobile Number'
+
+2020-05-26 10:45:15 - [MESSAGE][PASSED] - Keys '081234567890' sent to object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Textfield Mobile Number'
+
+2020-05-26 10:45:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Community Page/Community Registration/Textfield Email Address"), "faldiat" + RandomStringUtils.randomNumeric(5)): Keys 'faldiat37685' sent to object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Textfield Email Address'
+
+2020-05-26 10:45:16 - [MESSAGE][PASSED] - Keys 'faldiat37685' sent to object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Textfield Email Address'
+
+2020-05-26 10:45:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Community Page/Community Registration/Textfield Email Address"), "@gmail.com"): Keys '@gmail.com' sent to object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Textfield Email Address'
+
+2020-05-26 10:45:16 - [MESSAGE][PASSED] - Keys '@gmail.com' sent to object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Textfield Email Address'
+
+2020-05-26 10:45:16 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Web RoomMe.id/Community Page/Community Registration/Dropdown Interest"), "4"): All options with index in [4] are selected on object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Dropdown Interest'
+
+2020-05-26 10:45:17 - [MESSAGE][PASSED] - All options with index in [4] are selected on object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Dropdown Interest'
+
+2020-05-26 10:45:17 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Community Page/Community Registration/Button Submit")): Object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Button Submit' is clicked on
+
+2020-05-26 10:45:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Button Submit' is clicked on
+
+2020-05-26 10:45:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Community Registration/Success Message/Button Close"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Success Message/Button Close' is visible
+
+2020-05-26 10:45:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-26 10:45:19 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Success Message/Button Close' is visible
+
+2020-05-26 10:45:19 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Community Registration/Success Message/Image Success"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Success Message/Image Success' is visible
+
+2020-05-26 10:45:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-26 10:45:19 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Success Message/Image Success' is visible
+
+2020-05-26 10:45:19 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Community Registration/Success Message/Text Well done Welcome to our community and we will contact you through email"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Success Message/Text Well done Welcome to our community and we will contact you through email' is visible
+
+2020-05-26 10:45:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-26 10:45:19 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Success Message/Text Well done Welcome to our community and we will contact you through email' is visible
+
+2020-05-26 10:45:19 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Community Page/Community Registration/Success Message/Text Community Registration Successfull"), 0): Object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Success Message/Text Community Registration Successfull' is visible
+
+2020-05-26 10:45:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-26 10:45:20 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Community Page/Community Registration/Success Message/Text Community Registration Successfull' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-26 10:42:58 - [TEST_SUITE][PASSED] - Customer Access Community Page: Test Cases/Web RoomMe.id/6. Community/6. Register Community From Community Page Section]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

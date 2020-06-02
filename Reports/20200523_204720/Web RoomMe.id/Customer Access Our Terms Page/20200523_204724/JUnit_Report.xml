@@ -1,0 +1,1337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Customer Access Our Terms Page" time="191.867" tests="6" failures="1" errors="5">
+   <testsuite name="Customer Access Our Terms Page" tests="6" failures="1" errors="5" time="191.867" timestamp="2020-05-23 20:52:17" hostname="Faldi - Alienware-X51" id="Test Suites/Web RoomMe.id/Customer Access Our Terms Page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme\\Reports\\20200523_204720\\Web RoomMe.id\\Customer Access Our Terms Page\\20200523_204724"/>
+         <property name="logFiles" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme\\Reports\\20200523_204720\\Web RoomMe.id\\Customer Access Our Terms Page\\20200523_204724\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme\\Reports\\20200523_204720\\Web RoomMe.id\\Customer Access Our Terms Page\\20200523_204724\\1590242063715.png, C:\\Users\\Faldi\\Katalon Studio\\katalonroomme\\Reports\\20200523_204720\\Web RoomMe.id\\Customer Access Our Terms Page\\20200523_204724\\1590242064141.png"/>
+         <property name="hostName" value="Faldi - Alienware-X51"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.9.1"/>
+         <property name="browser" value="Chrome 83.0.4103.61"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="c164f7f3e28d4b16ed38b92551ac4ec6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Web RoomMe.id/4. Our Terms/Customer Access FAQ (Booking) Page" time="24.784" classname="Test Cases/Web RoomMe.id/4. Our Terms/Customer Access FAQ (Booking) Page" status="ERROR">
+         <error type="ERROR" message="Test Cases/Web RoomMe.id/4. Our Terms/Customer Access FAQ (Booking) Page FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/RoomMe.id Text Data/RoomMe.id FAQ Text Data' because (of) 'java.io.FileNotFoundException: C:\Users\Faldi\Katalon Studio\katalonroomme-master\RoomMe Text Document\Data Raw Text.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Customer Access FAQ (Booking) Page.run(Customer Access FAQ (Booking) Page:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241644374.run(TempTestSuite1590241644374.groovy:36)
+"/>
+         <system-out><![CDATA[2020-05-23 20:52:18 - [TEST_CASE][ERROR] - Test Cases/Web RoomMe.id/4. Our Terms/Customer Access FAQ (Booking) Page: Test Cases/Web RoomMe.id/4. Our Terms/Customer Access FAQ (Booking) Page FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/RoomMe.id Text Data/RoomMe.id FAQ Text Data' because (of) 'java.io.FileNotFoundException: C:\Users\Faldi\Katalon Studio\katalonroomme-master\RoomMe Text Document\Data Raw Text.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Customer Access FAQ (Booking) Page.run(Customer Access FAQ (Booking) Page:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241644374.run(TempTestSuite1590241644374.groovy:36)
+
+
+2020-05-23 20:52:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-23 20:52:18 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-23 20:52:19 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'web.roomme.id'
+
+2020-05-23 20:52:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-23 20:52:19 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-23 20:52:30 - [MESSAGE][PASSED] - Browser is opened with url: 'web.roomme.id'
+
+2020-05-23 20:52:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-23 20:52:32 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-23 20:52:32 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-23 20:52:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-23 20:52:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-23 20:52:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-23 20:52:33 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Footer/Button FAQ")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button FAQ' is clicked on
+
+2020-05-23 20:52:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button FAQ' is clicked on
+
+2020-05-23 20:52:35 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-23 20:52:35 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-23 20:52:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs' is visible
+
+2020-05-23 20:52:35 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs' is visible
+
+2020-05-23 20:52:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions' is visible
+
+2020-05-23 20:52:36 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions' is visible
+
+2020-05-23 20:52:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use' is visible
+
+2020-05-23 20:52:36 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use' is visible
+
+2020-05-23 20:52:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer' is visible
+
+2020-05-23 20:52:37 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer' is visible
+
+2020-05-23 20:52:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy' is visible
+
+2020-05-23 20:52:37 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy' is visible
+
+2020-05-23 20:52:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Booking"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Booking' is visible
+
+2020-05-23 20:52:38 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Booking' is visible
+
+2020-05-23 20:52:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Payment"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Payment' is visible
+
+2020-05-23 20:52:38 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Payment' is visible
+
+2020-05-23 20:52:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q1"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q1' is visible
+
+2020-05-23 20:52:38 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q1' is visible
+
+2020-05-23 20:52:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q1"), "Can I make a room booking at kost RoomMe ?"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q1' are matched.
+
+2020-05-23 20:52:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q1' are matched.
+
+2020-05-23 20:52:39 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Text A1"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A1' is visible
+
+2020-05-23 20:52:39 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A1' is visible
+
+2020-05-23 20:52:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Text A1"), "Yes, you can browse through ourlisting for available rooms."): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A1' are matched.
+
+2020-05-23 20:52:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A1' are matched.
+
+2020-05-23 20:52:39 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q2"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q2' is visible
+
+2020-05-23 20:52:40 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q2' is visible
+
+2020-05-23 20:52:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q2"), "Can I survey the place prior to making payments ?"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q2' are matched.
+
+2020-05-23 20:52:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q2' are matched.
+
+2020-05-23 20:52:40 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q2")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q2' is clicked on
+
+2020-05-23 20:52:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q2' is clicked on
+
+2020-05-23 20:52:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Text A2"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A2' is visible
+
+2020-05-23 20:52:41 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A2' is visible
+
+2020-05-23 20:52:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Text A2"), "Yes you may and we encourage you to do so! Our survey sessions are held every Monday-Sunday, from 8AM-10PM"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A2' are matched.
+
+2020-05-23 20:52:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A2' are matched.
+
+2020-05-23 20:52:41 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q3"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q3' is visible
+
+2020-05-23 20:52:42 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q3' is visible
+
+2020-05-23 20:52:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q3"), "What consist of the standard facilities provided by RoomMe ?"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q3' are matched.
+
+2020-05-23 20:52:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q3' are matched.
+
+2020-05-23 20:52:42 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Q3")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q3' is clicked on
+
+2020-05-23 20:52:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Q3' is clicked on
+
+2020-05-23 20:52:42 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Text A3"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A3' is visible
+
+2020-05-23 20:52:42 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Text A3' is visible
+
+2020-05-23 20:52:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Text A3"), id FAQ Text Data").getValue(1, 1)): null]]></system-out>
+         <system-err><![CDATA[2020-05-23 20:52:18 - [TEST_CASE][ERROR] - Test Cases/Web RoomMe.id/4. Our Terms/Customer Access FAQ (Booking) Page: Test Cases/Web RoomMe.id/4. Our Terms/Customer Access FAQ (Booking) Page FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/RoomMe.id Text Data/RoomMe.id FAQ Text Data' because (of) 'java.io.FileNotFoundException: C:\Users\Faldi\Katalon Studio\katalonroomme-master\RoomMe Text Document\Data Raw Text.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Customer Access FAQ (Booking) Page.run(Customer Access FAQ (Booking) Page:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241644374.run(TempTestSuite1590241644374.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/4. Our Terms/Customer Access FAQ (Payment) Page" time="101.492" classname="Test Cases/Web RoomMe.id/4. Our Terms/Customer Access FAQ (Payment) Page" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Web RoomMe.id/4. Our Terms/Customer Access FAQ (Payment) Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Customer Access FAQ (Payment) Page.run(Customer Access FAQ (Payment) Page:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241644374.run(TempTestSuite1590241644374.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button User Menu' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at 2. Verify Header RoomMe.id.run(2. Verify Header RoomMe.id:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button User Menu' located by 'By.xpath: //a[@id='dropdown-profile']/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+"/>
+         <system-out><![CDATA[2020-05-23 20:52:43 - [TEST_CASE][FAILED] - Test Cases/Web RoomMe.id/4. Our Terms/Customer Access FAQ (Payment) Page: Test Cases/Web RoomMe.id/4. Our Terms/Customer Access FAQ (Payment) Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Customer Access FAQ (Payment) Page.run(Customer Access FAQ (Payment) Page:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241644374.run(TempTestSuite1590241644374.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button User Menu' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at 2. Verify Header RoomMe.id.run(2. Verify Header RoomMe.id:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button User Menu' located by 'By.xpath: //a[@id='dropdown-profile']/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+
+
+2020-05-23 20:52:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-23 20:52:43 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-23 20:52:43 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'web.roomme.id'
+
+2020-05-23 20:52:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-23 20:52:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-23 20:52:49 - [MESSAGE][PASSED] - Browser is opened with url: 'web.roomme.id'
+
+2020-05-23 20:52:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-23 20:52:51 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-23 20:52:51 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-23 20:52:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-23 20:52:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-23 20:52:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-23 20:52:52 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-23 20:52:52 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-23 20:52:52 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Footer/Button FAQ")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button FAQ' is clicked on
+
+2020-05-23 20:52:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button FAQ' is clicked on
+
+2020-05-23 20:52:53 - [TEST_STEP][FAILED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): Unable to call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Customer Access FAQ (Payment) Page.run(Customer Access FAQ (Payment) Page:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241644374.run(TempTestSuite1590241644374.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button User Menu' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at 2. Verify Header RoomMe.id.run(2. Verify Header RoomMe.id:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button User Menu' located by 'By.xpath: //a[@id='dropdown-profile']/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+
+2020-05-23 20:52:53 - [TEST_CASE][FAILED] - Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id: Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button User Menu' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at 2. Verify Header RoomMe.id.run(2. Verify Header RoomMe.id:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Customer Access FAQ (Payment) Page.run(Customer Access FAQ (Payment) Page:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241644374.run(TempTestSuite1590241644374.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button User Menu' located by 'By.xpath: //a[@id='dropdown-profile']/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+
+
+2020-05-23 20:52:53 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\RoomMe.id Header\": null
+
+2020-05-23 20:52:53 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-05-23 20:52:53 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-05-23 20:52:53 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-05-23 20:52:53 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-05-23 20:52:53 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-05-23 20:52:53 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-23 20:52:53 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-23 20:52:53 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-23 20:52:53 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-23 20:52:53 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-23 20:52:53 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-23 20:52:53 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-23 20:52:53 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-23 20:52:53 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-23 20:52:53 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-23 20:52:53 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-23 20:52:53 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-23 20:52:53 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-23 20:52:53 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-23 20:52:53 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-05-23 20:52:53 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-05-23 20:52:53 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-05-23 20:52:53 - [TEST_STEP][FAILED] - for (String obj : testObjects): Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button User Menu' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button User Menu' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at 2. Verify Header RoomMe.id.run(2. Verify Header RoomMe.id:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Customer Access FAQ (Payment) Page.run(Customer Access FAQ (Payment) Page:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241644374.run(TempTestSuite1590241644374.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button User Menu' located by 'By.xpath: //a[@id='dropdown-profile']/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+
+2020-05-23 20:52:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Are You Landlord' is visible
+
+2020-05-23 20:52:54 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Are You Landlord' is visible
+
+2020-05-23 20:52:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Community' is visible
+
+2020-05-23 20:52:54 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Community' is visible
+
+2020-05-23 20:52:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Sign In' is visible
+
+2020-05-23 20:52:55 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Sign In' is visible
+
+2020-05-23 20:52:55 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject(obj)): Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button User Menu' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button User Menu' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at 2. Verify Header RoomMe.id.run(2. Verify Header RoomMe.id:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Customer Access FAQ (Payment) Page.run(Customer Access FAQ (Payment) Page:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241644374.run(TempTestSuite1590241644374.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button User Menu' located by 'By.xpath: //a[@id='dropdown-profile']/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+
+2020-05-23 20:54:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='dropdown-profile']/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-05-23 20:54:24 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button User Menu' located by 'By.xpath: //a[@id='dropdown-profile']/span' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button User Menu' located by 'By.xpath: //a[@id='dropdown-profile']/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at 2. Verify Header RoomMe.id.run(2. Verify Header RoomMe.id:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Customer Access FAQ (Payment) Page.run(Customer Access FAQ (Payment) Page:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241644374.run(TempTestSuite1590241644374.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\Faldi\\Katalon Studio\\katalonroomme\\Reports\\20200523_204720\\Web RoomMe.id\\Customer Access Our Terms Page\\20200523_204724\\1590242063715.png]]
+
+2020-05-23 20:54:24 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button User Menu' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button User Menu' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at 2. Verify Header RoomMe.id.run(2. Verify Header RoomMe.id:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Customer Access FAQ (Payment) Page.run(Customer Access FAQ (Payment) Page:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241644374.run(TempTestSuite1590241644374.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button User Menu' located by 'By.xpath: //a[@id='dropdown-profile']/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+[[ATTACHMENT|C:\\Users\\Faldi\\Katalon Studio\\katalonroomme\\Reports\\20200523_204720\\Web RoomMe.id\\Customer Access Our Terms Page\\20200523_204724\\1590242064141.png]]
+
+2020-05-23 20:54:24 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Customer Access FAQ (Payment) Page.run(Customer Access FAQ (Payment) Page:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241644374.run(TempTestSuite1590241644374.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button User Menu' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at 2. Verify Header RoomMe.id.run(2. Verify Header RoomMe.id:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button User Menu' located by 'By.xpath: //a[@id='dropdown-profile']/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)]]></system-out>
+         <system-err><![CDATA[2020-05-23 20:52:43 - [TEST_CASE][FAILED] - Test Cases/Web RoomMe.id/4. Our Terms/Customer Access FAQ (Payment) Page: Test Cases/Web RoomMe.id/4. Our Terms/Customer Access FAQ (Payment) Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Customer Access FAQ (Payment) Page.run(Customer Access FAQ (Payment) Page:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241644374.run(TempTestSuite1590241644374.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button User Menu' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at 2. Verify Header RoomMe.id.run(2. Verify Header RoomMe.id:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button User Menu' located by 'By.xpath: //a[@id='dropdown-profile']/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Terms and Conditions Page" time="15.153" classname="Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Terms and Conditions Page" status="ERROR">
+         <error type="ERROR" message="Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Terms and Conditions Page FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/RoomMe.id Text Data/RoomMe.id Terms and Conditions Text Data' because (of) 'java.io.FileNotFoundException: C:\Users\Faldi\Katalon Studio\katalonroomme-master\RoomMe Text Document\Data Raw Text.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Customer Access Terms and Conditions Page.run(Customer Access Terms and Conditions Page:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241644374.run(TempTestSuite1590241644374.groovy:36)
+"/>
+         <system-out><![CDATA[2020-05-23 20:54:24 - [TEST_CASE][ERROR] - Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Terms and Conditions Page: Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Terms and Conditions Page FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/RoomMe.id Text Data/RoomMe.id Terms and Conditions Text Data' because (of) 'java.io.FileNotFoundException: C:\Users\Faldi\Katalon Studio\katalonroomme-master\RoomMe Text Document\Data Raw Text.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Customer Access Terms and Conditions Page.run(Customer Access Terms and Conditions Page:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241644374.run(TempTestSuite1590241644374.groovy:36)
+
+
+2020-05-23 20:54:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-23 20:54:24 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-23 20:54:24 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'web.roomme.id'
+
+2020-05-23 20:54:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-23 20:54:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-23 20:54:31 - [MESSAGE][PASSED] - Browser is opened with url: 'web.roomme.id'
+
+2020-05-23 20:54:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-23 20:54:33 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-23 20:54:33 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-23 20:54:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-23 20:54:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-23 20:54:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-23 20:54:33 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Footer/Button Terms Conditions")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button Terms Conditions' is clicked on
+
+2020-05-23 20:54:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button Terms Conditions' is clicked on
+
+2020-05-23 20:54:35 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-23 20:54:35 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-23 20:54:35 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-23 20:54:35 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-23 20:54:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs' is visible
+
+2020-05-23 20:54:36 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs' is visible
+
+2020-05-23 20:54:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions' is visible
+
+2020-05-23 20:54:36 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions' is visible
+
+2020-05-23 20:54:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use' is visible
+
+2020-05-23 20:54:37 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use' is visible
+
+2020-05-23 20:54:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer' is visible
+
+2020-05-23 20:54:37 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer' is visible
+
+2020-05-23 20:54:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy' is visible
+
+2020-05-23 20:54:37 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy' is visible
+
+2020-05-23 20:54:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms and Conditions Page/Image Terms and Conditions"), 60): Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Image Terms and Conditions' is visible
+
+2020-05-23 20:54:38 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Image Terms and Conditions' is visible
+
+2020-05-23 20:54:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms and Conditions Page/Text Global Content of Terms  Conditions for Web and Apps"), 60): Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text Global Content of Terms  Conditions for Web and Apps' is visible
+
+2020-05-23 20:54:38 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text Global Content of Terms  Conditions for Web and Apps' is visible
+
+2020-05-23 20:54:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms and Conditions Page/Button Q1"), 60): Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q1' is visible
+
+2020-05-23 20:54:39 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q1' is visible
+
+2020-05-23 20:54:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Terms and Conditions Page/Button Q1"), "Welcome to RoomMe"): Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q1' are matched.
+
+2020-05-23 20:54:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Button Q1' are matched.
+
+2020-05-23 20:54:39 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms and Conditions Page/Text A1"), 60): Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text A1' is visible
+
+2020-05-23 20:54:39 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms and Conditions Page/Text A1' is visible
+
+2020-05-23 20:54:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Terms and Conditions Page/Text A1"), id Terms and Conditions Text Data").getValue(1, 1)): null]]></system-out>
+         <system-err><![CDATA[2020-05-23 20:54:24 - [TEST_CASE][ERROR] - Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Terms and Conditions Page: Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Terms and Conditions Page FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/RoomMe.id Text Data/RoomMe.id Terms and Conditions Text Data' because (of) 'java.io.FileNotFoundException: C:\Users\Faldi\Katalon Studio\katalonroomme-master\RoomMe Text Document\Data Raw Text.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Customer Access Terms and Conditions Page.run(Customer Access Terms and Conditions Page:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241644374.run(TempTestSuite1590241644374.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Terms of Use Page" time="15.948" classname="Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Terms of Use Page" status="ERROR">
+         <error type="ERROR" message="Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Terms of Use Page FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/RoomMe.id Text Data/RoomMe.id Terms of Use Text Data' because (of) 'java.io.FileNotFoundException: C:\Users\Faldi\Katalon Studio\katalonroomme-master\RoomMe Text Document\Data Raw Text.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Customer Access Terms of Use Page.run(Customer Access Terms of Use Page:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241644374.run(TempTestSuite1590241644374.groovy:36)
+"/>
+         <system-out><![CDATA[2020-05-23 20:54:39 - [TEST_CASE][ERROR] - Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Terms of Use Page: Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Terms of Use Page FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/RoomMe.id Text Data/RoomMe.id Terms of Use Text Data' because (of) 'java.io.FileNotFoundException: C:\Users\Faldi\Katalon Studio\katalonroomme-master\RoomMe Text Document\Data Raw Text.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Customer Access Terms of Use Page.run(Customer Access Terms of Use Page:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241644374.run(TempTestSuite1590241644374.groovy:36)
+
+
+2020-05-23 20:54:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-23 20:54:39 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-23 20:54:39 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'web.roomme.id'
+
+2020-05-23 20:54:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-23 20:54:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-23 20:54:46 - [MESSAGE][PASSED] - Browser is opened with url: 'web.roomme.id'
+
+2020-05-23 20:54:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-23 20:54:48 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-23 20:54:48 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-23 20:54:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-23 20:54:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-23 20:54:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-23 20:54:48 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Footer/Button Terms of Use")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button Terms of Use' is clicked on
+
+2020-05-23 20:54:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button Terms of Use' is clicked on
+
+2020-05-23 20:54:52 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-23 20:54:52 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-23 20:54:52 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-23 20:54:52 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-23 20:54:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs' is visible
+
+2020-05-23 20:54:52 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs' is visible
+
+2020-05-23 20:54:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions' is visible
+
+2020-05-23 20:54:53 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions' is visible
+
+2020-05-23 20:54:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use' is visible
+
+2020-05-23 20:54:53 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use' is visible
+
+2020-05-23 20:54:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer' is visible
+
+2020-05-23 20:54:54 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer' is visible
+
+2020-05-23 20:54:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy' is visible
+
+2020-05-23 20:54:54 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy' is visible
+
+2020-05-23 20:54:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms of Use Page/Image Terms of Use"), 60): Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Image Terms of Use' is visible
+
+2020-05-23 20:54:54 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Image Terms of Use' is visible
+
+2020-05-23 20:54:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms of Use Page/Text Global Content of Terms of Use for Web Apps"), 60): Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text Global Content of Terms of Use for Web Apps' is visible
+
+2020-05-23 20:54:55 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text Global Content of Terms of Use for Web Apps' is visible
+
+2020-05-23 20:54:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Terms of Use Page/Text Terms of Use Content"), 60): Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text Terms of Use Content' is visible
+
+2020-05-23 20:54:55 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Terms of Use Page/Text Terms of Use Content' is visible
+
+2020-05-23 20:54:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Terms of Use Page/Text Terms of Use Content"), id Terms of Use Text Data").getValue(1, 1)): null]]></system-out>
+         <system-err><![CDATA[2020-05-23 20:54:39 - [TEST_CASE][ERROR] - Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Terms of Use Page: Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Terms of Use Page FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/RoomMe.id Text Data/RoomMe.id Terms of Use Text Data' because (of) 'java.io.FileNotFoundException: C:\Users\Faldi\Katalon Studio\katalonroomme-master\RoomMe Text Document\Data Raw Text.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Customer Access Terms of Use Page.run(Customer Access Terms of Use Page:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241644374.run(TempTestSuite1590241644374.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Disclaimer Page" time="17.707" classname="Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Disclaimer Page" status="ERROR">
+         <error type="ERROR" message="Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Disclaimer Page FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/RoomMe.id Text Data/RoomMe.id Disclaimer Text Data' because (of) 'java.io.FileNotFoundException: C:\Users\Faldi\Katalon Studio\katalonroomme-master\RoomMe Text Document\Data Raw Text.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Customer Access Disclaimer Page.run(Customer Access Disclaimer Page:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241644374.run(TempTestSuite1590241644374.groovy:36)
+"/>
+         <system-out><![CDATA[2020-05-23 20:54:55 - [TEST_CASE][ERROR] - Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Disclaimer Page: Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Disclaimer Page FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/RoomMe.id Text Data/RoomMe.id Disclaimer Text Data' because (of) 'java.io.FileNotFoundException: C:\Users\Faldi\Katalon Studio\katalonroomme-master\RoomMe Text Document\Data Raw Text.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Customer Access Disclaimer Page.run(Customer Access Disclaimer Page:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241644374.run(TempTestSuite1590241644374.groovy:36)
+
+
+2020-05-23 20:54:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-23 20:54:55 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-23 20:54:55 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'web.roomme.id'
+
+2020-05-23 20:54:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-23 20:54:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-23 20:55:04 - [MESSAGE][PASSED] - Browser is opened with url: 'web.roomme.id'
+
+2020-05-23 20:55:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-23 20:55:07 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-23 20:55:07 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-23 20:55:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-23 20:55:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-23 20:55:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-23 20:55:07 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Footer/Button Disclaimer")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button Disclaimer' is clicked on
+
+2020-05-23 20:55:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button Disclaimer' is clicked on
+
+2020-05-23 20:55:09 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-23 20:55:09 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-23 20:55:09 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-23 20:55:09 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-23 20:55:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs' is visible
+
+2020-05-23 20:55:10 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs' is visible
+
+2020-05-23 20:55:10 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions' is visible
+
+2020-05-23 20:55:10 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions' is visible
+
+2020-05-23 20:55:10 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use' is visible
+
+2020-05-23 20:55:11 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use' is visible
+
+2020-05-23 20:55:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer' is visible
+
+2020-05-23 20:55:11 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer' is visible
+
+2020-05-23 20:55:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy' is visible
+
+2020-05-23 20:55:11 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy' is visible
+
+2020-05-23 20:55:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Disclaimer Page/Image Disclaimer"), 60): Object 'Object Repository/Web RoomMe.id/Disclaimer Page/Image Disclaimer' is visible
+
+2020-05-23 20:55:12 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Disclaimer Page/Image Disclaimer' is visible
+
+2020-05-23 20:55:12 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Disclaimer Page/Text Global Disclaimer"), 60): Object 'Object Repository/Web RoomMe.id/Disclaimer Page/Text Global Disclaimer' is visible
+
+2020-05-23 20:55:12 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Disclaimer Page/Text Global Disclaimer' is visible
+
+2020-05-23 20:55:12 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Disclaimer Page/Text Disclaimer Content"), 60): Object 'Object Repository/Web RoomMe.id/Disclaimer Page/Text Disclaimer Content' is visible
+
+2020-05-23 20:55:13 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Disclaimer Page/Text Disclaimer Content' is visible
+
+2020-05-23 20:55:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Disclaimer Page/Text Disclaimer Content"), id Disclaimer Text Data").getValue(1, 1)): null]]></system-out>
+         <system-err><![CDATA[2020-05-23 20:54:55 - [TEST_CASE][ERROR] - Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Disclaimer Page: Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Disclaimer Page FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/RoomMe.id Text Data/RoomMe.id Disclaimer Text Data' because (of) 'java.io.FileNotFoundException: C:\Users\Faldi\Katalon Studio\katalonroomme-master\RoomMe Text Document\Data Raw Text.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Customer Access Disclaimer Page.run(Customer Access Disclaimer Page:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241644374.run(TempTestSuite1590241644374.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Privacy Policy" time="15.039" classname="Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Privacy Policy" status="ERROR">
+         <error type="ERROR" message="Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Privacy Policy FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/RoomMe.id Text Data/RoomMe.id Privacy Policy Text Data' because (of) 'java.io.FileNotFoundException: C:\Users\Faldi\Katalon Studio\katalonroomme-master\RoomMe Text Document\Data Raw Text.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Customer Access Privacy Policy.run(Customer Access Privacy Policy:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241644374.run(TempTestSuite1590241644374.groovy:36)
+"/>
+         <system-out><![CDATA[2020-05-23 20:55:13 - [TEST_CASE][ERROR] - Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Privacy Policy: Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Privacy Policy FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/RoomMe.id Text Data/RoomMe.id Privacy Policy Text Data' because (of) 'java.io.FileNotFoundException: C:\Users\Faldi\Katalon Studio\katalonroomme-master\RoomMe Text Document\Data Raw Text.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Customer Access Privacy Policy.run(Customer Access Privacy Policy:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241644374.run(TempTestSuite1590241644374.groovy:36)
+
+
+2020-05-23 20:55:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-23 20:55:13 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-23 20:55:13 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'web.roomme.id'
+
+2020-05-23 20:55:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-23 20:55:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-23 20:55:20 - [MESSAGE][PASSED] - Browser is opened with url: 'web.roomme.id'
+
+2020-05-23 20:55:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-23 20:55:22 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-23 20:55:22 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-23 20:55:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-23 20:55:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-23 20:55:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-23 20:55:22 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Footer/Button Privacy Policy")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button Privacy Policy' is clicked on
+
+2020-05-23 20:55:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Footer/Button Privacy Policy' is clicked on
+
+2020-05-23 20:55:24 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-23 20:55:24 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-23 20:55:24 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-23 20:55:24 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-23 20:55:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs' is visible
+
+2020-05-23 20:55:25 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button FAQs' is visible
+
+2020-05-23 20:55:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions' is visible
+
+2020-05-23 20:55:26 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms  Conditions' is visible
+
+2020-05-23 20:55:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use' is visible
+
+2020-05-23 20:55:26 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Terms of Use' is visible
+
+2020-05-23 20:55:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer' is visible
+
+2020-05-23 20:55:26 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Disclaimer' is visible
+
+2020-05-23 20:55:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy"), 60): Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy' is visible
+
+2020-05-23 20:55:26 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/RoomMe.id FAQ Page/Button Privacy Policy' is visible
+
+2020-05-23 20:55:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Privacy Policy Page/Image Privacy Policy"), 60): Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Image Privacy Policy' is visible
+
+2020-05-23 20:55:27 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Image Privacy Policy' is visible
+
+2020-05-23 20:55:27 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Privacy Policy Page/Text Privacy Policy"), 60): Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text Privacy Policy' is visible
+
+2020-05-23 20:55:28 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text Privacy Policy' is visible
+
+2020-05-23 20:55:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Privacy Policy Page/Text Privacy Policy Content"), 60): Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text Privacy Policy Content' is visible
+
+2020-05-23 20:55:28 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Privacy Policy Page/Text Privacy Policy Content' is visible
+
+2020-05-23 20:55:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web RoomMe.id/Privacy Policy Page/Text Privacy Policy Content"), id Privacy Policy Text Data").getValue(1, 1)): null]]></system-out>
+         <system-err><![CDATA[2020-05-23 20:55:13 - [TEST_CASE][ERROR] - Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Privacy Policy: Test Cases/Web RoomMe.id/4. Our Terms/Customer Access Privacy Policy FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/RoomMe.id Text Data/RoomMe.id Privacy Policy Text Data' because (of) 'java.io.FileNotFoundException: C:\Users\Faldi\Katalon Studio\katalonroomme-master\RoomMe Text Document\Data Raw Text.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Customer Access Privacy Policy.run(Customer Access Privacy Policy:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241644374.run(TempTestSuite1590241644374.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-23 20:52:17 - [TEST_SUITE][ERROR] - Customer Access Our Terms Page: Test Cases/Web RoomMe.id/4. Our Terms/Customer Access FAQ (Booking) Page FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/RoomMe.id Text Data/RoomMe.id FAQ Text Data' because (of) 'java.io.FileNotFoundException: C:\Users\Faldi\Katalon Studio\katalonroomme-master\RoomMe Text Document\Data Raw Text.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Customer Access FAQ (Booking) Page.run(Customer Access FAQ (Booking) Page:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241644374.run(TempTestSuite1590241644374.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-05-23 20:52:17 - [TEST_SUITE][ERROR] - Customer Access Our Terms Page: Test Cases/Web RoomMe.id/4. Our Terms/Customer Access FAQ (Booking) Page FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/RoomMe.id Text Data/RoomMe.id FAQ Text Data' because (of) 'java.io.FileNotFoundException: C:\Users\Faldi\Katalon Studio\katalonroomme-master\RoomMe Text Document\Data Raw Text.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Customer Access FAQ (Booking) Page.run(Customer Access FAQ (Booking) Page:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241644374.run(TempTestSuite1590241644374.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

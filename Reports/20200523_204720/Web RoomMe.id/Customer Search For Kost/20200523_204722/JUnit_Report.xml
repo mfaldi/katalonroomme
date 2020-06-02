@@ -1,0 +1,1137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Customer Search For Kost" time="463.759" tests="6" failures="4" errors="0">
+   <testsuite name="Customer Search For Kost" tests="6" failures="4" errors="0" time="463.759" timestamp="2020-05-23 20:47:47" hostname="Faldi - Alienware-X51" id="Test Suites/Web RoomMe.id/Customer Search For Kost">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme\\Reports\\20200523_204720\\Web RoomMe.id\\Customer Search For Kost\\20200523_204722"/>
+         <property name="logFiles" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme\\Reports\\20200523_204720\\Web RoomMe.id\\Customer Search For Kost\\20200523_204722\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme\\Reports\\20200523_204720\\Web RoomMe.id\\Customer Search For Kost\\20200523_204722\\1590241814904.png, C:\\Users\\Faldi\\Katalon Studio\\katalonroomme\\Reports\\20200523_204720\\Web RoomMe.id\\Customer Search For Kost\\20200523_204722\\1590241918608.png, C:\\Users\\Faldi\\Katalon Studio\\katalonroomme\\Reports\\20200523_204720\\Web RoomMe.id\\Customer Search For Kost\\20200523_204722\\1590242021801.png, C:\\Users\\Faldi\\Katalon Studio\\katalonroomme\\Reports\\20200523_204720\\Web RoomMe.id\\Customer Search For Kost\\20200523_204722\\1590242129354.png"/>
+         <property name="hostName" value="Faldi - Alienware-X51"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.9.1"/>
+         <property name="browser" value="Chrome 83.0.4103.61"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="ee347de74d2cce51f893e5d89e2b5192"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Web RoomMe.id/8. Search for Kost/1. Customer Search For Kost 1 Month 0 Day" time="26.659" classname="Test Cases/Web RoomMe.id/8. Search for Kost/1. Customer Search For Kost 1 Month 0 Day" status="PASSED">
+         <system-out><![CDATA[2020-05-23 20:47:47 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/8. Search for Kost/1. Customer Search For Kost 1 Month 0 Day: Test Cases/Web RoomMe.id/8. Search for Kost/1. Customer Search For Kost 1 Month 0 Day
+
+2020-05-23 20:47:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-23 20:47:48 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-23 20:47:48 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'web.roomme.id'
+
+2020-05-23 20:47:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-23 20:47:49 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-23 20:48:02 - [MESSAGE][PASSED] - Browser is opened with url: 'web.roomme.id'
+
+2020-05-23 20:48:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-23 20:48:05 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-23 20:48:05 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-23 20:48:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-23 20:48:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-23 20:48:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-23 20:48:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Search Kost Menu/Textfield Input Location"), "jakarta"): Keys 'jakarta' sent to object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location'
+
+2020-05-23 20:48:06 - [MESSAGE][PASSED] - Keys 'jakarta' sent to object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location'
+
+2020-05-23 20:48:06 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Kost Menu/Text Location Suggestion")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Text Location Suggestion' is clicked on
+
+2020-05-23 20:48:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Text Location Suggestion' is clicked on
+
+2020-05-23 20:48:07 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Kost Menu/Datepicker Check-in")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker Check-in' is clicked on
+
+2020-05-23 20:48:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker Check-in' is clicked on
+
+2020-05-23 20:48:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-05-23 20:48:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-05-23 20:48:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-05-23 20:48:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-05-23 20:48:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month' is clicked on
+
+2020-05-23 20:48:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month' is clicked on
+
+2020-05-23 20:48:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional' is clicked on
+
+2020-05-23 20:48:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional' is clicked on
+
+2020-05-23 20:48:10 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day")): NOT_RUN: click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day"))
+
+2020-05-23 20:48:10 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day"))
+
+2020-05-23 20:48:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Search")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Search' is clicked on
+
+2020-05-23 20:48:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Search' is clicked on
+
+2020-05-23 20:48:14 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Field Facilities")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Field Facilities"))
+
+2020-05-23 20:48:14 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Field Facilities"))
+
+2020-05-23 20:48:14 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Nama Kost")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Nama Kost"))
+
+2020-05-23 20:48:14 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Nama Kost"))
+
+2020-05-23 20:48:14 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Submit_col-md-4 img-s")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Submit_col-md-4 img-s"))
+
+2020-05-23 20:48:14 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Submit_col-md-4 img-s"))
+
+2020-05-23 20:48:14 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Rp1400000")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Rp1400000"))
+
+2020-05-23 20:48:14 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Rp1400000"))
+
+2020-05-23 20:48:14 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost"))
+
+2020-05-23 20:48:14 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost"))
+
+2020-05-23 20:48:14 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-23 20:48:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-23 20:48:14 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/8. Search for Kost/2. Customer Search For Kost 1 Month 1 Day" time="19.623" classname="Test Cases/Web RoomMe.id/8. Search for Kost/2. Customer Search For Kost 1 Month 1 Day" status="PASSED">
+         <system-out><![CDATA[2020-05-23 20:48:14 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/8. Search for Kost/2. Customer Search For Kost 1 Month 1 Day: Test Cases/Web RoomMe.id/8. Search for Kost/2. Customer Search For Kost 1 Month 1 Day
+
+2020-05-23 20:48:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-23 20:48:14 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-23 20:48:14 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'web.roomme.id'
+
+2020-05-23 20:48:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-23 20:48:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-23 20:48:23 - [MESSAGE][PASSED] - Browser is opened with url: 'web.roomme.id'
+
+2020-05-23 20:48:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-23 20:48:25 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-23 20:48:25 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-23 20:48:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-23 20:48:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-23 20:48:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-23 20:48:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Search Kost Menu/Textfield Input Location"), "jakarta"): Keys 'jakarta' sent to object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location'
+
+2020-05-23 20:48:26 - [MESSAGE][PASSED] - Keys 'jakarta' sent to object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location'
+
+2020-05-23 20:48:26 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Kost Menu/Text Location Suggestion")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Text Location Suggestion' is clicked on
+
+2020-05-23 20:48:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Text Location Suggestion' is clicked on
+
+2020-05-23 20:48:28 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Kost Menu/Datepicker Check-in")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker Check-in' is clicked on
+
+2020-05-23 20:48:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker Check-in' is clicked on
+
+2020-05-23 20:48:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-05-23 20:48:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-05-23 20:48:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-05-23 20:48:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-05-23 20:48:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month' is clicked on
+
+2020-05-23 20:48:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Month' is clicked on
+
+2020-05-23 20:48:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional' is clicked on
+
+2020-05-23 20:48:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Additional' is clicked on
+
+2020-05-23 20:48:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day' is clicked on
+
+2020-05-23 20:48:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 1 Day' is clicked on
+
+2020-05-23 20:48:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Search")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Search' is clicked on
+
+2020-05-23 20:48:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Search' is clicked on
+
+2020-05-23 20:48:33 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Field Facilities")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Field Facilities"))
+
+2020-05-23 20:48:33 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Field Facilities"))
+
+2020-05-23 20:48:33 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Nama Kost")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Nama Kost"))
+
+2020-05-23 20:48:33 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Text Nama Kost"))
+
+2020-05-23 20:48:33 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Submit_col-md-4 img-s")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Submit_col-md-4 img-s"))
+
+2020-05-23 20:48:33 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Submit_col-md-4 img-s"))
+
+2020-05-23 20:48:33 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Rp1400000")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Rp1400000"))
+
+2020-05-23 20:48:33 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/div_Rp1400000"))
+
+2020-05-23 20:48:33 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost")): NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost"))
+
+2020-05-23 20:48:33 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Web RoomMe.id/Search Result Menu/Image Kost"))
+
+2020-05-23 20:48:33 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-23 20:48:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-23 20:48:33 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/8. Search for Kost/3. Customer Search For Kost 1 Month 2 Days" time="101.598" classname="Test Cases/Web RoomMe.id/8. Search for Kost/3. Customer Search For Kost 1 Month 2 Days" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Web RoomMe.id/8. Search for Kost/3. Customer Search For Kost 1 Month 2 Days FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys 'jakarta' to object 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:860)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$2.call(Unknown Source)
+	at 3. Customer Search For Kost 1 Month 2 Days.run(3. Customer Search For Kost 1 Month 2 Days:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241642115.run(TempTestSuite1590241642115.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location' located by 'By.xpath: //div[@id='__layout']/div/div[2]/div/div[2]/div/div/div[2]/form/div/div/div/div/div/div/input' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-23 20:48:33 - [TEST_CASE][FAILED] - Test Cases/Web RoomMe.id/8. Search for Kost/3. Customer Search For Kost 1 Month 2 Days: Test Cases/Web RoomMe.id/8. Search for Kost/3. Customer Search For Kost 1 Month 2 Days FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys 'jakarta' to object 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:860)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$2.call(Unknown Source)
+	at 3. Customer Search For Kost 1 Month 2 Days.run(3. Customer Search For Kost 1 Month 2 Days:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241642115.run(TempTestSuite1590241642115.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location' located by 'By.xpath: //div[@id='__layout']/div/div[2]/div/div[2]/div/div/div[2]/form/div/div/div/div/div/div/input' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-23 20:48:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-23 20:48:34 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-23 20:48:34 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'web.roomme.id'
+
+2020-05-23 20:48:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-23 20:48:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-23 20:48:44 - [MESSAGE][PASSED] - Browser is opened with url: 'web.roomme.id'
+
+2020-05-23 20:48:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-23 20:48:46 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-23 20:48:46 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-23 20:48:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-23 20:48:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-23 20:48:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-23 20:48:46 - [TEST_STEP][FAILED] - sendKeys(findTestObject("Web RoomMe.id/Search Kost Menu/Textfield Input Location"), "jakarta"): Unable to send keys 'jakarta' to object 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to send keys 'jakarta' to object 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:860)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$2.call(Unknown Source)
+	at 3. Customer Search For Kost 1 Month 2 Days.run(3. Customer Search For Kost 1 Month 2 Days:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241642115.run(TempTestSuite1590241642115.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location' located by 'By.xpath: //div[@id='__layout']/div/div[2]/div/div[2]/div/div/div[2]/form/div/div/div/div/div/div/input' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:860)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$2.call(Unknown Source)
+	at Script1586772910109.run(Script1586772910109.groovy:20)
+	... 13 more
+)
+
+2020-05-23 20:50:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__layout']/div/div[2]/div/div[2]/div/div/div[2]/form/div/div/div/div/div/div/input'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-05-23 20:50:15 - [MESSAGE][FAILED] - Unable to send keys 'jakarta' to object 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to send keys 'jakarta' to object 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:860)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$2.call(Unknown Source)
+	at 3. Customer Search For Kost 1 Month 2 Days.run(3. Customer Search For Kost 1 Month 2 Days:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241642115.run(TempTestSuite1590241642115.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location' located by 'By.xpath: //div[@id='__layout']/div/div[2]/div/div[2]/div/div/div[2]/form/div/div/div/div/div/div/input' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:860)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$2.call(Unknown Source)
+	at Script1586772910109.run(Script1586772910109.groovy:20)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Faldi\\Katalon Studio\\katalonroomme\\Reports\\20200523_204720\\Web RoomMe.id\\Customer Search For Kost\\20200523_204722\\1590241814904.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-23 20:48:33 - [TEST_CASE][FAILED] - Test Cases/Web RoomMe.id/8. Search for Kost/3. Customer Search For Kost 1 Month 2 Days: Test Cases/Web RoomMe.id/8. Search for Kost/3. Customer Search For Kost 1 Month 2 Days FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys 'jakarta' to object 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:860)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$2.call(Unknown Source)
+	at 3. Customer Search For Kost 1 Month 2 Days.run(3. Customer Search For Kost 1 Month 2 Days:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241642115.run(TempTestSuite1590241642115.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location' located by 'By.xpath: //div[@id='__layout']/div/div[2]/div/div[2]/div/div/div[2]/form/div/div/div/div/div/div/input' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/8. Search for Kost/4. Customer Search For Kost 2 Months 0 Day" time="103.766" classname="Test Cases/Web RoomMe.id/8. Search for Kost/4. Customer Search For Kost 2 Months 0 Day" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Web RoomMe.id/8. Search for Kost/4. Customer Search For Kost 2 Months 0 Day FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 4. Customer Search For Kost 2 Months 0 Day.run(4. Customer Search For Kost 2 Months 0 Day:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241642115.run(TempTestSuite1590241642115.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months' located by 'By.xpath: //div[@id='__BVID__28']/ul/li[2]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-23 20:50:15 - [TEST_CASE][FAILED] - Test Cases/Web RoomMe.id/8. Search for Kost/4. Customer Search For Kost 2 Months 0 Day: Test Cases/Web RoomMe.id/8. Search for Kost/4. Customer Search For Kost 2 Months 0 Day FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 4. Customer Search For Kost 2 Months 0 Day.run(4. Customer Search For Kost 2 Months 0 Day:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241642115.run(TempTestSuite1590241642115.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months' located by 'By.xpath: //div[@id='__BVID__28']/ul/li[2]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-23 20:50:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-23 20:50:15 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-23 20:50:15 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'web.roomme.id'
+
+2020-05-23 20:50:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-23 20:50:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-23 20:50:23 - [MESSAGE][PASSED] - Browser is opened with url: 'web.roomme.id'
+
+2020-05-23 20:50:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-23 20:50:25 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-23 20:50:25 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-23 20:50:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-23 20:50:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-23 20:50:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-23 20:50:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Search Kost Menu/Textfield Input Location"), "jakarta"): Keys 'jakarta' sent to object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location'
+
+2020-05-23 20:50:26 - [MESSAGE][PASSED] - Keys 'jakarta' sent to object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location'
+
+2020-05-23 20:50:26 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Kost Menu/Text Location Suggestion")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Text Location Suggestion' is clicked on
+
+2020-05-23 20:50:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Text Location Suggestion' is clicked on
+
+2020-05-23 20:50:28 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Kost Menu/Datepicker Check-in")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker Check-in' is clicked on
+
+2020-05-23 20:50:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker Check-in' is clicked on
+
+2020-05-23 20:50:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-05-23 20:50:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-05-23 20:50:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-05-23 20:50:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-05-23 20:50:30 - [TEST_STEP][FAILED] - click(findTestObject("Web RoomMe.id/Search Kost Menu/Button 2 Months")): Unable to click on object 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 4. Customer Search For Kost 2 Months 0 Day.run(4. Customer Search For Kost 2 Months 0 Day:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241642115.run(TempTestSuite1590241642115.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months' located by 'By.xpath: //div[@id='__BVID__28']/ul/li[2]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1586772915339.run(Script1586772915339.groovy:30)
+	... 13 more
+)
+
+2020-05-23 20:51:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__BVID__28']/ul/li[2]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-05-23 20:51:59 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 4. Customer Search For Kost 2 Months 0 Day.run(4. Customer Search For Kost 2 Months 0 Day:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241642115.run(TempTestSuite1590241642115.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months' located by 'By.xpath: //div[@id='__BVID__28']/ul/li[2]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1586772915339.run(Script1586772915339.groovy:30)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Faldi\\Katalon Studio\\katalonroomme\\Reports\\20200523_204720\\Web RoomMe.id\\Customer Search For Kost\\20200523_204722\\1590241918608.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-23 20:50:15 - [TEST_CASE][FAILED] - Test Cases/Web RoomMe.id/8. Search for Kost/4. Customer Search For Kost 2 Months 0 Day: Test Cases/Web RoomMe.id/8. Search for Kost/4. Customer Search For Kost 2 Months 0 Day FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 4. Customer Search For Kost 2 Months 0 Day.run(4. Customer Search For Kost 2 Months 0 Day:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241642115.run(TempTestSuite1590241642115.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months' located by 'By.xpath: //div[@id='__BVID__28']/ul/li[2]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/8. Search for Kost/5. Customer Search For Kost 2 Months 1 Day" time="103.115" classname="Test Cases/Web RoomMe.id/8. Search for Kost/5. Customer Search For Kost 2 Months 1 Day" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Web RoomMe.id/8. Search for Kost/5. Customer Search For Kost 2 Months 1 Day FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 5. Customer Search For Kost 2 Months 1 Day.run(5. Customer Search For Kost 2 Months 1 Day:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241642115.run(TempTestSuite1590241642115.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months' located by 'By.xpath: //div[@id='__BVID__28']/ul/li[2]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-23 20:51:59 - [TEST_CASE][FAILED] - Test Cases/Web RoomMe.id/8. Search for Kost/5. Customer Search For Kost 2 Months 1 Day: Test Cases/Web RoomMe.id/8. Search for Kost/5. Customer Search For Kost 2 Months 1 Day FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 5. Customer Search For Kost 2 Months 1 Day.run(5. Customer Search For Kost 2 Months 1 Day:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241642115.run(TempTestSuite1590241642115.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months' located by 'By.xpath: //div[@id='__BVID__28']/ul/li[2]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-23 20:51:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-23 20:51:59 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-23 20:51:59 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'web.roomme.id'
+
+2020-05-23 20:51:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-23 20:52:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-23 20:52:07 - [MESSAGE][PASSED] - Browser is opened with url: 'web.roomme.id'
+
+2020-05-23 20:52:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-23 20:52:09 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-23 20:52:09 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-23 20:52:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-23 20:52:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-23 20:52:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-23 20:52:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Search Kost Menu/Textfield Input Location"), "jakarta"): Keys 'jakarta' sent to object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location'
+
+2020-05-23 20:52:10 - [MESSAGE][PASSED] - Keys 'jakarta' sent to object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location'
+
+2020-05-23 20:52:10 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Kost Menu/Text Location Suggestion")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Text Location Suggestion' is clicked on
+
+2020-05-23 20:52:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Text Location Suggestion' is clicked on
+
+2020-05-23 20:52:11 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Kost Menu/Datepicker Check-in")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker Check-in' is clicked on
+
+2020-05-23 20:52:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker Check-in' is clicked on
+
+2020-05-23 20:52:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-05-23 20:52:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-05-23 20:52:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-05-23 20:52:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-05-23 20:52:13 - [TEST_STEP][FAILED] - click(findTestObject("Web RoomMe.id/Search Kost Menu/Button 2 Months")): Unable to click on object 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 5. Customer Search For Kost 2 Months 1 Day.run(5. Customer Search For Kost 2 Months 1 Day:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241642115.run(TempTestSuite1590241642115.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months' located by 'By.xpath: //div[@id='__BVID__28']/ul/li[2]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1586772921924.run(Script1586772921924.groovy:30)
+	... 13 more
+)
+
+2020-05-23 20:53:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__BVID__28']/ul/li[2]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-05-23 20:53:42 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 5. Customer Search For Kost 2 Months 1 Day.run(5. Customer Search For Kost 2 Months 1 Day:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241642115.run(TempTestSuite1590241642115.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months' located by 'By.xpath: //div[@id='__BVID__28']/ul/li[2]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1586772921924.run(Script1586772921924.groovy:30)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Faldi\\Katalon Studio\\katalonroomme\\Reports\\20200523_204720\\Web RoomMe.id\\Customer Search For Kost\\20200523_204722\\1590242021801.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-23 20:51:59 - [TEST_CASE][FAILED] - Test Cases/Web RoomMe.id/8. Search for Kost/5. Customer Search For Kost 2 Months 1 Day: Test Cases/Web RoomMe.id/8. Search for Kost/5. Customer Search For Kost 2 Months 1 Day FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 5. Customer Search For Kost 2 Months 1 Day.run(5. Customer Search For Kost 2 Months 1 Day:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241642115.run(TempTestSuite1590241642115.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months' located by 'By.xpath: //div[@id='__BVID__28']/ul/li[2]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/8. Search for Kost/6. Customer Search For Kost 2 Months 2 Days" time="107.592" classname="Test Cases/Web RoomMe.id/8. Search for Kost/6. Customer Search For Kost 2 Months 2 Days" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Web RoomMe.id/8. Search for Kost/6. Customer Search For Kost 2 Months 2 Days FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 6. Customer Search For Kost 2 Months 2 Days.run(6. Customer Search For Kost 2 Months 2 Days:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241642115.run(TempTestSuite1590241642115.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months' located by 'By.xpath: //div[@id='__BVID__28']/ul/li[2]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-23 20:53:42 - [TEST_CASE][FAILED] - Test Cases/Web RoomMe.id/8. Search for Kost/6. Customer Search For Kost 2 Months 2 Days: Test Cases/Web RoomMe.id/8. Search for Kost/6. Customer Search For Kost 2 Months 2 Days FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 6. Customer Search For Kost 2 Months 2 Days.run(6. Customer Search For Kost 2 Months 2 Days:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241642115.run(TempTestSuite1590241642115.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months' located by 'By.xpath: //div[@id='__BVID__28']/ul/li[2]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-23 20:53:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-23 20:53:42 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-23 20:53:42 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'web.roomme.id'
+
+2020-05-23 20:53:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-23 20:53:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-23 20:53:51 - [MESSAGE][PASSED] - Browser is opened with url: 'web.roomme.id'
+
+2020-05-23 20:53:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-23 20:53:53 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-23 20:53:53 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-23 20:53:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-23 20:53:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-23 20:53:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-23 20:53:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Search Kost Menu/Textfield Input Location"), "jakarta"): Keys 'jakarta' sent to object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location'
+
+2020-05-23 20:53:58 - [MESSAGE][PASSED] - Keys 'jakarta' sent to object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location'
+
+2020-05-23 20:53:58 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Kost Menu/Text Location Suggestion")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Text Location Suggestion' is clicked on
+
+2020-05-23 20:53:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Text Location Suggestion' is clicked on
+
+2020-05-23 20:53:59 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Search Kost Menu/Datepicker Check-in")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker Check-in' is clicked on
+
+2020-05-23 20:53:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Datepicker Check-in' is clicked on
+
+2020-05-23 20:53:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-05-23 20:54:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Day Pick' is clicked on
+
+2020-05-23 20:54:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration")): Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-05-23 20:54:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button Duration' is clicked on
+
+2020-05-23 20:54:01 - [TEST_STEP][FAILED] - click(findTestObject("Web RoomMe.id/Search Kost Menu/Button 2 Months")): Unable to click on object 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 6. Customer Search For Kost 2 Months 2 Days.run(6. Customer Search For Kost 2 Months 2 Days:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241642115.run(TempTestSuite1590241642115.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months' located by 'By.xpath: //div[@id='__BVID__28']/ul/li[2]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1586772939271.run(Script1586772939271.groovy:30)
+	... 13 more
+)
+
+2020-05-23 20:55:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__BVID__28']/ul/li[2]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-05-23 20:55:30 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 6. Customer Search For Kost 2 Months 2 Days.run(6. Customer Search For Kost 2 Months 2 Days:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241642115.run(TempTestSuite1590241642115.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months' located by 'By.xpath: //div[@id='__BVID__28']/ul/li[2]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1586772939271.run(Script1586772939271.groovy:30)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Faldi\\Katalon Studio\\katalonroomme\\Reports\\20200523_204720\\Web RoomMe.id\\Customer Search For Kost\\20200523_204722\\1590242129354.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-23 20:53:42 - [TEST_CASE][FAILED] - Test Cases/Web RoomMe.id/8. Search for Kost/6. Customer Search For Kost 2 Months 2 Days: Test Cases/Web RoomMe.id/8. Search for Kost/6. Customer Search For Kost 2 Months 2 Days FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 6. Customer Search For Kost 2 Months 2 Days.run(6. Customer Search For Kost 2 Months 2 Days:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241642115.run(TempTestSuite1590241642115.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/Search Kost Menu/Button 2 Months' located by 'By.xpath: //div[@id='__BVID__28']/ul/li[2]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-23 20:47:47 - [TEST_SUITE][FAILED] - Customer Search For Kost: Test Cases/Web RoomMe.id/8. Search for Kost/3. Customer Search For Kost 1 Month 2 Days FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys 'jakarta' to object 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:860)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$2.call(Unknown Source)
+	at 3. Customer Search For Kost 1 Month 2 Days.run(3. Customer Search For Kost 1 Month 2 Days:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241642115.run(TempTestSuite1590241642115.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location' located by 'By.xpath: //div[@id='__layout']/div/div[2]/div/div[2]/div/div/div[2]/form/div/div/div/div/div/div/input' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-05-23 20:47:47 - [TEST_SUITE][FAILED] - Customer Search For Kost: Test Cases/Web RoomMe.id/8. Search for Kost/3. Customer Search For Kost 1 Month 2 Days FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys 'jakarta' to object 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:860)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$2.call(Unknown Source)
+	at 3. Customer Search For Kost 1 Month 2 Days.run(3. Customer Search For Kost 1 Month 2 Days:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590241642115.run(TempTestSuite1590241642115.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Web RoomMe.id/Search Kost Menu/Textfield Input Location' located by 'By.xpath: //div[@id='__layout']/div/div[2]/div/div[2]/div/div/div[2]/form/div/div/div/div/div/div/input' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

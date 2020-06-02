@@ -1,95 +1,92 @@
-[35m[Appium][39m Welcome to Appium v1.16.0
+[35m[Appium][39m Welcome to Appium v1.17.1
 [35m[Appium][39m Non-default server args:
-[35m[Appium][39m   port: 60011
-[35m[Appium][39m   chromeDriverPort: 60012
-[35m[Appium][39m   tmpDir: C:\Users\Faldi\AppData\Local\Temp\\Katalon\Appium\Temp1583924511566
-[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:60011
+[35m[Appium][39m   port: 49949
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: C:\Users\Faldi\AppData\Local\Temp\\Katalon\Appium\Temp1590935695689
+[35m[Appium][39m   chromedriverPort: 49951
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities '{"chromedriverPort":49951}'
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 49951
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:49949
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
-[debug] [35m[GENERIC][39m Calling AppiumDriver.getStatus() with args: []
-[debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.16.0"}}
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m5 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m6 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
-[debug] [35m[GENERIC][39m Calling AppiumDriver.getStatus() with args: []
-[debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.16.0"}}
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
-[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\Faldi\\Downloads\\app-debug.apk","noReset":true,"deviceName":"Xiaomi Redmi 7A (Android 9)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"9","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"c693666b0006","systemPort":60018},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Faldi\\Downloads\\app-debug.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi Redmi 7A (Android 9)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"9","appium:systemPort":60018,"appium:udid":"c693666b0006"}]}}[39m
-[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\Faldi\\Downloads\\app-debug.apk","noReset":true,"deviceName":"Xiaomi Redmi 7A (Android 9)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"9","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"c693666b0006","systemPort":60018},null,{"firstMatch":[{"appium:app":"C:\\Users\\Faldi\\Downloads\\app-debug.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi Redmi 7A (Android 9)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"9","appium:systemPort":60018,"appium:udid":"c693666b0006"}]}]
-[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1583924513284 (18:01:53 GMT+0700 (Western Indonesia Time))
-[35m[BaseDriver][39m The capabilities ["platform"] are not standard capabilities and should have an extension prefix
-[35m[Appium][39m Appium v1.16.0 creating new AndroidUiautomator2Driver (v1.40.0) session
-[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
-[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
-[debug] [35m[BaseDriver][39m   "alwaysMatch": {
-[debug] [35m[BaseDriver][39m     "appium:platform": "ANDROID",
-[debug] [35m[BaseDriver][39m     "platformName": "android",
-[debug] [35m[BaseDriver][39m     "appium:app": "C:\\Users\\Faldi\\Downloads\\app-debug.apk",
-[debug] [35m[BaseDriver][39m     "appium:autoGrantPermissions": true,
-[debug] [35m[BaseDriver][39m     "appium:automationName": "uiautomator2",
-[debug] [35m[BaseDriver][39m     "appium:deviceName": "Xiaomi Redmi 7A (Android 9)",
-[debug] [35m[BaseDriver][39m     "appium:fullReset": false,
-[debug] [35m[BaseDriver][39m     "appium:newCommandTimeout": 1800,
-[debug] [35m[BaseDriver][39m     "appium:noReset": true,
-[debug] [35m[BaseDriver][39m     "appium:platformVersion": "9",
-[debug] [35m[BaseDriver][39m     "appium:systemPort": 60018,
-[debug] [35m[BaseDriver][39m     "appium:udid": "c693666b0006"
-[debug] [35m[BaseDriver][39m   },
-[debug] [35m[BaseDriver][39m   "firstMatch": [
-[debug] [35m[BaseDriver][39m     {}
-[debug] [35m[BaseDriver][39m   ]
-[debug] [35m[BaseDriver][39m }
+[35m[HTTP][39m [90m{"desiredCapabilities":{"appActivity":".Settings","appPackage":"com.android.settings","newCommandTimeout":1800,"platformVersion":"9","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"237e12f","deviceName":"Xiaomi Redmi 7 (Android 9)","platform":"ANDROID","systemPort":8202},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi Redmi 7 (Android 9)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"9","appium:systemPort":8202,"appium:udid":"237e12f"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.17.1 creating new AndroidUiautomator2Driver (v1.44.2) session
 [35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
 [35m[BaseDriver][39m   platform
-[35m[BaseDriver][39m Session created with session id: e59f4471-08db-4d3b-919c-817e9120a94e
-[35m[BaseDriver][39m Using local app 'C:\Users\Faldi\Downloads\app-debug.apk'
-[debug] [35m[UiAutomator2][39m Checking whether app is actually present
+[35m[BaseDriver][39m Session created with session id: b05b1d32-f856-413f-9c36-29ff09d71a31
+[35m[UiAutomator2][39m Starting 'com.android.settings' directly on the device
 [35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\Faldi\.katalon\tools\android_sdk' (newest first):
 [35m[ADB][39m     C:/Users/Faldi/.katalon/tools/android_sdk/build-tools/29.0.3
 [35m[ADB][39m Using 'adb.exe' from 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe'
 [35m[AndroidDriver][39m Retrieving device list
-[debug] [35m[ADB][39m Trying to find a connected android device
-[debug] [35m[ADB][39m Getting connected devices...
-[debug] [35m[ADB][39m Connected devices: [{"udid":"c693666b0006","state":"device"}]
-[35m[AndroidDriver][39m Using device: c693666b0006
+[35m[AndroidDriver][39m Using device: 237e12f
 [35m[ADB][39m Using 'adb.exe' from 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe'
-[debug] [35m[ADB][39m Setting device id to c693666b0006
-[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s c693666b0006 shell getprop ro.build.version.sdk'
-[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 28
-[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s c693666b0006 shell getprop ro.build.version.release'
-[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 9
-[debug] [35m[ADB][39m Device API level: 28
+[35m[ADB][39m Getting device platform version
 [35m[UiAutomator2][39m Relaxing hidden api policy
-[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s c693666b0006 shell settings put global hidden_api_policy_pre_p_apps 1'
-[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
-[debug] [35m[ADB][39m Removing forwarded port socket connection: 60018 
-[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s c693666b0006 forward --remove tcp\:60018'
-[35m[UiAutomator2][39m Unable to remove port forward: Error executing adbExec. Original error: 'Command 'C:\\Users\\Faldi\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s c693666b0006 forward --remove tcp\:60018' exited with code 1'; Stderr: 'adb.exe: error: listener 'tcp:60018' not found'; Code: '1'
+[35m[AndroidDriver][39m No app sent in, not parsing package/activity
+[35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\Faldi\.katalon\tools\android_sdk\build-tools\29.0.3\lib\apksigner.jar'
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m com.android.settings contains no permissions available for granting
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.5.5
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\Faldi\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.5.5.apk' and test from 'C:\Users\Faldi\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.android.settings/.Settings and waiting for 'com.android.settings/.Settings'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session b05b1d32-f856-413f-9c36-29ff09d71a31 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m12392 ms - 1129[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b05b1d32-f856-413f-9c36-29ff09d71a31[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b05b1d32-f856-413f-9c36-29ff09d71a31 [39m[32m200[39m [90m17 ms - 1061[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b05b1d32-f856-413f-9c36-29ff09d71a31[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b05b1d32-f856-413f-9c36-29ff09d71a31 [39m[32m200[39m [90m14 ms - 1061[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b05b1d32-f856-413f-9c36-29ff09d71a31/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":60000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b05b1d32-f856-413f-9c36-29ff09d71a31/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b05b1d32-f856-413f-9c36-29ff09d71a31/appium/device/activate_app[39m
+[35m[HTTP][39m [90m{"bundleId":"com.roomme.tenant.dev"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b05b1d32-f856-413f-9c36-29ff09d71a31/appium/device/activate_app [39m[32m200[39m [90m1000 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b05b1d32-f856-413f-9c36-29ff09d71a31/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (b05b1d32)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 763ca466-9c81-4b33-8b41-24751b8cde46 with b05b1d32-f856-413f-9c36-29ff09d71a31
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b05b1d32-f856-413f-9c36-29ff09d71a31/source [39m[32m200[39m [90m1228 ms - 23046[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b05b1d32-f856-413f-9c36-29ff09d71a31/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/b05b1d32-f856-413f-9c36-29ff09d71a31/screenshot [39m[32m200[39m [90m960 ms - 729872[39m
+[35m[HTTP][39m [90m[39m
+[35m[BaseDriver][39m Shutting down because we waited 1800 seconds for a command
+[35m[Appium][39m Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[35m[Appium][39m Removing session 'b05b1d32-f856-413f-9c36-29ff09d71a31' from our master session list
 [35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
-[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s c693666b0006 shell settings delete global hidden_api_policy_pre_p_apps'
-[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1583924514274 (18:01:54 GMT+0700 (Western Indonesia Time))
-[debug] [35m[W3C][39m Encountered internal error running command: Error executing adbExec. Original error: 'Command 'C:\\Users\\Faldi\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s c693666b0006 shell settings delete global hidden_api_policy_pre_p_apps' exited with code 255'; Stderr: 'Security exception: Permission denial: writing to settings requires:android.permission.WRITE_SECURE_SETTINGS
-[debug] [35m[W3C][39m 
-[debug] [35m[W3C][39m java.lang.SecurityException: Permission denial: writing to settings requires:android.permission.WRITE_SECURE_SETTINGS
-[debug] [35m[W3C][39m 	at com.android.providers.settings.SettingsProvider.enforceWritePermission(SettingsProvider.java:1815)
-[debug] [35m[W3C][39m 	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1023)
-[debug] [35m[W3C][39m 	at com.android.providers.settings.SettingsProvider.deleteGlobalSetting(SettingsProvider.java:1006)
-[debug] [35m[W3C][39m 	at com.android.providers.settings.SettingsProvider.delete(SettingsProvider.java:592)
-[debug] [35m[W3C][39m 	at android.content.ContentProvider$Transport.delete(ContentProvider.java:344)
-[debug] [35m[W3C][39m 	at com.android.providers.settings.SettingsService$MyShellCommand.deleteForUser(SettingsService.java:406)
-[debug] [35m[W3C][39m 	at com.android.providers.settings.SettingsService$MyShellCommand.onCommand(SettingsService.java:289)
-[debug] [35m[W3C][39m 	at android.os.ShellCommand.exec(ShellCommand.java:103)
-[debug] [35m[W3C][39m 	at com.android.providers.settings.SettingsService.onShellCommand(SettingsService.java:51)
-[debug] [35m[W3C][39m 	at android.os.Binder.shellCommand(Binder.java:629)
-[debug] [35m[W3C][39m 	at android.os.Binder.onTransact(Binder.java:527)
-[debug] [35m[W3C][39m 	at android.os.Binder.execTransact(Binder.java:726)'; Code: '255'
-[debug] [35m[W3C][39m Error: Command 'C:\\Users\\Faldi\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s c693666b0006 shell settings delete global hidden_api_policy_pre_p_apps' exited with code 255
-[debug] [35m[W3C][39m     at ChildProcess.<anonymous> (C:\Users\Faldi\AppData\Roaming\npm\node_modules\appium\node_modules\teen_process\lib\exec.js:113:19)
-[debug] [35m[W3C][39m     at ChildProcess.emit (events.js:223:5)
-[debug] [35m[W3C][39m     at maybeClose (internal/child_process.js:1021:16)
-[debug] [35m[W3C][39m     at Process.ChildProcess._handle.onexit (internal/child_process.js:283:5)
-[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m1030 ms - 3609[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/b05b1d32-f856-413f-9c36-29ff09d71a31[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/b05b1d32-f856-413f-9c36-29ff09d71a31 [39m[33m404[39m [90m36 ms - 3070[39m
 [35m[HTTP][39m [90m[39m

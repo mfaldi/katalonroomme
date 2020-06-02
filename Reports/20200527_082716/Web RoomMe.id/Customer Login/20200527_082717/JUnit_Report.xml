@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Customer Login" time="254.101" tests="6" failures="1" errors="0">
+   <testsuite name="Customer Login" tests="6" failures="1" errors="0" time="254.101" timestamp="2020-05-27 08:27:33" hostname="Faldi - Alienware-X51" id="Test Suites/Web RoomMe.id/Customer Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme\\Reports\\20200527_082716\\Web RoomMe.id\\Customer Login\\20200527_082717"/>
+         <property name="logFiles" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme\\Reports\\20200527_082716\\Web RoomMe.id\\Customer Login\\20200527_082717\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Faldi - Alienware-X51"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.9.1"/>
+         <property name="browser" value="Chrome 83.0.4103.61"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="60125b4f9812334e965a6b68b7588ef8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Web RoomMe.id/3. Sign In/1. Login With Valid Credential" time="51.304" classname="Test Cases/Web RoomMe.id/3. Sign In/1. Login With Valid Credential" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Web RoomMe.id/3. Sign In/1. Login With Valid Credential FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 1. Login With Valid Credential.run(1. Login With Valid Credential:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590542837098.run(TempTestSuite1590542837098.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ALIENWARE-X51', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Faldi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51586}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: eab8b59461222c6b5946abe5ae2b5f5f
+*** Element info: {Using=xpath, value=//*/text()[normalize-space(.)='Sign In']/parent::*}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-27 08:27:33 - [TEST_CASE][FAILED] - Test Cases/Web RoomMe.id/3. Sign In/1. Login With Valid Credential: Test Cases/Web RoomMe.id/3. Sign In/1. Login With Valid Credential FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 1. Login With Valid Credential.run(1. Login With Valid Credential:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590542837098.run(TempTestSuite1590542837098.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ALIENWARE-X51', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Faldi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51586}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: eab8b59461222c6b5946abe5ae2b5f5f
+*** Element info: {Using=xpath, value=//*/text()[normalize-space(.)='Sign In']/parent::*}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-27 08:27:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-27 08:27:34 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-27 08:27:34 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'roomme.id'
+
+2020-05-27 08:27:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-27 08:27:34 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-27 08:27:41 - [MESSAGE][PASSED] - Browser is opened with url: 'roomme.id'
+
+2020-05-27 08:27:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-27 08:27:43 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-27 08:27:43 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-27 08:27:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-27 08:27:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-27 08:27:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-27 08:27:44 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:27:44 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:27:44 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:27:44 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:27:44 - [TEST_STEP][FAILED] - click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Sign In")): Unable to click on object 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 1. Login With Valid Credential.run(1. Login With Valid Credential:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590542837098.run(TempTestSuite1590542837098.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ALIENWARE-X51', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Faldi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51586}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: eab8b59461222c6b5946abe5ae2b5f5f
+*** Element info: {Using=xpath, value=//*/text()[normalize-space(.)='Sign In']/parent::*}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1585550321750.run(Script1585550321750.groovy:25)
+	... 13 more
+)
+
+2020-05-27 08:28:24 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2020-05-27 08:28:24 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 1. Login With Valid Credential.run(1. Login With Valid Credential:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590542837098.run(TempTestSuite1590542837098.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ALIENWARE-X51', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Faldi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51586}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: eab8b59461222c6b5946abe5ae2b5f5f
+*** Element info: {Using=xpath, value=//*/text()[normalize-space(.)='Sign In']/parent::*}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1585550321750.run(Script1585550321750.groovy:25)
+	... 13 more
+)]]></system-out>
+         <system-err><![CDATA[2020-05-27 08:27:33 - [TEST_CASE][FAILED] - Test Cases/Web RoomMe.id/3. Sign In/1. Login With Valid Credential: Test Cases/Web RoomMe.id/3. Sign In/1. Login With Valid Credential FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 1. Login With Valid Credential.run(1. Login With Valid Credential:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590542837098.run(TempTestSuite1590542837098.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ALIENWARE-X51', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Faldi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51586}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: eab8b59461222c6b5946abe5ae2b5f5f
+*** Element info: {Using=xpath, value=//*/text()[normalize-space(.)='Sign In']/parent::*}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/3. Sign In/2. Login With Not Registered Email" time="28.891" classname="Test Cases/Web RoomMe.id/3. Sign In/2. Login With Not Registered Email" status="PASSED">
+         <system-out><![CDATA[2020-05-27 08:28:24 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/3. Sign In/2. Login With Not Registered Email: Test Cases/Web RoomMe.id/3. Sign In/2. Login With Not Registered Email
+
+2020-05-27 08:28:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-27 08:28:25 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-27 08:28:25 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'roomme.id'
+
+2020-05-27 08:28:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-27 08:28:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-27 08:28:39 - [MESSAGE][PASSED] - Browser is opened with url: 'roomme.id'
+
+2020-05-27 08:28:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-27 08:28:41 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-27 08:28:41 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-27 08:28:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-27 08:28:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-27 08:28:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-27 08:28:42 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:28:42 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:28:42 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:28:42 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:28:42 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In' is clicked on
+
+2020-05-27 08:28:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In' is clicked on
+
+2020-05-27 08:28:42 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-05-27 08:28:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-05-27 08:28:43 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/3. Sign In/Verify Sign In Menu"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/3. Sign In/Verify Sign In Menu"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:28:43 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/3. Sign In/Verify Sign In Menu"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:28:43 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), 0): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is clickable
+
+2020-05-27 08:28:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-27 08:28:44 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is clickable
+
+2020-05-27 08:28:44 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password"), 0): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is clickable
+
+2020-05-27 08:28:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-27 08:28:44 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is clickable
+
+2020-05-27 08:28:44 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), "burujy@getnada.com"): Text 'burujy@getnada.com' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-05-27 08:28:45 - [MESSAGE][PASSED] - Text 'burujy@getnada.com' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-05-27 08:28:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-05-27 08:28:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-05-27 08:28:46 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is clicked on
+
+2020-05-27 08:28:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is clicked on
+
+2020-05-27 08:28:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Email Not Found"), 10): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Error Message/Text Email Not Found' is visible
+
+2020-05-27 08:28:53 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Error Message/Text Email Not Found' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/3. Sign In/3. Input Email With Incorrect Email Format" time="16.703" classname="Test Cases/Web RoomMe.id/3. Sign In/3. Input Email With Incorrect Email Format" status="PASSED">
+         <system-out><![CDATA[2020-05-27 08:28:53 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/3. Sign In/3. Input Email With Incorrect Email Format: Test Cases/Web RoomMe.id/3. Sign In/3. Input Email With Incorrect Email Format
+
+2020-05-27 08:28:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-27 08:28:54 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-27 08:28:54 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'roomme.id'
+
+2020-05-27 08:28:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-27 08:28:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-27 08:29:01 - [MESSAGE][PASSED] - Browser is opened with url: 'roomme.id'
+
+2020-05-27 08:29:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-27 08:29:03 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-27 08:29:03 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-27 08:29:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-27 08:29:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-27 08:29:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-27 08:29:03 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:29:03 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:29:03 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:29:03 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:29:03 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In' is clicked on
+
+2020-05-27 08:29:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In' is clicked on
+
+2020-05-27 08:29:04 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), 0): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is clickable
+
+2020-05-27 08:29:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-27 08:29:04 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is clickable
+
+2020-05-27 08:29:04 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password"), 0): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is clickable
+
+2020-05-27 08:29:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-27 08:29:05 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is clickable
+
+2020-05-27 08:29:05 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/3. Sign In/Verify Sign In Menu"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/3. Sign In/Verify Sign In Menu"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:29:05 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/3. Sign In/Verify Sign In Menu"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:29:05 - [TEST_STEP][NOT_RUN] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), 0): NOT_RUN: waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), 0)
+
+2020-05-27 08:29:05 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), 0)
+
+2020-05-27 08:29:05 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), "hurujy"): Text 'hurujy' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-05-27 08:29:05 - [MESSAGE][PASSED] - Text 'hurujy' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-05-27 08:29:05 - [TEST_STEP][NOT_RUN] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid"), 10): NOT_RUN: waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid"), 10)
+
+2020-05-27 08:29:05 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid"), 10)
+
+2020-05-27 08:29:05 - [TEST_STEP][PASSED] - clearText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email")): Text of object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is cleared
+
+2020-05-27 08:29:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is cleared
+
+2020-05-27 08:29:06 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), "12345"): Text '12345' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-05-27 08:29:07 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-05-27 08:29:07 - [TEST_STEP][NOT_RUN] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid"), 10): NOT_RUN: waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid"), 10)
+
+2020-05-27 08:29:07 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid"), 10)
+
+2020-05-27 08:29:07 - [TEST_STEP][PASSED] - clearText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email")): Text of object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is cleared
+
+2020-05-27 08:29:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is cleared
+
+2020-05-27 08:29:08 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), "!@#$%^"): Text '!@#$%^' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-05-27 08:29:08 - [MESSAGE][PASSED] - Text '!@#$%^' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-05-27 08:29:08 - [TEST_STEP][NOT_RUN] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid"), 10): NOT_RUN: waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid"), 10)
+
+2020-05-27 08:29:08 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid"), 10)
+
+2020-05-27 08:29:08 - [TEST_STEP][PASSED] - clearText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email")): Text of object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is cleared
+
+2020-05-27 08:29:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is cleared
+
+2020-05-27 08:29:09 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), "                  "): Text '                  ' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-05-27 08:29:10 - [MESSAGE][PASSED] - Text '                  ' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-05-27 08:29:10 - [TEST_STEP][NOT_RUN] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid"), 10): NOT_RUN: waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid"), 10)
+
+2020-05-27 08:29:10 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid"), 10)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/3. Sign In/4. Login With Wrong Password" time="31.304" classname="Test Cases/Web RoomMe.id/3. Sign In/4. Login With Wrong Password" status="PASSED">
+         <system-out><![CDATA[2020-05-27 08:29:10 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/3. Sign In/4. Login With Wrong Password: Test Cases/Web RoomMe.id/3. Sign In/4. Login With Wrong Password
+
+2020-05-27 08:29:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-27 08:29:10 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-27 08:29:10 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'roomme.id'
+
+2020-05-27 08:29:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-27 08:29:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-27 08:29:20 - [MESSAGE][PASSED] - Browser is opened with url: 'roomme.id'
+
+2020-05-27 08:29:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-27 08:29:22 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-27 08:29:22 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-27 08:29:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-27 08:29:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-27 08:29:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-27 08:29:22 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:29:22 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:29:22 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:29:22 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:29:22 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In' is clicked on
+
+2020-05-27 08:29:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In' is clicked on
+
+2020-05-27 08:29:23 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), 0): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is clickable
+
+2020-05-27 08:29:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-27 08:29:23 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is clickable
+
+2020-05-27 08:29:23 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password"), 0): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is clickable
+
+2020-05-27 08:29:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-27 08:29:23 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is clickable
+
+2020-05-27 08:29:23 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/3. Sign In/Verify Sign In Menu"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/3. Sign In/Verify Sign In Menu"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:29:23 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/3. Sign In/Verify Sign In Menu"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:29:23 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), "faldidev@getnada.com"): Text 'faldidev@getnada.com' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-05-27 08:29:24 - [MESSAGE][PASSED] - Text 'faldidev@getnada.com' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email'
+
+2020-05-27 08:29:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password"), "BHvA5AcphSgkyy/qmGt4NA=="): Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-05-27 08:29:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-05-27 08:29:25 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is clicked on
+
+2020-05-27 08:29:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign In' is clicked on
+
+2020-05-27 08:29:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Email  Password Not Match"), 10): Web element with id: 'Object Repository/Web RoomMe.id/Sign In Menu/Error Message/Text Email  Password Not Match' located by 'By.xpath: //*[(text() = 'Email / Password Not Match' or . = 'Email / Password Not Match')]' not found
+
+2020-05-27 08:29:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'Email / Password Not Match' or . = 'Email / Password Not Match')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-05-27 08:29:41 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Web RoomMe.id/Sign In Menu/Error Message/Text Email  Password Not Match' located by 'By.xpath: //*[(text() = 'Email / Password Not Match' or . = 'Email / Password Not Match')]' not found]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/3. Sign In/5. Input Password With Less Than 6 Character" time="19.751" classname="Test Cases/Web RoomMe.id/3. Sign In/5. Input Password With Less Than 6 Character" status="PASSED">
+         <system-out><![CDATA[2020-05-27 08:29:41 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/3. Sign In/5. Input Password With Less Than 6 Character: Test Cases/Web RoomMe.id/3. Sign In/5. Input Password With Less Than 6 Character
+
+2020-05-27 08:29:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-27 08:29:42 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-27 08:29:42 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'roomme.id'
+
+2020-05-27 08:29:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-27 08:29:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-27 08:29:53 - [MESSAGE][PASSED] - Browser is opened with url: 'roomme.id'
+
+2020-05-27 08:29:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-27 08:29:55 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-27 08:29:55 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-27 08:29:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-27 08:29:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-27 08:29:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-27 08:29:55 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:29:55 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:29:55 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:29:55 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:29:55 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In' is clicked on
+
+2020-05-27 08:29:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In' is clicked on
+
+2020-05-27 08:29:55 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), 0): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is clickable
+
+2020-05-27 08:29:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-27 08:29:56 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is clickable
+
+2020-05-27 08:29:56 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password"), 0): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is clickable
+
+2020-05-27 08:29:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-27 08:29:56 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is clickable
+
+2020-05-27 08:29:56 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/3. Sign In/Verify Sign In Menu"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/3. Sign In/Verify Sign In Menu"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:29:56 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/3. Sign In/Verify Sign In Menu"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:29:56 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password"), "abc"): Text 'abc' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-05-27 08:29:57 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-05-27 08:29:57 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Minimum Password Required is 6 Character"), 10): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Error Message/Text Minimum Password Required is 6 Character' is visible
+
+2020-05-27 08:29:57 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Error Message/Text Minimum Password Required is 6 Character' is visible
+
+2020-05-27 08:29:57 - [TEST_STEP][PASSED] - clearText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password")): Text of object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is cleared
+
+2020-05-27 08:29:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is cleared
+
+2020-05-27 08:29:58 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password"), "12345"): Text '12345' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-05-27 08:29:59 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-05-27 08:29:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Minimum Password Required is 6 Character"), 10): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Error Message/Text Minimum Password Required is 6 Character' is visible
+
+2020-05-27 08:29:59 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Error Message/Text Minimum Password Required is 6 Character' is visible
+
+2020-05-27 08:29:59 - [TEST_STEP][PASSED] - clearText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password")): Text of object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is cleared
+
+2020-05-27 08:30:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is cleared
+
+2020-05-27 08:30:00 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password"), "!@#$%"): Text '!@#$%' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-05-27 08:30:01 - [MESSAGE][PASSED] - Text '!@#$%' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-05-27 08:30:01 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Minimum Password Required is 6 Character"), 10): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Error Message/Text Minimum Password Required is 6 Character' is visible
+
+2020-05-27 08:30:01 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Error Message/Text Minimum Password Required is 6 Character' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/3. Sign In/6. Input Password With Space Character" time="104.797" classname="Test Cases/Web RoomMe.id/3. Sign In/6. Input Password With Space Character" status="PASSED">
+         <system-out><![CDATA[2020-05-27 08:30:01 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/3. Sign In/6. Input Password With Space Character: Test Cases/Web RoomMe.id/3. Sign In/6. Input Password With Space Character
+
+2020-05-27 08:30:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-27 08:30:01 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-05-27 08:30:01 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'roomme.id'
+
+2020-05-27 08:30:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-27 08:30:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-27 08:30:12 - [MESSAGE][PASSED] - Browser is opened with url: 'roomme.id'
+
+2020-05-27 08:30:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-27 08:30:15 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-27 08:30:15 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-05-27 08:30:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-27 08:30:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-27 08:30:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-05-27 08:30:15 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:30:15 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:30:15 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:30:15 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/1. Homepage/7. Verify Footer RoomMe.id"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:30:15 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In' is clicked on
+
+2020-05-27 08:30:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In' is clicked on
+
+2020-05-27 08:30:15 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Email"), 0): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is clickable
+
+2020-05-27 08:30:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-27 08:30:16 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Email' is clickable
+
+2020-05-27 08:30:16 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password"), 0): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is clickable
+
+2020-05-27 08:30:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-27 08:30:16 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password' is clickable
+
+2020-05-27 08:30:16 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Web RoomMe.id/3. Sign In/Verify Sign In Menu"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/3. Sign In/Verify Sign In Menu"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:30:16 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Web RoomMe.id/3. Sign In/Verify Sign In Menu"), [:], STOP_ON_FAILURE)
+
+2020-05-27 08:30:16 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign In Menu/Textfield Password"), "      "): Text '      ' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-05-27 08:30:17 - [MESSAGE][PASSED] - Text '      ' is set on object 'Object Repository/Web RoomMe.id/Sign In Menu/Textfield Password'
+
+2020-05-27 08:30:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Error Message/Text Cant Use Space for Password"), 0): Web element with id: 'Object Repository/Web RoomMe.id/Sign In Menu/Error Message/Text Cant Use Space for Password' located by 'By.xpath: //*[@id = '__BVID__28__BV_feedback_invalid_' and (text() = 'Cant Use Space for Password' or . = 'Cant Use Space for Password')]' not found
+
+2020-05-27 08:30:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-05-27 08:31:46 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id = '__BVID__28__BV_feedback_invalid_' and (text() = 'Cant Use Space for Password' or . = 'Cant Use Space for Password')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-05-27 08:31:46 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Web RoomMe.id/Sign In Menu/Error Message/Text Cant Use Space for Password' located by 'By.xpath: //*[@id = '__BVID__28__BV_feedback_invalid_' and (text() = 'Cant Use Space for Password' or . = 'Cant Use Space for Password')]' not found]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-27 08:27:33 - [TEST_SUITE][FAILED] - Customer Login: Test Cases/Web RoomMe.id/3. Sign In/1. Login With Valid Credential FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 1. Login With Valid Credential.run(1. Login With Valid Credential:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590542837098.run(TempTestSuite1590542837098.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ALIENWARE-X51', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Faldi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51586}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: eab8b59461222c6b5946abe5ae2b5f5f
+*** Element info: {Using=xpath, value=//*/text()[normalize-space(.)='Sign In']/parent::*}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-05-27 08:27:33 - [TEST_SUITE][FAILED] - Customer Login: Test Cases/Web RoomMe.id/3. Sign In/1. Login With Valid Credential FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Web RoomMe.id/RoomMe.id Homepage/Button Sign In'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 1. Login With Valid Credential.run(1. Login With Valid Credential:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590542837098.run(TempTestSuite1590542837098.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ALIENWARE-X51', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Faldi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51586}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: eab8b59461222c6b5946abe5ae2b5f5f
+*** Element info: {Using=xpath, value=//*/text()[normalize-space(.)='Sign In']/parent::*}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy9.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='__layout']/div/div[2]/div/div[2]/div/div/div[2]/form/div/div/div/div/div/div/input</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @placeholder = 'Cari Lokasi Kost']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

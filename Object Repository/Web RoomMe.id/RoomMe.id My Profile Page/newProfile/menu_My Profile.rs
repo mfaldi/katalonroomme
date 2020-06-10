@@ -1,82 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Datepicker Check-in</name>
+   <name>menu_My Profile</name>
    <tag></tag>
-   <elementGuidId>b8b6d620-ff5b-450b-9ed7-ea34d9269f0c</elementGuidId>
+   <elementGuidId>0a880d9f-04ae-4471-87a9-d9364ec4f536</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@name='date'])[1]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'mx-icon-calendar']</value>
+         <value>//div[@id='__layout']/div/div[2]/div/div/div/div/div[2]/div[2]/p</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>i</value>
+      <value>p</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>text</name>
       <type>Main</type>
-      <value>mx-icon-calendar</value>
+      <value>My Profile</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__layout&quot;)/div[1]/div[@class=&quot;mobileversion h-auto&quot;]/div[@class=&quot;my-5&quot;]/div[1]/form[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-7 padd10&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-3 box-inputs padd10&quot;]/div[@class=&quot;mx-datepicker&quot;]/div[@class=&quot;mx-input-wrapper&quot;]/i[@class=&quot;mx-icon-calendar&quot;]</value>
+      <value>id(&quot;__layout&quot;)/div[1]/div[@class=&quot;page-content mx-auto&quot;]/div[@class=&quot;search-result-wrapper&quot;]/div[@class=&quot;container-fluid filter-search-mobile&quot;]/div[@class=&quot;row pb-5 mt-5&quot;]/div[@class=&quot;col-xl-3 col-lg-4 col-md-5&quot;]/div[@class=&quot;side-menu mb-3&quot;]/div[@class=&quot;d-flex p-2 menu&quot;]/p[@class=&quot;mb-0&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__layout']/div/div[2]/div[2]/div/form/div/div[2]/div/div/div/div/i</value>
+      <value>//div[@id='__layout']/div/div[2]/div/div/div/div/div[2]/div[2]/p</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Check-In'])[1]/following::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='•'])[7]/following::p[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search Location'])[1]/following::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='•'])[6]/following::p[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Duration'])[1]/preceding::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You haven’t made any booking yet.'])[1]/preceding::p[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Additional'])[1]/preceding::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Browse Unit'])[1]/preceding::p[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//i</value>
+      <value>//div[2]/div[2]/p</value>
    </webElementXpaths>
 </WebElementEntity>

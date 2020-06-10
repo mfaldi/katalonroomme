@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Datepicker Check-in</name>
+   <name>date_staticBirthDate</name>
    <tag></tag>
-   <elementGuidId>b8b6d620-ff5b-450b-9ed7-ea34d9269f0c</elementGuidId>
+   <elementGuidId>79843cee-3f06-4a51-83af-a7dc58457a7f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@name='date'])[1]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'mx-icon-calendar']</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)=&quot;Sa&quot;])[1]/following::div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,62 +17,62 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>i</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>text</name>
       <type>Main</type>
-      <value>mx-icon-calendar</value>
+      <value>8</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__layout&quot;)/div[1]/div[@class=&quot;mobileversion h-auto&quot;]/div[@class=&quot;my-5&quot;]/div[1]/form[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-7 padd10&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-3 box-inputs padd10&quot;]/div[@class=&quot;mx-datepicker&quot;]/div[@class=&quot;mx-input-wrapper&quot;]/i[@class=&quot;mx-icon-calendar&quot;]</value>
+      <value>/html[@class=&quot;md-theme-default&quot;]/body[1]/div[@class=&quot;mx-datepicker-main mx-datepicker-popup&quot;]/div[@class=&quot;mx-datepicker-content&quot;]/div[@class=&quot;mx-datepicker-body&quot;]/div[@class=&quot;mx-calendar mx-calendar-panel-date&quot;]/div[@class=&quot;mx-calendar-content&quot;]/table[@class=&quot;mx-table mx-table-date&quot;]/tbody[1]/tr[@class=&quot;mx-date-row&quot;]/td[@class=&quot;cell&quot;]/div[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//div[@id='__layout']/div/div[2]/div[2]/div/form/div/div[2]/div/div/div/div/i</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[1]/following::div[10]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Check-In'])[1]/following::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fr'])[1]/following::div[10]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search Location'])[1]/following::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::div[33]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Duration'])[1]/preceding::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::div[33]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Additional'])[1]/preceding::i[1]</value>
+      <value>//*/text()[normalize-space(.)='8']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//i</value>
+      <value>//tbody/tr[2]/td[3]/div</value>
    </webElementXpaths>
 </WebElementEntity>

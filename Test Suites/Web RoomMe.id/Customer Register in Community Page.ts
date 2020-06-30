@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>7975048f-0801-4ee8-bdc9-54b63ac1545c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Web RoomMe.id/20. Community Registration/10. Customer Register with Registered Email</testCaseId>
    </testCaseLink>
    <testCaseLink>

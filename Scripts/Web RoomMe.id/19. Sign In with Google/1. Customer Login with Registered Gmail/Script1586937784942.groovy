@@ -14,6 +14,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 //import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 WebUI.callTestCase(findTestCase('Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -25,7 +26,9 @@ WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign In Menu/Button Si
 
 WebUI.click(findTestObject('Web RoomMe.id/Sign In Menu/Button Sign In with Google'))
 
-WebUI.switchToWindowIndex(1)
+WebUI.getWindowTitle()
+
+WebUI.switchToWindowTitle('Masuk - Akun Google')
 
 WebUI.waitForPageLoad(0)
 

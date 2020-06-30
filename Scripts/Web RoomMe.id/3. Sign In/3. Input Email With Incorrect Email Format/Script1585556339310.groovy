@@ -27,33 +27,29 @@ WebUI.waitForElementClickable(findTestObject('Web RoomMe.id/Sign In Menu/Textfie
 
 WebUI.waitForElementClickable(findTestObject('Web RoomMe.id/Sign In Menu/Textfield Password'), 0)
 
-not_run: WebUI.callTestCase(findTestCase('Web RoomMe.id/3. Sign In/Verify Sign In Menu'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Web RoomMe.id/3. Sign In/Verify Sign In Menu'), [:], FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign In Menu/Textfield Email'), 0)
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign In Menu/Textfield Email'), 0)
 
 WebUI.setText(findTestObject('Web RoomMe.id/Sign In Menu/Textfield Email'), 'hurujy')
 
-not_run: WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid'), 
-    10)
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid'), 10)
 
 WebUI.clearText(findTestObject('Web RoomMe.id/Sign In Menu/Textfield Email'))
 
 WebUI.setText(findTestObject('Web RoomMe.id/Sign In Menu/Textfield Email'), '12345')
 
-not_run: WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid'), 
-    10)
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid'), 10)
 
 WebUI.clearText(findTestObject('Web RoomMe.id/Sign In Menu/Textfield Email'))
 
 WebUI.setText(findTestObject('Web RoomMe.id/Sign In Menu/Textfield Email'), '!@#$%^')
 
-not_run: WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid'), 
-    10)
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid'), 10)
 
 WebUI.clearText(findTestObject('Web RoomMe.id/Sign In Menu/Textfield Email'))
 
 WebUI.setText(findTestObject('Web RoomMe.id/Sign In Menu/Textfield Email'), '                  ')
 
-not_run: WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid'), 
-    10)
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign In Menu/Error Message/Text Your Email is Not Valid'), 10)
 

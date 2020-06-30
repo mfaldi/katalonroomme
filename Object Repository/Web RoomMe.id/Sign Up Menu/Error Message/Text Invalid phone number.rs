@@ -9,8 +9,16 @@
          <key>XPATH</key>
          <value>//div[@id='dropdown-auth']/ul/div/div/div/div/form/div/div[3]/div/div[2]/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '
+							Phone Number contains an invalid number
+						' or . = '
+							Phone Number contains an invalid number
+						')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -25,7 +33,7 @@
       <name>text</name>
       <type>Main</type>
       <value>
-							Invalid phone number
+							Phone Number contains an invalid number
 						</value>
    </webElementProperties>
    <webElementProperties>

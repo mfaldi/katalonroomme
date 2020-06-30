@@ -19,9 +19,9 @@ Mobile.startExistingApplication('com.roomme.tenant.dev')
 
 Mobile.tap(findTestObject('Android RoomMe.id/Menu Bar/Text Account'), 0)
 
-Mobile.setText(findTestObject('Android RoomMe.id/Login/Textfield Email Address'), 'faldidev@getnada.com', 0)
+Mobile.setText(findTestObject('Android RoomMe.id/Login/Textfield Email Address'), GlobalVariable.email, 0)
 
-Mobile.setText(findTestObject('Android RoomMe.id/Login/Textfield Password'), '123456', 0)
+Mobile.setText(findTestObject('Android RoomMe.id/Login/Textfield Password'), '123456789', 0)
 
 Mobile.tap(findTestObject('Android RoomMe.id/Login/Button Sign In'), 0)
 

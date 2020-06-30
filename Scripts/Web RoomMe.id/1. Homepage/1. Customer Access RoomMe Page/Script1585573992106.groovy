@@ -21,3 +21,5 @@ WebUI.maximizeWindow()
 
 WebUI.waitForPageLoad(0)
 
+WebUI.click(findTestObject('Web RoomMe.id/RoomMe.id Homepage/Button Close Pop-Up Banner'))
+

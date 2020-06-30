@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//div[@id='__BVID__26__BV_feedback_invalid_']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Your email is not valid' or . = 'Your email is not valid')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -66,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Your Email is Not Valid</value>
+      <value>Your email is not valid</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

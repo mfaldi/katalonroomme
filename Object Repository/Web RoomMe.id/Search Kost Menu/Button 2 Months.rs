@@ -7,13 +7,23 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='__BVID__28']/ul/li[2]/a</value>
+         <value>//div[2]/div/div/div[2]/div/ul/li[2]/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[(text() = '
+													2
+													Months
+												' or . = '
+													2
+													Months
+												')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -34,7 +44,7 @@
       <value>_self</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>

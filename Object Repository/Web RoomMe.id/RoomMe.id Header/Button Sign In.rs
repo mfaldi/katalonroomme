@@ -6,15 +6,15 @@
    <elementGuidId>0a466660-f0b5-47a2-bef2-ef628957e03a</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//button[@id='dropdown-auth__BV_toggle_']</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@class = 'btn dropdown-toggle btn-outline-danger' and (text() = 'Sign In' or . = 'Sign In')]</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//button[@id='dropdown-form__BV_toggle_']</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='__layout']/div/div[2]/div/div[2]/div/div/div[2]/form/div/div[2]/div/a</value>
+         <value>//a[contains(text(),'Search')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

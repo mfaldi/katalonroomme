@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input</value>
+         <value>//input[@id='dropdown-form-email-signin']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

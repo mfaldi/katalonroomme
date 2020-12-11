@@ -32,25 +32,27 @@ WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield
 
 WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Phone Number'), 'abcdefghij')
 
-WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Invalid phone number'), 30, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Phone is required'), 30, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.sendKeys(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Phone Number'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
 
 WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Phone Number'), '12345abcde')
 
-WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Invalid phone number'), 30, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Phone Number contains an invalid number'), 
+    30, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.sendKeys(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Phone Number'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
 
 WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Phone Number'), '08123456 7890')
 
-WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Invalid phone number'), 30, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Invalid phone number'), 
+    30, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.sendKeys(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Phone Number'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
 
 WebUI.setText(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Phone Number'), '!@#$%^&*()')
 
-WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Invalid phone number'), 30, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Sign Up Menu/Error Message/Text Phone is required'), 30, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.sendKeys(findTestObject('Web RoomMe.id/Sign Up Menu/Textfield Phone Number'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
 

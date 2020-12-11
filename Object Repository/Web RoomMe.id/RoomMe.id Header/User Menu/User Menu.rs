@@ -6,12 +6,12 @@
    <elementGuidId>bd7093ff-42a8-4e5b-8da9-347ee3692c89</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;dropdown-profile__BV_toggle_&quot;)/span[1]</value>
+         <key>XPATH</key>
+         <value>//a[@id='dropdown-profile']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Are You a Landlord?'])[1]/following::span[1]</value>
+         <key>BASIC</key>
+         <value>id(&quot;dropdown-profile__BV_toggle_&quot;)/span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

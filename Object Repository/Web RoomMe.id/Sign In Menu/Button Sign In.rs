@@ -6,15 +6,15 @@
    <elementGuidId>ceb3599e-2c73-4570-a2b9-673b2f9cc546</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'btSignIn' and (text() = 'Sign In' or . = 'Sign In')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[@id='btSignIn']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'btSignIn' and (text() = 'Sign In' or . = 'Sign In')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

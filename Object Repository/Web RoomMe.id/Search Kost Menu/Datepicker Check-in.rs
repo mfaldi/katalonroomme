@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='__layout']/div/div[2]/div[2]/div/form/div/div[2]/div/div/div/div/i</value>
+         <value>(//input[@name='date'])[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@class = 'mx-icon-calendar']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

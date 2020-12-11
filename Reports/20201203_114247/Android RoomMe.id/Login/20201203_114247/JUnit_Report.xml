@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="191.96" tests="7" failures="0" errors="0">
+   <testsuite name="Login" tests="7" failures="0" errors="0" time="191.96" timestamp="2020-12-03 11:42:53" hostname="Faldi - XPS" id="Test Suites/Android RoomMe.id/Login">
+      <properties>
+         <property name="deviceName" value="Xiaomi Redmi 7 (Android 9)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme\\Reports\\20201203_114247\\Android RoomMe.id\\Login\\20201203_114247"/>
+         <property name="logFiles" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme\\Reports\\20201203_114247\\Android RoomMe.id\\Login\\20201203_114247\\appium.log, C:\\Users\\Faldi\\Katalon Studio\\katalonroomme\\Reports\\20201203_114247\\Android RoomMe.id\\Login\\20201203_114247\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Faldi - XPS"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.18.2&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="7.7.2.205"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.18.2"/>
+         <property name="deviceModel" value="Redmi 7"/>
+         <property name="hostAddress" value="192.168.10.63"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="237e12f"/>
+         <property name="deviceName" value="Xiaomi Redmi 7 (Android 9)"/>
+         <property name="deviceOSVersion" value="9"/>
+      </properties>
+      <testcase name="Test Cases/Android RoomMe.id/4. Login/2. Login with invalid email" time="30.783" classname="Test Cases/Android RoomMe.id/4. Login/2. Login with invalid email" status="PASSED">
+         <system-out><![CDATA[2020-12-03 11:42:54 - [TEST_CASE][PASSED] - Test Cases/Android RoomMe.id/4. Login/2. Login with invalid email: Test Cases/Android RoomMe.id/4. Login/2. Login with invalid email
+
+2020-12-03 11:42:54 - [TEST_STEP][PASSED] - startApplication("C:\Users\Faldi\Desktop\scrcpy\roomme.apk", false): Started app at: 'C:\Users\Faldi\Desktop\scrcpy\roomme.apk'
+
+2020-12-03 11:42:58 - [MESSAGE][INFO] - Appium server started on port 57,462
+
+2020-12-03 11:43:11 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Faldi\Desktop\scrcpy\roomme.apk'
+
+2020-12-03 11:43:11 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Android RoomMe.id/1. Page Verifier/Verify Home Page"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Android RoomMe.id/1. Page Verifier/Verify Home Page"), [:], STOP_ON_FAILURE)
+
+2020-12-03 11:43:11 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Android RoomMe.id/1. Page Verifier/Verify Home Page"), [:], STOP_ON_FAILURE)
+
+2020-12-03 11:43:11 - [TEST_STEP][PASSED] - tap(findTestObject("Android RoomMe.id/Menu Bar/Icon Account"), 0): Tapped on element 'Object Repository/Android RoomMe.id/Menu Bar/Icon Account'
+
+2020-12-03 11:43:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-12-03 11:43:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android RoomMe.id/Menu Bar/Icon Account'
+
+2020-12-03 11:43:18 - [TEST_STEP][PASSED] - setText(findTestObject("Android RoomMe.id/Login Page/Textfield Email Address"), "faldidev00@gmail.com", 0): Text 'faldidev00@gmail.com' has been set to element 'Object Repository/Android RoomMe.id/Login Page/Textfield Email Address'
+
+2020-12-03 11:43:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-12-03 11:43:20 - [MESSAGE][PASSED] - Text 'faldidev00@gmail.com' has been set to element 'Object Repository/Android RoomMe.id/Login Page/Textfield Email Address'
+
+2020-12-03 11:43:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Android RoomMe.id/Login Page/Textfield Password"), "aeHFOx8jV/A=", 0): Encrypted text 'aeHFOx8jV/A=' has been set to element 'Object Repository/Android RoomMe.id/Login Page/Textfield Password'
+
+2020-12-03 11:43:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-12-03 11:43:23 - [MESSAGE][PASSED] - Encrypted text 'aeHFOx8jV/A=' has been set to element 'Object Repository/Android RoomMe.id/Login Page/Textfield Password'
+
+2020-12-03 11:43:23 - [TEST_STEP][PASSED] - tap(findTestObject("Android RoomMe.id/Login Page/Button Sign In"), 0): Tapped on element 'Object Repository/Android RoomMe.id/Login Page/Button Sign In'
+
+2020-12-03 11:43:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-12-03 11:43:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android RoomMe.id/Login Page/Button Sign In'
+
+2020-12-03 11:43:24 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2020-12-03 11:43:24 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android RoomMe.id/4. Login/3. Login with invalid password" time="27.986" classname="Test Cases/Android RoomMe.id/4. Login/3. Login with invalid password" status="PASSED">
+         <system-out><![CDATA[2020-12-03 11:43:24 - [TEST_CASE][PASSED] - Test Cases/Android RoomMe.id/4. Login/3. Login with invalid password: Test Cases/Android RoomMe.id/4. Login/3. Login with invalid password
+
+2020-12-03 11:43:25 - [TEST_STEP][PASSED] - startApplication("C:\Users\Faldi\Desktop\scrcpy\roomme.apk", false): Started app at: 'C:\Users\Faldi\Desktop\scrcpy\roomme.apk'
+
+2020-12-03 11:43:27 - [MESSAGE][INFO] - Appium server started on port 57,620
+
+2020-12-03 11:43:38 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Faldi\Desktop\scrcpy\roomme.apk'
+
+2020-12-03 11:43:38 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Android RoomMe.id/1. Page Verifier/Verify Home Page"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Android RoomMe.id/1. Page Verifier/Verify Home Page"), [:], STOP_ON_FAILURE)
+
+2020-12-03 11:43:38 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Android RoomMe.id/1. Page Verifier/Verify Home Page"), [:], STOP_ON_FAILURE)
+
+2020-12-03 11:43:38 - [TEST_STEP][PASSED] - tap(findTestObject("Android RoomMe.id/Menu Bar/Icon Account"), 0): Tapped on element 'Object Repository/Android RoomMe.id/Menu Bar/Icon Account'
+
+2020-12-03 11:43:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-12-03 11:43:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android RoomMe.id/Menu Bar/Icon Account'
+
+2020-12-03 11:43:45 - [TEST_STEP][PASSED] - setText(findTestObject("Android RoomMe.id/Login Page/Textfield Email Address"), email, 0): Text 'faldidev10@getnada.com' has been set to element 'Object Repository/Android RoomMe.id/Login Page/Textfield Email Address'
+
+2020-12-03 11:43:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-12-03 11:43:47 - [MESSAGE][PASSED] - Text 'faldidev10@getnada.com' has been set to element 'Object Repository/Android RoomMe.id/Login Page/Textfield Email Address'
+
+2020-12-03 11:43:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Android RoomMe.id/Login Page/Textfield Password"), "LkeMBBcPFbAAvZmc7xnzcQ==", 0): Encrypted text 'LkeMBBcPFbAAvZmc7xnzcQ==' has been set to element 'Object Repository/Android RoomMe.id/Login Page/Textfield Password'
+
+2020-12-03 11:43:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-12-03 11:43:50 - [MESSAGE][PASSED] - Encrypted text 'LkeMBBcPFbAAvZmc7xnzcQ==' has been set to element 'Object Repository/Android RoomMe.id/Login Page/Textfield Password'
+
+2020-12-03 11:43:50 - [TEST_STEP][PASSED] - tap(findTestObject("Android RoomMe.id/Login Page/Button Sign In"), 0): Tapped on element 'Object Repository/Android RoomMe.id/Login Page/Button Sign In'
+
+2020-12-03 11:43:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-12-03 11:43:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android RoomMe.id/Login Page/Button Sign In'
+
+2020-12-03 11:43:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Android RoomMe.id/Login Page/Error Message/Text Password is incorrect"), "Password is incorrect"): Actual text and expected text of test object 'Object Repository/Android RoomMe.id/Login Page/Error Message/Text Password is incorrect' are matched.
+
+2020-12-03 11:43:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Android RoomMe.id/Login Page/Error Message/Text Password is incorrect' are matched.
+
+2020-12-03 11:43:52 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2020-12-03 11:43:52 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android RoomMe.id/4. Login/4. Login with blank password" time="25.121" classname="Test Cases/Android RoomMe.id/4. Login/4. Login with blank password" status="PASSED">
+         <system-out><![CDATA[2020-12-03 11:43:52 - [TEST_CASE][PASSED] - Test Cases/Android RoomMe.id/4. Login/4. Login with blank password: Test Cases/Android RoomMe.id/4. Login/4. Login with blank password
+
+2020-12-03 11:43:53 - [TEST_STEP][PASSED] - startApplication("C:\Users\Faldi\Desktop\scrcpy\roomme.apk", false): Started app at: 'C:\Users\Faldi\Desktop\scrcpy\roomme.apk'
+
+2020-12-03 11:43:55 - [MESSAGE][INFO] - Appium server started on port 57,775
+
+2020-12-03 11:44:06 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Faldi\Desktop\scrcpy\roomme.apk'
+
+2020-12-03 11:44:06 - [TEST_STEP][PASSED] - tap(findTestObject("Android RoomMe.id/Menu Bar/Icon Account"), 0): Tapped on element 'Object Repository/Android RoomMe.id/Menu Bar/Icon Account'
+
+2020-12-03 11:44:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-12-03 11:44:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android RoomMe.id/Menu Bar/Icon Account'
+
+2020-12-03 11:44:13 - [TEST_STEP][PASSED] - setText(findTestObject("Android RoomMe.id/Login Page/Textfield Email Address"), email, 0): Text 'faldidev10@getnada.com' has been set to element 'Object Repository/Android RoomMe.id/Login Page/Textfield Email Address'
+
+2020-12-03 11:44:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-12-03 11:44:15 - [MESSAGE][PASSED] - Text 'faldidev10@getnada.com' has been set to element 'Object Repository/Android RoomMe.id/Login Page/Textfield Email Address'
+
+2020-12-03 11:44:15 - [TEST_STEP][NOT_RUN] - setEncryptedText(findTestObject("Android RoomMe.id/Login Page/Textfield Password"), "aeHFOx8jV/A=", 0): NOT_RUN: setEncryptedText(findTestObject("Android RoomMe.id/Login Page/Textfield Password"), "aeHFOx8jV/A=", 0)
+
+2020-12-03 11:44:15 - [MESSAGE][NOT_RUN] - NOT_RUN: setEncryptedText(findTestObject("Android RoomMe.id/Login Page/Textfield Password"), "aeHFOx8jV/A=", 0)
+
+2020-12-03 11:44:15 - [TEST_STEP][PASSED] - tap(findTestObject("Android RoomMe.id/Login Page/Button Sign In"), 0): Tapped on element 'Object Repository/Android RoomMe.id/Login Page/Button Sign In'
+
+2020-12-03 11:44:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-12-03 11:44:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android RoomMe.id/Login Page/Button Sign In'
+
+2020-12-03 11:44:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Android RoomMe.id/Login Page/Error Message/Text Please input the password"), "Please input the password"): Actual text and expected text of test object 'Object Repository/Android RoomMe.id/Login Page/Error Message/Text Please input the password' are matched.
+
+2020-12-03 11:44:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Android RoomMe.id/Login Page/Error Message/Text Please input the password' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android RoomMe.id/4. Login/5. Login with blank email" time="23.51" classname="Test Cases/Android RoomMe.id/4. Login/5. Login with blank email" status="PASSED">
+         <system-out><![CDATA[2020-12-03 11:44:18 - [TEST_CASE][PASSED] - Test Cases/Android RoomMe.id/4. Login/5. Login with blank email: Test Cases/Android RoomMe.id/4. Login/5. Login with blank email
+
+2020-12-03 11:44:18 - [TEST_STEP][PASSED] - startApplication("C:\Users\Faldi\Desktop\scrcpy\roomme.apk", false): Started app at: 'C:\Users\Faldi\Desktop\scrcpy\roomme.apk'
+
+2020-12-03 11:44:29 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Faldi\Desktop\scrcpy\roomme.apk'
+
+2020-12-03 11:44:29 - [TEST_STEP][PASSED] - tap(findTestObject("Android RoomMe.id/Menu Bar/Icon Account"), 0): Tapped on element 'Object Repository/Android RoomMe.id/Menu Bar/Icon Account'
+
+2020-12-03 11:44:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-12-03 11:44:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android RoomMe.id/Menu Bar/Icon Account'
+
+2020-12-03 11:44:37 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Android RoomMe.id/Login Page/Textfield Email Address"), email, 0): NOT_RUN: setText(findTestObject("Android RoomMe.id/Login Page/Textfield Email Address"), email, 0)
+
+2020-12-03 11:44:37 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Android RoomMe.id/Login Page/Textfield Email Address"), email, 0)
+
+2020-12-03 11:44:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Android RoomMe.id/Login Page/Textfield Password"), "aeHFOx8jV/A=", 0): Encrypted text 'aeHFOx8jV/A=' has been set to element 'Object Repository/Android RoomMe.id/Login Page/Textfield Password'
+
+2020-12-03 11:44:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-12-03 11:44:39 - [MESSAGE][PASSED] - Encrypted text 'aeHFOx8jV/A=' has been set to element 'Object Repository/Android RoomMe.id/Login Page/Textfield Password'
+
+2020-12-03 11:44:39 - [TEST_STEP][PASSED] - tap(findTestObject("Android RoomMe.id/Login Page/Button Sign In"), 0): Tapped on element 'Object Repository/Android RoomMe.id/Login Page/Button Sign In'
+
+2020-12-03 11:44:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-12-03 11:44:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android RoomMe.id/Login Page/Button Sign In'
+
+2020-12-03 11:44:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Android RoomMe.id/Login Page/Error Message/Text Please input the email"), "Please input the email"): Actual text and expected text of test object 'Object Repository/Android RoomMe.id/Login Page/Error Message/Text Please input the email' are matched.
+
+2020-12-03 11:44:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Android RoomMe.id/Login Page/Error Message/Text Please input the email' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android RoomMe.id/4. Login/6. Input email with invalid format" time="33.776" classname="Test Cases/Android RoomMe.id/4. Login/6. Input email with invalid format" status="PASSED">
+         <system-out><![CDATA[2020-12-03 11:44:41 - [TEST_CASE][PASSED] - Test Cases/Android RoomMe.id/4. Login/6. Input email with invalid format: Test Cases/Android RoomMe.id/4. Login/6. Input email with invalid format
+
+2020-12-03 11:44:41 - [TEST_STEP][PASSED] - startApplication("C:\Users\Faldi\Desktop\scrcpy\roomme.apk", false): Started app at: 'C:\Users\Faldi\Desktop\scrcpy\roomme.apk'
+
+2020-12-03 11:44:53 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Faldi\Desktop\scrcpy\roomme.apk'
+
+2020-12-03 11:44:53 - [TEST_STEP][PASSED] - tap(findTestObject("Android RoomMe.id/Menu Bar/Icon Account"), 0): Tapped on element 'Object Repository/Android RoomMe.id/Menu Bar/Icon Account'
+
+2020-12-03 11:44:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-12-03 11:44:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android RoomMe.id/Menu Bar/Icon Account'
+
+2020-12-03 11:44:59 - [TEST_STEP][PASSED] - setText(findTestObject("Android RoomMe.id/Login Page/Textfield Email Address"), "test", 0): Text 'test' has been set to element 'Object Repository/Android RoomMe.id/Login Page/Textfield Email Address'
+
+2020-12-03 11:44:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-12-03 11:45:02 - [MESSAGE][PASSED] - Text 'test' has been set to element 'Object Repository/Android RoomMe.id/Login Page/Textfield Email Address'
+
+2020-12-03 11:45:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Android RoomMe.id/Login Page/Error Message/Text Please input the email"), "Please input the email"): Actual text and expected text of test object 'Object Repository/Android RoomMe.id/Login Page/Error Message/Text Please input the email' are matched.
+
+2020-12-03 11:45:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Android RoomMe.id/Login Page/Error Message/Text Please input the email' are matched.
+
+2020-12-03 11:45:03 - [TEST_STEP][PASSED] - clearText(findTestObject("Android RoomMe.id/Login Page/Textfield Email Address"), 0): Element 'Object Repository/Android RoomMe.id/Login Page/Textfield Email Address' text is cleared
+
+2020-12-03 11:45:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-12-03 11:45:04 - [MESSAGE][PASSED] - Element 'Object Repository/Android RoomMe.id/Login Page/Textfield Email Address' text is cleared
+
+2020-12-03 11:45:04 - [TEST_STEP][PASSED] - setText(findTestObject("Android RoomMe.id/Login Page/Textfield Email Address"), "test123", 0): Text 'test123' has been set to element 'Object Repository/Android RoomMe.id/Login Page/Textfield Email Address'
+
+2020-12-03 11:45:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-12-03 11:45:06 - [MESSAGE][PASSED] - Text 'test123' has been set to element 'Object Repository/Android RoomMe.id/Login Page/Textfield Email Address'
+
+2020-12-03 11:45:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Android RoomMe.id/Login Page/Error Message/Text Please input the email"), "Please input the email"): Actual text and expected text of test object 'Object Repository/Android RoomMe.id/Login Page/Error Message/Text Please input the email' are matched.
+
+2020-12-03 11:45:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Android RoomMe.id/Login Page/Error Message/Text Please input the email' are matched.
+
+2020-12-03 11:45:07 - [TEST_STEP][PASSED] - clearText(findTestObject("Android RoomMe.id/Login Page/Textfield Email Address"), 0): Element 'Object Repository/Android RoomMe.id/Login Page/Textfield Email Address' text is cleared
+
+2020-12-03 11:45:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-12-03 11:45:08 - [MESSAGE][PASSED] - Element 'Object Repository/Android RoomMe.id/Login Page/Textfield Email Address' text is cleared
+
+2020-12-03 11:45:08 - [TEST_STEP][PASSED] - setText(findTestObject("Android RoomMe.id/Login Page/Textfield Email Address"), "test123@", 0): Text 'test123@' has been set to element 'Object Repository/Android RoomMe.id/Login Page/Textfield Email Address'
+
+2020-12-03 11:45:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-12-03 11:45:10 - [MESSAGE][PASSED] - Text 'test123@' has been set to element 'Object Repository/Android RoomMe.id/Login Page/Textfield Email Address'
+
+2020-12-03 11:45:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Android RoomMe.id/Login Page/Error Message/Text Please input the email"), "Please input the email"): Actual text and expected text of test object 'Object Repository/Android RoomMe.id/Login Page/Error Message/Text Please input the email' are matched.
+
+2020-12-03 11:45:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Android RoomMe.id/Login Page/Error Message/Text Please input the email' are matched.
+
+2020-12-03 11:45:11 - [TEST_STEP][PASSED] - clearText(findTestObject("Android RoomMe.id/Login Page/Textfield Email Address"), 0): Element 'Object Repository/Android RoomMe.id/Login Page/Textfield Email Address' text is cleared
+
+2020-12-03 11:45:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-12-03 11:45:12 - [MESSAGE][PASSED] - Element 'Object Repository/Android RoomMe.id/Login Page/Textfield Email Address' text is cleared
+
+2020-12-03 11:45:12 - [TEST_STEP][PASSED] - setText(findTestObject("Android RoomMe.id/Login Page/Textfield Email Address"), "test123@gmail", 0): Text 'test123@gmail' has been set to element 'Object Repository/Android RoomMe.id/Login Page/Textfield Email Address'
+
+2020-12-03 11:45:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-12-03 11:45:13 - [MESSAGE][PASSED] - Text 'test123@gmail' has been set to element 'Object Repository/Android RoomMe.id/Login Page/Textfield Email Address'
+
+2020-12-03 11:45:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Android RoomMe.id/Login Page/Error Message/Text Please input the email"), "Please input the email"): Actual text and expected text of test object 'Object Repository/Android RoomMe.id/Login Page/Error Message/Text Please input the email' are matched.
+
+2020-12-03 11:45:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Android RoomMe.id/Login Page/Error Message/Text Please input the email' are matched.
+
+2020-12-03 11:45:14 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2020-12-03 11:45:15 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android RoomMe.id/4. Login/7. Login with blank email and password" time="23.821" classname="Test Cases/Android RoomMe.id/4. Login/7. Login with blank email and password" status="PASSED">
+         <system-out><![CDATA[2020-12-03 11:45:15 - [TEST_CASE][PASSED] - Test Cases/Android RoomMe.id/4. Login/7. Login with blank email and password: Test Cases/Android RoomMe.id/4. Login/7. Login with blank email and password
+
+2020-12-03 11:45:15 - [TEST_STEP][PASSED] - startApplication("C:\Users\Faldi\Desktop\scrcpy\roomme.apk", false): Started app at: 'C:\Users\Faldi\Desktop\scrcpy\roomme.apk'
+
+2020-12-03 11:45:17 - [MESSAGE][INFO] - Appium server started on port 58,202
+
+2020-12-03 11:45:29 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Faldi\Desktop\scrcpy\roomme.apk'
+
+2020-12-03 11:45:29 - [TEST_STEP][PASSED] - tap(findTestObject("Android RoomMe.id/Menu Bar/Icon Account"), 0): Tapped on element 'Object Repository/Android RoomMe.id/Menu Bar/Icon Account'
+
+2020-12-03 11:45:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-12-03 11:45:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android RoomMe.id/Menu Bar/Icon Account'
+
+2020-12-03 11:45:35 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Android RoomMe.id/Login Page/Textfield Email Address"), email, 0): NOT_RUN: setText(findTestObject("Android RoomMe.id/Login Page/Textfield Email Address"), email, 0)
+
+2020-12-03 11:45:35 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Android RoomMe.id/Login Page/Textfield Email Address"), email, 0)
+
+2020-12-03 11:45:35 - [TEST_STEP][NOT_RUN] - setEncryptedText(findTestObject("Android RoomMe.id/Login Page/Textfield Password"), "aeHFOx8jV/A=", 0): NOT_RUN: setEncryptedText(findTestObject("Android RoomMe.id/Login Page/Textfield Password"), "aeHFOx8jV/A=", 0)
+
+2020-12-03 11:45:35 - [MESSAGE][NOT_RUN] - NOT_RUN: setEncryptedText(findTestObject("Android RoomMe.id/Login Page/Textfield Password"), "aeHFOx8jV/A=", 0)
+
+2020-12-03 11:45:35 - [TEST_STEP][PASSED] - tap(findTestObject("Android RoomMe.id/Login Page/Button Sign In"), 0): Tapped on element 'Object Repository/Android RoomMe.id/Login Page/Button Sign In'
+
+2020-12-03 11:45:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-12-03 11:45:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android RoomMe.id/Login Page/Button Sign In'
+
+2020-12-03 11:45:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Android RoomMe.id/Login Page/Error Message/Text Please input the email"), "Please input the email"): Actual text and expected text of test object 'Object Repository/Android RoomMe.id/Login Page/Error Message/Text Please input the email' are matched.
+
+2020-12-03 11:45:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Android RoomMe.id/Login Page/Error Message/Text Please input the email' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android RoomMe.id/4. Login/1. Login with valid credentials" time="25.936" classname="Test Cases/Android RoomMe.id/4. Login/1. Login with valid credentials" status="PASSED">
+         <system-out><![CDATA[2020-12-03 11:45:39 - [TEST_CASE][PASSED] - Test Cases/Android RoomMe.id/4. Login/1. Login with valid credentials: Test Cases/Android RoomMe.id/4. Login/1. Login with valid credentials
+
+2020-12-03 11:45:39 - [TEST_STEP][PASSED] - startApplication("C:\Users\Faldi\Desktop\scrcpy\roomme.apk", false): Started app at: 'C:\Users\Faldi\Desktop\scrcpy\roomme.apk'
+
+2020-12-03 11:45:50 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Faldi\Desktop\scrcpy\roomme.apk'
+
+2020-12-03 11:45:50 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Android RoomMe.id/1. Page Verifier/Verify Home Page"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Android RoomMe.id/1. Page Verifier/Verify Home Page"), [:], STOP_ON_FAILURE)
+
+2020-12-03 11:45:50 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Android RoomMe.id/1. Page Verifier/Verify Home Page"), [:], STOP_ON_FAILURE)
+
+2020-12-03 11:45:50 - [TEST_STEP][PASSED] - tap(findTestObject("Android RoomMe.id/Menu Bar/Icon Account"), 0): Tapped on element 'Object Repository/Android RoomMe.id/Menu Bar/Icon Account'
+
+2020-12-03 11:45:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-12-03 11:45:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android RoomMe.id/Menu Bar/Icon Account'
+
+2020-12-03 11:45:58 - [TEST_STEP][PASSED] - setText(findTestObject("Android RoomMe.id/Login Page/Textfield Email Address"), email, 0): Text 'faldidev10@getnada.com' has been set to element 'Object Repository/Android RoomMe.id/Login Page/Textfield Email Address'
+
+2020-12-03 11:45:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-12-03 11:46:01 - [MESSAGE][PASSED] - Text 'faldidev10@getnada.com' has been set to element 'Object Repository/Android RoomMe.id/Login Page/Textfield Email Address'
+
+2020-12-03 11:46:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Android RoomMe.id/Login Page/Textfield Password"), "aeHFOx8jV/A=", 0): Encrypted text 'aeHFOx8jV/A=' has been set to element 'Object Repository/Android RoomMe.id/Login Page/Textfield Password'
+
+2020-12-03 11:46:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-12-03 11:46:03 - [MESSAGE][PASSED] - Encrypted text 'aeHFOx8jV/A=' has been set to element 'Object Repository/Android RoomMe.id/Login Page/Textfield Password'
+
+2020-12-03 11:46:03 - [TEST_STEP][PASSED] - tap(findTestObject("Android RoomMe.id/Login Page/Button Sign In"), 0): Tapped on element 'Object Repository/Android RoomMe.id/Login Page/Button Sign In'
+
+2020-12-03 11:46:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-12-03 11:46:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android RoomMe.id/Login Page/Button Sign In'
+
+2020-12-03 11:46:04 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2020-12-03 11:46:05 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-12-03 11:42:53 - [TEST_SUITE][PASSED] - Login: Test Cases/Android RoomMe.id/4. Login/1. Login with valid credentials]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

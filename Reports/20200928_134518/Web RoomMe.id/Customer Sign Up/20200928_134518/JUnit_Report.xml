@@ -1,0 +1,2535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Customer Sign Up" time="270.212" tests="8" failures="0" errors="0">
+   <testsuite name="Customer Sign Up" tests="8" failures="0" errors="0" time="270.212" timestamp="2020-09-28 13:45:34" hostname="Faldi - XPS" id="Test Suites/Web RoomMe.id/Customer Sign Up">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme\\Reports\\20200928_134518\\Web RoomMe.id\\Customer Sign Up\\20200928_134518"/>
+         <property name="logFiles" value="C:\\Users\\Faldi\\Katalon Studio\\katalonroomme\\Reports\\20200928_134518\\Web RoomMe.id\\Customer Sign Up\\20200928_134518\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Faldi - XPS"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.9.1"/>
+         <property name="browser" value="Chrome 85.0.4183.121"/>
+         <property name="hostAddress" value="192.168.10.154"/>
+         <property name="sessionId" value="cd51a22ca57a8b715466454469d1dc1a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Web RoomMe.id/2. Sign Up/1. Sign Up with Valid Data" time="36.968" classname="Test Cases/Web RoomMe.id/2. Sign Up/1. Sign Up with Valid Data" status="PASSED">
+         <system-out><![CDATA[2020-09-28 13:45:35 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/2. Sign Up/1. Sign Up with Valid Data: Test Cases/Web RoomMe.id/2. Sign Up/1. Sign Up with Valid Data
+
+2020-09-28 13:45:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-09-28 13:45:36 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-09-28 13:45:36 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://dev-web:w3BdEv-r0omM3@web.roomme.id'
+
+2020-09-28 13:45:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-28 13:45:37 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-09-28 13:45:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-web:w3BdEv-r0omM3@web.roomme.id'
+
+2020-09-28 13:45:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-28 13:45:50 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-28 13:45:50 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-09-28 13:45:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-09-28 13:45:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-28 13:45:50 - [TEST_STEP][NOT_RUN] - click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Close Pop-Up Banner")): NOT_RUN: click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Close Pop-Up Banner"))
+
+2020-09-28 13:45:50 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Close Pop-Up Banner"))
+
+2020-09-28 13:45:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-09-28 13:45:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id' successfully
+
+2020-09-28 13:45:51 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id: Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id
+
+2020-09-28 13:45:51 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\RoomMe.id Header\": null
+
+2020-09-28 13:45:51 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-09-28 13:45:51 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-09-28 13:45:51 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-09-28 13:45:51 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-09-28 13:45:51 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-09-28 13:45:51 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:45:51 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:45:51 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:45:51 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:45:51 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:45:51 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:45:51 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:45:51 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:45:51 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:45:51 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:45:51 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:45:51 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:45:51 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:45:51 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:45:51 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-09-28 13:45:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Are You Landlord' is visible
+
+2020-09-28 13:45:52 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Are You Landlord' is visible
+
+2020-09-28 13:45:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Community' is visible
+
+2020-09-28 13:45:52 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Community' is visible
+
+2020-09-28 13:45:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Sign In' is visible
+
+2020-09-28 13:45:53 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Sign In' is visible
+
+2020-09-28 13:45:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-09-28 13:45:53 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-09-28 13:45:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id' successfully
+
+2020-09-28 13:45:53 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is clicked on
+
+2020-09-28 13:45:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is clicked on
+
+2020-09-28 13:45:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign Up"), 0): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign Up' is visible
+
+2020-09-28 13:45:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-09-28 13:45:55 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign Up' is visible
+
+2020-09-28 13:45:55 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign Up")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign Up' is clicked on
+
+2020-09-28 13:45:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign Up' is clicked on
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/2. Sign Up/Verify Sign Up Menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/2. Sign Up/Verify Sign Up Menu' successfully
+
+2020-09-28 13:45:56 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/2. Sign Up/Verify Sign Up Menu: Test Cases/Web RoomMe.id/2. Sign Up/Verify Sign Up Menu
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\Sign Up Menu\": null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Phone Number' is visible
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Button Sign In' is visible
+
+2020-09-28 13:45:56 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Button Sign In' is visible
+
+2020-09-28 13:45:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Button Sign Up' is visible
+
+2020-09-28 13:45:57 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Button Sign Up' is visible
+
+2020-09-28 13:45:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Name Textfield' is visible
+
+2020-09-28 13:45:57 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Name Textfield' is visible
+
+2020-09-28 13:45:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Are you have an account' is visible
+
+2020-09-28 13:45:58 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Are you have an account' is visible
+
+2020-09-28 13:45:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Confirm Password' is visible
+
+2020-09-28 13:45:58 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Confirm Password' is visible
+
+2020-09-28 13:45:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Email Address' is visible
+
+2020-09-28 13:45:58 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Email Address' is visible
+
+2020-09-28 13:45:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Full Name' is visible
+
+2020-09-28 13:45:59 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Full Name' is visible
+
+2020-09-28 13:45:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Password' is visible
+
+2020-09-28 13:45:59 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Password' is visible
+
+2020-09-28 13:45:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Phone Number' is visible
+
+2020-09-28 13:46:00 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Phone Number' is visible
+
+2020-09-28 13:46:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Confirm Password' is visible
+
+2020-09-28 13:46:00 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Confirm Password' is visible
+
+2020-09-28 13:46:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Email' is visible
+
+2020-09-28 13:46:00 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Email' is visible
+
+2020-09-28 13:46:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Password' is visible
+
+2020-09-28 13:46:01 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Password' is visible
+
+2020-09-28 13:46:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Phone Number' is visible
+
+2020-09-28 13:46:01 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Phone Number' is visible
+
+2020-09-28 13:46:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/2. Sign Up/Verify Sign Up Menu' successfully
+
+2020-09-28 13:46:01 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Name Textfield"), 0): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Name Textfield' is visible
+
+2020-09-28 13:46:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-09-28 13:46:02 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Name Textfield' is visible
+
+2020-09-28 13:46:02 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign Up Menu/Name Textfield"), "Faldi Test AT"): Text 'Faldi Test AT' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Name Textfield'
+
+2020-09-28 13:46:03 - [MESSAGE][PASSED] - Text 'Faldi Test AT' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Name Textfield'
+
+2020-09-28 13:46:03 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Email"), "faldiat" + RandomStringUtils.randomNumeric(5)): Text 'faldiat54523' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Email'
+
+2020-09-28 13:46:04 - [MESSAGE][PASSED] - Text 'faldiat54523' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Email'
+
+2020-09-28 13:46:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Email"), "@gmail.com"): Keys '@gmail.com' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Email'
+
+2020-09-28 13:46:04 - [MESSAGE][PASSED] - Keys '@gmail.com' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Email'
+
+2020-09-28 13:46:04 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Phone Number"), "081234567890"): Text '081234567890' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Phone Number'
+
+2020-09-28 13:46:06 - [MESSAGE][PASSED] - Text '081234567890' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Phone Number'
+
+2020-09-28 13:46:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Password"), "da8fEzhczGg="): Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Password'
+
+2020-09-28 13:46:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Password'
+
+2020-09-28 13:46:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Confirm Password"), "da8fEzhczGg="): Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Confirm Password'
+
+2020-09-28 13:46:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Confirm Password'
+
+2020-09-28 13:46:07 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign Up Menu/Button Sign Up")): Object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Button Sign Up' is clicked on
+
+2020-09-28 13:46:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Button Sign Up' is clicked on
+
+2020-09-28 13:46:08 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Success Sign Up/Button Close"), 0): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Success Sign Up/Button Close' is visible
+
+2020-09-28 13:46:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-09-28 13:46:10 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Success Sign Up/Button Close' is visible
+
+2020-09-28 13:46:10 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Success Sign Up/Icon RoomMe"), 0): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Success Sign Up/Icon RoomMe' is visible
+
+2020-09-28 13:46:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-09-28 13:46:10 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Success Sign Up/Icon RoomMe' is visible
+
+2020-09-28 13:46:10 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Success Sign Up/Text Welcome to RoomMe"), 0): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Success Sign Up/Text Welcome to RoomMe' is visible
+
+2020-09-28 13:46:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-09-28 13:46:11 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Success Sign Up/Text Welcome to RoomMe' is visible
+
+2020-09-28 13:46:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Success Sign Up/Text Thank you Youve successfully signed up"), 0): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Success Sign Up/Text Thank you Youve successfully signed up' is visible
+
+2020-09-28 13:46:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-09-28 13:46:11 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Success Sign Up/Text Thank you Youve successfully signed up' is visible
+
+2020-09-28 13:46:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Success Sign Up/Text Please check your email for activation"), 0): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Success Sign Up/Text Please check your email for activation' is visible
+
+2020-09-28 13:46:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-09-28 13:46:11 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Success Sign Up/Text Please check your email for activation' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/2. Sign Up/2. Sign Up With Blank Data" time="28.976" classname="Test Cases/Web RoomMe.id/2. Sign Up/2. Sign Up With Blank Data" status="PASSED">
+         <system-out><![CDATA[2020-09-28 13:46:11 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/2. Sign Up/2. Sign Up With Blank Data: Test Cases/Web RoomMe.id/2. Sign Up/2. Sign Up With Blank Data
+
+2020-09-28 13:46:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-09-28 13:46:12 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-09-28 13:46:12 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://dev-web:w3BdEv-r0omM3@web.roomme.id'
+
+2020-09-28 13:46:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-28 13:46:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-28 13:46:27 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-web:w3BdEv-r0omM3@web.roomme.id'
+
+2020-09-28 13:46:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-28 13:46:30 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-28 13:46:30 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-09-28 13:46:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-09-28 13:46:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-28 13:46:30 - [TEST_STEP][NOT_RUN] - click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Close Pop-Up Banner")): NOT_RUN: click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Close Pop-Up Banner"))
+
+2020-09-28 13:46:30 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Close Pop-Up Banner"))
+
+2020-09-28 13:46:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-09-28 13:46:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id' successfully
+
+2020-09-28 13:46:30 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id: Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id
+
+2020-09-28 13:46:30 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\RoomMe.id Header\": null
+
+2020-09-28 13:46:30 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-09-28 13:46:30 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-09-28 13:46:30 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-09-28 13:46:30 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-09-28 13:46:30 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-09-28 13:46:30 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:30 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:30 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:30 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:30 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:30 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:30 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:30 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:30 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:30 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:30 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:30 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:30 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:30 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:30 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-09-28 13:46:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Are You Landlord' is visible
+
+2020-09-28 13:46:30 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Are You Landlord' is visible
+
+2020-09-28 13:46:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Community' is visible
+
+2020-09-28 13:46:31 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Community' is visible
+
+2020-09-28 13:46:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Sign In' is visible
+
+2020-09-28 13:46:31 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Sign In' is visible
+
+2020-09-28 13:46:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-09-28 13:46:32 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-09-28 13:46:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id' successfully
+
+2020-09-28 13:46:32 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is clicked on
+
+2020-09-28 13:46:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is clicked on
+
+2020-09-28 13:46:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign Up"), 0): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign Up' is visible
+
+2020-09-28 13:46:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-09-28 13:46:33 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign Up' is visible
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign Up")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign Up' is clicked on
+
+2020-09-28 13:46:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign Up' is clicked on
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/2. Sign Up/Verify Sign Up Menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/2. Sign Up/Verify Sign Up Menu' successfully
+
+2020-09-28 13:46:33 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/2. Sign Up/Verify Sign Up Menu: Test Cases/Web RoomMe.id/2. Sign Up/Verify Sign Up Menu
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\Sign Up Menu\": null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Phone Number' is visible
+
+2020-09-28 13:46:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Button Sign In' is visible
+
+2020-09-28 13:46:34 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Button Sign In' is visible
+
+2020-09-28 13:46:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Button Sign Up' is visible
+
+2020-09-28 13:46:34 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Button Sign Up' is visible
+
+2020-09-28 13:46:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Name Textfield' is visible
+
+2020-09-28 13:46:34 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Name Textfield' is visible
+
+2020-09-28 13:46:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Are you have an account' is visible
+
+2020-09-28 13:46:35 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Are you have an account' is visible
+
+2020-09-28 13:46:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Confirm Password' is visible
+
+2020-09-28 13:46:35 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Confirm Password' is visible
+
+2020-09-28 13:46:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Email Address' is visible
+
+2020-09-28 13:46:36 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Email Address' is visible
+
+2020-09-28 13:46:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Full Name' is visible
+
+2020-09-28 13:46:36 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Full Name' is visible
+
+2020-09-28 13:46:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Password' is visible
+
+2020-09-28 13:46:36 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Password' is visible
+
+2020-09-28 13:46:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Phone Number' is visible
+
+2020-09-28 13:46:37 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Phone Number' is visible
+
+2020-09-28 13:46:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Confirm Password' is visible
+
+2020-09-28 13:46:37 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Confirm Password' is visible
+
+2020-09-28 13:46:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Email' is visible
+
+2020-09-28 13:46:38 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Email' is visible
+
+2020-09-28 13:46:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Password' is visible
+
+2020-09-28 13:46:38 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Password' is visible
+
+2020-09-28 13:46:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Phone Number' is visible
+
+2020-09-28 13:46:38 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Phone Number' is visible
+
+2020-09-28 13:46:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/2. Sign Up/Verify Sign Up Menu' successfully
+
+2020-09-28 13:46:38 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign Up Menu/Button Sign Up")): Object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Button Sign Up' is clicked on
+
+2020-09-28 13:46:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Button Sign Up' is clicked on
+
+2020-09-28 13:46:39 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Error Message/Text Name is required"), 30, STOP_ON_FAILURE): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Name is required' is visible
+
+2020-09-28 13:46:39 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Name is required' is visible
+
+2020-09-28 13:46:39 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Error Message/Text Email is required"), 30, STOP_ON_FAILURE): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Email is required' is visible
+
+2020-09-28 13:46:40 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Email is required' is visible
+
+2020-09-28 13:46:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Error Message/Text Phone is required"), 30, STOP_ON_FAILURE): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Phone is required' is visible
+
+2020-09-28 13:46:40 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Phone is required' is visible
+
+2020-09-28 13:46:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Error Message/Text Password is required"), 30, STOP_ON_FAILURE): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Password is required' is visible
+
+2020-09-28 13:46:40 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Password is required' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/2. Sign Up/3. Customer Input Name Field with Invalid Format" time="32.538" classname="Test Cases/Web RoomMe.id/2. Sign Up/3. Customer Input Name Field with Invalid Format" status="PASSED">
+         <system-out><![CDATA[2020-09-28 13:46:40 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/2. Sign Up/3. Customer Input Name Field with Invalid Format: Test Cases/Web RoomMe.id/2. Sign Up/3. Customer Input Name Field with Invalid Format
+
+2020-09-28 13:46:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-09-28 13:46:41 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-09-28 13:46:41 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://dev-web:w3BdEv-r0omM3@web.roomme.id'
+
+2020-09-28 13:46:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-28 13:46:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-28 13:46:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-web:w3BdEv-r0omM3@web.roomme.id'
+
+2020-09-28 13:46:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-28 13:46:55 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-28 13:46:55 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-09-28 13:46:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-09-28 13:46:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-28 13:46:55 - [TEST_STEP][NOT_RUN] - click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Close Pop-Up Banner")): NOT_RUN: click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Close Pop-Up Banner"))
+
+2020-09-28 13:46:55 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Close Pop-Up Banner"))
+
+2020-09-28 13:46:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-09-28 13:46:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id' successfully
+
+2020-09-28 13:46:55 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id: Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id
+
+2020-09-28 13:46:55 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\RoomMe.id Header\": null
+
+2020-09-28 13:46:55 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-09-28 13:46:55 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-09-28 13:46:55 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-09-28 13:46:55 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-09-28 13:46:55 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-09-28 13:46:55 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:55 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:55 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:55 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:55 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:55 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:55 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:55 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:55 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:55 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:55 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:55 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:55 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:55 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:55 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-09-28 13:46:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Are You Landlord' is visible
+
+2020-09-28 13:46:56 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Are You Landlord' is visible
+
+2020-09-28 13:46:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Community' is visible
+
+2020-09-28 13:46:57 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Community' is visible
+
+2020-09-28 13:46:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Sign In' is visible
+
+2020-09-28 13:46:57 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Sign In' is visible
+
+2020-09-28 13:46:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-09-28 13:46:57 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-09-28 13:46:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id' successfully
+
+2020-09-28 13:46:57 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is clicked on
+
+2020-09-28 13:46:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is clicked on
+
+2020-09-28 13:46:58 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign Up"), 0): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign Up' is visible
+
+2020-09-28 13:46:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-09-28 13:46:58 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign Up' is visible
+
+2020-09-28 13:46:58 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign Up")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign Up' is clicked on
+
+2020-09-28 13:46:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign Up' is clicked on
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/2. Sign Up/Verify Sign Up Menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/2. Sign Up/Verify Sign Up Menu' successfully
+
+2020-09-28 13:46:59 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/2. Sign Up/Verify Sign Up Menu: Test Cases/Web RoomMe.id/2. Sign Up/Verify Sign Up Menu
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\Sign Up Menu\": null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Phone Number' is visible
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Button Sign In' is visible
+
+2020-09-28 13:46:59 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Button Sign In' is visible
+
+2020-09-28 13:46:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Button Sign Up' is visible
+
+2020-09-28 13:47:00 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Button Sign Up' is visible
+
+2020-09-28 13:47:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Name Textfield' is visible
+
+2020-09-28 13:47:00 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Name Textfield' is visible
+
+2020-09-28 13:47:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Are you have an account' is visible
+
+2020-09-28 13:47:01 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Are you have an account' is visible
+
+2020-09-28 13:47:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Confirm Password' is visible
+
+2020-09-28 13:47:01 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Confirm Password' is visible
+
+2020-09-28 13:47:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Email Address' is visible
+
+2020-09-28 13:47:01 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Email Address' is visible
+
+2020-09-28 13:47:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Full Name' is visible
+
+2020-09-28 13:47:02 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Full Name' is visible
+
+2020-09-28 13:47:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Password' is visible
+
+2020-09-28 13:47:02 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Password' is visible
+
+2020-09-28 13:47:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Phone Number' is visible
+
+2020-09-28 13:47:03 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Phone Number' is visible
+
+2020-09-28 13:47:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Confirm Password' is visible
+
+2020-09-28 13:47:03 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Confirm Password' is visible
+
+2020-09-28 13:47:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Email' is visible
+
+2020-09-28 13:47:03 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Email' is visible
+
+2020-09-28 13:47:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Password' is visible
+
+2020-09-28 13:47:04 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Password' is visible
+
+2020-09-28 13:47:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Phone Number' is visible
+
+2020-09-28 13:47:04 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Phone Number' is visible
+
+2020-09-28 13:47:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/2. Sign Up/Verify Sign Up Menu' successfully
+
+2020-09-28 13:47:04 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Name Textfield"), 30, STOP_ON_FAILURE): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Name Textfield' is visible
+
+2020-09-28 13:47:04 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Name Textfield' is visible
+
+2020-09-28 13:47:04 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign Up Menu/Name Textfield"), "ab"): Text 'ab' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Name Textfield'
+
+2020-09-28 13:47:05 - [MESSAGE][PASSED] - Text 'ab' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Name Textfield'
+
+2020-09-28 13:47:05 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Error Message/Text At least input 3 characters long"), 30, STOP_ON_FAILURE): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text At least input 3 characters long' is visible
+
+2020-09-28 13:47:07 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text At least input 3 characters long' is visible
+
+2020-09-28 13:47:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Sign Up Menu/Name Textfield"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Name Textfield'
+
+2020-09-28 13:47:07 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Name Textfield'
+
+2020-09-28 13:47:07 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign Up Menu/Name Textfield"), "Abcde Abcde Abcde Abcde Abcde Abcde Abcde Abcde 123"): Text 'Abcde Abcde Abcde Abcde Abcde Abcde Abcde Abcde 123' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Name Textfield'
+
+2020-09-28 13:47:08 - [MESSAGE][PASSED] - Text 'Abcde Abcde Abcde Abcde Abcde Abcde Abcde Abcde 123' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Name Textfield'
+
+2020-09-28 13:47:08 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Error Message/Text Name Input Character is 50"), 30, STOP_ON_FAILURE): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Name Input Character is 50' is visible
+
+2020-09-28 13:47:09 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Name Input Character is 50' is visible
+
+2020-09-28 13:47:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Sign Up Menu/Name Textfield"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Name Textfield'
+
+2020-09-28 13:47:10 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Name Textfield'
+
+2020-09-28 13:47:10 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign Up Menu/Name Textfield"), "abc1"): Text 'abc1' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Name Textfield'
+
+2020-09-28 13:47:11 - [MESSAGE][PASSED] - Text 'abc1' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Name Textfield'
+
+2020-09-28 13:47:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Error Message/Text Your name seems to contain incorrect characters"), 30, STOP_ON_FAILURE): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Your name seems to contain incorrect characters' is visible
+
+2020-09-28 13:47:11 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Your name seems to contain incorrect characters' is visible
+
+2020-09-28 13:47:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Sign Up Menu/Name Textfield"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Name Textfield'
+
+2020-09-28 13:47:12 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Name Textfield'
+
+2020-09-28 13:47:12 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign Up Menu/Name Textfield"), "abc!@#"): Text 'abc!@#' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Name Textfield'
+
+2020-09-28 13:47:13 - [MESSAGE][PASSED] - Text 'abc!@#' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Name Textfield'
+
+2020-09-28 13:47:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Error Message/Text Your name seems to contain incorrect characters"), 30, STOP_ON_FAILURE): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Your name seems to contain incorrect characters' is visible
+
+2020-09-28 13:47:13 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Your name seems to contain incorrect characters' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/2. Sign Up/4. Customer Input Email with Invalid Format" time="36.601" classname="Test Cases/Web RoomMe.id/2. Sign Up/4. Customer Input Email with Invalid Format" status="PASSED">
+         <system-out><![CDATA[2020-09-28 13:47:13 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/2. Sign Up/4. Customer Input Email with Invalid Format: Test Cases/Web RoomMe.id/2. Sign Up/4. Customer Input Email with Invalid Format
+
+2020-09-28 13:47:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-09-28 13:47:13 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-09-28 13:47:13 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://dev-web:w3BdEv-r0omM3@web.roomme.id'
+
+2020-09-28 13:47:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-28 13:47:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-28 13:47:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-web:w3BdEv-r0omM3@web.roomme.id'
+
+2020-09-28 13:47:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-28 13:47:29 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-28 13:47:29 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-09-28 13:47:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-09-28 13:47:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-28 13:47:29 - [TEST_STEP][NOT_RUN] - click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Close Pop-Up Banner")): NOT_RUN: click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Close Pop-Up Banner"))
+
+2020-09-28 13:47:29 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Close Pop-Up Banner"))
+
+2020-09-28 13:47:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-09-28 13:47:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id' successfully
+
+2020-09-28 13:47:29 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id: Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id
+
+2020-09-28 13:47:29 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\RoomMe.id Header\": null
+
+2020-09-28 13:47:29 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-09-28 13:47:29 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-09-28 13:47:29 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-09-28 13:47:29 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-09-28 13:47:29 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-09-28 13:47:29 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:47:29 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:47:29 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:47:29 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:47:29 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:47:29 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:47:29 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:47:29 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:47:29 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:47:29 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:47:29 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:47:29 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:47:29 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:47:29 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:47:29 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-09-28 13:47:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Are You Landlord' is visible
+
+2020-09-28 13:47:30 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Are You Landlord' is visible
+
+2020-09-28 13:47:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Community' is visible
+
+2020-09-28 13:47:30 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Community' is visible
+
+2020-09-28 13:47:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Sign In' is visible
+
+2020-09-28 13:47:30 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Sign In' is visible
+
+2020-09-28 13:47:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-09-28 13:47:31 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-09-28 13:47:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id' successfully
+
+2020-09-28 13:47:31 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is clicked on
+
+2020-09-28 13:47:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is clicked on
+
+2020-09-28 13:47:31 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign Up"), 0): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign Up' is visible
+
+2020-09-28 13:47:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-09-28 13:47:32 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign Up' is visible
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign Up")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign Up' is clicked on
+
+2020-09-28 13:47:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign Up' is clicked on
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/2. Sign Up/Verify Sign Up Menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/2. Sign Up/Verify Sign Up Menu' successfully
+
+2020-09-28 13:47:32 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/2. Sign Up/Verify Sign Up Menu: Test Cases/Web RoomMe.id/2. Sign Up/Verify Sign Up Menu
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\Sign Up Menu\": null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Phone Number' is visible
+
+2020-09-28 13:47:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Button Sign In' is visible
+
+2020-09-28 13:47:33 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Button Sign In' is visible
+
+2020-09-28 13:47:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Button Sign Up' is visible
+
+2020-09-28 13:47:33 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Button Sign Up' is visible
+
+2020-09-28 13:47:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Name Textfield' is visible
+
+2020-09-28 13:47:34 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Name Textfield' is visible
+
+2020-09-28 13:47:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Are you have an account' is visible
+
+2020-09-28 13:47:34 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Are you have an account' is visible
+
+2020-09-28 13:47:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Confirm Password' is visible
+
+2020-09-28 13:47:34 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Confirm Password' is visible
+
+2020-09-28 13:47:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Email Address' is visible
+
+2020-09-28 13:47:35 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Email Address' is visible
+
+2020-09-28 13:47:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Full Name' is visible
+
+2020-09-28 13:47:35 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Full Name' is visible
+
+2020-09-28 13:47:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Password' is visible
+
+2020-09-28 13:47:36 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Password' is visible
+
+2020-09-28 13:47:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Phone Number' is visible
+
+2020-09-28 13:47:36 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Phone Number' is visible
+
+2020-09-28 13:47:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Confirm Password' is visible
+
+2020-09-28 13:47:36 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Confirm Password' is visible
+
+2020-09-28 13:47:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Email' is visible
+
+2020-09-28 13:47:37 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Email' is visible
+
+2020-09-28 13:47:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Password' is visible
+
+2020-09-28 13:47:37 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Password' is visible
+
+2020-09-28 13:47:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Phone Number' is visible
+
+2020-09-28 13:47:37 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Phone Number' is visible
+
+2020-09-28 13:47:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/2. Sign Up/Verify Sign Up Menu' successfully
+
+2020-09-28 13:47:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Email"), 30, STOP_ON_FAILURE): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Email' is visible
+
+2020-09-28 13:47:38 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Email' is visible
+
+2020-09-28 13:47:38 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Email"), "abc123"): Text 'abc123' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Email'
+
+2020-09-28 13:47:39 - [MESSAGE][PASSED] - Text 'abc123' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Email'
+
+2020-09-28 13:47:39 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Error Message/Text Email is not valid"), 30, STOP_ON_FAILURE): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Email is not valid' is visible
+
+2020-09-28 13:47:40 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Email is not valid' is visible
+
+2020-09-28 13:47:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Email"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Email'
+
+2020-09-28 13:47:40 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Email'
+
+2020-09-28 13:47:40 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Email"), "abc 123"): Text 'abc 123' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Email'
+
+2020-09-28 13:47:41 - [MESSAGE][PASSED] - Text 'abc 123' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Email'
+
+2020-09-28 13:47:41 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Error Message/Text Email is not valid"), 30, STOP_ON_FAILURE): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Email is not valid' is visible
+
+2020-09-28 13:47:41 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Email is not valid' is visible
+
+2020-09-28 13:47:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Email"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Email'
+
+2020-09-28 13:47:42 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Email'
+
+2020-09-28 13:47:42 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Email"), "!@#$$!@"): Text '!@#$$!@' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Email'
+
+2020-09-28 13:47:43 - [MESSAGE][PASSED] - Text '!@#$$!@' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Email'
+
+2020-09-28 13:47:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Error Message/Text Email is not valid"), 30, STOP_ON_FAILURE): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Email is not valid' is visible
+
+2020-09-28 13:47:44 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Email is not valid' is visible
+
+2020-09-28 13:47:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Email"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Email'
+
+2020-09-28 13:47:44 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Email'
+
+2020-09-28 13:47:44 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Email"), "ab@gmail"): Text 'ab@gmail' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Email'
+
+2020-09-28 13:47:45 - [MESSAGE][PASSED] - Text 'ab@gmail' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Email'
+
+2020-09-28 13:47:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Error Message/Text Email is not valid"), 30, STOP_ON_FAILURE): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Email is not valid' is visible
+
+2020-09-28 13:47:46 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Email is not valid' is visible
+
+2020-09-28 13:47:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Email"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Email'
+
+2020-09-28 13:47:46 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Email'
+
+2020-09-28 13:47:46 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Email"), "ab@.com"): Text 'ab@.com' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Email'
+
+2020-09-28 13:47:47 - [MESSAGE][PASSED] - Text 'ab@.com' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Email'
+
+2020-09-28 13:47:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Error Message/Text Email is not valid"), 30, STOP_ON_FAILURE): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Email is not valid' is visible
+
+2020-09-28 13:47:47 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Email is not valid' is visible
+
+2020-09-28 13:47:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Email"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Email'
+
+2020-09-28 13:47:48 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Email'
+
+2020-09-28 13:47:48 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Email"), "abc 1 2 3@ac.com"): Text 'abc 1 2 3@ac.com' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Email'
+
+2020-09-28 13:47:49 - [MESSAGE][PASSED] - Text 'abc 1 2 3@ac.com' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Email'
+
+2020-09-28 13:47:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Error Message/Text Email is not valid"), 30, STOP_ON_FAILURE): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Email is not valid' is visible
+
+2020-09-28 13:47:49 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Email is not valid' is visible
+
+2020-09-28 13:47:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Email"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Email'
+
+2020-09-28 13:47:50 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Email']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/2. Sign Up/5. Customer Input Phone Number with Invalid Format" time="35.35" classname="Test Cases/Web RoomMe.id/2. Sign Up/5. Customer Input Phone Number with Invalid Format" status="PASSED">
+         <system-out><![CDATA[2020-09-28 13:47:50 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/2. Sign Up/5. Customer Input Phone Number with Invalid Format: Test Cases/Web RoomMe.id/2. Sign Up/5. Customer Input Phone Number with Invalid Format
+
+2020-09-28 13:47:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-09-28 13:47:50 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-09-28 13:47:50 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://dev-web:w3BdEv-r0omM3@web.roomme.id'
+
+2020-09-28 13:47:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-28 13:47:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-28 13:48:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-web:w3BdEv-r0omM3@web.roomme.id'
+
+2020-09-28 13:48:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-28 13:48:09 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-28 13:48:09 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-09-28 13:48:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-09-28 13:48:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-28 13:48:09 - [TEST_STEP][NOT_RUN] - click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Close Pop-Up Banner")): NOT_RUN: click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Close Pop-Up Banner"))
+
+2020-09-28 13:48:09 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Close Pop-Up Banner"))
+
+2020-09-28 13:48:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-09-28 13:48:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id' successfully
+
+2020-09-28 13:48:09 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id: Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id
+
+2020-09-28 13:48:09 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\RoomMe.id Header\": null
+
+2020-09-28 13:48:09 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-09-28 13:48:09 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-09-28 13:48:09 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-09-28 13:48:09 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-09-28 13:48:09 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-09-28 13:48:09 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:09 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:09 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:09 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:09 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:09 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:09 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:09 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:09 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:09 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:09 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:09 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:09 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:09 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:09 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-09-28 13:48:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Are You Landlord' is visible
+
+2020-09-28 13:48:09 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Are You Landlord' is visible
+
+2020-09-28 13:48:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Community' is visible
+
+2020-09-28 13:48:10 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Community' is visible
+
+2020-09-28 13:48:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Sign In' is visible
+
+2020-09-28 13:48:10 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Sign In' is visible
+
+2020-09-28 13:48:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-09-28 13:48:11 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-09-28 13:48:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id' successfully
+
+2020-09-28 13:48:11 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is clicked on
+
+2020-09-28 13:48:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is clicked on
+
+2020-09-28 13:48:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign Up"), 0): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign Up' is visible
+
+2020-09-28 13:48:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-09-28 13:48:12 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign Up' is visible
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign Up")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign Up' is clicked on
+
+2020-09-28 13:48:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign Up' is clicked on
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/2. Sign Up/Verify Sign Up Menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/2. Sign Up/Verify Sign Up Menu' successfully
+
+2020-09-28 13:48:12 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/2. Sign Up/Verify Sign Up Menu: Test Cases/Web RoomMe.id/2. Sign Up/Verify Sign Up Menu
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\Sign Up Menu\": null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Phone Number' is visible
+
+2020-09-28 13:48:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Button Sign In' is visible
+
+2020-09-28 13:48:13 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Button Sign In' is visible
+
+2020-09-28 13:48:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Button Sign Up' is visible
+
+2020-09-28 13:48:13 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Button Sign Up' is visible
+
+2020-09-28 13:48:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Name Textfield' is visible
+
+2020-09-28 13:48:13 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Name Textfield' is visible
+
+2020-09-28 13:48:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Are you have an account' is visible
+
+2020-09-28 13:48:14 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Are you have an account' is visible
+
+2020-09-28 13:48:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Confirm Password' is visible
+
+2020-09-28 13:48:14 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Confirm Password' is visible
+
+2020-09-28 13:48:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Email Address' is visible
+
+2020-09-28 13:48:15 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Email Address' is visible
+
+2020-09-28 13:48:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Full Name' is visible
+
+2020-09-28 13:48:15 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Full Name' is visible
+
+2020-09-28 13:48:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Password' is visible
+
+2020-09-28 13:48:15 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Password' is visible
+
+2020-09-28 13:48:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Phone Number' is visible
+
+2020-09-28 13:48:16 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Phone Number' is visible
+
+2020-09-28 13:48:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Confirm Password' is visible
+
+2020-09-28 13:48:16 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Confirm Password' is visible
+
+2020-09-28 13:48:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Email' is visible
+
+2020-09-28 13:48:17 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Email' is visible
+
+2020-09-28 13:48:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Password' is visible
+
+2020-09-28 13:48:17 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Password' is visible
+
+2020-09-28 13:48:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Phone Number' is visible
+
+2020-09-28 13:48:17 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Phone Number' is visible
+
+2020-09-28 13:48:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/2. Sign Up/Verify Sign Up Menu' successfully
+
+2020-09-28 13:48:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Phone Number"), 30, STOP_ON_FAILURE): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Phone Number' is visible
+
+2020-09-28 13:48:18 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Phone Number' is visible
+
+2020-09-28 13:48:18 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Phone Number"), "abcdefghij"): Text 'abcdefghij' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Phone Number'
+
+2020-09-28 13:48:19 - [MESSAGE][PASSED] - Text 'abcdefghij' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Phone Number'
+
+2020-09-28 13:48:19 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Error Message/Text Phone is required"), 30, STOP_ON_FAILURE): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Phone is required' is visible
+
+2020-09-28 13:48:19 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Phone is required' is visible
+
+2020-09-28 13:48:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Phone Number"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Phone Number'
+
+2020-09-28 13:48:20 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Phone Number'
+
+2020-09-28 13:48:20 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Phone Number"), "12345abcde"): Text '12345abcde' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Phone Number'
+
+2020-09-28 13:48:20 - [MESSAGE][PASSED] - Text '12345abcde' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Phone Number'
+
+2020-09-28 13:48:20 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Error Message/Text Phone Number contains an invalid number"), 30, STOP_ON_FAILURE): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Phone Number contains an invalid number' is visible
+
+2020-09-28 13:48:21 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Phone Number contains an invalid number' is visible
+
+2020-09-28 13:48:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Phone Number"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Phone Number'
+
+2020-09-28 13:48:22 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Phone Number'
+
+2020-09-28 13:48:22 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Phone Number"), "08123456 7890"): Text '08123456 7890' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Phone Number'
+
+2020-09-28 13:48:23 - [MESSAGE][PASSED] - Text '08123456 7890' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Phone Number'
+
+2020-09-28 13:48:23 - [TEST_STEP][NOT_RUN] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Error Message/Text Invalid phone number"), 30, STOP_ON_FAILURE): NOT_RUN: waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Error Message/Text Invalid phone number"), 30, STOP_ON_FAILURE)
+
+2020-09-28 13:48:23 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Error Message/Text Invalid phone number"), 30, STOP_ON_FAILURE)
+
+2020-09-28 13:48:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Phone Number"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Phone Number'
+
+2020-09-28 13:48:23 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Phone Number'
+
+2020-09-28 13:48:23 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Phone Number"), "!@#$%^&*()"): Text '!@#$%^&*()' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Phone Number'
+
+2020-09-28 13:48:24 - [MESSAGE][PASSED] - Text '!@#$%^&*()' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Phone Number'
+
+2020-09-28 13:48:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Error Message/Text Phone is required"), 30, STOP_ON_FAILURE): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Phone is required' is visible
+
+2020-09-28 13:48:25 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Phone is required' is visible
+
+2020-09-28 13:48:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Phone Number"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Phone Number'
+
+2020-09-28 13:48:25 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Phone Number']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/2. Sign Up/6. Customer Input Password with Invalid Format" time="41.617" classname="Test Cases/Web RoomMe.id/2. Sign Up/6. Customer Input Password with Invalid Format" status="PASSED">
+         <system-out><![CDATA[2020-09-28 13:48:25 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/2. Sign Up/6. Customer Input Password with Invalid Format: Test Cases/Web RoomMe.id/2. Sign Up/6. Customer Input Password with Invalid Format
+
+2020-09-28 13:48:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-09-28 13:48:25 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-09-28 13:48:25 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://dev-web:w3BdEv-r0omM3@web.roomme.id'
+
+2020-09-28 13:48:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-28 13:48:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-28 13:48:42 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-web:w3BdEv-r0omM3@web.roomme.id'
+
+2020-09-28 13:48:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-28 13:48:45 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-28 13:48:45 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-09-28 13:48:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-09-28 13:48:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-28 13:48:45 - [TEST_STEP][NOT_RUN] - click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Close Pop-Up Banner")): NOT_RUN: click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Close Pop-Up Banner"))
+
+2020-09-28 13:48:45 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Close Pop-Up Banner"))
+
+2020-09-28 13:48:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-09-28 13:48:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id' successfully
+
+2020-09-28 13:48:45 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id: Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id
+
+2020-09-28 13:48:45 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\RoomMe.id Header\": null
+
+2020-09-28 13:48:45 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-09-28 13:48:45 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-09-28 13:48:45 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-09-28 13:48:45 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-09-28 13:48:45 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-09-28 13:48:45 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:45 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:45 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:45 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:45 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:45 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:45 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:45 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:45 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:45 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:45 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:45 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:45 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:45 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:45 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-09-28 13:48:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Are You Landlord' is visible
+
+2020-09-28 13:48:46 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Are You Landlord' is visible
+
+2020-09-28 13:48:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Community' is visible
+
+2020-09-28 13:48:47 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Community' is visible
+
+2020-09-28 13:48:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Sign In' is visible
+
+2020-09-28 13:48:47 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Sign In' is visible
+
+2020-09-28 13:48:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-09-28 13:48:48 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-09-28 13:48:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id' successfully
+
+2020-09-28 13:48:48 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is clicked on
+
+2020-09-28 13:48:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is clicked on
+
+2020-09-28 13:48:48 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign Up"), 0): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign Up' is visible
+
+2020-09-28 13:48:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-09-28 13:48:49 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign Up' is visible
+
+2020-09-28 13:48:49 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign Up")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign Up' is clicked on
+
+2020-09-28 13:48:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign Up' is clicked on
+
+2020-09-28 13:48:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/2. Sign Up/Verify Sign Up Menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/2. Sign Up/Verify Sign Up Menu' successfully
+
+2020-09-28 13:48:50 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/2. Sign Up/Verify Sign Up Menu: Test Cases/Web RoomMe.id/2. Sign Up/Verify Sign Up Menu
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\Sign Up Menu\": null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Phone Number' is visible
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Button Sign In' is visible
+
+2020-09-28 13:48:50 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Button Sign In' is visible
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Button Sign Up' is visible
+
+2020-09-28 13:48:50 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Button Sign Up' is visible
+
+2020-09-28 13:48:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Name Textfield' is visible
+
+2020-09-28 13:48:51 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Name Textfield' is visible
+
+2020-09-28 13:48:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Are you have an account' is visible
+
+2020-09-28 13:48:51 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Are you have an account' is visible
+
+2020-09-28 13:48:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Confirm Password' is visible
+
+2020-09-28 13:48:52 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Confirm Password' is visible
+
+2020-09-28 13:48:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Email Address' is visible
+
+2020-09-28 13:48:52 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Email Address' is visible
+
+2020-09-28 13:48:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Full Name' is visible
+
+2020-09-28 13:48:52 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Full Name' is visible
+
+2020-09-28 13:48:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Password' is visible
+
+2020-09-28 13:48:53 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Password' is visible
+
+2020-09-28 13:48:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Phone Number' is visible
+
+2020-09-28 13:48:53 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Phone Number' is visible
+
+2020-09-28 13:48:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Confirm Password' is visible
+
+2020-09-28 13:48:54 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Confirm Password' is visible
+
+2020-09-28 13:48:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Email' is visible
+
+2020-09-28 13:48:54 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Email' is visible
+
+2020-09-28 13:48:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Password' is visible
+
+2020-09-28 13:48:54 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Password' is visible
+
+2020-09-28 13:48:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Phone Number' is visible
+
+2020-09-28 13:48:55 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Phone Number' is visible
+
+2020-09-28 13:48:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/2. Sign Up/Verify Sign Up Menu' successfully
+
+2020-09-28 13:48:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Password"), 30, STOP_ON_FAILURE): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Password' is visible
+
+2020-09-28 13:48:55 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Password' is visible
+
+2020-09-28 13:48:55 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Password"), "abc"): Text 'abc' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Password'
+
+2020-09-28 13:48:56 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Password'
+
+2020-09-28 13:48:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Error Message/Text Minimum Password Required is 6 Characters"), 0): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Minimum Password Required is 6 Characters' is visible
+
+2020-09-28 13:48:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-09-28 13:48:57 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Minimum Password Required is 6 Characters' is visible
+
+2020-09-28 13:48:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Password"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Password'
+
+2020-09-28 13:48:58 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Password'
+
+2020-09-28 13:48:58 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Password"), "123"): Text '123' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Password'
+
+2020-09-28 13:48:59 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Password'
+
+2020-09-28 13:48:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Error Message/Text Minimum Password Required is 6 Characters"), 0): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Minimum Password Required is 6 Characters' is visible
+
+2020-09-28 13:48:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-09-28 13:49:00 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Minimum Password Required is 6 Characters' is visible
+
+2020-09-28 13:49:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Password"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Password'
+
+2020-09-28 13:49:00 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Password'
+
+2020-09-28 13:49:00 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Password"), "!@#"): Text '!@#' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Password'
+
+2020-09-28 13:49:01 - [MESSAGE][PASSED] - Text '!@#' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Password'
+
+2020-09-28 13:49:01 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Error Message/Text Minimum Password Required is 6 Characters"), 0): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Minimum Password Required is 6 Characters' is visible
+
+2020-09-28 13:49:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-09-28 13:49:02 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Minimum Password Required is 6 Characters' is visible
+
+2020-09-28 13:49:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Password"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Password'
+
+2020-09-28 13:49:02 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Password'
+
+2020-09-28 13:49:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Password"), "       "): Keys '       ' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Password'
+
+2020-09-28 13:49:03 - [MESSAGE][PASSED] - Keys '       ' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Password'
+
+2020-09-28 13:49:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Error Message/Text Password is required"), 0): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Password is required' is visible
+
+2020-09-28 13:49:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-09-28 13:49:04 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Password is required' is visible
+
+2020-09-28 13:49:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Password"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Password'
+
+2020-09-28 13:49:04 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Password'
+
+2020-09-28 13:49:04 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Password"), "abcde1234512345"): Text 'abcde1234512345' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Password'
+
+2020-09-28 13:49:05 - [MESSAGE][PASSED] - Text 'abcde1234512345' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Password'
+
+2020-09-28 13:49:05 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Error Message/Text Limit Password Characters has Reached"), 0): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Limit Password Characters has Reached' is visible
+
+2020-09-28 13:49:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-09-28 13:49:06 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Limit Password Characters has Reached' is visible
+
+2020-09-28 13:49:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Password"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Password'
+
+2020-09-28 13:49:07 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Password']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/2. Sign Up/7. Customer Input Confirm Password with Invalid Format" time="25.987" classname="Test Cases/Web RoomMe.id/2. Sign Up/7. Customer Input Confirm Password with Invalid Format" status="PASSED">
+         <system-out><![CDATA[2020-09-28 13:49:07 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/2. Sign Up/7. Customer Input Confirm Password with Invalid Format: Test Cases/Web RoomMe.id/2. Sign Up/7. Customer Input Confirm Password with Invalid Format
+
+2020-09-28 13:49:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-09-28 13:49:07 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-09-28 13:49:07 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://dev-web:w3BdEv-r0omM3@web.roomme.id'
+
+2020-09-28 13:49:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-28 13:49:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-28 13:49:17 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-web:w3BdEv-r0omM3@web.roomme.id'
+
+2020-09-28 13:49:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-28 13:49:20 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-28 13:49:20 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-09-28 13:49:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-09-28 13:49:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-28 13:49:20 - [TEST_STEP][NOT_RUN] - click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Close Pop-Up Banner")): NOT_RUN: click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Close Pop-Up Banner"))
+
+2020-09-28 13:49:20 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Close Pop-Up Banner"))
+
+2020-09-28 13:49:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-09-28 13:49:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id' successfully
+
+2020-09-28 13:49:20 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id: Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id
+
+2020-09-28 13:49:20 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\RoomMe.id Header\": null
+
+2020-09-28 13:49:20 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-09-28 13:49:20 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-09-28 13:49:20 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-09-28 13:49:20 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-09-28 13:49:20 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-09-28 13:49:20 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:20 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:20 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:20 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:20 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:20 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:20 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:20 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:20 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:20 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:20 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:20 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:20 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:20 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:20 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-09-28 13:49:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Are You Landlord' is visible
+
+2020-09-28 13:49:21 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Are You Landlord' is visible
+
+2020-09-28 13:49:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Community' is visible
+
+2020-09-28 13:49:21 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Community' is visible
+
+2020-09-28 13:49:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Sign In' is visible
+
+2020-09-28 13:49:22 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Sign In' is visible
+
+2020-09-28 13:49:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-09-28 13:49:22 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-09-28 13:49:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id' successfully
+
+2020-09-28 13:49:22 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is clicked on
+
+2020-09-28 13:49:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is clicked on
+
+2020-09-28 13:49:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign Up"), 0): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign Up' is visible
+
+2020-09-28 13:49:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-09-28 13:49:23 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign Up' is visible
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign Up")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign Up' is clicked on
+
+2020-09-28 13:49:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign Up' is clicked on
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/2. Sign Up/Verify Sign Up Menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/2. Sign Up/Verify Sign Up Menu' successfully
+
+2020-09-28 13:49:23 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/2. Sign Up/Verify Sign Up Menu: Test Cases/Web RoomMe.id/2. Sign Up/Verify Sign Up Menu
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\Sign Up Menu\": null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Phone Number' is visible
+
+2020-09-28 13:49:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Button Sign In' is visible
+
+2020-09-28 13:49:25 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Button Sign In' is visible
+
+2020-09-28 13:49:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Button Sign Up' is visible
+
+2020-09-28 13:49:25 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Button Sign Up' is visible
+
+2020-09-28 13:49:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Name Textfield' is visible
+
+2020-09-28 13:49:25 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Name Textfield' is visible
+
+2020-09-28 13:49:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Are you have an account' is visible
+
+2020-09-28 13:49:26 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Are you have an account' is visible
+
+2020-09-28 13:49:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Confirm Password' is visible
+
+2020-09-28 13:49:26 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Confirm Password' is visible
+
+2020-09-28 13:49:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Email Address' is visible
+
+2020-09-28 13:49:27 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Email Address' is visible
+
+2020-09-28 13:49:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Full Name' is visible
+
+2020-09-28 13:49:27 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Full Name' is visible
+
+2020-09-28 13:49:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Password' is visible
+
+2020-09-28 13:49:27 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Password' is visible
+
+2020-09-28 13:49:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Phone Number' is visible
+
+2020-09-28 13:49:28 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Phone Number' is visible
+
+2020-09-28 13:49:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Confirm Password' is visible
+
+2020-09-28 13:49:28 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Confirm Password' is visible
+
+2020-09-28 13:49:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Email' is visible
+
+2020-09-28 13:49:28 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Email' is visible
+
+2020-09-28 13:49:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Password' is visible
+
+2020-09-28 13:49:29 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Password' is visible
+
+2020-09-28 13:49:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Phone Number' is visible
+
+2020-09-28 13:49:29 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Phone Number' is visible
+
+2020-09-28 13:49:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/2. Sign Up/Verify Sign Up Menu' successfully
+
+2020-09-28 13:49:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Confirm Password"), 30, STOP_ON_FAILURE): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Confirm Password' is visible
+
+2020-09-28 13:49:30 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Confirm Password' is visible
+
+2020-09-28 13:49:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Password"), 30, STOP_ON_FAILURE): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Password' is visible
+
+2020-09-28 13:49:30 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Password' is visible
+
+2020-09-28 13:49:30 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Password"), "Abc123!"): Text 'Abc123!' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Password'
+
+2020-09-28 13:49:31 - [MESSAGE][PASSED] - Text 'Abc123!' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Password'
+
+2020-09-28 13:49:31 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Confirm Password"), "abcdef"): Text 'abcdef' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Confirm Password'
+
+2020-09-28 13:49:32 - [MESSAGE][PASSED] - Text 'abcdef' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Confirm Password'
+
+2020-09-28 13:49:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Error Message/Text Password and confirmation password dont match"), 0): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Password and confirmation password dont match' is visible
+
+2020-09-28 13:49:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-09-28 13:49:33 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Password and confirmation password dont match' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web RoomMe.id/2. Sign Up/8. Sign Up with Already Registered Email" time="29.42" classname="Test Cases/Web RoomMe.id/2. Sign Up/8. Sign Up with Already Registered Email" status="PASSED">
+         <system-out><![CDATA[2020-09-28 13:49:33 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/2. Sign Up/8. Sign Up with Already Registered Email: Test Cases/Web RoomMe.id/2. Sign Up/8. Sign Up with Already Registered Email
+
+2020-09-28 13:49:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-09-28 13:49:33 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page: Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page
+
+2020-09-28 13:49:33 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://dev-web:w3BdEv-r0omM3@web.roomme.id'
+
+2020-09-28 13:49:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-28 13:49:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-28 13:49:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-web:w3BdEv-r0omM3@web.roomme.id'
+
+2020-09-28 13:49:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-28 13:49:47 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-28 13:49:47 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2020-09-28 13:49:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-09-28 13:49:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-28 13:49:47 - [TEST_STEP][NOT_RUN] - click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Close Pop-Up Banner")): NOT_RUN: click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Close Pop-Up Banner"))
+
+2020-09-28 13:49:47 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Web RoomMe.id/RoomMe.id Homepage/Button Close Pop-Up Banner"))
+
+2020-09-28 13:49:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/1. Customer Access RoomMe Page' successfully
+
+2020-09-28 13:49:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id' successfully
+
+2020-09-28 13:49:47 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id: Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id
+
+2020-09-28 13:49:47 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\RoomMe.id Header\": null
+
+2020-09-28 13:49:47 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-09-28 13:49:47 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-09-28 13:49:47 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-09-28 13:49:47 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-09-28 13:49:47 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-09-28 13:49:47 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:47 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:47 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:47 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:47 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:47 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:47 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:47 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:47 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:47 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:47 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:47 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:47 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:47 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:47 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-09-28 13:49:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Are You Landlord' is visible
+
+2020-09-28 13:49:48 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Are You Landlord' is visible
+
+2020-09-28 13:49:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Community' is visible
+
+2020-09-28 13:49:48 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Community' is visible
+
+2020-09-28 13:49:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Sign In' is visible
+
+2020-09-28 13:49:49 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Button Sign In' is visible
+
+2020-09-28 13:49:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-09-28 13:49:49 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\RoomMe.id Header\Image Header Logo' is visible
+
+2020-09-28 13:49:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/1. Homepage/2. Verify Header RoomMe.id' successfully
+
+2020-09-28 13:49:49 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/RoomMe.id Header/Button Sign In")): Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is clicked on
+
+2020-09-28 13:49:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/RoomMe.id Header/Button Sign In' is clicked on
+
+2020-09-28 13:49:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign Up"), 0): Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign Up' is visible
+
+2020-09-28 13:49:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-09-28 13:49:50 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign Up' is visible
+
+2020-09-28 13:49:50 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign In Menu/Button Sign Up")): Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign Up' is clicked on
+
+2020-09-28 13:49:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign In Menu/Button Sign Up' is clicked on
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web RoomMe.id/2. Sign Up/Verify Sign Up Menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web RoomMe.id/2. Sign Up/Verify Sign Up Menu' successfully
+
+2020-09-28 13:49:51 - [TEST_CASE][PASSED] - Test Cases/Web RoomMe.id/2. Sign Up/Verify Sign Up Menu: Test Cases/Web RoomMe.id/2. Sign Up/Verify Sign Up Menu
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - objectSubFolder = "Web RoomMe.id\Sign Up Menu\": null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - pathToObjRep = getProjectDir() + "\Object Repository\" + objectSubFolder: null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - yourObjects = new java.io.File(pathToObjRep): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - fileNames = yourObjects.list(): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - testObjects = new java.util.ArrayList(): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - if (fileNames[i].contains(".rs")): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - fileNames[i] = fileNames[i].replace(".rs", ""): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - testObjects.add(objectSubFolder + fileNames[i]): null
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - for (String obj : testObjects): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Phone Number' is visible
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Button Sign In' is visible
+
+2020-09-28 13:49:51 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Button Sign In' is visible
+
+2020-09-28 13:49:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Button Sign Up' is visible
+
+2020-09-28 13:49:52 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Button Sign Up' is visible
+
+2020-09-28 13:49:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Name Textfield' is visible
+
+2020-09-28 13:49:52 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Name Textfield' is visible
+
+2020-09-28 13:49:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Are you have an account' is visible
+
+2020-09-28 13:49:52 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Are you have an account' is visible
+
+2020-09-28 13:49:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Confirm Password' is visible
+
+2020-09-28 13:49:53 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Confirm Password' is visible
+
+2020-09-28 13:49:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Email Address' is visible
+
+2020-09-28 13:49:53 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Email Address' is visible
+
+2020-09-28 13:49:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Full Name' is visible
+
+2020-09-28 13:49:53 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Full Name' is visible
+
+2020-09-28 13:49:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Password' is visible
+
+2020-09-28 13:49:54 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Password' is visible
+
+2020-09-28 13:49:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Phone Number' is visible
+
+2020-09-28 13:49:54 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Text Phone Number' is visible
+
+2020-09-28 13:49:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Confirm Password' is visible
+
+2020-09-28 13:49:55 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Confirm Password' is visible
+
+2020-09-28 13:49:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Email' is visible
+
+2020-09-28 13:49:55 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Email' is visible
+
+2020-09-28 13:49:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Password' is visible
+
+2020-09-28 13:49:55 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Password' is visible
+
+2020-09-28 13:49:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(obj)): Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Phone Number' is visible
+
+2020-09-28 13:49:56 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id\Sign Up Menu\Textfield Phone Number' is visible
+
+2020-09-28 13:49:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web RoomMe.id/2. Sign Up/Verify Sign Up Menu' successfully
+
+2020-09-28 13:49:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Name Textfield"), 0): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Name Textfield' is visible
+
+2020-09-28 13:49:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-09-28 13:49:56 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Name Textfield' is visible
+
+2020-09-28 13:49:56 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign Up Menu/Name Textfield"), "Faldi Test AT"): Text 'Faldi Test AT' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Name Textfield'
+
+2020-09-28 13:49:57 - [MESSAGE][PASSED] - Text 'Faldi Test AT' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Name Textfield'
+
+2020-09-28 13:49:57 - [TEST_STEP][NOT_RUN] - getAttribute(findTestObject("Web RoomMe.id/Sign Up Menu/Name Textfield"), "tag"): NOT_RUN: getAttribute(findTestObject("Web RoomMe.id/Sign Up Menu/Name Textfield"), "tag")
+
+2020-09-28 13:49:57 - [MESSAGE][NOT_RUN] - NOT_RUN: getAttribute(findTestObject("Web RoomMe.id/Sign Up Menu/Name Textfield"), "tag")
+
+2020-09-28 13:49:57 - [TEST_STEP][NOT_RUN] - namauser = concatenate(findTestObject("Web RoomMe.id/Sign Up Menu/Name Textfield")): NOT_RUN: namauser = concatenate(findTestObject("Web RoomMe.id/Sign Up Menu/Name Textfield"))
+
+2020-09-28 13:49:57 - [MESSAGE][NOT_RUN] - NOT_RUN: namauser = concatenate(findTestObject("Web RoomMe.id/Sign Up Menu/Name Textfield"))
+
+2020-09-28 13:49:57 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Email"), "faldidev@getnada.com"): Text 'faldidev@getnada.com' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Email'
+
+2020-09-28 13:49:58 - [MESSAGE][PASSED] - Text 'faldidev@getnada.com' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Email'
+
+2020-09-28 13:49:58 - [TEST_STEP][PASSED] - setText(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Phone Number"), "081234567890"): Text '081234567890' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Phone Number'
+
+2020-09-28 13:49:59 - [MESSAGE][PASSED] - Text '081234567890' is set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Phone Number'
+
+2020-09-28 13:49:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Password"), "da8fEzhczGg="): Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Password'
+
+2020-09-28 13:50:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Password'
+
+2020-09-28 13:50:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Web RoomMe.id/Sign Up Menu/Textfield Confirm Password"), "da8fEzhczGg="): Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Confirm Password'
+
+2020-09-28 13:50:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Web RoomMe.id/Sign Up Menu/Textfield Confirm Password'
+
+2020-09-28 13:50:01 - [TEST_STEP][PASSED] - click(findTestObject("Web RoomMe.id/Sign Up Menu/Button Sign Up")): Object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Button Sign Up' is clicked on
+
+2020-09-28 13:50:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Web RoomMe.id/Sign Up Menu/Button Sign Up' is clicked on
+
+2020-09-28 13:50:01 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Web RoomMe.id/Sign Up Menu/Error Message/Text Email already registered"), 0): Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Email already registered' is visible
+
+2020-09-28 13:50:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2020-09-28 13:50:02 - [MESSAGE][PASSED] - Object 'Object Repository/Web RoomMe.id/Sign Up Menu/Error Message/Text Email already registered' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-28 13:45:34 - [TEST_SUITE][PASSED] - Customer Sign Up: Test Cases/Web RoomMe.id/2. Sign Up/8. Sign Up with Already Registered Email]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

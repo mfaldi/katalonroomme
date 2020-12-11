@@ -32,17 +32,17 @@ WebUI.switchToWindowTitle('Masuk - Akun Google')
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementVisible(findTestObject('Google Sign In/Textfield Email Google'), 0)
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Google Sign In/Textfield Email Google'), 0)
 
-WebUI.setText(findTestObject('Google Sign In/Textfield Email Google'), 'faldi@roomme.space')
+WebUI.setText(findTestObject('Web RoomMe.id/Google Sign In/Textfield Email Google'), 'faldi@roomme.space')
 
-WebUI.click(findTestObject('Google Sign In/Button Berikutnya'))
+WebUI.click(findTestObject('Web RoomMe.id/Google Sign In/Button Berikutnya'))
 
-WebUI.waitForElementVisible(findTestObject('Google Sign In/Textfield Password'), 0)
+WebUI.waitForElementVisible(findTestObject('Web RoomMe.id/Google Sign In/Textfield Password'), 0)
 
-WebUI.setEncryptedText(findTestObject('Google Sign In/Textfield Password'), 'aWQtAdXqif4Z+35qHGW6CQ==')
+WebUI.setEncryptedText(findTestObject('Web RoomMe.id/Google Sign In/Textfield Password'), 'aWQtAdXqif4Z+35qHGW6CQ==')
 
-WebUI.click(findTestObject('Google Sign In/Button Berikutnya (Password)'))
+WebUI.click(findTestObject('Web RoomMe.id/Google Sign In/Button Berikutnya (Password)'))
 
 WebUI.switchToWindowIndex(0)
 

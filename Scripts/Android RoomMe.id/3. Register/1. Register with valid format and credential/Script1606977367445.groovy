@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
-Mobile.startApplication('C:\\Users\\Faldi\\Desktop\\scrcpy\\roomme.apk', false)
+Mobile.startApplication('/Users/mfaldi/Downloads/roomme.apk', false)
 
 Mobile.tap(findTestObject('Android RoomMe.id/Menu Bar/Icon Account'), 0)
 

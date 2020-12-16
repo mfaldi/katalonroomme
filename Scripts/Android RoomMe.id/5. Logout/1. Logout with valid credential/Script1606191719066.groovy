@@ -18,11 +18,13 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startExistingApplication('com.roomme.tenant.dev')
 
+Mobile.callTestCase(findTestCase('Android RoomMe.id/6. Banner/1. Close Banner'), [:], FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Android RoomMe.id/Menu Bar/Icon Account'), 0)
 
-Mobile.tap(findTestObject('Android RoomMe.id/Account Page/Button Settings'), 0)
+Mobile.tap(findTestObject('Android RoomMe.id/Account Page/Button Settings (1)'), 0)
 
-Mobile.tap(findTestObject('Android RoomMe.id/Account Page/Settings Page/Button Logout'), 0)
+Mobile.tap(findTestObject('Android RoomMe.id/Account Page/Settings Page/Button Logout (1)'), 0)
 
-Mobile.tap(findTestObject('Android RoomMe.id/Logout Page/Button Logout'), 0)
+Mobile.tap(findTestObject('Android RoomMe.id/Logout Page/Button Confirm Logout'), 0)
 

@@ -9,28 +9,28 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as MobileDriverFactory
-import io.appium.java_client.AppiumDriver as AppiumDriver
+import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication(GlobalVariable.applocation, false)
+WebUI.openBrowser('')
 
-Mobile.callTestCase(findTestCase('Android RoomMe.id/6. Banner/1. Close Banner'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.navigateToUrl('https://os-stg.roomme.id/sign-in')
 
-Mobile.tap(findTestObject('Android RoomMe.id/Menu Bar/Icon Account'), 0)
+WebUI.waitForElementVisible(findTestObject('Web RoomMe OS/Login Page/Page_RoomMe OS - Sign In/input_Email Address_signin_email'), 
+    0)
 
-Mobile.setText(findTestObject('Android RoomMe.id/Login Page/Textfield Email Address'), GlobalVariable.email, 0)
+WebUI.setText(findTestObject('Object Repository/Web RoomMe OS/Login Page/Page_RoomMe OS - Sign In/input_Email Address_signin_email'), 
+    'ownertest3@getnada.com')
 
-Mobile.setEncryptedText(findTestObject('Android RoomMe.id/Login Page/Textfield Password'), 'aeHFOx8jV/A=', 0)
+WebUI.setEncryptedText(findTestObject('Object Repository/Web RoomMe OS/Login Page/Page_RoomMe OS - Sign In/input_Password_signin_password'), 
+    'R2GnBZXYIh8PgItJ5/guow==')
 
-Mobile.tap(findTestObject('Android RoomMe.id/Login Page/Button Sign In'), 0)
+WebUI.click(findTestObject('Object Repository/Web RoomMe OS/Login Page/Page_RoomMe OS - Sign In/button_Sign In'))
 
-Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.closeApplication()
+WebUI.closeBrowser()
 

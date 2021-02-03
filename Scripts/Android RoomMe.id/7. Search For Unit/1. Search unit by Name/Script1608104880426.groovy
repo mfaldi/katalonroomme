@@ -29,5 +29,3 @@ Mobile.setText(findTestObject('Android RoomMe.id/Search Location Page/Textfield 
 
 Mobile.tap(findTestObject('Android RoomMe.id/Search Location Page/TextButton RoomMe FD Test02'), 0)
 
-Mobile.tap(findTestObject('Android RoomMe.id/Unit Detail Page/TextButton Schedule Visit'), 0)
-

@@ -21,5 +21,5 @@ WebUI.maximizeWindow()
 
 WebUI.waitForPageLoad(0)
 
-not_run: WebUI.click(findTestObject('Web RoomMe.id/RoomMe.id Homepage/Button Close Pop-Up Banner'))
+WebUI.click(findTestObject('Web RoomMe.id/RoomMe.id Homepage/Button Close banner StaytoWin'))
 

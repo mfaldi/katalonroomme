@@ -1,192 +1,1616 @@
-[35m[Appium][39m Welcome to Appium v1.19.1
+[35m[Appium][39m Welcome to Appium v1.18.2
 [35m[Appium][39m Non-default server args:
-[35m[Appium][39m   port: 54683
-[35m[Appium][39m   loglevel: info
-[35m[Appium][39m   tmpDir: /var/folders/bd/7b6lyhwj5nnc81wf5xy5f5n40000gp/T//Katalon/Appium/Temp1608104682919
-[35m[Appium][39m   chromedriverPort: 54684
+[35m[Appium][39m   port: 51711
+[35m[Appium][39m   tmpDir: C:\Users\Faldi\AppData\Local\Temp\\Katalon\Appium\Temp1611821603865
+[35m[Appium][39m   chromedriverPort: 51712
 [35m[Appium][39m Deprecated server args:
-[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities '{"chromedriverPort":51712}'
 [35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
-[35m[Appium][39m   chromedriverPort: 54684
-[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:54683
+[35m[Appium][39m   chromedriverPort: 51712
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:51711
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m6 ms - 68[39m
+[debug] [35m[GENERIC][39m Calling AppiumDriver.getStatus() with args: []
+[debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.18.2"}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m12 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[debug] [35m[GENERIC][39m Calling AppiumDriver.getStatus() with args: []
+[debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.18.2"}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m3 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
-[35m[HTTP][39m [90m{"desiredCapabilities":{"appActivity":".Settings","appPackage":"com.android.settings","newCommandTimeout":1800,"platformVersion":"9","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"192.168.10.123:5555","deviceName":"Xiaomi Redmi 7 (Android 9)","platform":"ANDROID","systemPort":8274},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi Redmi 7 (Android 9)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"9","appium:systemPort":8274,"appium:udid":"192.168.10.123:5555"}]}}[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\Faldi\\Desktop\\scrcpy\\roomme.apk","noReset":true,"deviceName":"samsung SM-N985F (Android 11)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"11","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"RR8N802N49H","systemPort":51718},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Faldi\\Desktop\\scrcpy\\roomme.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-N985F (Android 11)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"11","appium:systemPort":51718,"appium:udid":"RR8N802N49H"}]}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\Faldi\\Desktop\\scrcpy\\roomme.apk","noReset":true,"deviceName":"samsung SM-N985F (Android 11)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"11","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"RR8N802N49H","systemPort":51718},null,{"firstMatch":[{"appium:app":"C:\\Users\\Faldi\\Desktop\\scrcpy\\roomme.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-N985F (Android 11)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"11","appium:systemPort":51718,"appium:udid":"RR8N802N49H"}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1611821606361 (15:13:26 GMT+0700 (Western Indonesia Time))
 [35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
 [35m[BaseDriver][39m   platform
 [35m[BaseDriver][39m   chromedriverPort
-[35m[Appium][39m Appium v1.19.1 creating new AndroidUiautomator2Driver (v1.59.0) session
+[35m[Appium][39m Appium v1.18.2 creating new AndroidUiautomator2Driver (v1.56.1) session
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "appium:platform": "ANDROID",
+[debug] [35m[BaseDriver][39m     "platformName": "android",
+[debug] [35m[BaseDriver][39m     "appium:chromedriverPort": 51712,
+[debug] [35m[BaseDriver][39m     "appium:app": "C:\\Users\\Faldi\\Desktop\\scrcpy\\roomme.apk",
+[debug] [35m[BaseDriver][39m     "appium:autoGrantPermissions": true,
+[debug] [35m[BaseDriver][39m     "appium:automationName": "uiautomator2",
+[debug] [35m[BaseDriver][39m     "appium:deviceName": "samsung SM-N985F (Android 11)",
+[debug] [35m[BaseDriver][39m     "appium:fullReset": false,
+[debug] [35m[BaseDriver][39m     "appium:newCommandTimeout": 1800,
+[debug] [35m[BaseDriver][39m     "appium:noReset": true,
+[debug] [35m[BaseDriver][39m     "appium:platformVersion": "11",
+[debug] [35m[BaseDriver][39m     "appium:systemPort": 51718,
+[debug] [35m[BaseDriver][39m     "appium:udid": "RR8N802N49H"
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
 [35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
 [35m[BaseDriver][39m   platform
-[35m[BaseDriver][39m Session created with session id: ed67ba94-d7a2-483e-b6fd-48022bab01a0
-[35m[UiAutomator2][39m Starting 'com.android.settings' directly on the device
-[35m[ADB][39m Found 1 'build-tools' folders under '/Users/mfaldi/.katalon/tools/android_sdk' (newest first):
-[35m[ADB][39m     /Users/mfaldi/.katalon/tools/android_sdk/build-tools/29.0.3
-[35m[ADB][39m Using 'adb' from '/Users/mfaldi/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[BaseDriver][39m Session created with session id: d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c
+[35m[BaseDriver][39m Using local app 'C:\Users\Faldi\Desktop\scrcpy\roomme.apk'
+[debug] [35m[UiAutomator2][39m Checking whether app is actually present
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\Faldi\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/Faldi/.katalon/tools/android_sdk/build-tools/29.0.3
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 start-server'
 [35m[AndroidDriver][39m Retrieving device list
-[35m[AndroidDriver][39m Using device: 192.168.10.123:5555
-[35m[ADB][39m Using 'adb' from '/Users/mfaldi/.katalon/tools/android_sdk/platform-tools/adb'
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m Connected devices: [{"udid":"RR8N802N49H","state":"device"}]
+[35m[AndroidDriver][39m Using device: RR8N802N49H
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 start-server'
+[debug] [35m[ADB][39m Setting device id to RR8N802N49H
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 30
 [35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H shell getprop ro.build.version.release'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 11
+[debug] [35m[ADB][39m Device API level: 30
 [35m[UiAutomator2][39m Relaxing hidden api policy
-[35m[AndroidDriver][39m No app sent in, not parsing package/activity
-[35m[ADB][39m Using 'apksigner.jar' from '/Users/mfaldi/.katalon/tools/android_sdk/build-tools/29.0.3/lib/apksigner.jar'
-[35m[ADB][39m '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.15.0.apk' is signed with the default certificate
-[35m[ADB][39m '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+[debug] [35m[AndroidDriver][39m Parsing package and activity from app manifest
+[35m[ADB][39m Package name: 'com.roomme.tenant.dev'
+[35m[ADB][39m Main activity name: 'com.roomme.tenant.modules.splash.SplashScreen'
+[debug] [35m[AndroidDriver][39m Parsed package and activity are: com.roomme.tenant.dev/com.roomme.tenant.modules.splash.SplashScreen
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H wait-for-device'
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H shell echo ping'
+[debug] [35m[AndroidDriver][39m Pushing settings apk to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.settings
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H shell dumpsys package io.appium.settings'
+[debug] [35m[ADB][39m 'io.appium.settings' is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.settings'
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H shell dumpsys package io.appium.settings'
+[debug] [35m[ADB][39m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.2.0' >= '3.2.0')
+[debug] [35m[ADB][39m There is no need to install/upgrade 'C:\Users\Faldi\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+[debug] [35m[ADB][39m Getting IDs of all 'io.appium.settings' processes
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H shell 'pgrep --help; echo $?''
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H shell pgrep -f io\\.appium\\.settings'
+[debug] [35m[AndroidDriver][39m io.appium.settings is already running. There is no need to reset its permissions.
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H shell appops set io.appium.settings android\:mock_location allow'
+[debug] [35m[Logcat][39m Starting logs capture with command: C:\\Users\\Faldi\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s RR8N802N49H logcat -v threadtime
+[debug] [35m[UiAutomator2][39m Forwarding UiAutomator2 Server port 6790 to 51718
+[debug] [35m[ADB][39m Forwarding system: 51718 to device: 6790
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H forward tcp\:51718 tcp\:6790'
+[debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H shell dumpsys package io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m 'io.appium.uiautomator2.server' is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H shell dumpsys package io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.12.2' >= '4.12.2')
+[debug] [35m[UiAutomator2][39m io.appium.uiautomator2.server installation state: sameVersionInstalled
+[debug] [35m[ADB][39m Checking app cert for C:\Users\Faldi\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.12.2.apk
+[35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\Faldi\.katalon\tools\android_sdk\build-tools\29.0.3\lib\apksigner.jar'
+[debug] [35m[ADB][39m Starting apksigner: 'C:\\Users\\Faldi\\Desktop\\Katalon 7.7.2\\jre\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\Faldi\\.katalon\\tools\\android_sdk\\build-tools\\29.0.3\\lib\\apksigner.jar verify --print-certs C:\\Users\\Faldi\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.12.2.apk
+[debug] [35m[ADB][39m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] [35m[ADB][39m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] [35m[ADB][39m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] [35m[ADB][39m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] [35m[ADB][39m 
+[debug] [35m[ADB][39m 'C:\Users\Faldi\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.12.2.apk' is signed with the default certificate
+[debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server.test
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H shell dumpsys package io.appium.uiautomator2.server.test'
+[debug] [35m[ADB][39m 'io.appium.uiautomator2.server.test' is installed
+[debug] [35m[ADB][39m Checking app cert for C:\Users\Faldi\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+[debug] [35m[ADB][39m Starting apksigner: 'C:\\Users\\Faldi\\Desktop\\Katalon 7.7.2\\jre\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\Faldi\\.katalon\\tools\\android_sdk\\build-tools\\29.0.3\\lib\\apksigner.jar verify --print-certs C:\\Users\\Faldi\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk
+[debug] [35m[ADB][39m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] [35m[ADB][39m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] [35m[ADB][39m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] [35m[ADB][39m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] [35m[ADB][39m 
+[debug] [35m[ADB][39m 'C:\Users\Faldi\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
 [35m[UiAutomator2][39m Server packages are not going to be (re)installed
-[35m[UiAutomator2][39m Starting UIAutomator2 server 4.15.0
-[35m[UiAutomator2][39m Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.15.0.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[debug] [35m[UiAutomator2][39m Waiting up to 30000ms for services to be available
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H shell pm list instrumentation'
+[debug] [35m[UiAutomator2][39m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+[debug] [35m[ADB][39m Checking app cert for C:\Users\Faldi\Desktop\scrcpy\roomme.apk
+[debug] [35m[ADB][39m Starting apksigner: 'C:\\Users\\Faldi\\Desktop\\Katalon 7.7.2\\jre\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\Faldi\\.katalon\\tools\\android_sdk\\build-tools\\29.0.3\\lib\\apksigner.jar verify --print-certs C:\\Users\\Faldi\\Desktop\\scrcpy\\roomme.apk
+[debug] [35m[ADB][39m apksigner stdout: Signer #1 certificate DN: C=US, O=Android, CN=Android Debug
+[debug] [35m[ADB][39m Signer #1 certificate SHA-256 digest: d50706b88c148aef0e85a1e145bb28f9dbe2312304eb413ef2c320b84dbb8ccd
+[debug] [35m[ADB][39m Signer #1 certificate SHA-1 digest: 2ebd877c5c098b164f3446ce25d287af8f81f0ea
+[debug] [35m[ADB][39m Signer #1 certificate MD5 digest: 56059df607dc0e956a604e5fff16444c
+[debug] [35m[ADB][39m 
+[debug] [35m[ADB][39m 'C:\Users\Faldi\Desktop\scrcpy\roomme.apk' is signed with a non-default certificate
+[debug] [35m[ADB][39m Getting install status for com.roomme.tenant.dev
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H shell dumpsys package com.roomme.tenant.dev'
+[debug] [35m[ADB][39m 'com.roomme.tenant.dev' is installed
+[debug] [35m[ADB][39m Getting package info for 'com.roomme.tenant.dev'
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H shell dumpsys package com.roomme.tenant.dev'
+[debug] [35m[ADB][39m The version name of the installed 'com.roomme.tenant.dev' is greater or equal to the application version name ('1.4.0' >= '1.4.0')
+[debug] [35m[ADB][39m There is no need to install/upgrade 'C:\Users\Faldi\Desktop\scrcpy\roomme.apk'
+[debug] [35m[UiAutomator2][39m Performing shallow cleanup of automation leftovers
+[debug] [35m[UiAutomator2][39m The following obsolete sessions are still running: [null]
+[debug] [35m[UiAutomator2][39m Cleaning up the obsolete sessions
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H shell am force-stop io.appium.uiautomator2.server.test'
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.12.2
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\Faldi\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.12.2.apk' and test from 'C:\Users\Faldi\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
 [35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[debug] [35m[ADB][39m Creating ADB subprocess with args: ["-P",5037,"-s","RR8N802N49H","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+[debug] [35m[Instrumentation][39m io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:51718/wd/hub/status] with no body
 [35m[WD Proxy][39m socket hang up
-[35m[WD Proxy][39m socket hang up
-[35m[WD Proxy][39m socket hang up
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:51718/wd/hub/status] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+[debug] [35m[UiAutomator2][39m The initialization of the instrumentation process took 2089ms
+[debug] [35m[WD Proxy][39m Matched '/session' to command name 'createSession'
+[debug] [35m[WD Proxy][39m Proxying [POST /session] to [POST http://127.0.0.1:51718/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","chromedriverPort":51712,"app":"C:\\Users\\Faldi\\Desktop\\scrcpy\\roomme.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-N985F (Android 11)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformVersion":"11","systemPort":51718,"udid":"RR8N802N49H"},"platformName":"android","chromedriverPort":51712,"app":"C:\\Users\\Faldi\\Desktop\\scrcpy\\roomme.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"RR8N802N49H","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformVersion":"11","systemPort":51718,"udid":"RR8N802N49H","deviceUDID":"RR8N802N49H","appPackage":"com.roomme.tenant.dev"}],"alwaysMatch":{}}}
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a167c45b-d724-4321-88c3-c00d4f8d6522","value":{"capabilities":{"firstMatch":[{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","chromedriverPort":51712,"app":"C:\\Users\\Faldi\\Desktop\\scrcpy\\roomme.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-N985F (Android 11)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformVersion":"11","systemPort":51718,"udid":"RR8N802N49H"},"platformName":"android","chromedriverPort":51712,"app":"C:\\Users\\Faldi\\Desktop\\scrcpy\\roomme.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"RR8N802N49H","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformVersion":"11","systemPort":51718,"udid":"RR8N802N49H","deviceUDID":"RR8N802N49H","appPackage":"com.roomme.tenant...
 [35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:51718/wd/hub/session/a167c45b-d724-4321-88c3-c00d4f8d6522/appium/device/info] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a167c45b-d724-4321-88c3-c00d4f8d6522","value":{"androidId":"2bdab8f530a002b9","apiVersion":"30","bluetooth":{"state":"ON"},"brand":"samsung","carrierName":"XL 4G LTE","displayDensity":420,"locale":"en_US","manufacturer":"samsung","model":"SM-N985F","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":99000,"linkUpstreamBandwidthKbps":89100,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-31,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":0,"subtypeName":"","type":1,"typeName":"WIFI"}],"platformVersion":"11","realDisplaySize":"1080x2316","timeZone":"Asia/Jakarta"}}
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H shell dumpsys window'
 [35m[AndroidDriver][39m Screen already unlocked, doing nothing
-[35m[UiAutomator2][39m Starting 'com.android.settings/.Settings and waiting for 'com.android.settings/.Settings'
-[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session ed67ba94-d7a2-483e-b6fd-48022bab01a0 added to master session list
-[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m12891 ms - 1177[39m
+[35m[UiAutomator2][39m Starting 'com.roomme.tenant.dev/com.roomme.tenant.modules.splash.SplashScreen and waiting for 'com.roomme.tenant.dev/com.roomme.tenant.modules.splash.SplashScreen'
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H shell am start -W -n com.roomme.tenant.dev/com.roomme.tenant.modules.splash.SplashScreen -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] [35m[ADB][39m Waiting up to 20000ms for activity matching pkg: 'com.roomme.tenant.dev' and activity: 'com.roomme.tenant.modules.splash.SplashScreen' to be focused
+[debug] [35m[ADB][39m Possible activities, to be checked: 'com.roomme.tenant.modules.splash.SplashScreen', 'com.roomme.tenant.dev.com.roomme.tenant.modules.splash.SplashScreen'
+[debug] [35m[ADB][39m Getting focused package and activity
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H shell dumpsys window displays'
+[debug] [35m[ADB][39m Found package: 'com.roomme.tenant.dev' and fully qualified activity name : 'com.roomme.tenant.modules.splash.SplashScreen'
+[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:51718/wd/hub/session/a167c45b-d724-4321-88c3-c00d4f8d6522/appium/device/pixel_ratio] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a167c45b-d724-4321-88c3-c00d4f8d6522","value":2.625}
+[debug] [35m[WD Proxy][39m Matched '/appium/device/system_bars' to command name 'getSystemBars'
+[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:51718/wd/hub/session/a167c45b-d724-4321-88c3-c00d4f8d6522/appium/device/system_bars] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a167c45b-d724-4321-88c3-c00d4f8d6522","value":{"statusBar":67}}
+[debug] [35m[WD Proxy][39m Matched '/window/current/size' to command name 'getWindowSize'
+[debug] [35m[WD Proxy][39m Proxying [GET /window/current/size] to [GET http://127.0.0.1:51718/wd/hub/session/a167c45b-d724-4321-88c3-c00d4f8d6522/window/current/size] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a167c45b-d724-4321-88c3-c00d4f8d6522","value":{"height":2123,"width":1080}}
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1611821617595 (15:13:37 GMT+0700 (Western Indonesia Time))
+[debug] [35m[W3C (d8eafeaa)][39m Cached the protocol value 'W3C' for the new session d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c
+[debug] [35m[W3C (d8eafeaa)][39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","chromedriverPort":51712,"app":"C:\\Users\\Faldi\\Desktop\\scrcpy\\roomme.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-N985F (Android 11)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformVersion":"11","systemPort":51718,"udid":"RR8N802N49H"},"platformName":"android","chromedriverPort":51712,"app":"C:\\Users\\Faldi\\Desktop\\scrcpy\\roomme.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"RR8N802N49H","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformVersion":"11","systemPort":51718,"udid":"RR8N802N49H","deviceUDID":"RR8N802N49H","appPackage":"com.roomme.tenant.dev","deviceApiLevel":30,"deviceScreenSize":"1080x2316","deviceScreenDensi...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m11238 ms - 1247[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0 [39m[32m200[39m [90m28 ms - 1131[39m
+[debug] [35m[W3C (d8eafeaa)][39m Calling AppiumDriver.getSession() with args: ["d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c"]
+[debug] [35m[UiAutomator2][39m Getting session details from server to mix in
+[debug] [35m[WD Proxy][39m Matched '/' to command name 'getSession'
+[debug] [35m[WD Proxy][39m Proxying [GET /] to [GET http://127.0.0.1:51718/wd/hub/session/a167c45b-d724-4321-88c3-c00d4f8d6522] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a167c45b-d724-4321-88c3-c00d4f8d6522","value":{"lastScrollData":null}}
+[debug] [35m[W3C (d8eafeaa)][39m Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","chromedriverPort":51712,"app":"C:\\Users\\Faldi\\Desktop\\scrcpy\\roomme.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-N985F (Android 11)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformVersion":"11","systemPort":51718,"udid":"RR8N802N49H"},"platformName":"android","chromedriverPort":51712,"app":"C:\\Users\\Faldi\\Desktop\\scrcpy\\roomme.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"RR8N802N49H","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformVersion":"11","systemPort":51718,"udid":"RR8N802N49H","deviceUDID":"RR8N802N49H","appPackage":"com.roomme.tenant.dev","deviceApiLevel":30,"deviceScreenSize":"1080x2316","deviceScreenDensity":420,"deviceM...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c [39m[32m200[39m [90m9 ms - 1201[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0 [39m[32m200[39m [90m27 ms - 1131[39m
+[debug] [35m[W3C (d8eafeaa)][39m Calling AppiumDriver.getSession() with args: ["d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c"]
+[debug] [35m[UiAutomator2][39m Getting session details from server to mix in
+[debug] [35m[WD Proxy][39m Matched '/' to command name 'getSession'
+[debug] [35m[WD Proxy][39m Proxying [GET /] to [GET http://127.0.0.1:51718/wd/hub/session/a167c45b-d724-4321-88c3-c00d4f8d6522] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a167c45b-d724-4321-88c3-c00d4f8d6522","value":{"lastScrollData":null}}
+[debug] [35m[W3C (d8eafeaa)][39m Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","chromedriverPort":51712,"app":"C:\\Users\\Faldi\\Desktop\\scrcpy\\roomme.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-N985F (Android 11)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformVersion":"11","systemPort":51718,"udid":"RR8N802N49H"},"platformName":"android","chromedriverPort":51712,"app":"C:\\Users\\Faldi\\Desktop\\scrcpy\\roomme.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"RR8N802N49H","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformVersion":"11","systemPort":51718,"udid":"RR8N802N49H","deviceUDID":"RR8N802N49H","appPackage":"com.roomme.tenant.dev","deviceApiLevel":30,"deviceScreenSize":"1080x2316","deviceScreenDensity":420,"deviceM...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c [39m[32m200[39m [90m8 ms - 1201[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
+[debug] [35m[GENERIC][39m Calling AppiumDriver.getStatus() with args: []
+[debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.18.2"}}
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/timeouts[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/timeouts[39m
 [35m[HTTP][39m [90m{"implicit":60000}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[debug] [35m[W3C (d8eafeaa)][39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,60000,"d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c"]
+[debug] [35m[BaseDriver][39m W3C timeout argument: {"implicit":60000}}
+[debug] [35m[BaseDriver][39m Set implicit wait to 60000ms
+[debug] [35m[W3C (d8eafeaa)][39m Responding to client with driver.timeouts() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/timeouts [39m[32m200[39m [90m5 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/screenshot [39m[32m200[39m [90m582 ms - 120744[39m
+[35m[W3C (d8eafeaa)][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[WD Proxy][39m Matched '/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/source' to command name 'getPageSource'
+[debug] [35m[WD Proxy][39m Proxying [GET /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/source] to [GET http://127.0.0.1:51718/wd/hub/session/a167c45b-d724-4321-88c3-c00d4f8d6522/source] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a167c45b-d724-4321-88c3-c00d4f8d6522","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2123\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.roomme.tenant.dev\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2123]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.roomme.tenant.dev\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2123]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.r...
+[35m[WD Proxy][39m Replacing sessionId a167c45b-d724-4321-88c3-c00d4f8d6522 with d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/source [39m[32m200[39m [90m501 ms - 3602[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/window/rect[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/window/rect [39m[32m200[39m [90m40 ms - 49[39m
+[debug] [35m[W3C (d8eafeaa)][39m Calling AppiumDriver.getScreenshot() with args: ["d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c"]
+[debug] [35m[WD Proxy][39m Matched '/screenshot' to command name 'getScreenshot'
+[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:51718/wd/hub/session/a167c45b-d724-4321-88c3-c00d4f8d6522/screenshot] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a167c45b-d724-4321-88c3-c00d4f8d6522","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAkMCAYAAAASLEj0AAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N17lJxXeSfq96u+39Sta8vGNkaNwQLTcrja4nISQCYkM8RKSMgBSxkm\nMFhJmExAMpPJIrJJZpGRxUxmzRrLwwkhIAXixME+kDlJLMJAGCSMsTNWAiaARKzYsluybu6L1Lf6\nzh/VXaq+qlvubvW2nmctLVV1V+3aX3V1Sd+v9n7f7Ps33JAHAAAAQMIKF3sCAAAAAM+VgAMAAABI\nnoADAAAASJ6AAwAAAEiegAMAAABInoADAAAASJ6AAwAAAEiegAMAAABInoADAAAASJ6AAwAAAEie\ngAMAAABInoADAAAASJ6AAwAAAEiegAMAAABInoADAAAASJ6AAwAAAEiegAMAAABInoADAAAASJ6A\nAwAAAEiegAMAAABInoADAAAASF71xZ4ALHZZdTEaX9IdrT92IhraeyMKxciLEdlwHpHnEcU8igNV\nceaJpjh9YFWcPdIceTG72NMGAAC4pAg4YArVLYNx5ZZ/ikL1QOTFiCjmkRfziGJE5BF5lP6OPCKr\nGoqGK09HwwtORhQjBrvr48l7Xy7oAAAAWCDZ92+4Ib/Yk4DFpKp5KK74lR9FoXYosnx0lUZEFPNz\nf/Jx14v5SAhSLN82G87jn+/vjMFn6y/uAQHwvFFobo66NWvOe7v+Q4ei2NOzADM6p9DcPOePOR9j\nXoi6jo5Y+eEPR21HR3Tv3Rsnd++Ooa6uiz2t56y6vX1RHUdDZ+ekXx/s6lpU84Tnq5YNG6K6vX3K\n7w91dUX33r0LOKPZs4KDhVMolMKCfPFmait+8lgsed3xkXnGyDKNC5RFLHvN49H1Ny+dq+kBcIlb\ntXVrNN5443lv17d/fzx9++3z...
+[debug] [35m[W3C (d8eafeaa)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAkMCAYAAAASLEj0AAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N17lJxXeSfq96u+39Sta8vGNkaNwQLTcrja4nISQCYkM8RKSMgBSxkm\nMFhJmExAMpPJIrJJZpGRxUxmzRrLwwkhIAXixME+kDlJLMJAGCSMsTNWAiaARKzYsluybu6L1Lf6\nzh/VXaq+qlvubvW2nmctLVV1V+3aX3V1Sd+v9n7f7Ps33JAHAAAAQMIKF3sCAAAAAM+VgAMAAABI\nnoADAAAASJ6AAwAAAEiegAMAAABInoADAAAASJ6AAwAAAEiegAMAAABInoADAAAASJ6AAwAAAEie\ngAMAAABInoADAAAASJ6AAwAAAEiegAMAAABInoADAAAASJ6AAwAAAEiegAMAAABInoADAAAASJ6A\nAwAAAEiegAMAAABInoADAAAASF71xZ4ALHZZdTEaX9IdrT92IhraeyMKxciLEdlwHpHnEcU8igNV\nceaJpjh9YFWcPdIceTG72NMGAAC4pAg4YArVLYNx5ZZ/ikL1QOTFiCjmkRfziGJE5BF5lP6OPCKr\nGoqGK09HwwtORhQjBrvr48l7Xy7oAAAAWCDZ92+4Ib/Yk4DFpKp5KK74lR9FoXYosnx0lUZEFPNz\nf/Jx14v5SAhSLN82G87jn+/vjMFn6y/uAQHwvFFobo66NWvOe7v+Q4ei2NOzADM6p9DcPOePOR9j\nXoi6jo5Y+eEPR21HR3Tv3Rsnd++Ooa6uiz2t56y6vX1RHUdDZ+ekXx/s6lpU84Tnq5YNG6K6vX3K\n7w91dUX33r0LOKPZs4KDhVMolMKCfPFmait+8lgsed3xkXnGyDKNC5RFLHvN49H1Ny+dq+kBcIlb\ntXVrNN5443lv17d/fzx9++3zP6ERdR0dcdmOHXH87rvn7D+/LRs2xPJbb42nbrst+g8enJMxL1T7\n9u3l//...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/screenshot [39m[32m200[39m [90m273 ms - 138078[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/appium/device/system_bars[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/appium/device/system_bars [39m[32m200[39m [90m93 ms - 145[39m
+[35m[W3C (d8eafeaa)][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[WD Proxy][39m Matched '/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/source' to command name 'getPageSource'
+[debug] [35m[WD Proxy][39m Proxying [GET /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/source] to [GET http://127.0.0.1:51718/wd/hub/session/a167c45b-d724-4321-88c3-c00d4f8d6522/source] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a167c45b-d724-4321-88c3-c00d4f8d6522","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2123\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.roomme.tenant.dev\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2123]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.roomme.tenant.dev\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2123]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.r...
+[35m[WD Proxy][39m Replacing sessionId a167c45b-d724-4321-88c3-c00d4f8d6522 with d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/source [39m[32m200[39m [90m86 ms - 19347[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/appium/device/activate_app[39m
-[35m[HTTP][39m [90m{"bundleId":"com.roomme.tenant.dev"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/appium/device/activate_app [39m[32m200[39m [90m847 ms - 14[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/source[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (ed67ba94)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId a15530b6-62e1-494a-838c-8ac7bfbe55b7 with ed67ba94-d7a2-483e-b6fd-48022bab01a0
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/source [39m[32m200[39m [90m872 ms - 3594[39m
+[debug] [35m[W3C (d8eafeaa)][39m Calling AppiumDriver.getScreenshot() with args: ["d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c"]
+[debug] [35m[WD Proxy][39m Matched '/screenshot' to command name 'getScreenshot'
+[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:51718/wd/hub/session/a167c45b-d724-4321-88c3-c00d4f8d6522/screenshot] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a167c45b-d724-4321-88c3-c00d4f8d6522","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAkMCAYAAAASLEj0AAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N15eFNV/j/w971ZmrTpDm3ZoUUExIKCIB3BBeo2DiOKyyjgLtRB/YqA\nMyIUFRWhjDrOUNyFVpSRAX8oLlRRQaiK6IAKorZAWdtCS9ukbbZ7f3+kCblN0iZt0jbt+/U8PCQ3\n9557kqaB+845nyP8euGFMoiIiIiIiIiIwpjY3h0gIiIiIiIiImotBhxEREREREREFPYYcBARERER\nERFR2GPAQURERERERERhjwEHEREREREREYU9BhxEREREREREFPYYcBARERERERFR2GPAQURERERE\nRERhjwEHEREREREREYU9BhxEREREREREFPYYcBARERERERFR2GPAQURERERERERhjwEHERERERER\nEYU9BhxEREREREREFPYYcBARERERERFR2GPAQURERERERERhjwEHEREREREREYU9BhxERERERERE\nFPYYcBARERERERFR2GPAQURERERERERhjwEHEREREREREYU9dXt3gKijE9QSIgfVIPa8CuiTTYAo\nQZYAwS4DsgxIMiSLCnVHolC1Jwn1xwyQJaG9u01ERERERNSlMOAg8kEdbUWfrIMQ1RbIEgBJhizJ\ngARABmQ4/oYMCCob9H2qoO9VCUiAtUaHo+vOYdBBRERERETURoRfL7xQbu9OEHUkKoMNve87AFFr\ngyA7R2kAkOQzf+RG9yW5IQSRXPsKdhmH30uHtVrXvk+IiIg6DdFgQERqarP7mYuLIRmNbdCjM0SD\nIejnDEWbLRGRlobuDz8MbVoaagoKUJmXB1tpaXt3q9XUyckd6nno09O9breWlnaofhJ1VtGZmVAn\nJ/t83FZaipqCgjbsUeA4goPa...
+[debug] [35m[W3C (d8eafeaa)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAkMCAYAAAASLEj0AAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N15eFNV/j/w971ZmrTpDm3ZoUUExIKCIB3BBeo2DiOKyyjgLtRB/YqA\nMyIUFRWhjDrOUNyFVpSRAX8oLlRRQaiK6IAKorZAWdtCS9ukbbZ7f3+kCblN0iZt0jbt+/U8PCQ3\n9557kqaB+845nyP8euGFMoiIiIiIiIiIwpjY3h0gIiIiIiIiImotBhxEREREREREFPYYcBARERER\nERFR2GPAQURERERERERhjwEHEREREREREYU9BhxEREREREREFPYYcBARERERERFR2GPAQURERERE\nRERhjwEHEREREREREYU9BhxEREREREREFPYYcBARERERERFR2GPAQURERERERERhjwEHERERERER\nEYU9BhxEREREREREFPYYcBARERERERFR2GPAQURERERERERhjwEHEREREREREYU9BhxERERERERE\nFPYYcBARERERERFR2GPAQURERERERERhjwEHEREREREREYU9dXt3gKijE9QSIgfVIPa8CuiTTYAo\nQZYAwS4DsgxIMiSLCnVHolC1Jwn1xwyQJaG9u01ERERERNSlMOAg8kEdbUWfrIMQ1RbIEgBJhizJ\ngARABmQ4/oYMCCob9H2qoO9VCUiAtUaHo+vOYdBBRERERETURoRfL7xQbu9OEHUkKoMNve87AFFr\ngyA7R2kAkOQzf+RG9yW5IQSRXPsKdhmH30uHtVrXvk+IiIg6DdFgQERqarP7mYuLIRmNbdCjM0SD\nIejnDEWbLRGRlobuDz8MbVoaagoKUJmXB1tpaXt3q9XUyckd6nno09O9breWlnaofhJ1VtGZmVAn\nJ/t83FZaipqCgjbsUeA4goPajig6wgK542Zq3a4sR8yYUw39RMMwjRYSgIQLDqH0s7OD1T0iIuri\nkubMQe...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/screenshot [39m[32m200[39m [90m288 ms - 132284[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/screenshot [39m[32m200[39m [90m607 ms - 84024[39m
+[35m[W3C (d8eafeaa)][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[WD Proxy][39m Matched '/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/source' to command name 'getPageSource'
+[debug] [35m[WD Proxy][39m Proxying [GET /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/source] to [GET http://127.0.0.1:51718/wd/hub/session/a167c45b-d724-4321-88c3-c00d4f8d6522/source] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a167c45b-d724-4321-88c3-c00d4f8d6522","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2123\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.roomme.tenant.dev\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2123]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.roomme.tenant.dev\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2123]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.r...
+[35m[WD Proxy][39m Replacing sessionId a167c45b-d724-4321-88c3-c00d4f8d6522 with d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/source [39m[32m200[39m [90m586 ms - 176216[39m
 [35m[HTTP][39m [90m[39m
-[35[35m[BaseDriver][39m Shutting down because we waited 1800 seconds for a command
-[35m[Appium][39m Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
-[35m[Appium][39m Removing session 'cf09327d-f0c2-46a3-8508-2bdd4174d8f3' from our master session list
-[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
-0[39m [90m838 ms - 33817[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/screenshot [39m[32m200[39m [90m1611 ms - 1018480[39m
+[debug] [35m[W3C (d8eafeaa)][39m Calling AppiumDriver.getScreenshot() with args: ["d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c"]
+[debug] [35m[WD Proxy][39m Matched '/screenshot' to command name 'getScreenshot'
+[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:51718/wd/hub/session/a167c45b-d724-4321-88c3-c00d4f8d6522/screenshot] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a167c45b-d724-4321-88c3-c00d4f8d6522","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAkMCAYAAAASLEj0AAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N15fJT1vff/93XNZJZksgMBBBSiCFWDdTlKXGqrcWnrgtXaKlC1tZUu\npxvYxznnbkHPfR7tAXrOfX7nVmzv02MR1NpaQe1xIdZareDegmtFIlC2BMg6k2Uyc12/PyYzzCST\nZAIzSa7k9Xw8eDjLNd/5TjKJud7z+X6+xgfnnmsLAAAAAADAwcyRngAAAAAAAMCxIuAAAAAAAACO\nR8ABAAAAAAAcj4ADAAAAAAA4HgEHAAAAAABwPAIOAAAAAADgeAQcAAAAAADA8Qg4AAAAAACA4xFw\nAAAAAAAAxyPgAAAAAAAAjkfAAQAAAAAAHI+AAwAAAAAAOB4BBwAAAAAAcDwCDgAAAAAA4HgEHAAA\nAAAAwPEIOAAAAAAAgOMRcAAAAAAAAMcj4AAAAAAAAI5HwAEAAAAAAByPgAMAAAAAADgeAQcAAAAA\nAHA890hPABjtDLel/NltKv54o/wVIcm0ZFuSEbUl25YsW1bYpY49BWrZNkmd+wKyLWOkpw0AAAAA\n4woBB9APd2G3pi/ZKdMdlm1JsmzZli1ZkmzJVuy/siXDFZF/eov8xzVJltTd5tPeR04h6AAAAACA\nYWJ8cO659khPAhhNXIGIpn39I5meiAw7XqUhybKP/LN7XbfsnhDEShxrRG39bWOVult9I/uCAABj\nhhkIyDtr1qDHddXVyQoGh2FGR5iBQNafMxdjHg1vZaUmfv/78lRWqq22Vk3r1ilSXz/S0zpm7oqK\nUfU6/FVVaW/vrq8fVfMExqrCmhq5Kyr6vT9SX6+22tphnNHQUcGB4WOasbDAHr2Z2oTLD6ronMM9\n81RPmcZRMqSys3ep/vcnZ2t6...
+[debug] [35m[W3C (d8eafeaa)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAkMCAYAAAASLEj0AAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N15fJT1vff/93XNZJZksgMBBBSiCFWDdTlKXGqrcWnrgtXaKlC1tZUu\npxvYxznnbkHPfR7tAXrOfX7nVmzv02MR1NpaQe1xIdZareDegmtFIlC2BMg6k2Uyc12/PyYzzCST\nZAIzSa7k9Xw8eDjLNd/5TjKJud7z+X6+xgfnnmsLAAAAAADAwcyRngAAAAAAAMCxIuAAAAAAAACO\nR8ABAAAAAAAcj4ADAAAAAAA4HgEHAAAAAABwPAIOAAAAAADgeAQcAAAAAADA8Qg4AAAAAACA4xFw\nAAAAAAAAxyPgAAAAAAAAjkfAAQAAAAAAHI+AAwAAAAAAOB4BBwAAAAAAcDwCDgAAAAAA4HgEHAAA\nAAAAwPEIOAAAAAAAgOMRcAAAAAAAAMcj4AAAAAAAAI5HwAEAAAAAAByPgAMAAAAAADgeAQcAAAAA\nAHA890hPABjtDLel/NltKv54o/wVIcm0ZFuSEbUl25YsW1bYpY49BWrZNkmd+wKyLWOkpw0AAAAA\n4woBB9APd2G3pi/ZKdMdlm1JsmzZli1ZkmzJVuy/siXDFZF/eov8xzVJltTd5tPeR04h6AAAAACA\nYWJ8cO659khPAhhNXIGIpn39I5meiAw7XqUhybKP/LN7XbfsnhDEShxrRG39bWOVult9I/uCAABj\nhhkIyDtr1qDHddXVyQoGh2FGR5iBQNafMxdjHg1vZaUmfv/78lRWqq22Vk3r1ilSXz/S0zpm7oqK\nUfU6/FVVaW/vrq8fVfMExqrCmhq5Kyr6vT9SX6+22tphnNHQUcGB4WOasbDAHr2Z2oTLD6ronMM9\n81RPmcZRMqSys3ep/vcnZ2t6AIBxbtLSpcqfP3/Q49q3bNGBFStyP6Ee3spKTVm5UofvvTdrf/wW\n1tSo/P...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/screenshot [39m[32m200[39m [90m309 ms - 167180[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (ed67ba94)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId a15530b6-62e1-494a-838c-8ac7bfbe55b7 with ed67ba94-d7a2-483e-b6fd-48022bab01a0
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/source [39m[32m200[39m [90m261 ms - 23589[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.RelativeLayout' and (@text = '' or . = '')]"}[39m
+[debug] [35m[W3C (d8eafeaa)][39m Calling AppiumDriver.findElements() with args: ["xpath","//*[@class = 'android.widget.RelativeLayout' and (@text = '' or . = '')]","d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 60000 ms for condition
+[debug] [35m[WD Proxy][39m Matched '/elements' to command name 'findElements'
+[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:51718/wd/hub/session/a167c45b-d724-4321-88c3-c00d4f8d6522/elements] with body: {"strategy":"xpath","selector":"//*[@class = 'android.widget.RelativeLayout' and (@text = '' or . = '')]","context":"","multiple":true}
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a167c45b-d724-4321-88c3-c00d4f8d6522","value":[{"ELEMENT":"bc9d0d8f-17b9-4b90-97e4-8743b6ae345d","element-6066-11e4-a52e-4f735466cecf":"bc9d0d8f-17b9-4b90-97e4-8743b6ae345d"},{"ELEMENT":"4b94725b-a403-4b28-832f-844e0b935351","element-6066-11e4-a52e-4f735466cecf":"4b94725b-a403-4b28-832f-844e0b935351"},{"ELEMENT":"51a8e219-6e45-47c0-ad8f-900c19b2f1ca","element-6066-11e4-a52e-4f735466cecf":"51a8e219-6e45-47c0-ad8f-900c19b2f1ca"},{"ELEMENT":"dc43051d-77fb-42e8-9fbb-be52bf837dd8","element-6066-11e4-a52e-4f735466cecf":"dc43051d-77fb-42e8-9fbb-be52bf837dd8"},{"ELEMENT":"2e29236f-e916-4ce2-aa8e-6f24bb83b842","element-6066-11e4-a52e-4f735466cecf":"2e29236f-e916-4ce2-aa8e-6f24bb83b842"},{"ELEMENT":"9064ef6d-05ae-428d-8481-317b9f6e56d7","element-6066-11e4-a52e-4f735466cecf":"9064ef6d-05ae-428d-8481-317b9f6e56d7"},{"ELEMENT":"43992cb6-0e70-4b22-bf4c-be7e04fdb4b5","element-6066-11e4-a52e-4f735466cecf":"43992cb6-0e70-4b22-bf4c-be7e04fdb4b5"},{"ELEMENT":"c9d3bae4-5761-4154-9f1f-22361ac06e92","element-6066-...
+[debug] [35m[W3C (d8eafeaa)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"bc9d0d8f-17b9-4b90-97e4-8743b6ae345d","ELEMENT":"bc9d0d8f-17b9-4b90-97e4-8743b6ae345d"},{"element-6066-11e4-a52e-4f735466cecf":"4b94725b-a403-4b28-832f-844e0b935351","ELEMENT":"4b94725b-a403-4b28-832f-844e0b935351"},{"element-6066-11e4-a52e-4f735466cecf":"51a8e219-6e45-47c0-ad8f-900c19b2f1ca","ELEMENT":"51a8e219-6e45-47c0-ad8f-900c19b2f1ca"},{"element-6066-11e4-a52e-4f735466cecf":"dc43051d-77fb-42e8-9fbb-be52bf837dd8","ELEMENT":"dc43051d-77fb-42e8-9fbb-be52bf837dd8"},{"element-6066-11e4-a52e-4f735466cecf":"2e29236f-e916-4ce2-aa8e-6f24bb83b842","ELEMENT":"2e29236f-e916-4ce2-aa8e-6f24bb83b842"},{"element-6066-11e4-a52e-4f735466cecf":"9064ef6d-05ae-428d-8481-317b9f6e56d7","ELEMENT":"9064ef6d-05ae-428d-8481-317b9f6e56d7"},{"element-6066-11e4-a52e-4f735466cecf":"43992cb6-0e70-4b22-bf4c-be7e04fdb4b5","ELEMENT":"43992cb6-0e70-4b22-bf4c-be7e04fdb4b5"},{"element-6066-11e4-a52e-4f735466cecf":"c9d3bae4-5761-4154-9f1f-22361ac06e92","ELEMENT":"c9d3bae4-5761-4154-9f1f-22361ac06e9...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/elements [39m[32m200[39m [90m516 ms - 7691[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/screenshot [39m[32m200[39m [90m1096 ms - 114262[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.RelativeLayout\")"}[39m
+[debug] [35m[W3C (d8eafeaa)][39m Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().className(\"android.widget.RelativeLayout\")","d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 60000 ms for condition
+[debug] [35m[WD Proxy][39m Matched '/elements' to command name 'findElements'
+[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:51718/wd/hub/session/a167c45b-d724-4321-88c3-c00d4f8d6522/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.RelativeLayout\")","context":"","multiple":true}
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a167c45b-d724-4321-88c3-c00d4f8d6522","value":[{"ELEMENT":"67ca6891-d82b-4d8b-9003-f3c60c6cb5ec","element-6066-11e4-a52e-4f735466cecf":"67ca6891-d82b-4d8b-9003-f3c60c6cb5ec"},{"ELEMENT":"6a89af2e-85ed-484d-9fe7-b81a390ad133","element-6066-11e4-a52e-4f735466cecf":"6a89af2e-85ed-484d-9fe7-b81a390ad133"},{"ELEMENT":"fe2d8f43-b7d3-42f0-8c47-b667c20585db","element-6066-11e4-a52e-4f735466cecf":"fe2d8f43-b7d3-42f0-8c47-b667c20585db"},{"ELEMENT":"fe66d8f5-00a3-41e7-83aa-a766c24786f3","element-6066-11e4-a52e-4f735466cecf":"fe66d8f5-00a3-41e7-83aa-a766c24786f3"},{"ELEMENT":"c681a542-b586-4dfa-8a3a-a5bb052c9638","element-6066-11e4-a52e-4f735466cecf":"c681a542-b586-4dfa-8a3a-a5bb052c9638"},{"ELEMENT":"dcc78b00-03b6-4924-b979-53261751bff5","element-6066-11e4-a52e-4f735466cecf":"dcc78b00-03b6-4924-b979-53261751bff5"},{"ELEMENT":"217ece48-582f-4855-a019-03d9c3c2fa51","element-6066-11e4-a52e-4f735466cecf":"217ece48-582f-4855-a019-03d9c3c2fa51"},{"ELEMENT":"f15f544a-911e-48b6-a7cd-11b5d62b9141","element-6066-...
+[debug] [35m[W3C (d8eafeaa)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"67ca6891-d82b-4d8b-9003-f3c60c6cb5ec","ELEMENT":"67ca6891-d82b-4d8b-9003-f3c60c6cb5ec"},{"element-6066-11e4-a52e-4f735466cecf":"6a89af2e-85ed-484d-9fe7-b81a390ad133","ELEMENT":"6a89af2e-85ed-484d-9fe7-b81a390ad133"},{"element-6066-11e4-a52e-4f735466cecf":"fe2d8f43-b7d3-42f0-8c47-b667c20585db","ELEMENT":"fe2d8f43-b7d3-42f0-8c47-b667c20585db"},{"element-6066-11e4-a52e-4f735466cecf":"fe66d8f5-00a3-41e7-83aa-a766c24786f3","ELEMENT":"fe66d8f5-00a3-41e7-83aa-a766c24786f3"},{"element-6066-11e4-a52e-4f735466cecf":"c681a542-b586-4dfa-8a3a-a5bb052c9638","ELEMENT":"c681a542-b586-4dfa-8a3a-a5bb052c9638"},{"element-6066-11e4-a52e-4f735466cecf":"dcc78b00-03b6-4924-b979-53261751bff5","ELEMENT":"dcc78b00-03b6-4924-b979-53261751bff5"},{"element-6066-11e4-a52e-4f735466cecf":"217ece48-582f-4855-a019-03d9c3c2fa51","ELEMENT":"217ece48-582f-4855-a019-03d9c3c2fa51"},{"element-6066-11e4-a52e-4f735466cecf":"f15f544a-911e-48b6-a7cd-11b5d62b9141","ELEMENT":"f15f544a-911e-48b6-a7cd-11b5d62b914...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/elements [39m[32m200[39m [90m723 ms - 7691[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.roomme.tenant.dev:id/ivLeftAction' and (@text = '' or . = '')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/elements [39m[32m200[39m [90m275 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Schedule Visit' or . = 'Schedule Visit') and @resource-id = 'com.roomme.tenant.dev:id/tvPageTitle']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/elements [39m[32m200[39m [90m203 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Schedule visit can all days at 08.00 - 18.00' or . = 'Schedule visit can all days at 08.00 - 18.00')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/elements [39m[32m200[39m [90m175 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Tap to set date and time' or . = 'Tap to set date and time')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/elements [39m[32m200[39m [90m234 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Date' or . = 'Date') and @resource-id = 'com.roomme.tenant.dev:id/tvDurationTitle']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/elements [39m[32m200[39m [90m170 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = '16' or . = '16') and @resource-id = 'com.roomme.tenant.dev:id/tvDurationValue']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/elements [39m[32m200[39m [90m121 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Des 2020' or . = 'Des 2020') and @resource-id = 'com.roomme.tenant.dev:id/tvUnit']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/elements [39m[32m200[39m [90m230 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Time' or . = 'Time') and @resource-id = 'com.roomme.tenant.dev:id/tvDurationTitle']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/elements [39m[32m200[39m [90m211 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = '14.56' or . = '14.56') and @resource-id = 'com.roomme.tenant.dev:id/tvDurationValue']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/elements [39m[32m200[39m [90m196 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/timeouts[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/timeouts[39m
 [35m[HTTP][39m [90m{"implicit":1000}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[debug] [35m[W3C (d8eafeaa)][39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,1000,"d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c"]
+[debug] [35m[BaseDriver][39m W3C timeout argument: {"implicit":1000}}
+[debug] [35m[BaseDriver][39m Set implicit wait to 1000ms
+[debug] [35m[W3C (d8eafeaa)][39m Responding to client with driver.timeouts() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/timeouts [39m[32m200[39m [90m2 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.LinearLayout[2]/android.widget.LinearLayout[1]/android.widget.TextView[1]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/elements [39m[32m200[39m [90m216 ms - 139[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.FrameLayout[40]/android.widget.RelativeLayout[1]"}[39m
+[debug] [35m[W3C (d8eafeaa)][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.FrameLayout[40]/android.widget.RelativeLayout[1]","d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 1000 ms for condition
+[debug] [35m[WD Proxy][39m Matched '/elements' to command name 'findElements'
+[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:51718/wd/hub/session/a167c45b-d724-4321-88c3-c00d4f8d6522/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.FrameLayout[40]/android.widget.RelativeLayout[1]","context":"","multiple":true}
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a167c45b-d724-4321-88c3-c00d4f8d6522","value":[{"ELEMENT":"e69108fe-f51a-49d3-91b3-470150dd5b63","element-6066-11e4-a52e-4f735466cecf":"e69108fe-f51a-49d3-91b3-470150dd5b63"}]}
+[debug] [35m[W3C (d8eafeaa)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"e69108fe-f51a-49d3-91b3-470150dd5b63","ELEMENT":"e69108fe-f51a-49d3-91b3-470150dd5b63"}]
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/elements [39m[32m200[39m [90m269 ms - 139[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/element/f1ad5bcb-1a7c-4cd5-9fdd-14e5b9653fdd/location[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/element/e69108fe-f51a-49d3-91b3-470150dd5b63/location[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (ed67ba94)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId a15530b6-62e1-494a-838c-8ac7bfbe55b7 with ed67ba94-d7a2-483e-b6fd-48022bab01a0
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/element/f1ad5bcb-1a7c-4cd5-9fdd-14e5b9653fdd/location [39m[32m200[39m [90m52 ms - 78[39m
+[35m[W3C (d8eafeaa)][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[WD Proxy][39m Matched '/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/element/e69108fe-f51a-49d3-91b3-470150dd5b63/location' to command name 'getLocation'
+[debug] [35m[WD Proxy][39m Proxying [GET /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/element/e69108fe-f51a-49d3-91b3-470150dd5b63/location] to [GET http://127.0.0.1:51718/wd/hub/session/a167c45b-d724-4321-88c3-c00d4f8d6522/element/e69108fe-f51a-49d3-91b3-470150dd5b63/location] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a167c45b-d724-4321-88c3-c00d4f8d6522","value":{"x":65,"y":1414}}
+[35m[WD Proxy][39m Replacing sessionId a167c45b-d724-4321-88c3-c00d4f8d6522 with d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/element/e69108fe-f51a-49d3-91b3-470150dd5b63/location [39m[32m200[39m [90m18 ms - 78[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/element/f1ad5bcb-1a7c-4cd5-9fdd-14e5b9653fdd/size[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/element/e69108fe-f51a-49d3-91b3-470150dd5b63/size[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (ed67ba94)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId a15530b6-62e1-494a-838c-8ac7bfbe55b7 with ed67ba94-d7a2-483e-b6fd-48022bab01a0
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/element/f1ad5bcb-1a7c-4cd5-9fdd-14e5b9653fdd/size [39m[32m200[39m [90m53 ms - 86[39m
+[35m[W3C (d8eafeaa)][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[WD Proxy][39m Matched '/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/element/e69108fe-f51a-49d3-91b3-470150dd5b63/size' to command name 'getSize'
+[debug] [35m[WD Proxy][39m Proxying [GET /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/element/e69108fe-f51a-49d3-91b3-470150dd5b63/size] to [GET http://127.0.0.1:51718/wd/hub/session/a167c45b-d724-4321-88c3-c00d4f8d6522/element/e69108fe-f51a-49d3-91b3-470150dd5b63/size] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a167c45b-d724-4321-88c3-c00d4f8d6522","value":{"height":95,"width":95}}
+[35m[WD Proxy][39m Replacing sessionId a167c45b-d724-4321-88c3-c00d4f8d6522 with d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/element/e69108fe-f51a-49d3-91b3-470150dd5b63/size [39m[32m200[39m [90m13 ms - 85[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Room Type' or . = 'Room Type')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/elements [39m[32m200[39m [90m254 ms - 139[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":1000}[39m
+[debug] [35m[W3C (d8eafeaa)][39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,1000,"d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c"]
+[debug] [35m[BaseDriver][39m W3C timeout argument: {"implicit":1000}}
+[debug] [35m[BaseDriver][39m Set implicit wait to 1000ms
+[debug] [35m[W3C (d8eafeaa)][39m Responding to client with driver.timeouts() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/timeouts [39m[32m200[39m [90m2 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Faldi Dev' or . = 'Faldi Dev') and @resource-id = 'com.roomme.tenant.dev:id/tvCustInfoCardName']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/elements [39m[32m200[39m [90m250 ms - 139[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.FrameLayout[40]/android.widget.RelativeLayout[1]"}[39m
+[debug] [35m[W3C (d8eafeaa)][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.FrameLayout[40]/android.widget.RelativeLayout[1]","d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 1000 ms for condition
+[debug] [35m[WD Proxy][39m Matched '/elements' to command name 'findElements'
+[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:51718/wd/hub/session/a167c45b-d724-4321-88c3-c00d4f8d6522/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.FrameLayout[40]/android.widget.RelativeLayout[1]","context":"","multiple":true}
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a167c45b-d724-4321-88c3-c00d4f8d6522","value":[{"ELEMENT":"eb758432-e07b-4495-b350-599b26f35720","element-6066-11e4-a52e-4f735466cecf":"eb758432-e07b-4495-b350-599b26f35720"}]}
+[debug] [35m[W3C (d8eafeaa)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"eb758432-e07b-4495-b350-599b26f35720","ELEMENT":"eb758432-e07b-4495-b350-599b26f35720"}]
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/elements [39m[32m200[39m [90m318 ms - 139[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'faldidev10@getnada.com' or . = 'faldidev10@getnada.com') and @resource-id = 'com.roomme.tenant.dev:id/tvCustInfoItemValue']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/ed67ba94-d7a2-483e-b6fd-48022bab01a0/elements [39m[32m200[39m [90m271 ms - 139[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/element/eb758432-e07b-4495-b350-599b26f35720/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (d8eafeaa)][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[WD Proxy][39m Matched '/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/element/eb758432-e07b-4495-b350-599b26f35720/location' to command name 'getLocation'
+[debug] [35m[WD Proxy][39m Proxying [GET /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/element/eb758432-e07b-4495-b350-599b26f35720/location] to [GET http://127.0.0.1:51718/wd/hub/session/a167c45b-d724-4321-88c3-c00d4f8d6522/element/eb758432-e07b-4495-b350-599b26f35720/location] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a167c45b-d724-4321-88c3-c00d4f8d6522","value":{"x":65,"y":1414}}
+[35m[WD Proxy][39m Replacing sessionId a167c45b-d724-4321-88c3-c00d4f8d6522 with d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/element/eb758432-e07b-4495-b350-599b26f35720/location [39m[32m200[39m [90m15 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/element/eb758432-e07b-4495-b350-599b26f35720/size[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (d8eafeaa)][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[WD Proxy][39m Matched '/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/element/eb758432-e07b-4495-b350-599b26f35720/size' to command name 'getSize'
+[debug] [35m[WD Proxy][39m Proxying [GET /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/element/eb758432-e07b-4495-b350-599b26f35720/size] to [GET http://127.0.0.1:51718/wd/hub/session/a167c45b-d724-4321-88c3-c00d4f8d6522/element/eb758432-e07b-4495-b350-599b26f35720/size] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a167c45b-d724-4321-88c3-c00d4f8d6522","value":{"height":95,"width":95}}
+[35m[WD Proxy][39m Replacing sessionId a167c45b-d724-4321-88c3-c00d4f8d6522 with d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/element/eb758432-e07b-4495-b350-599b26f35720/size [39m[32m200[39m [90m17 ms - 85[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.RelativeLayout' and (@text = '' or . = '')]"}[39m
+[debug] [35m[W3C (d8eafeaa)][39m Calling AppiumDriver.findElements() with args: ["xpath","//*[@class = 'android.widget.RelativeLayout' and (@text = '' or . = '')]","d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 1000 ms for condition
+[debug] [35m[WD Proxy][39m Matched '/elements' to command name 'findElements'
+[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:51718/wd/hub/session/a167c45b-d724-4321-88c3-c00d4f8d6522/elements] with body: {"strategy":"xpath","selector":"//*[@class = 'android.widget.RelativeLayout' and (@text = '' or . = '')]","context":"","multiple":true}
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a167c45b-d724-4321-88c3-c00d4f8d6522","value":[{"ELEMENT":"e07dec20-1f50-4667-93d8-5d72c04d21a0","element-6066-11e4-a52e-4f735466cecf":"e07dec20-1f50-4667-93d8-5d72c04d21a0"},{"ELEMENT":"4953db2f-ec0a-4dd0-ac91-4135ed5e1dc0","element-6066-11e4-a52e-4f735466cecf":"4953db2f-ec0a-4dd0-ac91-4135ed5e1dc0"},{"ELEMENT":"acb6fb11-d06f-462e-b038-554fcddce34b","element-6066-11e4-a52e-4f735466cecf":"acb6fb11-d06f-462e-b038-554fcddce34b"},{"ELEMENT":"3bb2d921-6978-4a2f-91c6-0b1542238b14","element-6066-11e4-a52e-4f735466cecf":"3bb2d921-6978-4a2f-91c6-0b1542238b14"},{"ELEMENT":"53540972-3642-4065-bdea-1d83b9b6755d","element-6066-11e4-a52e-4f735466cecf":"53540972-3642-4065-bdea-1d83b9b6755d"},{"ELEMENT":"bc42254b-2fd4-4baa-a70b-f33030001571","element-6066-11e4-a52e-4f735466cecf":"bc42254b-2fd4-4baa-a70b-f33030001571"},{"ELEMENT":"c08de143-7a58-4f06-9c95-641d04b691c1","element-6066-11e4-a52e-4f735466cecf":"c08de143-7a58-4f06-9c95-641d04b691c1"},{"ELEMENT":"75e2a0a8-aacf-4cb8-8fff-41d4b95050cf","element-6066-...
+[debug] [35m[W3C (d8eafeaa)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"e07dec20-1f50-4667-93d8-5d72c04d21a0","ELEMENT":"e07dec20-1f50-4667-93d8-5d72c04d21a0"},{"element-6066-11e4-a52e-4f735466cecf":"4953db2f-ec0a-4dd0-ac91-4135ed5e1dc0","ELEMENT":"4953db2f-ec0a-4dd0-ac91-4135ed5e1dc0"},{"element-6066-11e4-a52e-4f735466cecf":"acb6fb11-d06f-462e-b038-554fcddce34b","ELEMENT":"acb6fb11-d06f-462e-b038-554fcddce34b"},{"element-6066-11e4-a52e-4f735466cecf":"3bb2d921-6978-4a2f-91c6-0b1542238b14","ELEMENT":"3bb2d921-6978-4a2f-91c6-0b1542238b14"},{"element-6066-11e4-a52e-4f735466cecf":"53540972-3642-4065-bdea-1d83b9b6755d","ELEMENT":"53540972-3642-4065-bdea-1d83b9b6755d"},{"element-6066-11e4-a52e-4f735466cecf":"bc42254b-2fd4-4baa-a70b-f33030001571","ELEMENT":"bc42254b-2fd4-4baa-a70b-f33030001571"},{"element-6066-11e4-a52e-4f735466cecf":"c08de143-7a58-4f06-9c95-641d04b691c1","ELEMENT":"c08de143-7a58-4f06-9c95-641d04b691c1"},{"element-6066-11e4-a52e-4f735466cecf":"75e2a0a8-aacf-4cb8-8fff-41d4b95050cf","ELEMENT":"75e2a0a8-aacf-4cb8-8fff-41d4b95050c...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/elements [39m[32m200[39m [90m256 ms - 7691[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.RelativeLayout\")"}[39m
+[debug] [35m[W3C (d8eafeaa)][39m Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().className(\"android.widget.RelativeLayout\")","d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 1000 ms for condition
+[debug] [35m[WD Proxy][39m Matched '/elements' to command name 'findElements'
+[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:51718/wd/hub/session/a167c45b-d724-4321-88c3-c00d4f8d6522/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.RelativeLayout\")","context":"","multiple":true}
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a167c45b-d724-4321-88c3-c00d4f8d6522","value":[{"ELEMENT":"d375f8ca-880e-453e-a18a-639d8b591b21","element-6066-11e4-a52e-4f735466cecf":"d375f8ca-880e-453e-a18a-639d8b591b21"},{"ELEMENT":"26cd1da8-054d-44c4-b2b3-727eb731734e","element-6066-11e4-a52e-4f735466cecf":"26cd1da8-054d-44c4-b2b3-727eb731734e"},{"ELEMENT":"afb22474-a599-4b7c-a74f-f60f7b0a1bc1","element-6066-11e4-a52e-4f735466cecf":"afb22474-a599-4b7c-a74f-f60f7b0a1bc1"},{"ELEMENT":"8fb5428b-b05a-46fe-89d2-56df3b96992a","element-6066-11e4-a52e-4f735466cecf":"8fb5428b-b05a-46fe-89d2-56df3b96992a"},{"ELEMENT":"721994b1-0a67-49ae-a5d8-d7bf2115bd27","element-6066-11e4-a52e-4f735466cecf":"721994b1-0a67-49ae-a5d8-d7bf2115bd27"},{"ELEMENT":"91c54dc5-cc2a-4a22-8685-a26e3cc705bd","element-6066-11e4-a52e-4f735466cecf":"91c54dc5-cc2a-4a22-8685-a26e3cc705bd"},{"ELEMENT":"b963a1b5-eeb1-45fd-b694-0ce82d296e04","element-6066-11e4-a52e-4f735466cecf":"b963a1b5-eeb1-45fd-b694-0ce82d296e04"},{"ELEMENT":"406945ed-0c4a-42c3-a24a-0505755d3206","element-6066-...
+[debug] [35m[W3C (d8eafeaa)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"d375f8ca-880e-453e-a18a-639d8b591b21","ELEMENT":"d375f8ca-880e-453e-a18a-639d8b591b21"},{"element-6066-11e4-a52e-4f735466cecf":"26cd1da8-054d-44c4-b2b3-727eb731734e","ELEMENT":"26cd1da8-054d-44c4-b2b3-727eb731734e"},{"element-6066-11e4-a52e-4f735466cecf":"afb22474-a599-4b7c-a74f-f60f7b0a1bc1","ELEMENT":"afb22474-a599-4b7c-a74f-f60f7b0a1bc1"},{"element-6066-11e4-a52e-4f735466cecf":"8fb5428b-b05a-46fe-89d2-56df3b96992a","ELEMENT":"8fb5428b-b05a-46fe-89d2-56df3b96992a"},{"element-6066-11e4-a52e-4f735466cecf":"721994b1-0a67-49ae-a5d8-d7bf2115bd27","ELEMENT":"721994b1-0a67-49ae-a5d8-d7bf2115bd27"},{"element-6066-11e4-a52e-4f735466cecf":"91c54dc5-cc2a-4a22-8685-a26e3cc705bd","ELEMENT":"91c54dc5-cc2a-4a22-8685-a26e3cc705bd"},{"element-6066-11e4-a52e-4f735466cecf":"b963a1b5-eeb1-45fd-b694-0ce82d296e04","ELEMENT":"b963a1b5-eeb1-45fd-b694-0ce82d296e04"},{"element-6066-11e4-a52e-4f735466cecf":"406945ed-0c4a-42c3-a24a-0505755d3206","ELEMENT":"406945ed-0c4a-42c3-a24a-0505755d320...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/elements [39m[32m200[39m [90m621 ms - 7691[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Select' or . = 'Select') and @resource-id = 'com.roomme.tenant.dev:id/tvDateRangeSelectBtn']"}[39m
+[debug] [35m[W3C (d8eafeaa)][39m Calling AppiumDriver.findElements() with args: ["xpath","//*[@class = 'android.widget.TextView' and (@text = 'Select' or . = 'Select') and @resource-id = 'com.roomme.tenant.dev:id/tvDateRangeSelectBtn']","d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 1000 ms for condition
+[debug] [35m[WD Proxy][39m Matched '/elements' to command name 'findElements'
+[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:51718/wd/hub/session/a167c45b-d724-4321-88c3-c00d4f8d6522/elements] with body: {"strategy":"xpath","selector":"//*[@class = 'android.widget.TextView' and (@text = 'Select' or . = 'Select') and @resource-id = 'com.roomme.tenant.dev:id/tvDateRangeSelectBtn']","context":"","multiple":true}
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a167c45b-d724-4321-88c3-c00d4f8d6522","value":[{"ELEMENT":"28004b34-b96f-43bc-a745-4cb32291aee2","element-6066-11e4-a52e-4f735466cecf":"28004b34-b96f-43bc-a745-4cb32291aee2"}]}
+[debug] [35m[W3C (d8eafeaa)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"28004b34-b96f-43bc-a745-4cb32291aee2","ELEMENT":"28004b34-b96f-43bc-a745-4cb32291aee2"}]
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/elements [39m[32m200[39m [90m255 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (d8eafeaa)][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[WD Proxy][39m Matched '/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/source' to command name 'getPageSource'
+[debug] [35m[WD Proxy][39m Proxying [GET /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/source] to [GET http://127.0.0.1:51718/wd/hub/session/a167c45b-d724-4321-88c3-c00d4f8d6522/source] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a167c45b-d724-4321-88c3-c00d4f8d6522","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2123\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.roomme.tenant.dev\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2123]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.roomme.tenant.dev\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2123]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.r...
+[35m[WD Proxy][39m Replacing sessionId a167c45b-d724-4321-88c3-c00d4f8d6522 with d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/source [39m[32m200[39m [90m62 ms - 23594[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (d8eafeaa)][39m Calling AppiumDriver.getScreenshot() with args: ["d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c"]
+[debug] [35m[WD Proxy][39m Matched '/screenshot' to command name 'getScreenshot'
+[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:51718/wd/hub/session/a167c45b-d724-4321-88c3-c00d4f8d6522/screenshot] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a167c45b-d724-4321-88c3-c00d4f8d6522","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAkMCAYAAAASLEj0AAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N15eFNl2j/w7zlJs7TpDrRAKUJFFqHggkpVXKDoOKNQF3QQcPR1oY7L\njLL4m0WW4R0VUMdRqaC+CkUZFIXBnSqKCCgIDh0RFFqksrWle9Ls5/z+SHNImqRNStI09Pu5Li6S\nk3OePCdt0jz3uZ/7EX665BIZREREREREREQxTIx2B4iIiIiIiIiIThcDHEREREREREQU8xjgICIi\nIiIiIqKYxwAHEREREREREcU8BjiIiIiIiIiIKOYxwEFEREREREREMY8BDiIiIiIiIiKKeQxwEBER\nEREREVHMY4CDiIiIiIiIiGIeAxxEREREREREFPMY4CAiIiIiIiKimMcABxERERERERHFPAY4iIiI\niIiIiCjmMcBBRERERERERDGPAQ4iIiIiIiIiinkMcBARERERERFRzGOAg4iIiIiIiIhiHgMcRERE\nRERERBTzGOAgIiIiIiIiopjHAAcRERERERERxTwGOIiIiIiIiIgo5qmj3QGirk5QS4g/pwnJ59VC\nn2ECRAmyBAhOGZBlQJIh2VQwH0lAQ2kvWI4ZIEtCtLtNRERERETUrTDAQRSAOtGOfoU/Q1TbIEsA\nJBmyJAMSABmQ4fofMiCoHND3a4C+bx0gAfYmHY6uPZeBDiIiIiIiok4i/HTJJXK0O0HUlagMDmTd\nfwiixgFBdmdpAJDkU//kVvcluSUIIin7Ck4Zv6zPhb1RF90TIiKiM4ZoMEA7cGC7+1nLyyEZjZ3Q\no1NEgyHszxmJNjtCm5ODno8+Ck1ODppKSlBXXAxHZWW0u3Xa1BkZXeo89Lm5frfbKyu7VD+JzlSJ\n+flQZ2QEfNxRWYmmkpJO7FHo...
+[debug] [35m[W3C (d8eafeaa)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAkMCAYAAAASLEj0AAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N15eFNl2j/w7zlJs7TpDrRAKUJFFqHggkpVXKDoOKNQF3QQcPR1oY7L\njLL4m0WW4R0VUMdRqaC+CkUZFIXBnSqKCCgIDh0RFFqksrWle9Ls5/z+SHNImqRNStI09Pu5Li6S\nk3OePCdt0jz3uZ/7EX665BIZREREREREREQxTIx2B4iIiIiIiIiIThcDHEREREREREQU8xjgICIi\nIiIiIqKYxwAHEREREREREcU8BjiIiIiIiIiIKOYxwEFEREREREREMY8BDiIiIiIiIiKKeQxwEBER\nEREREVHMY4CDiIiIiIiIiGIeAxxEREREREREFPMY4CAiIiIiIiKimMcABxERERERERHFPAY4iIiI\niIiIiCjmMcBBRERERERERDGPAQ4iIiIiIiIiinkMcBARERERERFRzGOAg4iIiIiIiIhiHgMcRERE\nRERERBTzGOAgIiIiIiIiopjHAAcRERERERERxTwGOIiIiIiIiIgo5qmj3QGirk5QS4g/pwnJ59VC\nn2ECRAmyBAhOGZBlQJIh2VQwH0lAQ2kvWI4ZIEtCtLtNRERERETUrTDAQRSAOtGOfoU/Q1TbIEsA\nJBmyJAMSABmQ4fofMiCoHND3a4C+bx0gAfYmHY6uPZeBDiIiIiIiok4i/HTJJXK0O0HUlagMDmTd\nfwiixgFBdmdpAJDkU//kVvcluSUIIin7Ck4Zv6zPhb1RF90TIiKiM4ZoMEA7cGC7+1nLyyEZjZ3Q\no1NEgyHszxmJNjtCm5ODno8+Ck1ODppKSlBXXAxHZWW0u3Xa1BkZXeo89Lm5frfbKyu7VD+JzlSJ\n+flQZ2QEfNxRWYmmkpJO7FHomMFBnUcUXcECuevG1HpcW42ki2ta+omWNI0OEoC00YdR+dngcHWP\niIi6uV...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/screenshot [39m[32m200[39m [90m305 ms - 170278[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.RadioButton' and (@text = 'Deposit Only' or . = 'Deposit Only') and @resource-id = 'com.roomme.tenant.dev:id/rbPaymentTermOption']"}[39m
+[debug] [35m[W3C (d8eafeaa)][39m Calling AppiumDriver.findElements() with args: ["xpath","//*[@class = 'android.widget.RadioButton' and (@text = 'Deposit Only' or . = 'Deposit Only') and @resource-id = 'com.roomme.tenant.dev:id/rbPaymentTermOption']","d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 1000 ms for condition
+[debug] [35m[WD Proxy][39m Matched '/elements' to command name 'findElements'
+[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:51718/wd/hub/session/a167c45b-d724-4321-88c3-c00d4f8d6522/elements] with body: {"strategy":"xpath","selector":"//*[@class = 'android.widget.RadioButton' and (@text = 'Deposit Only' or . = 'Deposit Only') and @resource-id = 'com.roomme.tenant.dev:id/rbPaymentTermOption']","context":"","multiple":true}
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a167c45b-d724-4321-88c3-c00d4f8d6522","value":[{"ELEMENT":"2f160dd3-2caa-44b7-a557-fa86f7d6dc3e","element-6066-11e4-a52e-4f735466cecf":"2f160dd3-2caa-44b7-a557-fa86f7d6dc3e"}]}
+[debug] [35m[W3C (d8eafeaa)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"2f160dd3-2caa-44b7-a557-fa86f7d6dc3e","ELEMENT":"2f160dd3-2caa-44b7-a557-fa86f7d6dc3e"}]
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/elements [39m[32m200[39m [90m56 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[debug] [35m[Instrumentation][39m .
+[debug] [35m[Instrumentation][39m Time: 567.317
+[debug] [35m[Instrumentation][39m 
+[debug] [35m[Instrumentation][39m OK (1 test)
+[debug] [35m[Instrumentation][39m The process has exited with code 0
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (d8eafeaa)][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[WD Proxy][39m Matched '/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/source' to command name 'getPageSource'
+[debug] [35m[WD Proxy][39m Proxying [GET /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/source] to [GET http://127.0.0.1:51718/wd/hub/session/a167c45b-d724-4321-88c3-c00d4f8d6522/source] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a167c45b-d724-4321-88c3-c00d4f8d6522","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2123\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.roomme.tenant.dev\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2123]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.roomme.tenant.dev\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2123]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.r...
+[35m[WD Proxy][39m Replacing sessionId a167c45b-d724-4321-88c3-c00d4f8d6522 with d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/source [39m[32m200[39m [90m76 ms - 19347[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (d8eafeaa)][39m Calling AppiumDriver.getScreenshot() with args: ["d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c"]
+[debug] [35m[WD Proxy][39m Matched '/screenshot' to command name 'getScreenshot'
+[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:51718/wd/hub/session/a167c45b-d724-4321-88c3-c00d4f8d6522/screenshot] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a167c45b-d724-4321-88c3-c00d4f8d6522","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAkMCAYAAAASLEj0AAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N17eBNl3j7weyZpDm16hrZAKdAiAkpRwQNVWBWKrOuyoiirAquoC/VF\nfUVAf6AUXVaRw6uuuxQ8QxFlZcHFxQMVDyCtiuiCCqK2yJm20GPSNqeZ3x9phqRJ2qRN2qa9P9fF\nZWYy88yTNFTmzvN8H+GnK66QQUREREREREQUxsSO7gARERERERERUVsx4CAiIiIiIiKisMeAg4iI\niIiIiIjCHgMOIiIiIiIiIgp7DDiIiIiIiIiIKOwx4CAiIiIiIiKisMeAg4iIiIiIiIjCHgMOIiIi\nIiIiIgp7DDiIiIiIiIiIKOwx4CAiIiIiIiKisMeAg4iIiIiIiIjCHgMOIiIiIiIiIgp7DDiIiIiI\niIiIKOwx4CAiIiIiIiKisMeAg4iIiIiIiIjCHgMOIiIiIiIiIgp7DDiIiIiIiIiIKOwx4CAiIiIi\nIiKisMeAg4iIiIiIiIjCHgMOIiIiIiIiIgp7DDiIiIiIiIiIKOypO7oDRJ2doJYQOagWsRdXQJ9s\nAkQJsgQIdhmQZUCSIVlUqD8eher9SWg4aYAsCR3dbSIiIiIiom6FAQeRD+poK/rm/ApRbYEsAZBk\nyJIMSABkQIbjv5ABQWWDvm819H0qAQmw1upwYtMFDDqIiIiIiIjaifDTFVfIHd0Jos5EZbAh9b7D\nEDU2CLJzlAYAST73R26yLcmNIYikHCvYZRx7JxPWGl3HviAiIuoyRIMB2vT0Fo8zl5RAMhrboUfn\niAZD0K8ZijZbQ5uRgZ4PPwxNRgZqCwpQmZ8PW2lpR3erzdTJyZ3qdegzM73ut5aWdqp+EnVV0dnZ\nUCcn+3zeVlqK2oKCduxR4DiC...
+[debug] [35m[W3C (d8eafeaa)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAkMCAYAAAASLEj0AAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N17eBNl3j7weyZpDm16hrZAKdAiAkpRwQNVWBWKrOuyoiirAquoC/VF\nfUVAf6AUXVaRw6uuuxQ8QxFlZcHFxQMVDyCtiuiCCqK2yJm20GPSNqeZ3x9phqRJ2qRN2qa9P9fF\nZWYy88yTNFTmzvN8H+GnK66QQUREREREREQUxsSO7gARERERERERUVsx4CAiIiIiIiKisMeAg4iI\niIiIiIjCHgMOIiIiIiIiIgp7DDiIiIiIiIiIKOwx4CAiIiIiIiKisMeAg4iIiIiIiIjCHgMOIiIi\nIiIiIgp7DDiIiIiIiIiIKOwx4CAiIiIiIiKisMeAg4iIiIiIiIjCHgMOIiIiIiIiIgp7DDiIiIiI\niIiIKOwx4CAiIiIiIiKisMeAg4iIiIiIiIjCHgMOIiIiIiIiIgp7DDiIiIiIiIiIKOwx4CAiIiIi\nIiKisMeAg4iIiIiIiIjCHgMOIiIiIiIiIgp7DDiIiIiIiIiIKOypO7oDRJ2doJYQOagWsRdXQJ9s\nAkQJsgQIdhmQZUCSIVlUqD8eher9SWg4aYAsCR3dbSIiIiIiom6FAQeRD+poK/rm/ApRbYEsAZBk\nyJIMSABkQIbjv5ABQWWDvm819H0qAQmw1upwYtMFDDqIiIiIiIjaifDTFVfIHd0Jos5EZbAh9b7D\nEDU2CLJzlAYAST73R26yLcmNIYikHCvYZRx7JxPWGl3HviAiIuoyRIMB2vT0Fo8zl5RAMhrboUfn\niAZD0K8ZijZbQ5uRgZ4PPwxNRgZqCwpQmZ8PW2lpR3erzdTJyZ3qdegzM73ut5aWdqp+EnVV0dnZ\nUCcn+3zeVlqK2oKCduxR4DiCg9qPKDrCArnzZmo9JpQj5vKzjf1E4zCNVhKAhEuPoHTH+cHqHhER\ndXNJc+...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/screenshot [39m[32m200[39m [90m292 ms - 132666[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.RelativeLayout' and @resource-id = 'com.roomme.tenant.dev:id/incSearchFragmentCheckInDate' and (@text = '' or . = '')]"}[39m
+[debug] [35m[W3C (d8eafeaa)][39m Calling AppiumDriver.findElements() with args: ["xpath","//*[@class = 'android.widget.RelativeLayout' and @resource-id = 'com.roomme.tenant.dev:id/incSearchFragmentCheckInDate' and (@text = '' or . = '')]","d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 1000 ms for condition
+[debug] [35m[WD Proxy][39m Matched '/elements' to command name 'findElements'
+[debug] [35m[WD Proxy][39m Proxying [POST /elements] to [POST http://127.0.0.1:51718/wd/hub/session/a167c45b-d724-4321-88c3-c00d4f8d6522/elements] with body: {"strategy":"xpath","selector":"//*[@class = 'android.widget.RelativeLayout' and @resource-id = 'com.roomme.tenant.dev:id/incSearchFragmentCheckInDate' and (@text = '' or . = '')]","context":"","multiple":true}
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a167c45b-d724-4321-88c3-c00d4f8d6522","value":[{"ELEMENT":"577ddcab-672a-46f9-a8bc-3b174e7e6e32","element-6066-11e4-a52e-4f735466cecf":"577ddcab-672a-46f9-a8bc-3b174e7e6e32"}]}
+[debug] [35m[W3C (d8eafeaa)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"577ddcab-672a-46f9-a8bc-3b174e7e6e32","ELEMENT":"577ddcab-672a-46f9-a8bc-3b174e7e6e32"}]
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c/elements [39m[32m200[39m [90m58 ms - 139[39m
 [35m[HTTP][39m [90m[39m
 [35m[BaseDriver][39m Shutting down because we waited 1800 seconds for a command
 [35m[Appium][39m Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
-[35m[Appium][39m Removing session 'ed67ba94-d7a2-483e-b6fd-48022bab01a0' from our master session list
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:8274
-[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: connect ECONNREFUSED 127.0.0.1:8274
-[35m[UiAutomator2][39m Unable to force stop app: Error executing adbExec. Original error: 'Command '/Users/mfaldi/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 192.168.10.123\:5555 shell am force-stop com.android.settings' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability
-[35m[UiAutomator2][39m Unable to remove system port forward: Error executing adbExec. Original error: 'Command '/Users/mfaldi/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 192.168.10.123\:5555 forward --remove tcp\:8274' exited with code 1'; Stderr: 'adb: error: listener 'tcp:8274' not found'; Code: '1'
+[35m[Appium][39m Removing session 'd8eafeaa-b7fd-4624-8eb4-f8fdbccf833c' from our master session list
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 server session
+[debug] [35m[WD Proxy][39m Matched '/' to command name 'deleteSession'
+[debug] [35m[WD Proxy][39m Proxying [DELETE /] to [DELETE http://127.0.0.1:51718/wd/hub/session/a167c45b-d724-4321-88c3-c00d4f8d6522] with no body
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:51718
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: connect ECONNREFUSED 127.0.0.1:51718
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H shell am force-stop com.roomme.tenant.dev'
+[35m[ADB][39m Error sending command, reconnecting device and retrying: shell,am,force-stop,com.roomme.tenant.dev
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[35m[UiAutomator2][39m Unable to force stop app: Could not find a connected Android device in 20057ms.
+[debug] [35m[Logcat][39m Stopping logcat capture
+[debug] [35m[Logcat][39m Logcat already stopped
+[debug] [35m[ADB][39m Removing forwarded port socket connection: 51718 
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H forward --remove tcp\:51718'
+[35m[ADB][39m Error sending command, reconnecting device and retrying: forward,--remove,tcp:51718
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[35m[UiAutomator2][39m Unable to remove system port forward: Could not find a connected Android device in 20266ms.
 [35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+[35m[ADB][39m Error sending command, reconnecting device and retrying: shell,settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Faldi\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RR8N802N49H reconnect offline'
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (d8eafeaa)][39m Encountered internal error running command: NoSuchDriverError: A session is either terminated or not started
+[debug] [35m[W3C (d8eafeaa)][39m     at asyncHandler (C:\Users\Faldi\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:243:15)
+[debug] [35m[W3C (d8eafeaa)][39m     at C:\Users\Faldi\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:436:15
+[debug] [35m[W3C (d8eafeaa)][39m     at Layer.handle [as handle_request] (C:\Users\Faldi\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+[debug] [35m[W3C (d8eafeaa)][39m     at next (C:\Users\Faldi\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\route.js:137:13)
+[debug] [35m[W3C (d8eafeaa)][39m     at Route.dispatch (C:\Users\Faldi\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\route.js:112:3)
+[debug] [35m[W3C (d8eafeaa)][39m     at Layer.handle [as handle_request] (C:\Users\Faldi\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+[debug] [35m[W3C (d8eafeaa)][39m     at C:\Users\Faldi\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:281:22
+[debug] [35m[W3C (d8eafeaa)][39m     at param (C:\Users\Faldi\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:354:14)
+[debug] [35m[W3C (d8eafeaa)][39m     at param (C:\Users\Faldi\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:365:14)
+[debug] [35m[W3C (d8eafeaa)][39m     at Function.process_params (C:\Users\Faldi\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:410:3)
+[debug] [35m[W3C (d8eafeaa)][39m     at next (C:\Users\Faldi\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:275:10)
+[debug] [35m[W3C (d8eafeaa)][39m     at logger (C:\Users\Faldi\AppData\Roaming\npm\node_modules\appium\node_modules\morgan\index.js:144:5)
+[debug] [35m[W3C (d8eafeaa)][39m     at Layer.handle [as handle_request] (C:\Users\Faldi\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+[debug] [35m[W3C (d8eafeaa)][39m     at trim_prefix (C:\Users\Faldi\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:317:13)
+[debug] [35m[W3C (d8eafeaa)][39m     at C:\Users\Faldi\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:284:7
+[debug] [35m[W3C (d8eafeaa)][39m     at Function.process_params (C:\Users\Faldi\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:335:12)
+[debug] [35m[W3C (d8eafeaa)][39m Destroying socket connection
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/d8eafeaa-b7fd-4624-8eb4-f8fdbccf833c [39m[33m404[39m [90m72 ms - 2396[39m
+[35m[HTTP][39m [90m[39m
